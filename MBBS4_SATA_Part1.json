@@ -1,0 +1,2822 @@
+[
+  {
+    "type": "sata",
+    "q": "A 22-year-old male presents with abdominal pain. Which of the following are typical features of acute appendicitis?",
+    "q-number": 1,
+    "options": [
+      "Initial periumbilical pain migrating to the right iliac fossa",
+      "Pain relieved by defecation",
+      "Anorexia",
+      "Nausea and vomiting after onset of pain",
+      "High-grade fever (>39°C) at early stage"
+    ],
+    "answer": [
+      "Initial periumbilical pain migrating to the right iliac fossa",
+      "Anorexia",
+      "Nausea and vomiting after onset of pain"
+    ],
+    "explanation": "A: Correct. Visceral pain starts periumbilically and migrates to the right iliac fossa once the parietal peritoneum is involved. B: Incorrect. Pain is not relieved by defecation, so this is not a feature of appendicitis. C: Correct. Anorexia is one of the earliest and most consistent symptoms. D: Correct. Vomiting typically follows the onset of pain. E: Incorrect. Early appendicitis causes low-grade fever. High-grade fever suggests perforation or another complication."
+  },
+  {
+    "type": "sata",
+    "q": "Which signs are associated with acute appendicitis?",
+    "q-number": 2,
+    "options": [
+      "McBurney’s point tenderness",
+      "Rovsing’s sign",
+      "Murphy’s sign",
+      "Psoas sign",
+      "Obturator sign"
+    ],
+    "answer": [
+      "McBurney’s point tenderness",
+      "Rovsing’s sign",
+      "Psoas sign",
+      "Obturator sign"
+    ],
+    "explanation": "A: Correct. McBurney's point tenderness marks the point of maximal tenderness over the appendix. B: Correct. Left-sided palpation causes right iliac fossa pain through transmitted pressure in the colon. C: Incorrect. Murphy's sign is a sign of acute cholecystitis, not appendicitis. D: Correct. Pain on extending the hip indicates an inflamed retrocaecal appendix touching the psoas muscle. E: Correct. Pain on internal rotation of the hip indicates a pelvic appendix touching the obturator internus."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings support a diagnosis of appendicitis?",
+    "q-number": 3,
+    "options": [
+      "Leucocytosis with neutrophilia",
+      "Elevated CRP",
+      "Normal white blood cell count excludes appendicitis",
+      "Ultrasound showing non-compressible tubular structure",
+      "CT scan showing appendiceal wall thickening"
+    ],
+    "answer": [
+      "Leucocytosis with neutrophilia",
+      "Elevated CRP",
+      "Ultrasound showing non-compressible tubular structure",
+      "CT scan showing appendiceal wall thickening"
+    ],
+    "explanation": "A: Correct. Neutrophilic leucocytosis supports an inflammatory or infective process. B: Correct. CRP is a non-specific acute-phase reactant that rises in appendicitis. C: Incorrect. A normal white cell count does not exclude appendicitis. D: Correct. A non-compressible, blind-ending tubular structure on ultrasound is the key diagnostic sign. E: Correct. CT showing a thickened appendiceal wall (over about 6 mm) supports the diagnosis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are complications of untreated appendicitis?",
+    "q-number": 4,
+    "options": [
+      "Perforation",
+      "Generalized peritonitis",
+      "Appendicular abscess",
+      "Intestinal obstruction",
+      "Chronic pancreatitis"
+    ],
+    "answer": [
+      "Perforation",
+      "Generalized peritonitis",
+      "Appendicular abscess",
+      "Intestinal obstruction"
+    ],
+    "explanation": "A: Correct. Untreated inflammation can progress to perforation. B: Correct. Perforation leads to generalised peritonitis. C: Correct. Localised perforation can form an appendicular abscess. D: Correct. Adhesions or the inflammatory mass can cause intestinal obstruction, though this is less common. E: Incorrect. Chronic pancreatitis is not a complication of appendicitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management options for appendicitis?",
+    "q-number": 5,
+    "options": [
+      "Emergency appendectomy",
+      "IV antibiotics",
+      "Conservative management in selected cases",
+      "Immediate discharge without follow-up",
+      "Drainage of appendicular abscess"
+    ],
+    "answer": [
+      "Emergency appendectomy",
+      "IV antibiotics",
+      "Conservative management in selected cases",
+      "Drainage of appendicular abscess"
+    ],
+    "explanation": "A: Correct. Emergency appendicectomy is the standard treatment. B: Correct. IV antibiotics are given as part of management. C: Correct. Selected uncomplicated cases can be managed with antibiotics, with appendicectomy considered later. D: Incorrect. Discharge without follow-up is unsafe. E: Correct. Abscesses are drained, usually percutaneously, with interval surgery considered."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are common features of hyperthyroidism?",
+    "q-number": 6,
+    "options": [
+      "Weight loss despite increased appetite",
+      "Heat intolerance",
+      "Bradycardia",
+      "Tremors",
+      "Constipation"
+    ],
+    "answer": [
+      "Weight loss despite increased appetite",
+      "Heat intolerance",
+      "Tremors"
+    ],
+    "explanation": "A: Correct. Hypermetabolism causes weight loss despite increased appetite. B: Correct. Excess thyroid hormone increases heat production, causing heat intolerance. C: Incorrect. Hyperthyroidism causes tachycardia, not bradycardia. D: Correct. Increased adrenergic activity causes fine tremor. E: Incorrect. Hyperthyroidism more often causes diarrhoea and more frequent bowel movements than constipation."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are features of hypothyroidism?",
+    "q-number": 7,
+    "options": [
+      "Weight gain",
+      "Cold intolerance",
+      "Hyperreflexia",
+      "Bradycardia",
+      "Dry skin"
+    ],
+    "answer": [
+      "Weight gain",
+      "Cold intolerance",
+      "Bradycardia",
+      "Dry skin"
+    ],
+    "explanation": "A: Correct. Reduced metabolic rate causes weight gain. B: Correct. Reduced heat production causes cold intolerance. C: Incorrect. Hypothyroidism causes hyporeflexia with delayed relaxation, not hyperreflexia. D: Correct. Reduced cardiac output and rate cause bradycardia. E: Correct. Reduced sweating and altered skin metabolism cause dry skin."
+  },
+  {
+    "type": "sata",
+    "q": "Which conditions can cause hyperthyroidism?",
+    "q-number": 8,
+    "options": [
+      "Graves’ disease",
+      "Toxic multinodular goiter",
+      "Hashimoto thyroiditis (early phase)",
+      "Subacute (De Quervain) thyroiditis",
+      "Iodine deficiency"
+    ],
+    "answer": [
+      "Graves’ disease",
+      "Toxic multinodular goiter",
+      "Hashimoto thyroiditis (early phase)",
+      "Subacute (De Quervain) thyroiditis"
+    ],
+    "explanation": "A: Correct. Graves' disease is the most common cause. B: Correct. Toxic multinodular goitre causes autonomous hormone production. C: Correct. Hashimoto thyroiditis can produce a transient thyrotoxic phase (hashitoxicosis) as follicles are damaged. D: Correct. Subacute thyroiditis causes a painful, transient thyrotoxic phase. E: Incorrect. Iodine deficiency causes goitre and hypothyroidism, not hyperthyroidism."
+  },
+  {
+    "type": "sata",
+    "q": "Which are complications of untreated thyroid disorders?",
+    "q-number": 9,
+    "options": [
+      "Thyroid storm",
+      "Myxoedema coma",
+      "Atrial fibrillation",
+      "Osteoporosis",
+      "Acute pancreatitis"
+    ],
+    "answer": [
+      "Thyroid storm",
+      "Myxoedema coma",
+      "Atrial fibrillation",
+      "Osteoporosis"
+    ],
+    "explanation": "A: Correct. Thyroid storm is a life-threatening complication of thyrotoxicosis. B: Correct. Myxoedema coma is the severe complication of untreated hypothyroidism. C: Correct. Thyroid hormone excess can cause atrial fibrillation. D: Correct. Thyroid hormone excess increases bone turnover and causes osteoporosis. E: Incorrect. Acute pancreatitis is not a recognised complication of thyroid disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate in evaluating or managing thyroid disease?",
+    "q-number": 10,
+    "options": [
+      "Serum TSH measurement",
+      "Free T4 level",
+      "Radioactive iodine uptake scan",
+      "Beta-blockers for symptom control",
+      "Routine antibiotic therapy"
+    ],
+    "answer": [
+      "Serum TSH measurement",
+      "Free T4 level",
+      "Radioactive iodine uptake scan",
+      "Beta-blockers for symptom control"
+    ],
+    "explanation": "A: Correct. TSH is the first-line screening test. B: Correct. Free T4 confirms the biochemical state. C: Correct. Radioactive iodine uptake helps differentiate Graves' disease and toxic goitre from thyroiditis. D: Correct. Beta-blockers control symptoms of thyrotoxicosis while definitive treatment takes effect. E: Incorrect. Antibiotics have no role in routine thyroid disease management."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are clinical features of hyperparathyroidism?",
+    "q-number": 11,
+    "options": [
+      "Bone pain",
+      "Renal stones",
+      "Constipation",
+      "Hyperreflexia",
+      "Depression"
+    ],
+    "answer": [
+      "Bone pain",
+      "Renal stones",
+      "Constipation",
+      "Depression"
+    ],
+    "explanation": "A: Correct. Bone resorption causes bone pain. B: Correct. Hypercalciuria leads to calcium phosphate renal stones. C: Correct. Hypercalcaemia reduces gut motility and causes constipation. D: Incorrect. Hypercalcaemia causes hyporeflexia, not hyperreflexia. E: Correct. Depression is a recognised neuropsychiatric feature (\"psychic moans\")."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are features of hypoparathyroidism?",
+    "q-number": 12,
+    "options": [
+      "Tetany",
+      "Chvostek’s sign",
+      "Trousseau’s sign",
+      "Hypercalcemia",
+      "Seizures"
+    ],
+    "answer": [
+      "Tetany",
+      "Chvostek’s sign",
+      "Trousseau’s sign",
+      "Seizures"
+    ],
+    "explanation": "A: Correct. Hypocalcaemia causes tetany. B: Correct. Chvostek's sign is facial nerve twitching when tapped, a sign of neuromuscular irritability. C: Correct. Trousseau's sign is carpopedal spasm after cuff inflation, also a sign of hypocalcaemia. D: Incorrect. Hypoparathyroidism causes hypocalcaemia, not hypercalcaemia. E: Correct. Severe hypocalcaemia causes seizures."
+  },
+  {
+    "type": "sata",
+    "q": "Which conditions can cause hyperparathyroidism?",
+    "q-number": 13,
+    "options": [
+      "Parathyroid adenoma",
+      "Chronic kidney disease",
+      "Vitamin D deficiency",
+      "Parathyroid carcinoma",
+      "Hypomagnesemia"
+    ],
+    "answer": [
+      "Parathyroid adenoma",
+      "Chronic kidney disease",
+      "Vitamin D deficiency",
+      "Parathyroid carcinoma"
+    ],
+    "explanation": "A: Correct. A parathyroid adenoma is the most common cause of primary hyperparathyroidism. B: Correct. CKD causes secondary hyperparathyroidism through phosphate retention and reduced vitamin D activation. C: Correct. Vitamin D deficiency causes secondary hyperparathyroidism through low calcium absorption. D: Correct. Parathyroid carcinoma is a rare cause of primary hyperparathyroidism. E: Incorrect. Hypomagnesaemia impairs PTH secretion and action, so it causes hypoparathyroidism."
+  },
+  {
+    "type": "sata",
+    "q": "Which are complications of prolonged hyperparathyroidism?",
+    "q-number": 14,
+    "options": [
+      "Osteoporosis",
+      "Pathological fractures",
+      "Nephrocalcinosis",
+      "Peptic ulcer disease",
+      "Hypotension"
+    ],
+    "answer": [
+      "Osteoporosis",
+      "Pathological fractures",
+      "Nephrocalcinosis",
+      "Peptic ulcer disease"
+    ],
+    "explanation": "A: Correct. Osteoporosis results from chronic bone resorption. B: Correct. Weakened bone leads to pathological fractures. C: Correct. Hypercalciuria and calcium deposition cause nephrocalcinosis. D: Correct. Hypercalcaemia increases gastrin secretion and gastric acid, causing peptic ulcer disease. E: Incorrect. Hypotension is not a recognised complication of prolonged hyperparathyroidism."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate in evaluating or managing parathyroid disease?",
+    "q-number": 15,
+    "options": [
+      "Serum calcium measurement",
+      "Serum parathyroid hormone (PTH) level",
+      "Serum phosphate level",
+      "Neck ultrasound or sestamibi scan",
+      "Routine use of antibiotics"
+    ],
+    "answer": [
+      "Serum calcium measurement",
+      "Serum parathyroid hormone (PTH) level",
+      "Serum phosphate level",
+      "Neck ultrasound or sestamibi scan"
+    ],
+    "explanation": "A: Correct. Serum calcium is the first-line test. B: Correct. PTH level distinguishes primary from secondary hyperparathyroidism. C: Correct. Phosphate is low in primary hyperparathyroidism and high in CKD, helping to classify the disorder. D: Correct. Neck ultrasound or sestamibi scanning localises the parathyroid adenoma. E: Incorrect. Antibiotics have no role in routine parathyroid disease management."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are actions of calcitonin?",
+    "q-number": 16,
+    "options": [
+      "Decreases serum calcium levels",
+      "Inhibits osteoclast activity",
+      "Increases renal calcium excretion",
+      "Increases intestinal calcium absorption",
+      "Secreted by parafollicular (C) cells of the thyroid"
+    ],
+    "answer": [
+      "Decreases serum calcium levels",
+      "Inhibits osteoclast activity",
+      "Increases renal calcium excretion",
+      "Secreted by parafollicular (C) cells of the thyroid"
+    ],
+    "explanation": "A: Correct. Calcitonin lowers serum calcium. B: Correct. Calcitonin inhibits osteoclast activity, reducing bone resorption. C: Correct. Calcitonin increases renal calcium excretion. D: Incorrect. Calcitonin reduces, not increases, intestinal calcium absorption. E: Correct. Calcitonin is secreted by the parafollicular (C) cells of the thyroid."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are features of medullary thyroid carcinoma?",
+    "q-number": 17,
+    "options": [
+      "Elevated calcitonin levels",
+      "Origin from parafollicular C cells",
+      "Associated with MEN 2 syndrome",
+      "Causes hypocalcemia",
+      "May produce diarrhea"
+    ],
+    "answer": [
+      "Elevated calcitonin levels",
+      "Origin from parafollicular C cells",
+      "Associated with MEN 2 syndrome",
+      "May produce diarrhea"
+    ],
+    "explanation": "A: Correct. Calcitonin is the tumour marker and is raised in MTC. B: Correct. MTC arises from the parafollicular C cells. C: Correct. Familial MTC occurs in MEN 2A and MEN 2B. D: Incorrect. MTC does not cause hypocalcaemia; calcitonin lowers calcium only mildly. E: Correct. Calcitonin and other peptides secreted by the tumour cause secretory diarrhoea."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are associated with medullary thyroid carcinoma in MEN syndromes?",
+    "q-number": 18,
+    "options": [
+      "Pheochromocytoma",
+      "Hyperparathyroidism",
+      "Pituitary adenoma",
+      "Mucosal neuromas",
+      "Marfanoid habitus"
+    ],
+    "answer": [
+      "Pheochromocytoma",
+      "Hyperparathyroidism",
+      "Mucosal neuromas",
+      "Marfanoid habitus"
+    ],
+    "explanation": "A: Correct. Phaeochromocytoma occurs in MEN 2A and MEN 2B. B: Correct. Primary hyperparathyroidism occurs in MEN 2A. C: Incorrect. Pituitary adenoma is a feature of MEN 1, not MEN 2. D: Correct. Mucosal neuromas are a feature of MEN 2B. E: Correct. Marfanoid habitus is a feature of MEN 2B."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are useful in diagnosing or monitoring calcitonin-related disease?",
+    "q-number": 19,
+    "options": [
+      "Serum calcitonin level",
+      "Carcinoembryonic antigen (CEA)",
+      "Thyroid function tests (TSH, T4)",
+      "Genetic testing for RET mutation",
+      "Serum amylase"
+    ],
+    "answer": [
+      "Serum calcitonin level",
+      "Carcinoembryonic antigen (CEA)",
+      "Genetic testing for RET mutation"
+    ],
+    "explanation": "A: Correct. Serum calcitonin is the diagnostic and monitoring marker for MTC. B: Correct. CEA is used alongside calcitonin for monitoring MTC. C: Incorrect. Thyroid function tests do not diagnose or monitor MTC; they assess thyroid function generally. D: Correct. RET testing identifies hereditary MTC and guides screening of relatives. E: Incorrect. Serum amylase has no role in MTC."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate management strategies for medullary thyroid carcinoma?",
+    "q-number": 20,
+    "options": [
+      "Total thyroidectomy",
+      "Prophylactic thyroidectomy in RET mutation carriers",
+      "Radioactive iodine therapy",
+      "Monitoring calcitonin levels postoperatively",
+      "Chemotherapy as first-line treatment"
+    ],
+    "answer": [
+      "Total thyroidectomy",
+      "Prophylactic thyroidectomy in RET mutation carriers",
+      "Monitoring calcitonin levels postoperatively"
+    ],
+    "explanation": "A: Correct. Total thyroidectomy is the standard treatment for MTC. B: Correct. Prophylactic thyroidectomy is recommended for RET mutation carriers, timed by the mutation's risk level. C: Incorrect. MTC does not take up radioactive iodine, so RAI is ineffective. D: Correct. Postoperative calcitonin monitoring detects residual or recurrent disease. E: Incorrect. Chemotherapy is not first-line; MTC is generally managed surgically first."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain how calcitonin lowers serum calcium?",
+    "q-number": 21,
+    "options": [
+      "Inhibition of osteoclast activity",
+      "Decreased bone resorption",
+      "Increased renal excretion of calcium",
+      "Increased intestinal calcium absorption",
+      "Antagonism of parathyroid hormone effects"
+    ],
+    "answer": [
+      "Inhibition of osteoclast activity",
+      "Decreased bone resorption",
+      "Increased renal excretion of calcium",
+      "Antagonism of parathyroid hormone effects"
+    ],
+    "explanation": "A: Correct. Calcitonin inhibits osteoclasts. B: Correct. Reduced osteoclast activity decreases bone resorption and calcium release. C: Correct. Calcitonin increases renal calcium excretion. D: Incorrect. Calcitonin does not increase intestinal calcium absorption; if anything it reduces it. E: Correct. Calcitonin acts as a physiological antagonist to PTH."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the pathophysiology of medullary thyroid carcinoma (MTC)?",
+    "q-number": 22,
+    "options": [
+      "Originates from parafollicular C cells",
+      "Excess calcitonin production",
+      "RET proto-oncogene mutation",
+      "Excess thyroxine (T4) secretion",
+      "Neuroendocrine tumor behavior"
+    ],
+    "answer": [
+      "Originates from parafollicular C cells",
+      "Excess calcitonin production",
+      "RET proto-oncogene mutation",
+      "Neuroendocrine tumor behavior"
+    ],
+    "explanation": "A: Correct. MTC arises from parafollicular C cells. B: Correct. The tumour cells produce excess calcitonin. C: Correct. Activating RET mutations drive the tumour's development. D: Incorrect. MTC is not a cause of excess thyroxine; the tumour secretes calcitonin, not T4. E: Correct. MTC is a neuroendocrine tumour, which explains its peptide secretion."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to diarrhea in medullary thyroid carcinoma?",
+    "q-number": 23,
+    "options": [
+      "Secretion of vasoactive intestinal peptide (VIP)",
+      "Increased intestinal motility",
+      "Direct calcium-lowering effect",
+      "Neuroendocrine peptide secretion",
+      "Malabsorption due to pancreatic insufficiency"
+    ],
+    "answer": [
+      "Secretion of vasoactive intestinal peptide (VIP)",
+      "Increased intestinal motility",
+      "Neuroendocrine peptide secretion"
+    ],
+    "explanation": "A: Correct. Tumour-secreted VIP causes secretory diarrhoea. B: Correct, though a weaker mechanism. Peptide hormones increase intestinal motility, which adds to diarrhoea alongside secretion. C: Incorrect. Calcitonin's calcium-lowering effect does not cause diarrhoea. D: Correct. Neuroendocrine peptide secretion causes the diarrhoea. E: Incorrect. Pancreatic insufficiency is not a feature of MTC."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following reflect the underlying pathophysiology of MEN 2 syndromes?",
+    "q-number": 24,
+    "options": [
+      "RET gene mutation causing uncontrolled cell growth",
+      "Development of multiple endocrine tumors",
+      "Involvement of neural crest-derived tissues",
+      "Autoimmune destruction of endocrine glands",
+      "Familial inheritance pattern"
+    ],
+    "answer": [
+      "RET gene mutation causing uncontrolled cell growth",
+      "Development of multiple endocrine tumors",
+      "Involvement of neural crest-derived tissues",
+      "Familial inheritance pattern"
+    ],
+    "explanation": "A: Correct. Activating RET mutations cause uncontrolled cell growth. B: Correct. The mutation produces multiple endocrine neoplasms. C: Correct. The affected tissues are derived from neural crest cells. D: Incorrect. MEN 2 is a neoplastic disorder, not an autoimmune one. E: Correct. MEN 2 is inherited in an autosomal dominant pattern. Inheritance is not strictly a mechanism, but it is a correct fact about the syndrome."
+  },
+  {
+    "type": "sata",
+    "q": "Which explain why radioactive iodine is ineffective in medullary thyroid carcinoma?",
+    "q-number": 25,
+    "options": [
+      "C cells do not uptake iodine",
+      "Tumor is not derived from follicular cells",
+      "Lack of thyroglobulin production",
+      "Calcitonin-producing cells lack iodine transporters",
+      "Tumor cells are resistant due to high calcium levels"
+    ],
+    "answer": [
+      "C cells do not uptake iodine",
+      "Tumor is not derived from follicular cells",
+      "Lack of thyroglobulin production",
+      "Calcitonin-producing cells lack iodine transporters"
+    ],
+    "explanation": "A: Correct. C cells do not take up iodine. B: Correct. MTC arises from neural crest-derived C cells, not follicular cells. C: Correct. C cells do not produce thyroglobulin, so iodine is not incorporated. D: Correct. C cells lack the sodium-iodide symporter. E: Incorrect. High calcium does not make tumour cells resistant to radioiodine."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain how calcitonin regulates calcium homeostasis?",
+    "q-number": 26,
+    "options": [
+      "Inhibits osteoclast-mediated bone resorption",
+      "Decreases release of calcium from bone",
+      "Increases renal excretion of calcium",
+      "Increases intestinal absorption of calcium",
+      "Acts as a physiological antagonist to parathyroid hormone (PTH)"
+    ],
+    "answer": [
+      "Inhibits osteoclast-mediated bone resorption",
+      "Decreases release of calcium from bone",
+      "Increases renal excretion of calcium",
+      "Acts as a physiological antagonist to parathyroid hormone (PTH)"
+    ],
+    "explanation": "A: Correct. Calcitonin inhibits osteoclast-mediated bone resorption. B: Correct. Calcitonin reduces calcium release from bone. C: Correct. Calcitonin increases renal calcium excretion. D: Incorrect. Calcitonin reduces intestinal calcium absorption rather than increasing it. E: Correct. Calcitonin opposes the calcium-raising effects of PTH."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following describe the underlying pathophysiology of medullary thyroid carcinoma?",
+    "q-number": 27,
+    "options": [
+      "Origin from parafollicular (C) cells",
+      "Excess production of calcitonin",
+      "Mutation of the RET proto-oncogene",
+      "Overproduction of thyroid hormones (T3/T4)",
+      "Neuroendocrine tumor characteristics"
+    ],
+    "answer": [
+      "Origin from parafollicular (C) cells",
+      "Excess production of calcitonin",
+      "Mutation of the RET proto-oncogene",
+      "Neuroendocrine tumor characteristics"
+    ],
+    "explanation": "A: Correct. The tumour originates from parafollicular C cells. B: Correct. The tumour excessively produces calcitonin. C: Correct. RET proto-oncogene mutation drives tumour formation. D: Incorrect. MTC does not produce thyroid hormone; it secretes calcitonin. E: Correct. MTC is a neuroendocrine tumour."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain diarrhea seen in medullary thyroid carcinoma?",
+    "q-number": 28,
+    "options": [
+      "Secretion of vasoactive intestinal peptide (VIP)",
+      "Increased intestinal secretions",
+      "Increased gut motility due to peptide hormones",
+      "Direct effect of calcitonin on intestinal mucosa",
+      "Neuroendocrine tumor secretion of bioactive substances"
+    ],
+    "answer": [
+      "Secretion of vasoactive intestinal peptide (VIP)",
+      "Increased intestinal secretions",
+      "Increased gut motility due to peptide hormones",
+      "Neuroendocrine tumor secretion of bioactive substances"
+    ],
+    "explanation": "A: Correct. VIP secreted by the tumour causes secretory diarrhoea. B: Correct. Tumour-driven peptides increase intestinal secretion. C: Correct. Peptide hormones increase gut motility, adding to diarrhoea. D: Incorrect. There is no established direct effect of calcitonin on intestinal mucosa causing diarrhoea. The key includes this, and I disagree. E: Correct. The neuroendocrine tumour secretes several bioactive substances that cause diarrhoea."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following reflect the pathophysiological basis of MEN 2 syndromes?",
+    "q-number": 29,
+    "options": [
+      "Activating mutation of RET proto-oncogene",
+      "Development of multiple endocrine neoplasms",
+      "Involvement of neural crest-derived tissues",
+      "Autoimmune-mediated gland destruction",
+      "Autosomal dominant inheritance"
+    ],
+    "answer": [
+      "Activating mutation of RET proto-oncogene",
+      "Development of multiple endocrine neoplasms",
+      "Involvement of neural crest-derived tissues",
+      "Autosomal dominant inheritance"
+    ],
+    "explanation": "A: Correct. An activating RET mutation is the underlying molecular defect. B: Correct. Multiple endocrine neoplasms develop. C: Correct. Neural crest-derived tissues are affected. D: Incorrect. Autoimmune destruction is not the mechanism of MEN 2. E: Correct. MEN 2 is autosomal dominant."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain why radioactive iodine is ineffective in medullary thyroid carcinoma?",
+    "q-number": 30,
+    "options": [
+      "Tumor arises from non-follicular cells",
+      "Parafollicular C cells do not uptake iodine",
+      "Absence of sodium-iodide symporters in tumor cells",
+      "Lack of thyroglobulin production",
+      "Resistance due to elevated calcitonin levels"
+    ],
+    "answer": [
+      "Tumor arises from non-follicular cells",
+      "Parafollicular C cells do not uptake iodine",
+      "Absence of sodium-iodide symporters in tumor cells",
+      "Lack of thyroglobulin production"
+    ],
+    "explanation": "A: Correct. MTC arises from non-follicular cells. B: Correct. Parafollicular C cells do not take up iodine. C: Correct. Tumour cells lack the sodium-iodide symporter. D: Correct. C cells do not produce thyroglobulin. E: Incorrect. Elevated calcitonin does not make tumours resistant to radioiodine; the cause is the absence of iodine uptake."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the typical progression of pain in acute appendicitis?",
+    "q-number": 31,
+    "options": [
+      "Initial visceral pain due to midgut innervation",
+      "Referred pain to the periumbilical region",
+      "Later somatic pain localized to the right iliac fossa",
+      "Pain caused primarily by gastric irritation",
+      "Involvement of parietal peritoneum leading to localized tenderness"
+    ],
+    "answer": [
+      "Initial visceral pain due to midgut innervation",
+      "Referred pain to the periumbilical region",
+      "Later somatic pain localized to the right iliac fossa",
+      "Involvement of parietal peritoneum leading to localized tenderness"
+    ],
+    "explanation": "A: Correct. Early pain is visceral, from midgut innervation. B: Correct. Visceral pain is referred to the periumbilical region. C: Correct. Later somatic pain localises to the right iliac fossa. D: Incorrect. Appendicitis pain is not caused primarily by gastric irritation. E: Correct. Parietal peritoneal involvement causes localised tenderness."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following contribute to the pathophysiology of acute appendicitis?",
+    "q-number": 32,
+    "options": [
+      "Luminal obstruction (e.g., fecalith)",
+      "Increased intraluminal pressure",
+      "Venous congestion and ischemia",
+      "Bacterial overgrowth",
+      "Immediate perforation without prior inflammation"
+    ],
+    "answer": [
+      "Luminal obstruction (e.g., fecalith)",
+      "Increased intraluminal pressure",
+      "Venous congestion and ischemia",
+      "Bacterial overgrowth"
+    ],
+    "explanation": "A: Correct. Luminal obstruction by a faecolith starts the process. B: Correct. Raised intraluminal pressure impairs blood flow. C: Correct. Venous congestion leads to ischaemia. D: Correct. Bacterial overgrowth drives the infection. E: Incorrect. Perforation follows prolonged inflammation, not occurring without it."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following signs can be explained by the anatomical position and inflammatory process of the appendix?",
+    "q-number": 33,
+    "options": [
+      "Rovsing’s sign due to peritoneal irritation",
+      "Psoas sign in retrocecal appendicitis",
+      "Obturator sign in pelvic appendicitis",
+      "Murphy’s sign due to appendiceal inflammation",
+      "Rebound tenderness due to peritoneal inflammation"
+    ],
+    "answer": [
+      "Rovsing’s sign due to peritoneal irritation",
+      "Psoas sign in retrocecal appendicitis",
+      "Obturator sign in pelvic appendicitis",
+      "Rebound tenderness due to peritoneal inflammation"
+    ],
+    "explanation": "A: Correct. Rovsing's sign reflects peritoneal irritation from pressure transmitted through the colon. B: Correct. A retrocaecal appendix contacts the psoas, causing the psoas sign. C: Correct. A pelvic appendix contacts the obturator internus, causing the obturator sign. D: Incorrect. Murphy's sign is a gallbladder sign, not an appendiceal one. E: Correct. Rebound tenderness reflects peritoneal inflammation."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain complications of untreated appendicitis?",
+    "q-number": 34,
+    "options": [
+      "Ischemic necrosis of appendiceal wall",
+      "Perforation due to increased pressure",
+      "Spread of infection to peritoneal cavity",
+      "Formation of localized abscess",
+      "Direct progression to chronic pancreatitis"
+    ],
+    "answer": [
+      "Ischemic necrosis of appendiceal wall",
+      "Perforation due to increased pressure",
+      "Spread of infection to peritoneal cavity",
+      "Formation of localized abscess"
+    ],
+    "explanation": "A: Correct. Ischaemic necrosis of the wall leads to perforation. B: Correct. Increased intraluminal pressure can cause perforation. C: Correct. Infection spreads into the peritoneal cavity after perforation. D: Correct. Localised abscesses form when spread is contained. E: Incorrect. Appendicitis does not progress directly to chronic pancreatitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are explained by the inflammatory and infectious process in appendicitis?",
+    "q-number": 35,
+    "options": [
+      "Leukocytosis with neutrophilia",
+      "Fever due to cytokine release",
+      "Anorexia due to visceral inflammation",
+      "Vomiting preceding pain",
+      "Elevated CRP as an acute-phase reactant"
+    ],
+    "answer": [
+      "Leukocytosis with neutrophilia",
+      "Fever due to cytokine release",
+      "Anorexia due to visceral inflammation",
+      "Elevated CRP as an acute-phase reactant"
+    ],
+    "explanation": "A: Correct. Inflammation causes neutrophilic leucocytosis. B: Correct. Cytokines released during inflammation cause fever. C: Correct. Visceral inflammation suppresses appetite, causing anorexia. D: Incorrect. Vomiting follows pain in appendicitis, not precedes it. E: Correct. CRP is an acute-phase reactant raised by inflammation."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the pathophysiology of hyperthyroidism?",
+    "q-number": 36,
+    "options": [
+      "Increased basal metabolic rate",
+      "Upregulation of β-adrenergic receptors",
+      "Increased heat production",
+      "Decreased oxygen consumption",
+      "Enhanced sympathetic activity"
+    ],
+    "answer": [
+      "Increased basal metabolic rate",
+      "Upregulation of β-adrenergic receptors",
+      "Increased heat production",
+      "Enhanced sympathetic activity"
+    ],
+    "explanation": "A: Correct. Thyroid hormone increases basal metabolic rate. B: Correct. Thyroid hormone upregulates beta-adrenergic receptors, increasing sensitivity to catecholamines. C: Correct. Increased metabolic activity raises heat production. D: Incorrect. Oxygen consumption increases in hyperthyroidism, not decreases. E: Correct. Enhanced sympathetic activity contributes to tachycardia and tremor."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain features of hypothyroidism?",
+    "q-number": 37,
+    "options": [
+      "Decreased metabolic activity",
+      "Accumulation of glycosaminoglycans in tissues",
+      "Reduced sympathetic activity",
+      "Increased thermogenesis",
+      "Slowed cardiac function"
+    ],
+    "answer": [
+      "Decreased metabolic activity",
+      "Accumulation of glycosaminoglycans in tissues",
+      "Reduced sympathetic activity",
+      "Slowed cardiac function"
+    ],
+    "explanation": "A: Correct. Reduced metabolic activity is the basis of hypothyroid symptoms. B: Correct. Glycosaminoglycan accumulation causes the non-pitting oedema of myxoedema. C: Correct. Reduced sympathetic activity contributes to bradycardia and fatigue. D: Incorrect. Thermogenesis is reduced in hypothyroidism. E: Correct. Reduced cardiac function causes bradycardia and slow contractility."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following describe the pathophysiology of Graves’ disease?",
+    "q-number": 38,
+    "options": [
+      "Autoantibodies stimulate TSH receptors",
+      "Increased synthesis of T3 and T4",
+      "Diffuse thyroid gland enlargement",
+      "Destruction of thyroid follicles",
+      "Increased orbital fibroblast activity"
+    ],
+    "answer": [
+      "Autoantibodies stimulate TSH receptors",
+      "Increased synthesis of T3 and T4",
+      "Diffuse thyroid gland enlargement",
+      "Increased orbital fibroblast activity"
+    ],
+    "explanation": "A: Correct. TSH receptor-stimulating autoantibodies drive hormone production. B: Correct. Autoantibody stimulation increases T3 and T4 synthesis. C: Correct. Diffuse thyroid enlargement occurs. D: Incorrect. Graves' disease stimulates follicles rather than destroying them. E: Correct. Orbital fibroblast activity causes the ophthalmopathy."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the life-threatening features of thyroid storm?",
+    "q-number": 39,
+    "options": [
+      "Exaggerated response to thyroid hormones",
+      "Massive increase in catecholamine sensitivity",
+      "Hypermetabolic state leading to organ dysfunction",
+      "Severe hypothyroid state",
+      "Increased heat production leading to hyperpyrexia"
+    ],
+    "answer": [
+      "Exaggerated response to thyroid hormones",
+      "Massive increase in catecholamine sensitivity",
+      "Hypermetabolic state leading to organ dysfunction",
+      "Increased heat production leading to hyperpyrexia"
+    ],
+    "explanation": "A: Correct. Tissues respond exaggeratedly to thyroid hormone. B: Correct. Catecholamine sensitivity increases massively. C: Correct. The hypermetabolic state causes organ dysfunction. D: Incorrect. Thyroid storm is a hyperthyroid crisis, not a hypothyroid state. E: Correct. Increased heat production causes hyperpyrexia."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the mechanism of Hashimoto thyroiditis?",
+    "q-number": 40,
+    "options": [
+      "Autoimmune destruction of thyroid tissue",
+      "Presence of anti-thyroid peroxidase (anti-TPO) antibodies",
+      "Lymphocytic infiltration of the thyroid gland",
+      "Increased production of thyroid hormones",
+      "Progressive fibrosis of thyroid tissue"
+    ],
+    "answer": [
+      "Autoimmune destruction of thyroid tissue",
+      "Presence of anti-thyroid peroxidase (anti-TPO) antibodies",
+      "Lymphocytic infiltration of the thyroid gland",
+      "Progressive fibrosis of thyroid tissue"
+    ],
+    "explanation": "A: Correct. Autoimmune destruction of thyroid tissue occurs. B: Correct. Anti-TPO antibodies are characteristic. C: Correct. Lymphocytic infiltration is the histological hallmark. D: Incorrect. Hashimoto thyroiditis reduces, rather than increases, hormone production over time. E: Correct. Progressive fibrosis follows chronic inflammation."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain hypercalcemia in hyperparathyroidism?",
+    "q-number": 41,
+    "options": [
+      "Increased osteoclast-mediated bone resorption",
+      "Increased renal reabsorption of calcium",
+      "Increased intestinal calcium absorption via vitamin D activation",
+      "Decreased phosphate excretion",
+      "Increased activation of 1,25-dihydroxyvitamin D3"
+    ],
+    "answer": [
+      "Increased osteoclast-mediated bone resorption",
+      "Increased renal reabsorption of calcium",
+      "Increased intestinal calcium absorption via vitamin D activation",
+      "Increased activation of 1,25-dihydroxyvitamin D3"
+    ],
+    "explanation": "A: Correct. PTH stimulates osteoclast-mediated bone resorption. B: Correct. PTH increases renal calcium reabsorption. C: Correct. PTH activates vitamin D, increasing intestinal calcium absorption. D: Incorrect. PTH increases renal phosphate excretion, so phosphate excretion is not decreased. E: Correct. PTH increases activation of 1,25-dihydroxyvitamin D."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain hypocalcemia in hypoparathyroidism?",
+    "q-number": 42,
+    "options": [
+      "Reduced osteoclast activity",
+      "Decreased renal calcium reabsorption",
+      "Reduced activation of vitamin D",
+      "Increased phosphate retention",
+      "Increased calcium absorption from the gut"
+    ],
+    "answer": [
+      "Reduced osteoclast activity",
+      "Decreased renal calcium reabsorption",
+      "Reduced activation of vitamin D",
+      "Increased phosphate retention"
+    ],
+    "explanation": "A: Correct. Without PTH, osteoclast activity falls. B: Correct. Renal calcium reabsorption falls without PTH. C: Correct. Reduced PTH lowers 1,25-dihydroxyvitamin D activation. D: Correct. Phosphate retention follows from loss of PTH's phosphaturic effect. E: Incorrect. Calcium absorption from the gut falls when vitamin D activation falls."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following contribute to bone changes in hyperparathyroidism?",
+    "q-number": 43,
+    "options": [
+      "Increased osteoclastic bone resorption",
+      "Replacement of bone with fibrous tissue",
+      "Formation of “brown tumors”",
+      "Increased bone mineral density",
+      "Subperiosteal bone resorption"
+    ],
+    "answer": [
+      "Increased osteoclastic bone resorption",
+      "Replacement of bone with fibrous tissue",
+      "Formation of “brown tumors”",
+      "Subperiosteal bone resorption"
+    ],
+    "explanation": "A: Correct. Osteoclastic resorption is increased. B: Correct. Bone is replaced by fibrous tissue, causing osteitis fibrosa cystica. C: Correct. Brown tumours are focal fibrous and haemorrhagic lesions of bone. D: Incorrect. Bone mineral density falls in hyperparathyroidism. E: Correct. Subperiosteal resorption is characteristic, especially in the phalanges."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain neuromuscular irritability in hypocalcemia?",
+    "q-number": 44,
+    "options": [
+      "Increased neuronal excitability",
+      "Lower threshold for action potential generation",
+      "Increased sodium permeability in neurons",
+      "Reduced calcium stabilization of nerve membranes",
+      "Decreased reflex activity"
+    ],
+    "answer": [
+      "Increased neuronal excitability",
+      "Lower threshold for action potential generation",
+      "Increased sodium permeability in neurons",
+      "Reduced calcium stabilization of nerve membranes"
+    ],
+    "explanation": "A: Correct. Hypocalcaemia increases neuronal excitability. B: Correct. The action potential threshold falls. C: Correct. Sodium permeability increases when calcium no longer stabilises the membrane. D: Correct. Calcium normally stabilises nerve membranes, so reduced calcium destabilises them. E: Incorrect. Reflex activity is increased in hypocalcaemia, not decreased."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the pathophysiology of secondary hyperparathyroidism in chronic kidney disease?",
+    "q-number": 45,
+    "options": [
+      "Reduced phosphate excretion → hyperphosphatemia",
+      "Decreased activation of vitamin D",
+      "Hypocalcemia stimulating PTH secretion",
+      "Direct suppression of PTH by kidneys",
+      "Parathyroid gland hyperplasia"
+    ],
+    "answer": [
+      "Reduced phosphate excretion → hyperphosphatemia",
+      "Decreased activation of vitamin D",
+      "Hypocalcemia stimulating PTH secretion",
+      "Parathyroid gland hyperplasia"
+    ],
+    "explanation": "A: Correct. Reduced phosphate excretion causes hyperphosphataemia, which lowers calcium and stimulates PTH. B: Correct. The kidney's failure to activate vitamin D reduces calcium absorption. C: Correct. Hypocalcaemia directly stimulates PTH secretion. D: Incorrect. The kidneys do not directly suppress PTH; their failure drives secondary hyperparathyroidism. E: Correct. Chronic stimulation causes parathyroid hyperplasia."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain the development of peritonitis?",
+    "q-number": 46,
+    "options": [
+      "Bacterial contamination of the peritoneal cavity",
+      "Chemical irritation (e.g., gastric acid, bile)",
+      "Inflammatory cytokine release",
+      "Sterile peritoneum remaining unaffected",
+      "Increased vascular permeability"
+    ],
+    "answer": [
+      "Bacterial contamination of the peritoneal cavity",
+      "Chemical irritation (e.g., gastric acid, bile)",
+      "Inflammatory cytokine release",
+      "Increased vascular permeability"
+    ],
+    "explanation": "A: Correct. Bacterial contamination is the commonest cause. B: Correct. Chemical irritants such as gastric acid or bile inflame the peritoneum. C: Correct. Inflammatory cytokines drive the response. D: Incorrect. The peritoneum is affected in peritonitis, so it is not sterile and unaffected. E: Correct. Vascular permeability increases, allowing fluid and cells to leak."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the severe abdominal pain in peritonitis?",
+    "q-number": 47,
+    "options": [
+      "Irritation of parietal peritoneum",
+      "Somatic nerve involvement",
+      "Localized sharp pain",
+      "Visceral pain only",
+      "Guarding due to reflex muscle contraction"
+    ],
+    "answer": [
+      "Irritation of parietal peritoneum",
+      "Somatic nerve involvement",
+      "Localized sharp pain",
+      "Guarding due to reflex muscle contraction"
+    ],
+    "explanation": "A: Correct. Irritation of the parietal peritoneum causes severe pain. B: Correct. Somatic nerves in the parietal peritoneum carry the pain. C: Correct. Parietal pain is sharp and well localised. D: Incorrect. Visceral pain alone is typically vague and poorly localised, not the severe pain of peritonitis. E: Correct. Guarding is a reflex muscle contraction that protects inflamed peritoneum."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain systemic manifestations of peritonitis?",
+    "q-number": 48,
+    "options": [
+      "Fluid sequestration in peritoneal cavity",
+      "Hypovolemia",
+      "Sepsis due to bacterial translocation",
+      "Increased cardiac output in late stage shock",
+      "Release of inflammatory mediators"
+    ],
+    "answer": [
+      "Fluid sequestration in peritoneal cavity",
+      "Hypovolemia",
+      "Sepsis due to bacterial translocation",
+      "Release of inflammatory mediators"
+    ],
+    "explanation": "A: Correct. Fluid sequesters into the inflamed peritoneal cavity. B: Correct. Fluid loss causes hypovolaemia. C: Correct. Bacterial translocation causes sepsis. D: Incorrect. Cardiac output falls in late shock, rather than rising. E: Correct. Inflammatory mediators drive systemic illness."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are causes or types of peritonitis?",
+    "q-number": 49,
+    "options": [
+      "Perforated appendicitis",
+      "Perforated peptic ulcer",
+      "Spontaneous bacterial peritonitis",
+      "Acute pancreatitis",
+      "Myocardial infarction"
+    ],
+    "answer": [
+      "Perforated appendicitis",
+      "Perforated peptic ulcer",
+      "Spontaneous bacterial peritonitis",
+      "Acute pancreatitis"
+    ],
+    "explanation": "A: Correct. Perforated appendicitis causes secondary peritonitis. B: Correct. Perforated peptic ulcer causes peritonitis. C: Correct. Spontaneous bacterial peritonitis is a primary peritonitis, typically in ascites. D: Correct. Acute pancreatitis can cause chemical peritonitis. E: Incorrect. Myocardial infarction does not cause peritonitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the clinical signs seen in peritonitis?",
+    "q-number": 50,
+    "options": [
+      "Rebound tenderness due to peritoneal irritation",
+      "Board-like rigidity from muscle spasm",
+      "Reduced bowel sounds due to ileus",
+      "Hyperactive bowel sounds",
+      "Fever due to inflammatory response"
+    ],
+    "answer": [
+      "Rebound tenderness due to peritoneal irritation",
+      "Board-like rigidity from muscle spasm",
+      "Reduced bowel sounds due to ileus",
+      "Fever due to inflammatory response"
+    ],
+    "explanation": "A: Correct. Rebound tenderness reflects peritoneal irritation. B: Correct. Board-like rigidity is caused by reflex muscle spasm over the inflamed peritoneum. C: Correct. Ileus from peritonitis reduces bowel sounds. D: Incorrect. Hyperactive bowel sounds suggest mechanical obstruction, not peritonitis. E: Correct. Fever reflects the inflammatory response."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to the development of acute cholecystitis?",
+    "q-number": 51,
+    "options": [
+      "Obstruction of the cystic duct by gallstones",
+      "Increased intraluminal pressure in the gallbladder",
+      "Ischemia of the gallbladder wall",
+      "Bacterial infection secondary to stasis",
+      "Immediate perforation without inflammation"
+    ],
+    "answer": [
+      "Obstruction of the cystic duct by gallstones",
+      "Increased intraluminal pressure in the gallbladder",
+      "Ischemia of the gallbladder wall",
+      "Bacterial infection secondary to stasis"
+    ],
+    "explanation": "A: Correct. Cystic duct obstruction by a gallstone is the primary cause. B: Correct. Raised pressure in the gallbladder damages the wall. C: Correct. Ischaemia of the wall follows raised pressure. D: Correct. Stasis leads to secondary bacterial infection. E: Incorrect. Perforation follows inflammation, not occurs without it."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the characteristic pain in cholecystitis?",
+    "q-number": 52,
+    "options": [
+      "Distension of the gallbladder",
+      "Visceral pain referred to the epigastrium or right upper quadrant",
+      "Irritation of the parietal peritoneum causing localized tenderness",
+      "Referred pain to the right shoulder or scapula",
+      "Pain relieved by eating fatty meals"
+    ],
+    "answer": [
+      "Distension of the gallbladder",
+      "Visceral pain referred to the epigastrium or right upper quadrant",
+      "Irritation of the parietal peritoneum causing localized tenderness",
+      "Referred pain to the right shoulder or scapula"
+    ],
+    "explanation": "A: Correct. Gallbladder distension causes visceral pain. B: Correct. Visceral pain is referred to the epigastrium and right upper quadrant. C: Correct. Peritoneal irritation later causes localised tenderness. D: Correct. Diaphragmatic irritation refers pain to the right shoulder or scapula. E: Incorrect. Cholecystitis pain is typically worsened by fatty meals, not relieved by them."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the mechanism of Murphy’s sign?",
+    "q-number": 53,
+    "options": [
+      "Inflamed gallbladder contacts examiner’s hand during inspiration",
+      "Diaphragmatic descent pushes gallbladder downward",
+      "Sudden pain causes inspiratory arrest",
+      "Due to hepatic capsule inflammation",
+      "Reflects localized peritoneal irritation"
+    ],
+    "answer": [
+      "Inflamed gallbladder contacts examiner’s hand during inspiration",
+      "Diaphragmatic descent pushes gallbladder downward",
+      "Sudden pain causes inspiratory arrest",
+      "Reflects localized peritoneal irritation"
+    ],
+    "explanation": "A: Correct. The inflamed gallbladder contacts the examiner's hand on inspiration, causing pain. B: Correct. The descending diaphragm pushes the gallbladder onto the examiner's hand. C: Correct. Sudden pain causes the patient to stop inspiration. D: Incorrect. The sign is not due to inflammation of the hepatic capsule. E: Correct. The sign reflects localised peritoneal irritation of the gallbladder."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain complications of untreated cholecystitis?",
+    "q-number": 54,
+    "options": [
+      "Gallbladder wall necrosis due to ischemia",
+      "Perforation leading to peritonitis",
+      "Formation of empyema (pus in gallbladder)",
+      "Fistula formation with adjacent organs",
+      "Direct progression to pancreatitis without obstruction"
+    ],
+    "answer": [
+      "Gallbladder wall necrosis due to ischemia",
+      "Perforation leading to peritonitis",
+      "Formation of empyema (pus in gallbladder)",
+      "Fistula formation with adjacent organs"
+    ],
+    "explanation": "A: Correct. Ischaemia causes gallbladder wall necrosis. B: Correct. Perforation leads to peritonitis. C: Correct. Empyema forms when the gallbladder fills with pus. D: Correct. Fistulae can form with adjacent organs such as the duodenum or colon. E: Incorrect. Pancreatitis from a cholecystitis usually follows duct obstruction, not occurs without it."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are explained by the inflammatory process in cholecystitis?",
+    "q-number": 55,
+    "options": [
+      "Leucocytosis",
+      "Elevated CRP",
+      "Fever due to cytokine release",
+      "Elevated bilirubin in all cases",
+      "Mild elevation of liver enzymes"
+    ],
+    "answer": [
+      "Leucocytosis",
+      "Elevated CRP",
+      "Fever due to cytokine release",
+      "Mild elevation of liver enzymes"
+    ],
+    "explanation": "A: Correct. Leucocytosis reflects the inflammatory response. B: Correct. CRP rises in acute inflammation. C: Correct. Cytokines release causes fever. D: Incorrect. Bilirubin is not raised in all cases; it is raised only if the common bile duct is obstructed. E: Correct. Mild elevation of liver enzymes is common from inflammation or transient obstruction."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to the formation of gallstones?",
+    "q-number": 56,
+    "options": [
+      "Supersaturation of bile with cholesterol",
+      "Impaired gallbladder motility (stasis)",
+      "Increased bile salts concentration",
+      "Nucleation of cholesterol crystals",
+      "Mucus hypersecretion in the gallbladder"
+    ],
+    "answer": [
+      "Supersaturation of bile with cholesterol",
+      "Impaired gallbladder motility (stasis)",
+      "Nucleation of cholesterol crystals",
+      "Mucus hypersecretion in the gallbladder"
+    ],
+    "explanation": "A: Correct. Supersaturated bile with cholesterol is the basis of cholesterol stones. B: Correct. Gallbladder stasis allows crystals to form. C: Incorrect. Bile salt concentration is reduced, not increased, in gallstone formation. D: Correct. Nucleation of cholesterol crystals begins stone formation. E: Correct. Mucus hypersecretion traps crystals within the gallbladder."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following correctly describe the pathophysiology of different gallstones?",
+    "q-number": 57,
+    "options": [
+      "Cholesterol stones are due to supersaturation of cholesterol",
+      "Pigment stones are associated with hemolysis",
+      "Black pigment stones are linked to sterile bile",
+      "Brown pigment stones are associated with infection",
+      "Cholesterol stones are primarily composed of bilirubin"
+    ],
+    "answer": [
+      "Cholesterol stones are due to supersaturation of cholesterol",
+      "Pigment stones are associated with hemolysis",
+      "Black pigment stones are linked to sterile bile",
+      "Brown pigment stones are associated with infection"
+    ],
+    "explanation": "A: Correct. Cholesterol stones form from supersaturated cholesterol bile. B: Correct. Pigment stones are associated with haemolysis, which raises bilirubin. C: Correct. Black pigment stones form in sterile bile, typically in haemolysis or cirrhosis. D: Correct. Brown pigment stones are associated with biliary infection. E: Incorrect. Cholesterol stones are composed mainly of cholesterol, not bilirubin."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the pain in biliary colic?",
+    "q-number": 58,
+    "options": [
+      "Transient obstruction of the cystic duct",
+      "Increased gallbladder contraction against obstruction",
+      "Raised intraluminal pressure",
+      "Ischemia of the gallbladder wall (early stage)",
+      "Pain triggered after fatty meals"
+    ],
+    "answer": [
+      "Transient obstruction of the cystic duct",
+      "Increased gallbladder contraction against obstruction",
+      "Raised intraluminal pressure",
+      "Pain triggered after fatty meals"
+    ],
+    "explanation": "A: Correct. Intermittent obstruction of the cystic duct causes colic. B: Correct. The gallbladder contracts against the obstruction, causing pain. C: Correct. Raised intraluminal pressure causes the pain. D: Incorrect. Ischaemia of the wall is a feature of acute cholecystitis, not early biliary colic. E: Correct. Fatty meals trigger gallbladder contraction through cholecystokinin."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following factors increase the risk of gallstone formation?",
+    "q-number": 59,
+    "options": [
+      "Female sex",
+      "Obesity",
+      "Rapid weight loss",
+      "Pregnancy",
+      "High bile salt concentration"
+    ],
+    "answer": [
+      "Female sex",
+      "Obesity",
+      "Rapid weight loss",
+      "Pregnancy"
+    ],
+    "explanation": "A: Correct. Female sex is a risk factor. B: Correct. Obesity increases cholesterol saturation of bile. C: Correct. Rapid weight loss increases cholesterol supersaturation. D: Correct. Pregnancy increases cholesterol saturation and gallbladder stasis. E: Incorrect. A high bile salt concentration is protective, not a risk factor."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications can arise from cholelithiasis based on pathophysiology?",
+    "q-number": 60,
+    "options": [
+      "Acute cholecystitis (cystic duct obstruction)",
+      "Choledocholithiasis (CBD obstruction)",
+      "Acute pancreatitis (ampullary obstruction)",
+      "Gallstone ileus (fistula formation)",
+      "Primary hyperparathyroidism"
+    ],
+    "answer": [
+      "Acute cholecystitis (cystic duct obstruction)",
+      "Choledocholithiasis (CBD obstruction)",
+      "Acute pancreatitis (ampullary obstruction)",
+      "Gallstone ileus (fistula formation)"
+    ],
+    "explanation": "A: Correct. Cystic duct obstruction causes acute cholecystitis. B: Correct. Common bile duct stones cause choledocholithiasis. C: Correct. Ampullary obstruction causes acute pancreatitis. D: Correct. Gallstone ileus results from a stone passing through a cholecystoduodenal fistula. E: Incorrect. Primary hyperparathyroidism is not caused by gallstones."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain choledocholithiasis?",
+    "q-number": 61,
+    "options": [
+      "Migration of gallstones from the gallbladder into the common bile duct",
+      "Primary stone formation within the bile duct",
+      "Obstruction of bile flow",
+      "Increased bile drainage into the duodenum",
+      "Biliary stasis promoting infection"
+    ],
+    "answer": [
+      "Migration of gallstones from the gallbladder into the common bile duct",
+      "Primary stone formation within the bile duct",
+      "Obstruction of bile flow",
+      "Biliary stasis promoting infection"
+    ],
+    "explanation": "A: Correct. Gallstones migrate from the gallbladder into the common bile duct. B: Correct. Stones can also form primarily within the bile duct. C: Correct. The stone obstructs bile flow. D: Incorrect. Bile drainage into the duodenum is reduced, not increased, by the obstruction. E: Correct. Biliary stasis promotes bacterial infection, leading to cholangitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain jaundice in choledocholithiasis?",
+    "q-number": 62,
+    "options": [
+      "Obstruction of bile flow from liver to intestine",
+      "Accumulation of conjugated bilirubin in blood",
+      "Increased excretion of bilirubin into stool",
+      "Dark urine due to water-soluble bilirubin",
+      "Pale stools due to lack of bile pigments"
+    ],
+    "answer": [
+      "Obstruction of bile flow from liver to intestine",
+      "Accumulation of conjugated bilirubin in blood",
+      "Dark urine due to water-soluble bilirubin",
+      "Pale stools due to lack of bile pigments"
+    ],
+    "explanation": "A: Correct. Bile flow from the liver to the intestine is obstructed. B: Correct. Conjugated bilirubin regurgitates into the blood. C: Incorrect. Bilirubin excretion into stool falls, which is why stools become pale. D: Correct. Conjugated bilirubin is water-soluble, so it is excreted in urine, making it dark. E: Correct. Without bile pigment in the gut, stools become pale."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to ascending cholangitis?",
+    "q-number": 63,
+    "options": [
+      "Biliary obstruction",
+      "Bacterial ascent from the duodenum",
+      "Increased intrabiliary pressure",
+      "Sterile bile environment",
+      "Systemic spread of infection"
+    ],
+    "answer": [
+      "Biliary obstruction",
+      "Bacterial ascent from the duodenum",
+      "Increased intrabiliary pressure",
+      "Systemic spread of infection"
+    ],
+    "explanation": "A: Correct. Biliary obstruction is the key initiating event. B: Correct. Bacteria ascend from the duodenum into the bile duct. C: Correct. Raised intrabiliary pressure drives bacteria into the circulation. D: Incorrect. Bile is not sterile in cholangitis; it becomes infected. E: Correct. Infection can spread systemically, causing septicaemia."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are explained by bile duct obstruction?",
+    "q-number": 64,
+    "options": [
+      "Right upper quadrant pain",
+      "Jaundice",
+      "Fever",
+      "Hypoglycemia",
+      "Pruritus"
+    ],
+    "answer": [
+      "Right upper quadrant pain",
+      "Jaundice",
+      "Fever",
+      "Pruritus"
+    ],
+    "explanation": "A: Correct. Biliary obstruction causes right upper quadrant pain. B: Correct. Obstruction causes jaundice. C: Correct. Cholangitis causes fever. D: Incorrect. Hypoglycaemia is not a feature of bile duct obstruction. E: Correct. Retained bile salts in the blood cause pruritus."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications are explained by the pathophysiology of bile duct obstruction?",
+    "q-number": 65,
+    "options": [
+      "Acute cholangitis",
+      "Acute pancreatitis",
+      "Secondary biliary cirrhosis",
+      "Hepatic abscess",
+      "Acute appendicitis"
+    ],
+    "answer": [
+      "Acute cholangitis",
+      "Acute pancreatitis",
+      "Secondary biliary cirrhosis",
+      "Hepatic abscess"
+    ],
+    "explanation": "A: Correct. Acute cholangitis is an infection of obstructed bile. B: Correct. Obstruction of the ampulla causes acute pancreatitis. C: Correct. Prolonged obstruction leads to secondary biliary cirrhosis. D: Correct. Infection of the obstructed bile can spread to form liver abscesses. E: Incorrect. Acute appendicitis is not caused by bile duct obstruction."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to the development of acute pancreatitis?",
+    "q-number": 66,
+    "options": [
+      "Premature activation of pancreatic enzymes within the pancreas",
+      "Autodigestion of pancreatic tissue",
+      "Obstruction of pancreatic duct (e.g., gallstones)",
+      "Activation of trypsinogen to trypsin inside acinar cells",
+      "Increased insulin secretion as the primary event"
+    ],
+    "answer": [
+      "Premature activation of pancreatic enzymes within the pancreas",
+      "Autodigestion of pancreatic tissue",
+      "Obstruction of pancreatic duct (e.g., gallstones)",
+      "Activation of trypsinogen to trypsin inside acinar cells"
+    ],
+    "explanation": "A: Correct. Premature enzyme activation inside the pancreas causes autodigestion. B: Correct. Autodigestion of pancreatic tissue is the central mechanism. C: Correct. Duct obstruction by gallstones causes pancreatitis. D: Correct. Trypsinogen is activated to trypsin inside acinar cells, starting the cascade. E: Incorrect. Increased insulin secretion is not a mechanism of acute pancreatitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain systemic complications of acute pancreatitis?",
+    "q-number": 67,
+    "options": [
+      "Release of inflammatory mediators (cytokines)",
+      "Increased vascular permeability",
+      "Third spacing of fluids",
+      "Hypovolemia and shock",
+      "Decreased inflammatory response"
+    ],
+    "answer": [
+      "Release of inflammatory mediators (cytokines)",
+      "Increased vascular permeability",
+      "Third spacing of fluids",
+      "Hypovolemia and shock"
+    ],
+    "explanation": "A: Correct. Cytokines drive the systemic inflammatory response. B: Correct. Vascular permeability increases, leading to fluid leak. C: Correct. Third spacing of fluid into the retroperitoneum and peritoneum occurs. D: Correct. Fluid loss and vasodilation cause hypovolaemia and shock. E: Incorrect. The inflammatory response is increased in pancreatitis, not decreased."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain complications of pancreatitis?",
+    "q-number": 68,
+    "options": [
+      "Fat necrosis due to lipase activity",
+      "Pseudocyst formation from fluid collection",
+      "Hemorrhage due to vascular damage",
+      "ARDS due to systemic inflammation",
+      "Immediate fibrosis in early disease"
+    ],
+    "answer": [
+      "Fat necrosis due to lipase activity",
+      "Pseudocyst formation from fluid collection",
+      "Hemorrhage due to vascular damage",
+      "ARDS due to systemic inflammation"
+    ],
+    "explanation": "A: Correct. Released lipase causes fat necrosis. B: Correct. Fluid collections become pseudocysts. C: Correct. Erosion of vessels causes haemorrhage. D: Correct. Systemic inflammation can cause ARDS. E: Incorrect. Fibrosis develops in chronic pancreatitis, not in early disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are explained by the underlying pathophysiology of pancreatitis?",
+    "q-number": 69,
+    "options": [
+      "Elevated serum amylase and lipase",
+      "Hypocalcemia due to fat saponification",
+      "Hyperglycemia due to islet cell injury",
+      "Increased bowel sounds",
+      "Fever due to inflammation"
+    ],
+    "answer": [
+      "Elevated serum amylase and lipase",
+      "Hypocalcemia due to fat saponification",
+      "Hyperglycemia due to islet cell injury",
+      "Fever due to inflammation"
+    ],
+    "explanation": "A: Correct. Pancreatic injury releases amylase and lipase into the blood. B: Correct. Calcium binds to fatty acids in fat necrosis (saponification), causing hypocalcaemia. C: Correct. Islet cell injury causes hyperglycaemia. D: Incorrect. Bowel sounds are reduced in pancreatitis due to ileus. E: Correct. Fever reflects the inflammatory response."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following structures are closely related to the head of the pancreas?",
+    "q-number": 70,
+    "options": [
+      "Duodenum (C-shaped loop)",
+      "Common bile duct",
+      "Inferior vena cava (IVC)",
+      "Spleen",
+      "Superior mesenteric vessels"
+    ],
+    "answer": [
+      "Duodenum (C-shaped loop)",
+      "Common bile duct",
+      "Inferior vena cava (IVC)",
+      "Superior mesenteric vessels"
+    ],
+    "explanation": "A: Correct. The C-shaped duodenum wraps around the pancreatic head. B: Correct. The common bile duct runs through the posterior head. C: Correct. The IVC lies posterior to the pancreatic head. D: Incorrect. The spleen lies in the left upper quadrant, away from the head. E: Correct. The superior mesenteric vessels run close to the head and neck."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain obstructive jaundice caused by a lesion in the head of the pancreas?",
+    "q-number": 71,
+    "options": [
+      "Compression of the common bile duct",
+      "Impaired bile flow into the duodenum",
+      "Accumulation of conjugated bilirubin in blood",
+      "Increased bile secretion into intestine",
+      "Pale stools and dark urine"
+    ],
+    "answer": [
+      "Compression of the common bile duct",
+      "Impaired bile flow into the duodenum",
+      "Accumulation of conjugated bilirubin in blood",
+      "Pale stools and dark urine"
+    ],
+    "explanation": "A: Correct. A pancreatic head lesion compresses the common bile duct. B: Correct. Bile flow into the duodenum is impaired. C: Correct. Conjugated bilirubin accumulates in the blood. D: Incorrect. Bile secretion does not increase; the obstruction blocks its flow. E: Correct. Pale stools and dark urine result from the obstruction."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are typical features of carcinoma of the head of the pancreas?",
+    "q-number": 72,
+    "options": [
+      "Painless jaundice",
+      "Courvoisier’s sign (palpable gallbladder)",
+      "Weight loss",
+      "Severe early abdominal pain",
+      "Pruritus"
+    ],
+    "answer": [
+      "Painless jaundice",
+      "Courvoisier’s sign (palpable gallbladder)",
+      "Weight loss",
+      "Pruritus"
+    ],
+    "explanation": "A: Correct. Jaundice is typically painless and progressive. B: Correct. Courvoisier's sign is a palpable, non-tender gallbladder from biliary obstruction. C: Correct. Weight loss is a common feature. D: Incorrect. Pain is typically a late feature, not severe and early. E: Correct. Pruritus results from retained bile salts."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms occur when the pancreatic duct is obstructed at the head?",
+    "q-number": 73,
+    "options": [
+      "Impaired enzyme drainage",
+      "Increased intraductal pressure",
+      "Pancreatic inflammation",
+      "Reduced digestion of fats",
+      "Increased insulin secretion"
+    ],
+    "answer": [
+      "Impaired enzyme drainage",
+      "Increased intraductal pressure",
+      "Pancreatic inflammation",
+      "Reduced digestion of fats"
+    ],
+    "explanation": "A: Correct. Enzymes cannot drain from the pancreas. B: Correct. Intraductal pressure rises behind the obstruction. C: Correct. Raised pressure causes inflammation. D: Correct. Reduced enzyme delivery to the duodenum impairs fat digestion. E: Incorrect. Insulin secretion is not increased by pancreatic duct obstruction."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications can arise due to pathology at the head of the pancreas?",
+    "q-number": 74,
+    "options": [
+      "Obstructive jaundice",
+      "Ascending cholangitis",
+      "Acute pancreatitis",
+      "Gastric outlet obstruction",
+      "Splenic rupture"
+    ],
+    "answer": [
+      "Obstructive jaundice",
+      "Ascending cholangitis",
+      "Acute pancreatitis",
+      "Gastric outlet obstruction"
+    ],
+    "explanation": "A: Correct. Obstructive jaundice results from compression of the bile duct. B: Correct. Biliary obstruction predisposes to ascending cholangitis. C: Correct. Duct obstruction causes acute pancreatitis. D: Correct. A large head lesion can compress the duodenum, causing gastric outlet obstruction. E: Incorrect. Splenic rupture is not caused by pancreatic head pathology."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the development of annular pancreas?",
+    "q-number": 75,
+    "options": [
+      "Failure of normal rotation of the ventral pancreatic bud",
+      "Persistence of a bifid ventral bud encircling the duodenum",
+      "Abnormal fusion of dorsal and ventral pancreatic buds",
+      "Complete absence of the dorsal pancreatic bud",
+      "Encirclement of the second part of the duodenum"
+    ],
+    "answer": [
+      "Failure of normal rotation of the ventral pancreatic bud",
+      "Persistence of a bifid ventral bud encircling the duodenum",
+      "Encirclement of the second part of the duodenum"
+    ],
+    "explanation": "A: Correct. Failure of normal ventral bud rotation allows the bud to encircle the duodenum. B: Correct. A bifid ventral bud persists and encircles the duodenum. C: Incorrect. Dorsal and ventral bud fusion is normal, and abnormal fusion is not the recognised cause. The key includes this, and I disagree. D: Incorrect. The dorsal bud is not absent in annular pancreas; the problem is the ventral bud. E: Correct. The encircling pancreatic tissue surrounds the second part of the duodenum."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain symptoms in annular pancreas?",
+    "q-number": 76,
+    "options": [
+      "External compression of the duodenum",
+      "Partial or complete obstruction of the duodenal lumen",
+      "Impaired gastric emptying",
+      "Increased bile flow into the intestine",
+      "Proximal bowel dilation"
+    ],
+    "answer": [
+      "External compression of the duodenum",
+      "Partial or complete obstruction of the duodenal lumen",
+      "Impaired gastric emptying",
+      "Proximal bowel dilation"
+    ],
+    "explanation": "A: Correct. The ring compresses the duodenum from outside. B: Correct. The lumen becomes partially or completely obstructed. C: Correct. Delayed gastric emptying results from duodenal obstruction. D: Incorrect. Bile flow into the intestine is not increased; the obstruction impairs flow. E: Correct. Proximal bowel dilates behind the obstruction."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are clinical features of annular pancreas?",
+    "q-number": 77,
+    "options": [
+      "Bilious vomiting in neonates",
+      "Feeding intolerance",
+      "Abdominal distension",
+      "Hematemesis as a primary feature",
+      "Recurrent pancreatitis in adults"
+    ],
+    "answer": [
+      "Bilious vomiting in neonates",
+      "Feeding intolerance",
+      "Abdominal distension",
+      "Recurrent pancreatitis in adults"
+    ],
+    "explanation": "A: Correct. Bilious vomiting in neonates indicates obstruction below the ampulla. B: Correct. Feeding intolerance is common. C: Correct. Abdominal distension results from proximal dilation. D: Incorrect. Haematemesis is not a primary feature. E: Correct. Adults may present with recurrent pancreatitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following findings support the diagnosis of annular pancreas?",
+    "q-number": 78,
+    "options": [
+      "“Double bubble” sign on imaging",
+      "Dilated stomach and proximal duodenum",
+      "Narrowed second part of duodenum",
+      "Absence of pancreatic tissue",
+      "CT scan showing pancreatic ring around duodenum"
+    ],
+    "answer": [
+      "“Double bubble” sign on imaging",
+      "Dilated stomach and proximal duodenum",
+      "Narrowed second part of duodenum",
+      "CT scan showing pancreatic ring around duodenum"
+    ],
+    "explanation": "A: Correct. The double bubble sign reflects the stomach and proximal duodenum dilated by obstruction. B: Correct. Dilated stomach and proximal duodenum are typical findings. C: Correct. The second part of the duodenum is narrowed by the ring. D: Incorrect. Pancreatic tissue is present in annular pancreas; it surrounds the duodenum. E: Correct. CT can show the pancreatic ring around the duodenum."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications can arise from annular pancreas?",
+    "q-number": 79,
+    "options": [
+      "Duodenal obstruction",
+      "Peptic ulcer disease",
+      "Pancreatitis",
+      "Biliary obstruction",
+      "Appendicitis"
+    ],
+    "answer": [
+      "Duodenal obstruction",
+      "Pancreatitis"
+    ],
+    "explanation": "A: Correct. Duodenal obstruction is the main complication. B: Incorrect. Peptic ulcer disease is not a standard complication, and the link is rare and not established in teaching. The key includes this, and I disagree. C: Correct. Recurrent pancreatitis can occur from the ring. D: Incorrect. Biliary obstruction is not a standard complication. Any compression of the bile duct would be rare and not established. The key includes this, and I disagree. E: Incorrect. Appendicitis is not a complication of annular pancreas."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to portal hypertension?",
+    "q-number": 80,
+    "options": [
+      "Increased resistance to portal blood flow",
+      "Increased portal venous inflow",
+      "Cirrhosis causing architectural distortion",
+      "Portal vein obstruction",
+      "Decreased hepatic vascular resistance"
+    ],
+    "answer": [
+      "Increased resistance to portal blood flow",
+      "Increased portal venous inflow",
+      "Cirrhosis causing architectural distortion",
+      "Portal vein obstruction"
+    ],
+    "explanation": "A: Correct. Increased resistance to portal flow, usually from cirrhosis, raises portal pressure. B: Correct. Increased splanchnic inflow adds to portal pressure. C: Correct. Cirrhotic architectural distortion increases intrahepatic resistance. D: Correct. Portal vein obstruction raises portal pressure. E: Incorrect. Decreased hepatic resistance would lower portal pressure, not raise it."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following sites are common portosystemic anastomoses in portal hypertension?",
+    "q-number": 81,
+    "options": [
+      "Esophageal veins",
+      "Paraumbilical veins (caput medusae)",
+      "Rectal veins (hemorrhoids)",
+      "Renal veins",
+      "Retroperitoneal veins"
+    ],
+    "answer": [
+      "Esophageal veins",
+      "Paraumbilical veins (caput medusae)",
+      "Rectal veins (hemorrhoids)",
+      "Retroperitoneal veins"
+    ],
+    "explanation": "A: Correct. Oesophageal submucosal veins form varices. B: Correct. Paraumbilical veins form caput medusae. C: Correct. Rectal veins form haemorrhoids. D: Incorrect. Renal veins are not a portosystemic collateral site. E: Correct. Retroperitoneal veins form collaterals."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain ascites in portal hypertension?",
+    "q-number": 82,
+    "options": [
+      "Increased hydrostatic pressure in portal circulation",
+      "Hypoalbuminemia reducing oncotic pressure",
+      "Sodium and water retention via RAAS activation",
+      "Increased lymph production exceeding drainage",
+      "Decreased capillary permeability"
+    ],
+    "answer": [
+      "Increased hydrostatic pressure in portal circulation",
+      "Hypoalbuminemia reducing oncotic pressure",
+      "Sodium and water retention via RAAS activation",
+      "Increased lymph production exceeding drainage"
+    ],
+    "explanation": "A: Correct. Raised portal hydrostatic pressure pushes fluid into the peritoneum. B: Correct. Low albumin reduces plasma oncotic pressure. C: Correct. RAAS activation causes sodium and water retention. D: Correct. Lymph production exceeds drainage, and the liver's lymph overflows into the peritoneum. E: Incorrect. Capillary permeability is increased, not decreased, in portal hypertension."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications are explained by portal hypertension?",
+    "q-number": 83,
+    "options": [
+      "Esophageal variceal bleeding",
+      "Splenomegaly",
+      "Hypersplenism (cytopenias)",
+      "Hepatic encephalopathy",
+      "Acute appendicitis"
+    ],
+    "answer": [
+      "Esophageal variceal bleeding",
+      "Splenomegaly",
+      "Hypersplenism (cytopenias)",
+      "Hepatic encephalopathy"
+    ],
+    "explanation": "A: Correct. Raised portal pressure causes oesophageal variceal bleeding. B: Correct. Congestion enlarges the spleen. C: Correct. Hypersplenism causes cytopenias. D: Correct. Portosystemic shunting allows toxins to reach the brain. E: Incorrect. Acute appendicitis is not caused by portal hypertension."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following occur due to portal hypertension?",
+    "q-number": 84,
+    "options": [
+      "Splanchnic vasodilation",
+      "Hyperdynamic circulation",
+      "Increased cardiac output",
+      "Systemic vasoconstriction in early stage",
+      "Activation of RAAS"
+    ],
+    "answer": [
+      "Splanchnic vasodilation",
+      "Hyperdynamic circulation",
+      "Increased cardiac output",
+      "Activation of RAAS"
+    ],
+    "explanation": "A: Correct. Splanchnic vasodilation lowers resistance in the gut. B: Correct. The circulation becomes hyperdynamic. C: Correct. Cardiac output increases. D: Incorrect. Systemic vasodilation, not vasoconstriction, occurs early in portal hypertension. E: Correct. RAAS is activated as effective circulating volume falls."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the pathophysiology of liver injury in trauma?",
+    "q-number": 85,
+    "options": [
+      "Blunt abdominal trauma causing parenchymal disruption",
+      "Rapid deceleration leading to shearing forces",
+      "Laceration of hepatic tissue",
+      "Increased hepatic regeneration preventing injury",
+      "Injury to hepatic blood vessels"
+    ],
+    "answer": [
+      "Blunt abdominal trauma causing parenchymal disruption",
+      "Rapid deceleration leading to shearing forces",
+      "Laceration of hepatic tissue",
+      "Injury to hepatic blood vessels"
+    ],
+    "explanation": "A: Correct. Blunt force disrupts the parenchyma. B: Correct. Deceleration causes shearing forces across the liver. C: Correct. Lacerations cause the injury. D: Incorrect. The liver does not regenerate fast enough to prevent injury. E: Correct. Injury to hepatic vessels causes bleeding."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain bleeding in liver injury?",
+    "q-number": 86,
+    "options": [
+      "Rich vascular supply (hepatic artery and portal vein)",
+      "Low-pressure venous system",
+      "Disruption of hepatic sinusoids",
+      "Coagulation factor synthesis impairment",
+      "Immediate clot stabilization in all cases"
+    ],
+    "answer": [
+      "Rich vascular supply (hepatic artery and portal vein)",
+      "Low-pressure venous system",
+      "Disruption of hepatic sinusoids",
+      "Coagulation factor synthesis impairment"
+    ],
+    "explanation": "A: Correct. The liver has a rich dual blood supply. B: Correct. The venous system is low-pressure, which affects how bleeding behaves. The key includes this, and it is a reasonable teaching point. C: Correct. Sinusoids are disrupted, causing bleeding. D: Correct. Impaired clotting factor synthesis prolongs bleeding. E: Incorrect. Clot stabilisation is not immediate in all cases; haemorrhage is often ongoing."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following clinical features are explained by liver injury?",
+    "q-number": 87,
+    "options": [
+      "Right upper quadrant pain",
+      "Signs of hypovolemic shock",
+      "Referred pain to right shoulder (Kehr’s sign)",
+      "Hematuria",
+      "Abdominal distension"
+    ],
+    "answer": [
+      "Right upper quadrant pain",
+      "Signs of hypovolemic shock",
+      "Referred pain to right shoulder (Kehr’s sign)",
+      "Abdominal distension"
+    ],
+    "explanation": "A: Correct. Liver injury causes right upper quadrant pain. B: Correct. Blood loss causes hypovolaemic shock. C: Correct. Kehr's sign is referred shoulder-tip pain from diaphragmatic irritation. D: Incorrect. Haematuria is not a feature of liver injury. E: Correct. Haemoperitoneum causes distension."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications arise due to liver injury?",
+    "q-number": 88,
+    "options": [
+      "Hemoperitoneum",
+      "Bile leak (biloma)",
+      "Abscess formation",
+      "Coagulopathy",
+      "Immediate cirrhosis"
+    ],
+    "answer": [
+      "Hemoperitoneum",
+      "Bile leak (biloma)",
+      "Abscess formation",
+      "Coagulopathy"
+    ],
+    "explanation": "A: Correct. Blood collects in the peritoneal cavity. B: Correct. Bile leaks cause a biloma. C: Correct. Infected collections can form abscesses. D: Correct. Coagulopathy follows massive blood loss and transfusion. E: Incorrect. Cirrhosis does not develop immediately after liver injury."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain why many liver injuries are managed conservatively?",
+    "q-number": 89,
+    "options": [
+      "Liver has strong regenerative capacity",
+      "Bleeding may tamponade spontaneously",
+      "Surgical intervention always required",
+      "Stable patients can be monitored",
+      "Risk of worsening hemorrhage with unnecessary surgery"
+    ],
+    "answer": [
+      "Liver has strong regenerative capacity",
+      "Bleeding may tamponade spontaneously",
+      "Stable patients can be monitored",
+      "Risk of worsening hemorrhage with unnecessary surgery"
+    ],
+    "explanation": "A: Correct. The liver regenerates well. B: Correct. Bleeding often tamponades spontaneously. C: Incorrect. Surgery is not always required; many injuries are managed non-operatively. D: Correct. Stable patients can be monitored safely. E: Correct. Unnecessary surgery can worsen haemorrhage and increase complications."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to the formation of a liver abscess?",
+    "q-number": 90,
+    "options": [
+      "Spread of infection via the portal vein",
+      "Ascending infection through the biliary tract",
+      "Hematogenous spread via hepatic artery",
+      "Direct extension from adjacent organs",
+      "Sterile inflammation without infection"
+    ],
+    "answer": [
+      "Spread of infection via the portal vein",
+      "Ascending infection through the biliary tract",
+      "Hematogenous spread via hepatic artery",
+      "Direct extension from adjacent organs"
+    ],
+    "explanation": "A: Correct. Infection can spread via the portal vein, for example from the bowel. B: Correct. Infection can ascend through the biliary tract. C: Correct. Bacteraemia can seed the liver through the hepatic artery. D: Correct. Adjacent infection such as from the gallbladder can extend directly into the liver. E: Incorrect. Liver abscesses are infective, not sterile."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following correctly describe types of liver abscess?",
+    "q-number": 91,
+    "options": [
+      "Pyogenic abscess caused by bacteria",
+      "Amoebic abscess caused by Entamoeba histolytica",
+      "Fungal abscess in immunocompromised patients",
+      "Viral abscess as a common cause",
+      "Mixed infections may occur"
+    ],
+    "answer": [
+      "Pyogenic abscess caused by bacteria",
+      "Amoebic abscess caused by Entamoeba histolytica",
+      "Fungal abscess in immunocompromised patients",
+      "Mixed infections may occur"
+    ],
+    "explanation": "A: Correct. Pyogenic abscesses are caused by bacteria. B: Correct. Amoebic abscesses are caused by Entamoeba histolytica. C: Correct. Fungal abscesses occur in immunocompromised patients. D: Incorrect. Viral abscess is not a common cause of liver abscess. E: Correct. Mixed infections occur, especially with polymicrobial sources."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following symptoms/signs are explained by liver abscess?",
+    "q-number": 92,
+    "options": [
+      "Fever with chills",
+      "Right upper quadrant pain",
+      "Hepatomegaly",
+      "Jaundice",
+      "Hematuria"
+    ],
+    "answer": [
+      "Fever with chills",
+      "Right upper quadrant pain",
+      "Hepatomegaly",
+      "Jaundice"
+    ],
+    "explanation": "A: Correct. Infection causes fever with rigors. B: Correct. The abscess causes right upper quadrant pain. C: Correct. The enlarged liver can be palpated. D: Correct. Jaundice occurs when biliary function is impaired or in severe disease. E: Incorrect. Haematuria is not a feature of liver abscess."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications can arise from liver abscess?",
+    "q-number": 93,
+    "options": [
+      "Rupture into peritoneal cavity → peritonitis",
+      "Rupture into pleural cavity → empyema",
+      "Septicemia",
+      "Extension into lungs",
+      "Immediate cirrhosis"
+    ],
+    "answer": [
+      "Rupture into peritoneal cavity → peritonitis",
+      "Rupture into pleural cavity → empyema",
+      "Septicemia",
+      "Extension into lungs"
+    ],
+    "explanation": "A: Correct. Rupture into the peritoneum causes peritonitis. B: Correct. Rupture into the pleural cavity causes empyema. C: Correct. Bacteraemia causes septicaemia. D: Correct. The abscess can extend upwards into the lung. E: Incorrect. Cirrhosis does not follow immediately from liver abscess."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate in evaluating or managing liver abscess?",
+    "q-number": 94,
+    "options": [
+      "Ultrasound or CT scan for localization",
+      "Aspiration for diagnosis and drainage",
+      "Antibiotic therapy",
+      "Immediate liver transplantation",
+      "Serology for amoebic abscess"
+    ],
+    "answer": [
+      "Ultrasound or CT scan for localization",
+      "Aspiration for diagnosis and drainage",
+      "Antibiotic therapy",
+      "Serology for amoebic abscess"
+    ],
+    "explanation": "A: Correct. Ultrasound or CT localises the abscess. B: Correct. Aspiration confirms the diagnosis and drains the abscess. C: Correct. Antibiotics treat the infection. D: Incorrect. Liver transplantation is not an immediate treatment for abscess. E: Correct. Serology confirms amoebic abscess."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to the development of ascites?",
+    "q-number": 95,
+    "options": [
+      "Increased hydrostatic pressure in portal circulation",
+      "Hypoalbuminemia reducing plasma oncotic pressure",
+      "Activation of RAAS leading to sodium retention",
+      "Increased capillary permeability",
+      "Decreased lymph production"
+    ],
+    "answer": [
+      "Increased hydrostatic pressure in portal circulation",
+      "Hypoalbuminemia reducing plasma oncotic pressure",
+      "Activation of RAAS leading to sodium retention",
+      "Increased capillary permeability"
+    ],
+    "explanation": "A: Correct. Raised portal pressure drives fluid into the peritoneum. B: Correct. Low albumin reduces oncotic pressure. C: Correct. RAAS activation drives sodium retention. D: Correct. Increased sinusoidal and capillary permeability contributes to fluid leak. This is accepted in teaching, though less central than the first three. E: Incorrect. Lymph production increases in ascites, rather than decreases."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain ascites specifically in cirrhosis?",
+    "q-number": 96,
+    "options": [
+      "Increased intrahepatic resistance",
+      "Splanchnic vasodilation",
+      "Effective arterial underfilling",
+      "Renal sodium retention",
+      "Increased systemic vascular resistance"
+    ],
+    "answer": [
+      "Increased intrahepatic resistance",
+      "Splanchnic vasodilation",
+      "Effective arterial underfilling",
+      "Renal sodium retention"
+    ],
+    "explanation": "A: Correct. Increased intrahepatic resistance raises portal pressure. B: Correct. Splanchnic vasodilation lowers effective arterial volume. C: Correct. Effective arterial underfilling drives sodium retention. D: Correct. Renal sodium retention maintains the fluid build-up. E: Incorrect. Systemic vascular resistance falls in cirrhosis, not rises."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are clinical features of ascites?",
+    "q-number": 97,
+    "options": [
+      "Abdominal distension",
+      "Shifting dullness",
+      "Fluid thrill",
+      "Peripheral edema",
+      "Hyperactive bowel sounds"
+    ],
+    "answer": [
+      "Abdominal distension",
+      "Shifting dullness",
+      "Fluid thrill",
+      "Peripheral edema"
+    ],
+    "explanation": "A: Correct. Fluid causes abdominal distension. B: Correct. Shifting dullness is elicited by percussion as fluid moves. C: Correct. A fluid thrill can be felt across the abdomen. D: Correct. Fluid retention causes peripheral oedema. E: Incorrect. Bowel sounds are typically reduced, not hyperactive, in ascites."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications arise from ascites?",
+    "q-number": 98,
+    "options": [
+      "Spontaneous bacterial peritonitis (SBP)",
+      "Hepatorenal syndrome",
+      "Respiratory compromise",
+      "Umbilical hernia",
+      "Acute pancreatitis"
+    ],
+    "answer": [
+      "Spontaneous bacterial peritonitis (SBP)",
+      "Hepatorenal syndrome",
+      "Respiratory compromise",
+      "Umbilical hernia"
+    ],
+    "explanation": "A: Correct. Infected ascitic fluid causes spontaneous bacterial peritonitis. B: Correct. Hepatorenal syndrome occurs in advanced ascites. C: Correct. Large ascites impairs diaphragmatic movement and breathing. D: Correct. Ascites raises intra-abdominal pressure, promoting umbilical hernia. E: Incorrect. Acute pancreatitis is not caused by ascites."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are important in evaluating ascites?",
+    "q-number": 99,
+    "options": [
+      "Serum-ascites albumin gradient (SAAG)",
+      "Ascitic fluid cell count",
+      "Culture of ascitic fluid",
+      "Serum amylase for all cases",
+      "Ultrasound imaging"
+    ],
+    "answer": [
+      "Serum-ascites albumin gradient (SAAG)",
+      "Ascitic fluid cell count",
+      "Culture of ascitic fluid",
+      "Ultrasound imaging"
+    ],
+    "explanation": "A: Correct. SAAG separates portal hypertensive from other causes. B: Correct. Cell count detects infection such as SBP. C: Correct. Fluid culture identifies the organism. D: Incorrect. Serum amylase is not needed for all cases of ascites. E: Correct. Ultrasound confirms and guides sampling."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following describe the pathophysiology of papillary thyroid carcinoma?",
+    "q-number": 100,
+    "options": [
+      "Arises from follicular epithelial cells",
+      "Associated with BRAF mutation",
+      "Often linked to radiation exposure",
+      "Produces calcitonin",
+      "Shows papillary architecture histologically"
+    ],
+    "answer": [
+      "Arises from follicular epithelial cells",
+      "Associated with BRAF mutation",
+      "Often linked to radiation exposure",
+      "Shows papillary architecture histologically"
+    ],
+    "explanation": "A: Correct. PTC arises from follicular epithelial cells. B: Correct. BRAF V600E mutation is the most common driver. C: Correct. Radiation exposure is a recognised risk factor. D: Incorrect. PTC does not produce calcitonin; that is a feature of MTC. E: Correct. Papillary architecture is the defining histological pattern."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the spread of papillary thyroid carcinoma?",
+    "q-number": 101,
+    "options": [
+      "Lymphatic spread to cervical lymph nodes",
+      "Early hematogenous spread",
+      "Involvement of regional lymph nodes",
+      "Skip metastasis may occur",
+      "Direct spread to spleen is common"
+    ],
+    "answer": [
+      "Lymphatic spread to cervical lymph nodes",
+      "Involvement of regional lymph nodes",
+      "Skip metastasis may occur"
+    ],
+    "explanation": "A: Correct. PTC spreads early via lymphatics to cervical nodes. B: Incorrect. Haematogenous spread is late, not early, in PTC. C: Correct. Regional lymph nodes are commonly involved. D: Correct. Skip metastasis to distant nodes can occur. E: Incorrect. The spleen is not a common site of direct spread."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are characteristic histological features of papillary carcinoma?",
+    "q-number": 102,
+    "options": [
+      "Orphan Annie eye nuclei",
+      "Psammoma bodies",
+      "Nuclear grooves",
+      "Follicular invasion pattern",
+      "Ground-glass nuclei"
+    ],
+    "answer": [
+      "Orphan Annie eye nuclei",
+      "Psammoma bodies",
+      "Nuclear grooves",
+      "Ground-glass nuclei"
+    ],
+    "explanation": "A: Correct. Orphan Annie eye nuclei are a classic feature of PTC. B: Correct. Psammoma bodies are typical. C: Correct. Nuclear grooves are characteristic. D: Incorrect. Follicular invasion is a feature of follicular carcinoma, not classic PTC. E: Correct. Ground-glass (optically clear) nuclei are a classic finding."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are typical clinical features of papillary thyroid carcinoma?",
+    "q-number": 103,
+    "options": [
+      "Painless thyroid nodule",
+      "Cervical lymphadenopathy",
+      "Rapid onset severe pain",
+      "Euthyroid state in most patients",
+      "Hoarseness due to recurrent laryngeal nerve involvement"
+    ],
+    "answer": [
+      "Painless thyroid nodule",
+      "Cervical lymphadenopathy",
+      "Euthyroid state in most patients",
+      "Hoarseness due to recurrent laryngeal nerve involvement"
+    ],
+    "explanation": "A: Correct. A painless nodule is the typical presentation. B: Correct. Cervical lymphadenopathy is common. C: Incorrect. PTC causes slow, painless enlargement, not rapid severe pain. D: Correct. Most patients are euthyroid. E: Correct. Recurrent laryngeal nerve involvement causes hoarseness."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate management strategies for papillary thyroid carcinoma?",
+    "q-number": 104,
+    "options": [
+      "Total thyroidectomy",
+      "Radioactive iodine therapy",
+      "TSH suppression therapy",
+      "Monitoring thyroglobulin levels",
+      "Routine chemotherapy as first-line"
+    ],
+    "answer": [
+      "Total thyroidectomy",
+      "Radioactive iodine therapy",
+      "TSH suppression therapy",
+      "Monitoring thyroglobulin levels"
+    ],
+    "explanation": "A: Correct. Total thyroidectomy is standard for most PTC. B: Correct. RAI is used for ablation in higher-risk patients. C: Correct. TSH suppression reduces recurrence in differentiated thyroid cancer. D: Correct. Thyroglobulin monitors for recurrence. E: Incorrect. Chemotherapy is not first-line; PTC is usually treated surgically."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to the development of goiter?",
+    "q-number": 105,
+    "options": [
+      "Chronic stimulation by TSH",
+      "Iodine deficiency",
+      "Impaired thyroid hormone synthesis",
+      "Increased thyroid hormone levels suppressing TSH",
+      "Thyroid follicular cell hyperplasia"
+    ],
+    "answer": [
+      "Chronic stimulation by TSH",
+      "Iodine deficiency",
+      "Impaired thyroid hormone synthesis",
+      "Thyroid follicular cell hyperplasia"
+    ],
+    "explanation": "A: Correct. Chronic TSH stimulation drives gland growth. B: Correct. Iodine deficiency reduces hormone synthesis and raises TSH. C: Correct. Impaired hormone synthesis raises TSH and enlarges the gland. D: Incorrect. Raised thyroid hormone suppresses TSH and does not cause goitre. E: Correct. Follicular hyperplasia enlarges the gland."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following correctly describe types of goiter?",
+    "q-number": 106,
+    "options": [
+      "Diffuse goiter due to uniform gland enlargement",
+      "Multinodular goiter due to repeated cycles of stimulation",
+      "Toxic goiter associated with hyperthyroidism",
+      "Simple goiter always causes hyperthyroidism",
+      "Endemic goiter linked to iodine deficiency"
+    ],
+    "answer": [
+      "Diffuse goiter due to uniform gland enlargement",
+      "Multinodular goiter due to repeated cycles of stimulation",
+      "Toxic goiter associated with hyperthyroidism",
+      "Endemic goiter linked to iodine deficiency"
+    ],
+    "explanation": "A: Correct. Diffuse goitre enlarges the gland uniformly. B: Correct. Multinodular goitre develops from repeated cycles of stimulation and repair. C: Correct. Toxic goitre is associated with hyperthyroidism. D: Incorrect. Simple goitre is euthyroid and does not always cause hyperthyroidism. E: Correct. Endemic goitre is caused by iodine deficiency."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following features are due to enlargement of the thyroid gland?",
+    "q-number": 107,
+    "options": [
+      "Neck swelling",
+      "Dysphagia",
+      "Dyspnea",
+      "Hoarseness",
+      "Hematuria"
+    ],
+    "answer": [
+      "Neck swelling",
+      "Dysphagia",
+      "Dyspnea",
+      "Hoarseness"
+    ],
+    "explanation": "A: Correct. Neck swelling is the direct effect of enlargement. B: Correct. Enlargement can compress the oesophagus, causing dysphagia. C: Correct. Enlargement compresses the trachea, causing dyspnoea. D: Correct. Enlargement can compress the recurrent laryngeal nerve, causing hoarseness. E: Incorrect. Haematuria is not caused by thyroid enlargement."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain hyperthyroidism in toxic goiter?",
+    "q-number": 108,
+    "options": [
+      "Autonomous hormone production",
+      "TSH-independent thyroid activity",
+      "Increased sensitivity to TSH",
+      "Increased circulating T3 and T4",
+      "Suppressed TSH levels"
+    ],
+    "answer": [
+      "Autonomous hormone production",
+      "TSH-independent thyroid activity",
+      "Increased circulating T3 and T4",
+      "Suppressed TSH levels"
+    ],
+    "explanation": "A: Correct. Autonomous hormone production causes the thyrotoxicosis. B: Correct. Activity is TSH-independent. C: Incorrect. Toxic goitre is autonomous, not increased sensitivity to TSH. D: Correct. Circulating T3 and T4 are raised. E: Correct. TSH is suppressed by the excess hormone."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications can arise from long-standing goiter?",
+    "q-number": 109,
+    "options": [
+      "Tracheal compression",
+      "Retrosternal extension",
+      "Superior vena cava (SVC) obstruction",
+      "Malignant transformation",
+      "Acute appendicitis"
+    ],
+    "answer": [
+      "Tracheal compression",
+      "Retrosternal extension",
+      "Superior vena cava (SVC) obstruction",
+      "Malignant transformation"
+    ],
+    "explanation": "A: Correct. Enlargement can compress the trachea. B: Correct. Goitre can extend retrosternally, causing compression. C: Correct. Retrosternal goitre can obstruct the superior vena cava. D: Correct. Long-standing goitre carries a risk of malignant change. E: Incorrect. Acute appendicitis is not a complication of goitre."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain thyroiditis?",
+    "q-number": 110,
+    "options": [
+      "Inflammation of thyroid tissue",
+      "Release of preformed thyroid hormones",
+      "Autoimmune-mediated destruction",
+      "Increased synthesis of new thyroid hormones",
+      "Transient hyperthyroid phase followed by hypothyroidism"
+    ],
+    "answer": [
+      "Inflammation of thyroid tissue",
+      "Release of preformed thyroid hormones",
+      "Autoimmune-mediated destruction",
+      "Transient hyperthyroid phase followed by hypothyroidism"
+    ],
+    "explanation": "A: Correct. Thyroiditis is inflammation of thyroid tissue. B: Correct. Preformed hormone is released from damaged follicles. C: Correct. Autoimmune destruction is a common mechanism. D: Incorrect. New hormone synthesis is typically reduced in thyroiditis, not increased. E: Correct. Many thyroiditides show a transient hyperthyroid phase followed by hypothyroidism."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are features of subacute thyroiditis?",
+    "q-number": 111,
+    "options": [
+      "Painful, tender thyroid gland",
+      "Viral etiology",
+      "Elevated ESR",
+      "Increased radioactive iodine uptake",
+      "Transient hyperthyroidism"
+    ],
+    "answer": [
+      "Painful, tender thyroid gland",
+      "Viral etiology",
+      "Elevated ESR",
+      "Transient hyperthyroidism"
+    ],
+    "explanation": "A: Correct. The gland is painful and tender. B: Correct. The cause is thought to be viral. C: Correct. ESR is markedly raised. D: Incorrect. Radioactive iodine uptake is low, not increased, because the release is of preformed hormone. E: Correct. Transient hyperthyroidism occurs."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain Hashimoto thyroiditis?",
+    "q-number": 112,
+    "options": [
+      "Autoimmune destruction of thyroid follicles",
+      "Presence of anti-TPO antibodies",
+      "Lymphocytic infiltration",
+      "Progressive hypothyroidism",
+      "Increased radioactive iodine uptake"
+    ],
+    "answer": [
+      "Autoimmune destruction of thyroid follicles",
+      "Presence of anti-TPO antibodies",
+      "Lymphocytic infiltration",
+      "Progressive hypothyroidism"
+    ],
+    "explanation": "A: Correct. Autoimmune destruction of follicles is the mechanism. B: Correct. Anti-TPO antibodies are typical. C: Correct. Lymphocytic infiltration is the histological hallmark. D: Correct. Progressive hypothyroidism results from follicle loss. E: Incorrect. RAI uptake is typically low or normal in Hashimoto thyroiditis, not increased."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following describe postpartum thyroiditis?",
+    "q-number": 113,
+    "options": [
+      "Occurs after pregnancy",
+      "Autoimmune mechanism",
+      "Transient hyperthyroid phase",
+      "Followed by hypothyroid phase",
+      "Always requires surgical treatment"
+    ],
+    "answer": [
+      "Occurs after pregnancy",
+      "Autoimmune mechanism",
+      "Transient hyperthyroid phase",
+      "Followed by hypothyroid phase"
+    ],
+    "explanation": "A: Correct. It occurs after pregnancy. B: Correct. It has an autoimmune mechanism. C: Correct. A transient hyperthyroid phase is typical. D: Correct. A hypothyroid phase often follows. E: Incorrect. Postpartum thyroiditis is managed medically; surgery is not required."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following help distinguish thyroiditis from Graves’ disease?",
+    "q-number": 114,
+    "options": [
+      "Low radioactive iodine uptake",
+      "Absence of TSH receptor antibodies",
+      "Pain in subacute thyroiditis",
+      "Increased hormone synthesis",
+      "Transient course"
+    ],
+    "answer": [
+      "Low radioactive iodine uptake",
+      "Absence of TSH receptor antibodies",
+      "Pain in subacute thyroiditis",
+      "Transient course"
+    ],
+    "explanation": "A: Correct. RAI uptake is low in thyroiditis, unlike Graves'. B: Correct. Graves' disease has TSH receptor antibodies, which thyroiditis does not. C: Correct. Pain is a feature of subacute thyroiditis. D: Incorrect. Hormone synthesis is increased in Graves' disease, not in thyroiditis. E: Correct. Thyroiditis is typically transient, while Graves' is persistent."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms are central to the development of acute pancreatitis?",
+    "q-number": 115,
+    "options": [
+      "Premature activation of trypsin within pancreatic acinar cells",
+      "Autodigestion of pancreatic tissue",
+      "Gallstone obstruction at the ampulla of Vater",
+      "Alcohol-induced acinar cell injury"
+    ],
+    "answer": [
+      "Premature activation of trypsin within pancreatic acinar cells",
+      "Autodigestion of pancreatic tissue",
+      "Gallstone obstruction at the ampulla of Vater",
+      "Alcohol-induced acinar cell injury"
+    ],
+    "explanation": "A: Correct. Premature trypsin activation starts the cascade. B: Correct. Autodigestion damages the pancreas. C: Correct. Gallstone obstruction at the ampulla is a major cause. D: Correct. Alcohol injures acinar cells and is a major cause. E: Not applicable. Option E is not listed in this question."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the characteristic pain in pancreatitis?",
+    "q-number": 116,
+    "options": [
+      "Inflammation of pancreatic tissue",
+      "Retroperitoneal irritation",
+      "Radiation of pain to the back",
+      "Pain relieved by lying flat",
+      "Pain worsened after meals"
+    ],
+    "answer": [
+      "Inflammation of pancreatic tissue",
+      "Retroperitoneal irritation",
+      "Radiation of pain to the back",
+      "Pain worsened after meals"
+    ],
+    "explanation": "A: Correct. Inflammation of the pancreas causes the pain. B: Correct. Retroperitoneal irritation contributes to the pain. C: Correct. Pain radiates to the back. D: Incorrect. Pain is relieved by sitting forward, not by lying flat. E: Correct. Pain is typically worsened after meals."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain systemic complications in pancreatitis?",
+    "q-number": 117,
+    "options": [
+      "Release of inflammatory cytokines",
+      "Increased vascular permeability",
+      "Third spacing of fluids",
+      "Hypovolemic shock",
+      "Suppression of immune response"
+    ],
+    "answer": [
+      "Release of inflammatory cytokines",
+      "Increased vascular permeability",
+      "Third spacing of fluids",
+      "Hypovolemic shock"
+    ],
+    "explanation": "A: Correct. Cytokines drive the systemic response. B: Correct. Vascular permeability increases, causing fluid leak. C: Correct. Third spacing of fluid occurs. D: Correct. Hypovolaemic shock can follow fluid loss. E: Arguable. Immunosuppression (the late compensatory phase) is recognised in severe disease, but it is not standard teaching for early systemic complications. The key excludes this, and I agree with the key."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms explain complications of acute pancreatitis?",
+    "q-number": 118,
+    "options": [
+      "Fat necrosis due to lipase activity",
+      "Hypocalcemia due to calcium binding (saponification)",
+      "Pseudocyst formation from fluid collections",
+      "Hemorrhage due to vascular erosion",
+      "Immediate fibrosis in early disease"
+    ],
+    "answer": [
+      "Fat necrosis due to lipase activity",
+      "Hypocalcemia due to calcium binding (saponification)",
+      "Pseudocyst formation from fluid collections",
+      "Hemorrhage due to vascular erosion"
+    ],
+    "explanation": "A: Correct. Lipase causes fat necrosis. B: Correct. Calcium binds fatty acids in saponification, causing hypocalcaemia. C: Correct. Fluid collections form pseudocysts. D: Correct. Vessel erosion causes haemorrhage. E: Incorrect. Fibrosis develops in chronic disease, not early in acute pancreatitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following findings are explained by the pathophysiology of pancreatitis?",
+    "q-number": 119,
+    "options": [
+      "Elevated serum amylase and lipase",
+      "Reduced bowel sounds (ileus)",
+      "Hyperglycemia due to islet cell injury",
+      "Fever due to inflammation",
+      "Increased calcium levels"
+    ],
+    "answer": [
+      "Elevated serum amylase and lipase",
+      "Reduced bowel sounds (ileus)",
+      "Hyperglycemia due to islet cell injury",
+      "Fever due to inflammation"
+    ],
+    "explanation": "A: Correct. Pancreatic injury raises amylase and lipase. B: Correct. Ileus reduces bowel sounds. C: Correct. Islet cell injury causes hyperglycaemia. D: Correct. Inflammation causes fever. E: Incorrect. Calcium is typically low, not raised, in pancreatitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are essential components of a complete surgical history?",
+    "q-number": 120,
+    "options": [
+      "Presenting complaint",
+      "History of presenting illness",
+      "Past surgical history",
+      "Family history",
+      "Social history"
+    ],
+    "answer": [
+      "Presenting complaint",
+      "History of presenting illness",
+      "Past surgical history",
+      "Family history",
+      "Social history"
+    ],
+    "explanation": "A: Correct. The presenting complaint is a core component. B: Correct. The history of the presenting illness is a core component. C: Correct. The past surgical history is a core component. D: Correct. The family history is part of a complete history. E: Correct. The social history is part of a complete history."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following should be included when exploring the history of presenting illness?",
+    "q-number": 121,
+    "options": [
+      "Onset of symptoms",
+      "Duration and progression",
+      "Associated symptoms",
+      "Patient’s occupation",
+      "Aggravating and relieving factors"
+    ],
+    "answer": [
+      "Onset of symptoms",
+      "Duration and progression",
+      "Associated symptoms",
+      "Aggravating and relieving factors"
+    ],
+    "explanation": "A: Correct. Onset is essential to the history. B: Correct. Duration and progression are essential. C: Correct. Associated symptoms help the differential. D: Incorrect. Occupation belongs to the social history, not the presenting illness. E: Correct. Aggravating and relieving factors are essential."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are important when taking past surgical history?",
+    "q-number": 122,
+    "options": [
+      "Previous operations",
+      "Indications for surgery",
+      "Complications of prior surgery",
+      "Type of anesthesia used",
+      "Patient’s favorite food"
+    ],
+    "answer": [
+      "Previous operations",
+      "Indications for surgery",
+      "Complications of prior surgery",
+      "Type of anesthesia used"
+    ],
+    "explanation": "A: Correct. Previous operations must be recorded. B: Correct. The indication for each operation is important. C: Correct. Complications of previous surgery are important. D: Correct. The type of anaesthesia can reveal problems such as difficult airway or malignant hyperthermia. E: Incorrect. Food preferences are not relevant to surgical history."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are important in surgical drug history?",
+    "q-number": 123,
+    "options": [
+      "Current medications",
+      "Anticoagulant use",
+      "Drug allergies",
+      "Herbal medications",
+      "Blood group"
+    ],
+    "answer": [
+      "Current medications",
+      "Anticoagulant use",
+      "Drug allergies",
+      "Herbal medications"
+    ],
+    "explanation": "A: Correct. Current medications must be recorded. B: Correct. Anticoagulants affect bleeding risk. C: Correct. Drug allergies are essential for safe prescribing. D: Correct. Herbal medicines can interact with anaesthesia and surgery. E: Incorrect. Blood group is not part of the drug history."
+  },
+  {
+    "type": "sata",
+    "q": "Which aspects of social history are important in surgical patients?",
+    "q-number": 124,
+    "options": [
+      "Smoking",
+      "Alcohol intake",
+      "Occupation",
+      "Living conditions",
+      "Eye color"
+    ],
+    "answer": [
+      "Smoking",
+      "Alcohol intake",
+      "Occupation",
+      "Living conditions"
+    ],
+    "explanation": "A: Correct. Smoking affects wound healing and surgical risk. B: Correct. Alcohol affects anaesthesia, healing and withdrawal risk. C: Correct. Occupation can influence fitness, exposure and recovery. D: Correct. Living conditions affect discharge planning. E: Incorrect. Eye colour is not relevant to surgical history."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are considered red flag symptoms in surgical patients?",
+    "q-number": 125,
+    "options": [
+      "Unintentional weight loss",
+      "Persistent vomiting",
+      "Severe abdominal pain",
+      "Night sweats",
+      "Mild headache"
+    ],
+    "answer": [
+      "Unintentional weight loss",
+      "Persistent vomiting",
+      "Severe abdominal pain",
+      "Night sweats"
+    ],
+    "explanation": "A: Correct. Unintentional weight loss suggests malignancy. B: Correct. Persistent vomiting suggests obstruction or other serious pathology. C: Correct. Severe abdominal pain can indicate a surgical emergency. D: Correct. Night sweats can indicate malignancy or infection. E: Incorrect. Mild headache is not a surgical red flag in this context."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following contribute to the development of hepatocellular carcinoma?",
+    "q-number": 126,
+    "options": [
+      "Chronic hepatitis B infection",
+      "Chronic hepatitis C infection",
+      "Liver cirrhosis",
+      "Aflatoxin exposure",
+      "Acute appendicitis"
+    ],
+    "answer": [
+      "Chronic hepatitis B infection",
+      "Chronic hepatitis C infection",
+      "Liver cirrhosis",
+      "Aflatoxin exposure"
+    ],
+    "explanation": "A: Correct. Chronic hepatitis B is a major risk factor. B: Correct. Chronic hepatitis C is a major risk factor. C: Correct. Cirrhosis from any cause raises HCC risk. D: Correct. Aflatoxin exposure is a recognised risk factor. E: Incorrect. Acute appendicitis is not a risk factor for HCC."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain the mechanism of hepatocellular carcinoma?",
+    "q-number": 127,
+    "options": [
+      "Chronic inflammation leading to hepatocyte injury",
+      "Repeated cycles of regeneration and mutation",
+      "Genetic mutations (e.g., p53)",
+      "Increased apoptosis preventing tumor growth",
+      "Dysplastic nodule formation"
+    ],
+    "answer": [
+      "Chronic inflammation leading to hepatocyte injury",
+      "Repeated cycles of regeneration and mutation",
+      "Genetic mutations (e.g., p53)",
+      "Dysplastic nodule formation"
+    ],
+    "explanation": "A: Correct. Chronic inflammation drives carcinogenesis. B: Correct. Repeated regeneration increases the chance of mutation. C: Correct. TP53 mutations such as p53 are involved. D: Incorrect. Apoptosis is reduced in HCC, which allows tumour growth. E: Correct. Dysplastic nodules are precursors of HCC."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are typical features of hepatocellular carcinoma?",
+    "q-number": 128,
+    "options": [
+      "Right upper quadrant pain",
+      "Weight loss",
+      "Hepatomegaly",
+      "Jaundice",
+      "Hematuria"
+    ],
+    "answer": [
+      "Right upper quadrant pain",
+      "Weight loss",
+      "Hepatomegaly",
+      "Jaundice"
+    ],
+    "explanation": "A: Correct. Right upper quadrant pain is common. B: Correct. Weight loss is a frequent feature. C: Correct. Hepatomegaly is common. D: Correct. Jaundice occurs with advanced disease. E: Incorrect. Haematuria is not a feature of HCC."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are associated with hepatocellular carcinoma?",
+    "q-number": 129,
+    "options": [
+      "Elevated alpha-fetoprotein (AFP)",
+      "Hypoglycemia",
+      "Polycythemia",
+      "Hypercalcemia",
+      "Elevated TSH"
+    ],
+    "answer": [
+      "Elevated alpha-fetoprotein (AFP)",
+      "Hypoglycemia",
+      "Polycythemia",
+      "Hypercalcemia"
+    ],
+    "explanation": "A: Correct. Alpha-fetoprotein is a tumour marker raised in HCC. B: Correct. Hypoglycaemia can be paraneoplastic. C: Correct. Erythropoietin production can cause polycythaemia. D: Correct. Ectopic PTH-related peptide can cause hypercalcaemia. E: Incorrect. TSH is not raised by HCC."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications are explained by hepatocellular carcinoma?",
+    "q-number": 130,
+    "options": [
+      "Portal vein invasion",
+      "Portal hypertension",
+      "Ascites",
+      "Metastasis to lungs",
+      "Acute pancreatitis"
+    ],
+    "answer": [
+      "Portal vein invasion",
+      "Portal hypertension",
+      "Ascites",
+      "Metastasis to lungs"
+    ],
+    "explanation": "A: Correct. The tumour can invade the portal vein. B: Correct. Portal vein invasion and cirrhosis cause portal hypertension. C: Correct. Portal hypertension leads to ascites. D: Correct. HCC metastasises to the lungs. E: Incorrect. HCC does not cause acute pancreatitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms can lead to an acute abdomen?",
+    "q-number": 131,
+    "options": [
+      "Inflammation (e.g., appendicitis)",
+      "Perforation of a hollow viscus",
+      "Obstruction of bowel",
+      "Vascular compromise (ischemia)",
+      "Chronic stable disease without progression"
+    ],
+    "answer": [
+      "Inflammation (e.g., appendicitis)",
+      "Perforation of a hollow viscus",
+      "Obstruction of bowel",
+      "Vascular compromise (ischemia)"
+    ],
+    "explanation": "A: Correct. Inflammation such as appendicitis causes acute abdomen. B: Correct. Perforation of a hollow organ causes peritonitis. C: Correct. Bowel obstruction causes acute abdomen. D: Correct. Ischaemia causes acute abdomen. E: Incorrect. A chronic stable condition is not an acute abdomen."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are common causes of acute abdomen?",
+    "q-number": 132,
+    "options": [
+      "Appendicitis",
+      "Cholecystitis",
+      "Acute pancreatitis",
+      "Perforated peptic ulcer",
+      "Controlled hypertension"
+    ],
+    "answer": [
+      "Appendicitis",
+      "Cholecystitis",
+      "Acute pancreatitis",
+      "Perforated peptic ulcer"
+    ],
+    "explanation": "A: Correct. Appendicitis is the commonest cause. B: Correct. Acute cholecystitis is a common cause. C: Correct. Acute pancreatitis is a common cause. D: Correct. Perforated peptic ulcer causes acute abdomen. E: Incorrect. Controlled hypertension is not a cause of acute abdomen."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following signs indicate peritoneal irritation?",
+    "q-number": 133,
+    "options": [
+      "Rebound tenderness",
+      "Guarding",
+      "Rigidity (board-like abdomen)",
+      "Increased bowel sounds",
+      "Reduced bowel sounds (ileus)"
+    ],
+    "answer": [
+      "Rebound tenderness",
+      "Guarding",
+      "Rigidity (board-like abdomen)",
+      "Reduced bowel sounds (ileus)"
+    ],
+    "explanation": "A: Correct. Rebound tenderness indicates peritoneal irritation. B: Correct. Guarding is a protective reflex from peritoneal irritation. C: Correct. Board-like rigidity indicates peritonitis. D: Incorrect. Increased bowel sounds suggest obstruction, not peritonism. E: Correct. Reduced bowel sounds from ileus occur in peritonitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following systemic features may occur in acute abdomen?",
+    "q-number": 134,
+    "options": [
+      "Fever",
+      "Tachycardia",
+      "Hypotension",
+      "Leukocytosis",
+      "Bradycardia"
+    ],
+    "answer": [
+      "Fever",
+      "Tachycardia",
+      "Hypotension",
+      "Leukocytosis"
+    ],
+    "explanation": "A: Correct. Fever reflects the inflammatory response. B: Correct. Tachycardia reflects the systemic response. C: Correct. Hypotension occurs in severe or late disease. D: Correct. Leucocytosis reflects the inflammatory response. E: Incorrect. Bradycardia is not a typical feature."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following indicate a surgical emergency in acute abdomen?",
+    "q-number": 135,
+    "options": [
+      "Signs of peritonitis",
+      "Hemodynamic instability",
+      "Persistent vomiting with obstruction",
+      "Sudden severe abdominal pain (possible perforation)",
+      "Mild intermittent discomfort"
+    ],
+    "answer": [
+      "Signs of peritonitis",
+      "Hemodynamic instability",
+      "Persistent vomiting with obstruction",
+      "Sudden severe abdominal pain (possible perforation)"
+    ],
+    "explanation": "A: Correct. Signs of peritonitis mandate surgery. B: Correct. Haemodynamic instability indicates a surgical emergency. C: Correct. Persistent vomiting with obstruction requires urgent surgery. D: Correct. Sudden severe pain suggests perforation. E: Incorrect. Mild intermittent discomfort is not a surgical emergency."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to the formation of an appendiceal abscess?",
+    "q-number": 136,
+    "options": [
+      "Perforation of an inflamed appendix",
+      "Localized containment of infection by omentum",
+      "Spread of infection throughout the entire peritoneal cavity immediately",
+      "Formation of a localized pus collection",
+      "Immune response limiting spread of infection"
+    ],
+    "answer": [
+      "Perforation of an inflamed appendix",
+      "Localized containment of infection by omentum",
+      "Formation of a localized pus collection",
+      "Immune response limiting spread of infection"
+    ],
+    "explanation": "A: Correct. Perforation of the appendix releases infection locally. B: Correct. The omentum contains the infection. C: Incorrect. Infection is contained, not spread immediately throughout the peritoneum. D: Correct. A localised pus collection forms the abscess. E: Correct. The immune response limits spread."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are typical features of appendiceal abscess?",
+    "q-number": 137,
+    "options": [
+      "Persistent right lower quadrant pain",
+      "Fever",
+      "Palpable tender mass in right iliac fossa",
+      "Sudden complete relief of pain",
+      "Leukocytosis"
+    ],
+    "answer": [
+      "Persistent right lower quadrant pain",
+      "Fever",
+      "Palpable tender mass in right iliac fossa",
+      "Leukocytosis"
+    ],
+    "explanation": "A: Correct. Pain persists in the right lower quadrant. B: Correct. Fever is typical. C: Correct. A tender mass is palpable in the right iliac fossa. D: Incorrect. Sudden complete relief of pain suggests perforation, not abscess. E: Correct. Leucocytosis is typical."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate management strategies for appendiceal abscess?",
+    "q-number": 138,
+    "options": [
+      "Intravenous antibiotics",
+      "Image-guided drainage",
+      "Immediate surgery in all cases",
+      "Interval appendectomy after resolution",
+      "Observation without treatment"
+    ],
+    "answer": [
+      "Intravenous antibiotics",
+      "Image-guided drainage",
+      "Interval appendectomy after resolution"
+    ],
+    "explanation": "A: Correct. IV antibiotics treat the infection. B: Correct. Image-guided drainage is used for larger abscesses. C: Incorrect. Immediate surgery is not needed in all cases. D: Correct. Interval appendicectomy follows resolution. E: Incorrect. Observation alone without treatment is unsafe."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms contribute to large bowel obstruction?",
+    "q-number": 139,
+    "options": [
+      "Mechanical blockage (e.g., tumor, volvulus)",
+      "Progressive colonic distension",
+      "Increased intraluminal pressure",
+      "Decreased bacterial activity",
+      "Risk of bowel wall ischemia"
+    ],
+    "answer": [
+      "Mechanical blockage (e.g., tumor, volvulus)",
+      "Progressive colonic distension",
+      "Increased intraluminal pressure",
+      "Risk of bowel wall ischemia"
+    ],
+    "explanation": "A: Correct. Mechanical blockage causes obstruction. B: Correct. Colonic distension progresses behind the obstruction. C: Correct. Intraluminal pressure rises. D: Incorrect. Bacterial activity increases gas production; decreased activity is not a mechanism. E: Correct. Raised pressure risks bowel wall ischaemia."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are common causes of LBO?",
+    "q-number": 140,
+    "options": [
+      "Colorectal carcinoma",
+      "Sigmoid volvulus",
+      "Fecal impaction",
+      "Adhesions (most common cause overall)",
+      "Diverticular stricture"
+    ],
+    "answer": [
+      "Colorectal carcinoma",
+      "Sigmoid volvulus",
+      "Fecal impaction",
+      "Diverticular stricture"
+    ],
+    "explanation": "A: Correct. Colorectal carcinoma is the commonest cause of LBO in adults. B: Correct. Sigmoid volvulus causes LBO. C: Correct. Faecal impaction causes LBO. D: Incorrect. Adhesions are the most common cause of small bowel obstruction, not large bowel obstruction. E: Correct. Diverticular stricture causes LBO."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are typical features of large bowel obstruction?",
+    "q-number": 141,
+    "options": [
+      "Abdominal distension",
+      "Constipation or obstipation",
+      "Vomiting (late feature)",
+      "Colicky abdominal pain",
+      "Early profuse vomiting"
+    ],
+    "answer": [
+      "Abdominal distension",
+      "Constipation or obstipation",
+      "Vomiting (late feature)",
+      "Colicky abdominal pain"
+    ],
+    "explanation": "A: Correct. Distension develops as gas and fluid accumulate. B: Correct. Constipation or obstipation occurs. C: Correct. Vomiting is a late feature in LBO. D: Correct. Colicky pain occurs as peristalsis works against the obstruction. E: Incorrect. Early profuse vomiting is typical of small bowel obstruction, not large bowel."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications can arise from untreated large bowel obstruction?",
+    "q-number": 142,
+    "options": [
+      "Bowel ischemia",
+      "Perforation (especially cecum)",
+      "Peritonitis",
+      "Sepsis",
+      "Immediate pancreatitis"
+    ],
+    "answer": [
+      "Bowel ischemia",
+      "Perforation (especially cecum)",
+      "Peritonitis",
+      "Sepsis"
+    ],
+    "explanation": "A: Correct. Ischaemia can follow raised pressure. B: Correct. The caecum is at risk of perforation. C: Correct. Perforation causes peritonitis. D: Correct. Infection leads to sepsis. E: Incorrect. Pancreatitis is not a direct complication of LBO."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain closed-loop obstruction in large bowel?",
+    "q-number": 143,
+    "options": [
+      "Obstruction at two points",
+      "Competent ileocecal valve",
+      "Rapid increase in intraluminal pressure",
+      "Decompression into small bowel",
+      "Increased risk of perforation"
+    ],
+    "answer": [
+      "Obstruction at two points",
+      "Competent ileocecal valve",
+      "Rapid increase in intraluminal pressure",
+      "Increased risk of perforation"
+    ],
+    "explanation": "A: Correct. The loop is obstructed at two points. B: Correct. A competent ileocaecal valve traps the loop. C: Correct. Pressure rises rapidly within the closed loop. D: Incorrect. A closed loop does not decompress into the small bowel. E: Correct. The high pressure increases the risk of perforation."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate in managing large bowel obstruction?",
+    "q-number": 144,
+    "options": [
+      "Fluid resuscitation",
+      "Nasogastric decompression",
+      "Surgical intervention in complete obstruction",
+      "Colonoscopic decompression for volvulus",
+      "Immediate discharge"
+    ],
+    "answer": [
+      "Fluid resuscitation",
+      "Nasogastric decompression",
+      "Surgical intervention in complete obstruction",
+      "Colonoscopic decompression for volvulus"
+    ],
+    "explanation": "A: Correct. Fluid resuscitation is essential. B: Correct. Nasogastric decompression reduces vomiting and distension. C: Correct. Complete obstruction needs surgical management. D: Correct. Colonoscopic decompression can untwist a sigmoid volvulus. E: Incorrect. Immediate discharge is unsafe in LBO."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following mechanisms lead to the formation of an appendicular abscess?",
+    "q-number": 145,
+    "options": [
+      "Perforation of an inflamed appendix",
+      "Local containment by omentum (“abdominal policeman”)",
+      "Immediate spread of infection to entire peritoneal cavity",
+      "Fibrin deposition forming a localized wall",
+      "Adhesion of surrounding bowel loops"
+    ],
+    "answer": [
+      "Perforation of an inflamed appendix",
+      "Local containment by omentum (“abdominal policeman”)",
+      "Fibrin deposition forming a localized wall",
+      "Adhesion of surrounding bowel loops"
+    ],
+    "explanation": "A: Correct. Perforation of an inflamed appendix starts the abscess. B: Correct. The omentum contains the infection, known as the abdominal policeman. C: Incorrect. Infection is contained and does not spread immediately across the peritoneum. D: Correct. Fibrin forms a localised wall around the collection. E: Correct. Adjacent bowel loops adhere to wall off the infection."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are typical features of appendicular abscess?",
+    "q-number": 146,
+    "options": [
+      "Persistent right iliac fossa pain",
+      "Fever with chills",
+      "Palpable tender mass in right lower abdomen",
+      "Sudden disappearance of pain",
+      "Leukocytosis"
+    ],
+    "answer": [
+      "Persistent right iliac fossa pain",
+      "Fever with chills",
+      "Palpable tender mass in right lower abdomen",
+      "Leukocytosis"
+    ],
+    "explanation": "A: Correct. Right iliac fossa pain persists. B: Correct. Fever with chills is typical. C: Correct. A tender mass is palpable. D: Incorrect. Sudden disappearance of pain suggests perforation, not abscess. E: Correct. Leucocytosis is typical."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following explain why the infection remains localized in appendicular abscess?",
+    "q-number": 147,
+    "options": [
+      "Omental wrapping around the appendix",
+      "Local immune response",
+      "Adhesion formation between tissues",
+      "Increased intra-abdominal pressure spreading infection",
+      "Fibrin barrier formation"
+    ],
+    "answer": [
+      "Omental wrapping around the appendix",
+      "Local immune response",
+      "Adhesion formation between tissues",
+      "Fibrin barrier formation"
+    ],
+    "explanation": "A: Correct. The omentum wraps around the appendix to contain infection. B: Correct. The local immune response contains infection. C: Correct. Adhesions form between tissues to wall off infection. D: Incorrect. Raised intra-abdominal pressure would spread infection, not localise it. E: Correct. Fibrin deposition creates a barrier."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following complications may occur?",
+    "q-number": 148,
+    "options": [
+      "Rupture leading to generalized peritonitis",
+      "Sepsis",
+      "Intestinal obstruction due to adhesions",
+      "Fistula formation",
+      "Acute myocardial infarction"
+    ],
+    "answer": [
+      "Rupture leading to generalized peritonitis",
+      "Sepsis",
+      "Intestinal obstruction due to adhesions",
+      "Fistula formation"
+    ],
+    "explanation": "A: Correct. Rupture of the abscess causes generalised peritonitis. B: Correct. Sepsis can follow abscess rupture or spread. C: Correct. Adhesions can cause intestinal obstruction. D: Correct. Fistulae can form, especially with bowel. E: Incorrect. Myocardial infarction is not a complication of appendicular abscess."
+  },
+  {
+    "type": "sata",
+    "q": "Which of the following are appropriate management strategies?",
+    "q-number": 149,
+    "options": [
+      "Intravenous antibiotics",
+      "Image-guided drainage",
+      "Immediate appendectomy in all patients",
+      "Interval appendectomy after resolution",
+      "Conservative observation without treatment"
+    ],
+    "answer": [
+      "Intravenous antibiotics",
+      "Image-guided drainage",
+      "Interval appendectomy after resolution"
+    ],
+    "explanation": "A: Correct. IV antibiotics treat the infection. B: Correct. Image-guided drainage treats larger collections. C: Incorrect. Immediate appendicectomy in all patients is not appropriate; abscess is managed first. D: Correct. Interval appendicectomy follows resolution. E: Incorrect. Observation alone without treatment is unsafe."
+  }
+]

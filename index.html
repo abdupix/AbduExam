@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MCQ & SATA Practice</title>
+<style>
+:root{
+  --bg:#f5f6f8;--card:#fff;--text:#1d2330;--muted:#677084;--border:#d9dde5;
+  --accent:#2f5fd0;--accent-text:#fff;--ok:#1e8a4c;--ok-bg:#e4f5ea;--bad:#c0392b;--bad-bg:#fbe8e5;
+  --warn-bg:#fff4d6;--warn:#8a6100;--sel:#e8eefc;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#14171d;--card:#1d222b;--text:#e8ebf1;--muted:#9aa3b5;--border:#323948;
+  --accent:#6b94f5;--accent-text:#0d1220;--ok:#4cc17c;--ok-bg:#16301f;--bad:#f07a6c;--bad-bg:#3a1c19;
+  --warn-bg:#3a3017;--warn:#e8c26a;--sel:#26304a}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:16px}
+header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:12px}
+h1{font-size:1.2rem;margin:0}
+.stats{color:var(--muted);font-size:.9rem}
+.bar{height:6px;background:var(--border);border-radius:3px;overflow:hidden;margin:6px 0 14px}
+.bar>i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;margin-bottom:14px}
+button{font:inherit;cursor:pointer;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:8px;padding:8px 14px}
+button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);color:var(--accent-text);border-color:var(--accent);font-weight:600}
+button.danger{color:var(--bad)}
+button:disabled{opacity:.45;cursor:not-allowed}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.spread{justify-content:space-between}
+.badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:99px;background:var(--sel);color:var(--accent)}
+.qmeta{color:var(--muted);font-size:.85rem;margin-bottom:8px;display:flex;gap:8px;align-items:center}
+.qtext{font-size:1.08rem;margin:6px 0 4px;white-space:pre-wrap}
+.hint{color:var(--muted);font-size:.85rem;margin-bottom:10px}
+.opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin:8px 0;cursor:pointer}
+.opt:hover{border-color:var(--accent)}
+.opt.sel{background:var(--sel);border-color:var(--accent)}
+.opt input{margin-top:5px}
+.opt .l{font-weight:700;min-width:1.3em;color:var(--muted)}
+.opt.locked{cursor:default}
+.opt.right{background:var(--ok-bg);border-color:var(--ok)}
+.opt.wrong{background:var(--bad-bg);border-color:var(--bad)}
+.opt.missed{border-color:var(--ok);border-style:dashed}
+.tag{margin-left:auto;font-size:.78rem;font-weight:700;white-space:nowrap}
+.tag.ok{color:var(--ok)}.tag.bad{color:var(--bad)}
+.result{padding:10px 12px;border-radius:8px;font-weight:600;margin:12px 0 8px}
+.result.ok{background:var(--ok-bg);color:var(--ok)}
+.result.bad{background:var(--bad-bg);color:var(--bad)}
+.expl{border-left:4px solid var(--accent);padding:8px 12px;background:var(--sel);border-radius:0 8px 8px 0}
+.expl ul{margin:6px 0 2px;padding-left:20px}
+.expl li{margin:4px 0}
+h2{font-size:1.05rem;margin:0 0 10px}
+.setname{font-size:1.1rem;font-weight:700}
+.setcard .bar{margin:10px 0 12px}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+@media (max-width:620px){.charts{grid-template-columns:1fr}}
+.chartbox{border:1px solid var(--border);border-radius:10px;padding:10px;min-width:0}
+.chartbox svg{width:100%;height:auto;display:block;margin:6px 0}
+.legend{display:flex;gap:14px;margin:10px 0 6px;font-size:.85rem;color:var(--muted)}
+.legend .lg{display:inline-flex;align-items:center;gap:6px}
+.legend .sw{display:inline-block;width:14px;height:14px;border-radius:4px;border:1px solid var(--border)}
+.legend .sw.done-ok{background:var(--ok-bg);border-color:var(--ok)}
+.legend .sw.done-bad{background:var(--bad-bg);border-color:var(--bad)}
+.warn{background:var(--warn-bg);color:var(--warn);padding:8px 12px;border-radius:8px;font-size:.88rem;margin-bottom:10px}
+textarea{width:100%;min-height:160px;font:13px/1.4 ui-monospace,Menlo,Consolas,monospace;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px}
+input[type=number],input[type=text],select{font:inherit;padding:7px 8px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text)}
+input[type=number]{width:90px}
+select{max-width:100%;min-width:180px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(42px,1fr));gap:6px;margin-top:10px}
+.grid button{padding:6px 0;font-size:.85rem}
+.grid .done-ok{background:var(--ok-bg);border-color:var(--ok);color:var(--ok)}
+.grid .done-bad{background:var(--bad-bg);border-color:var(--bad);color:var(--bad)}
+.grid .picked{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.grid .cur{outline:2px solid var(--accent);outline-offset:1px}
+.err{color:var(--bad);font-size:.9rem;margin-top:8px;white-space:pre-wrap}
+.big{font-size:2rem;font-weight:700}
+.hidden{display:none!important}
+small.m{color:var(--muted)}
+hr{border:0;border-top:1px solid var(--border);margin:14px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>MCQ & SATA Practice</h1>
+    <div class="row">
+      <button id="btnHome">← Sets</button>
+      <button id="btnNav">Questions</button>
+      <button id="btnSummary">Summary</button>
+      <button id="btnLoad">Import sets</button>
+    </div>
+  </header>
+
+  <div id="home"></div>
+  <div class="stats" id="stats"></div>
+  <div class="bar" id="barWrap"><i id="barFill"></i></div>
+
+  <section id="loadPanel" class="card hidden">
+    <strong>Import question sets</strong>
+    <p class="hint">Choose one or more .json files. You will be asked to name each set; naming a set the same as an existing one updates it and keeps your progress on unchanged questions. A file called <b>questions.json</b> next to this page also loads automatically when your browser allows it. Progress is stored in this browser only.</p>
+    <div class="row">
+      <input type="file" id="fileIn" accept=".json,application/json" multiple>
+    </div>
+    <hr>
+    <div class="hint"><b>Or paste JSON:</b></div>
+    <div class="row" style="margin-bottom:8px">
+      <label for="setName">Set name</label>
+      <input type="text" id="setName" placeholder="e.g. Cardiac, Week 3">
+    </div>
+    <textarea id="jsonIn" placeholder='[{"type":"mcq","q":"…","q-number":1,"options":["A text","B text"],"answer":["A text"],"explanation":"…"}]'></textarea>
+    <div class="row" style="margin-top:10px">
+      <button class="primary" id="btnReplace">Save as set</button>
+      <button id="btnAppend">Add to current set</button>
+      <button id="btnCloseLoad">Close</button>
+    </div>
+    <div class="err" id="loadErr"></div>
+    <div class="hint" style="margin-top:8px">Tip: <b>answer</b> can be the option text (best), a letter (A, B…) or a number (1, 2…).</div>
+  </section>
+
+  <section id="navPanel" class="card hidden">
+    <div class="row spread">
+      <div class="row">
+        <label for="jumpNum"><b>Start / jump to question #</b></label>
+        <input type="number" id="jumpNum" min="1" value="1">
+        <button class="primary" id="btnGo">Go</button>
+      </div>
+      <button id="btnFirstUn">First unanswered</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="row" style="margin-top:14px">
+      <button id="btnRetryWrong">Retry incorrect only</button>
+      <button class="danger" id="btnReset">Reset this set's progress</button>
+    </div>
+  </section>
+
+  <section id="summaryPanel" class="card hidden"></section>
+
+  <main id="quiz"></main>
+</div>
+
+<script>
+(function(){
+const KEY='practice_quiz_v1';
+let DB={sets:{},active:null};
+function emptySet(){return {name:'',questions:[],progress:{},current:0}}
+let S=emptySet();
+let view='home';
+const $=id=>document.getElementById(id);
+
+function save(){ try{localStorage.setItem(KEY,JSON.stringify(DB))}catch(e){alert('Could not save progress (storage blocked or full).')} }
+function activate(id){ if(id&&DB.sets[id]){DB.active=id;S=DB.sets[id];} else {DB.active=null;S=emptySet();} }
+function load(){
+  try{
+    const r=localStorage.getItem(KEY);
+    if(r){
+      const d=JSON.parse(r);
+      if(d&&d.sets) DB=d;
+      else if(d&&Array.isArray(d.questions)) DB={sets:{questions:Object.assign({name:'questions'},d)},active:'questions'}; // old single-set format
+    }
+  }catch(e){}
+  activate(DB.sets[DB.active]?DB.active:(Object.keys(DB.sets)[0]||null));
+}
+
+/* ---------- parsing ---------- */
+function toArr(v){ if(v==null) return []; return Array.isArray(v)?v:[v]; }
+function resolveAnswers(opts,answer){
+  const o=opts.map(x=>String(x).trim().toLowerCase()), used=new Set(), out=[];
+  for(let a of toArr(answer)){
+    a=String(a).trim(); if(!a) continue;
+    let i=o.findIndex((x,k)=>!used.has(k)&&x===a.toLowerCase());
+    if(i<0){
+      let m=a.match(/^([A-Za-z])[\.\)]?$/);
+      if(m) i=m[1].toUpperCase().charCodeAt(0)-65;
+      else if(/^\d+$/.test(a)) i=parseInt(a,10)-1;
+    }
+    if(i>=0&&i<opts.length&&!used.has(i)){used.add(i);out.push(i)}
+  }
+  return out.sort((a,b)=>a-b);
+}
+function parseQuestions(text){
+  let d=JSON.parse(text);
+  if(!Array.isArray(d)) d=d.questions;
+  if(!Array.isArray(d)) throw new Error('Expected a JSON array of questions.');
+  const warns=[]; const out=[];
+  d.forEach((r,i)=>{
+    const opts=toArr(r.options).map(String);
+    if(!r.q||opts.length<2) throw new Error('Question #'+(i+1)+' needs "q" and at least 2 options.');
+    const correct=resolveAnswers(opts,r.answer);
+    if(!correct.length) warns.push('Q'+(i+1)+': could not match the answer to any option.');
+    let n=r['q-number']??r.q_number??r.qNumber??r.number;
+    out.push({
+      type:/sata|select/i.test(String(r.type))?'sata':'mcq',
+      q:String(r.q), qnum:(n===''||n==null)?null:n,
+      options:opts, correct, explanation:Array.isArray(r.explanation)?r.explanation.map(String).join('\n'):String(r.explanation||'')
+    });
+  });
+  if(!out.length) throw new Error('No questions found.');
+  return {out,warns};
+}
+
+/* ---------- sets ---------- */
+function sig(t){let h=0;for(let i=0;i<t.length;i++)h=(h*31+t.charCodeAt(i))|0;return h+':'+t.length}
+function findByName(n){ n=n.trim().toLowerCase(); return Object.keys(DB.sets).find(id=>DB.sets[id].name.trim().toLowerCase()===n); }
+function newId(name){
+  let base=name.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'set', id=base, k=2;
+  while(DB.sets[id]) id=base+'-'+(k++);
+  return id;
+}
+// Create or update a set from JSON text. Progress is carried over for questions whose text is unchanged.
+function upsert(name,text,forceId){
+  const {out,warns}=parseQuestions(text); const s=sig(text);
+  const id=forceId||findByName(name)||newId(name);
+  const ex=DB.sets[id];
+  if(ex){
+    if(ex.src===s&&ex.questions.length) return {id,warns:[],unchanged:true};
+    const old={}; ex.questions.forEach((q,i)=>{if(ex.progress[i]) old[q.q]=ex.progress[i]});
+    const np={}; out.forEach((q,i)=>{if(old[q.q]) np[i]=old[q.q]});
+    ex.questions=out; ex.progress=np; ex.src=s; if(ex.current>=out.length) ex.current=0;
+  } else {
+    DB.sets[id]={name:name.trim(),questions:out,progress:{},current:0,src:s};
+  }
+  save();
+  return {id,warns,unchanged:false};
+}
+
+/* ---------- helpers ---------- */
+function prog(i){ return S.progress[i]||(S.progress[i]={sel:[],submitted:false,correct:false}); }
+function label(i){ const q=S.questions[i]; return q.qnum!=null?q.qnum:(i+1); }
+function counts(){
+  let done=0,ok=0; S.questions.forEach((q,i)=>{const p=S.progress[i]; if(p&&p.submitted){done++; if(p.correct)ok++}});
+  return {done,ok,total:S.questions.length};
+}
+// Split an explanation into bullet points: one per line, or one per sentence if it is a single paragraph.
+function explPoints(t,opts){
+  const MARK=/^(?:[-•*●▪]\s*)?(?:option\s+)?[\(\[]?[A-Ea-e1-9][\)\]\.:]\s/i;
+  const low=(opts||[]).map(o=>String(o).trim().toLowerCase().slice(0,40)).filter(o=>o.length>=3);
+  const isStart=s=>MARK.test(s)||low.some(o=>s.toLowerCase().startsWith(o));
+  let text=String(t||'').trim();
+  // single paragraph with inline "A. … B. … C. …" markers: break before each marker that follows a sentence end
+  text=text.replace(/([.!?;])\s+(?=(?:option\s+)?[\(\[]?[A-E][\)\]\.:]\s)/g,'$1\n');
+  const lines=text.split(/\r?\n+/).map(s=>s.trim()).filter(Boolean);
+  const bullets=[];
+  if(lines.filter(isStart).length>=2){
+    // one bullet per answer option: lines that don't begin a new option continue the previous bullet
+    lines.forEach(l=>{ if(isStart(l)||!bullets.length) bullets.push(l); else bullets[bullets.length-1]+=' '+l; });
+  } else {
+    lines.forEach(l=>bullets.push(l));
+  }
+  return bullets.map(s=>s.replace(/^[-•*●▪]\s*/,'').trim()).filter(Boolean);
+}
+function el(tag,cls,text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e;}
+
+/* ---------- render ---------- */
+function renderHome(){
+  const h=$('home'); h.innerHTML='';
+  const ids=Object.keys(DB.sets).sort((a,b)=>DB.sets[a].name.localeCompare(DB.sets[b].name,undefined,{numeric:true}));
+  if(!ids.length){
+    const c=el('div','card'); c.appendChild(el('p','','No study sets yet. Click “Import sets” and choose your .json file(s).')); h.appendChild(c); return;
+  }
+  h.appendChild(el('h2','','Choose a set to study'));
+  ids.forEach(id=>{
+    const st=DB.sets[id], total=st.questions.length; let done=0,ok=0;
+    st.questions.forEach((q,i)=>{const p=st.progress[i]; if(p&&p.submitted){done++; if(p.correct)ok++}});
+    const card=el('div','card setcard');
+    card.appendChild(el('div','setname',st.name));
+    card.appendChild(el('small','m',`${total} questions · ${done} answered`+(done?` · ${Math.round(ok/done*100)}% correct`:'')));
+    const bar=el('div','bar'); const fill=document.createElement('i'); fill.style.width=(total?done/total*100:0)+'%'; bar.appendChild(fill); card.appendChild(bar);
+    const row=el('div','row');
+    const open=el('button','primary',done===0?'Start':(done===total?'Review':'Continue'));
+    open.onclick=()=>{
+      activate(id); view='study'; save(); renderAll(); window.scrollTo({top:0});
+    };
+    const ren=el('button','','Rename');
+    ren.onclick=()=>{
+      const n=prompt('New name for this set:',st.name); if(n===null||!n.trim()) return;
+      const clash=findByName(n); if(clash&&clash!==id){alert('Another set already has that name.');return;}
+      st.name=n.trim(); save(); renderAll();
+    };
+    const del=el('button','danger','Delete');
+    del.onclick=()=>{
+      if(!confirm('Delete the set "'+st.name+'" and its progress from this browser?')) return;
+      delete DB.sets[id];
+      if(DB.active===id) activate(Object.keys(DB.sets)[0]||null);
+      save(); renderAll();
+    };
+    row.appendChild(open); row.appendChild(ren); row.appendChild(del);
+    card.appendChild(row); h.appendChild(card);
+  });
+}
+function renderStats(){
+  const c=counts();
+  $('stats').textContent=c.total?S.name+` · Answered ${c.done}/${c.total} · Correct ${c.ok}`+(c.done?` (${Math.round(c.ok/c.done*100)}%)`:''):'No questions loaded';
+  $('barFill').style.width=c.total?(c.done/c.total*100)+'%':'0%';
+}
+function renderGrid(){
+  const g=$('grid'); g.innerHTML='';
+  S.questions.forEach((q,i)=>{
+    const p=S.progress[i]; const b=el('button','',label(i));
+    if(p&&p.submitted) b.classList.add(p.correct?'done-ok':'done-bad');
+    else if(p&&p.sel.length) b.classList.add('picked');
+    if(i===S.current) b.classList.add('cur');
+    b.title='Question '+label(i);
+    b.onclick=()=>{go(i);$('navPanel').classList.add('hidden')};
+    g.appendChild(b);
+  });
+}
+function renderQuiz(){
+  const m=$('quiz'); m.innerHTML='';
+  if(!S.questions.length){
+    const c=el('div','card'); c.appendChild(el('p','','No questions yet. Click “Import sets” and choose your .json file(s).')); m.appendChild(c);
+    $('loadPanel').classList.remove('hidden'); return;
+  }
+  if(S.current>=S.questions.length) S.current=S.questions.length-1;
+  const i=S.current, q=S.questions[i], p=prog(i), locked=p.submitted;
+  const card=el('div','card');
+  const meta=el('div','qmeta');
+  meta.appendChild(el('span','badge',q.type.toUpperCase()));
+  meta.appendChild(el('span','',`Question ${label(i)} · ${i+1} of ${S.questions.length}`));
+  const cp=el('button','','Copy question'); cp.style.marginLeft='auto'; cp.style.padding='4px 10px'; cp.style.fontSize='.82rem';
+  cp.onclick=()=>{
+    const txt=q.q+'\n\n'+q.options.map((t,k)=>String.fromCharCode(65+k)+'. '+t).join('\n');
+    const done=()=>{cp.textContent='Copied ✓'; setTimeout(()=>{cp.textContent='Copy question'},1500)};
+    const fallback=()=>{
+      const ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select();
+      try{document.execCommand('copy'); done();}catch(e){alert('Copy failed.');}
+      document.body.removeChild(ta);
+    };
+    if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done,fallback); else fallback();
+  };
+  meta.appendChild(cp);
+  card.appendChild(meta);
+  card.appendChild(el('div','qtext',q.q));
+  card.appendChild(el('div','hint',q.type==='sata'?'Select all that apply.':'Select one answer.'));
+  if(!q.correct.length) card.appendChild(el('div','warn','This question has no readable answer key, so it cannot be marked.'));
+
+  q.options.forEach((t,k)=>{
+    const lab=el('label','opt'+(locked?' locked':''));
+    const inp=document.createElement('input');
+    inp.type=q.type==='sata'?'checkbox':'radio'; inp.name='opt'; inp.checked=p.sel.includes(k); inp.disabled=locked;
+    inp.onchange=()=>{
+      if(q.type==='sata'){ p.sel=inp.checked?[...new Set([...p.sel,k])]:p.sel.filter(x=>x!==k); }
+      else p.sel=[k];
+      save(); renderQuiz(); renderGrid(); renderStats();
+    };
+    lab.appendChild(inp);
+    lab.appendChild(el('span','l',String.fromCharCode(65+k)+'.'));
+    lab.appendChild(el('span','',t));
+    const isC=q.correct.includes(k), isS=p.sel.includes(k);
+    if(!locked && isS) lab.classList.add('sel');
+    if(locked){
+      if(isC&&isS){lab.classList.add('right'); lab.appendChild(el('span','tag ok','✓ Correct'));}
+      else if(!isC&&isS){lab.classList.add('wrong'); lab.appendChild(el('span','tag bad','✗ Incorrect'));}
+      else if(isC&&!isS){lab.classList.add('missed'); lab.appendChild(el('span','tag ok','Correct answer'));}
+    }
+    card.appendChild(lab);
+  });
+
+  if(locked){
+    card.appendChild(el('div','result '+(p.correct?'ok':'bad'),p.correct?'Correct!':'Incorrect'));
+    const pts=explPoints(q.explanation,q.options);
+    if(pts.length){
+      const e=el('div','expl'); e.appendChild(el('b','','Explanation'));
+      const ul=document.createElement('ul'); pts.forEach(t=>ul.appendChild(el('li','',t)));
+      e.appendChild(ul); card.appendChild(e);
+    }
+  }
+
+  const nav=el('div','row spread'); nav.style.marginTop='14px';
+  const prev=el('button','','← Previous'); prev.disabled=i===0; prev.onclick=()=>go(i-1);
+  const mid=el('div','row');
+  if(!locked){
+    const sub=el('button','primary','Submit answer'); sub.disabled=!p.sel.length||!q.correct.length;
+    sub.onclick=()=>{
+      p.submitted=true;
+      p.correct=p.sel.length===q.correct.length&&q.correct.every(x=>p.sel.includes(x));
+      (S.log=S.log||[]).push({t:Date.now(),ok:p.correct});
+      save(); renderQuiz(); renderGrid(); renderStats();
+    };
+    mid.appendChild(sub);
+    if(p.sel.length){const clr=el('button','','Clear'); clr.onclick=()=>{p.sel=[];save();renderQuiz();renderGrid();}; mid.appendChild(clr);}
+  } else {
+    const redo=el('button','','Redo this question'); redo.onclick=()=>{S.progress[i]={sel:[],submitted:false,correct:false};save();renderQuiz();renderGrid();renderStats();};
+    mid.appendChild(redo);
+  }
+  const next=el('button',locked?'primary':'','Next →'); next.disabled=i===S.questions.length-1; next.onclick=()=>go(i+1);
+  nav.appendChild(prev); nav.appendChild(mid); nav.appendChild(next);
+  card.appendChild(nav);
+  m.appendChild(card);
+}
+const CH={W:360,H:230,L:38,R:12,T:24,B:40};
+function chartGrid(){
+  const {W,L,R,T,H,B}=CH, ph=H-T-B; let s='';
+  [0,50,100].forEach(v=>{
+    const y=T+ph*(1-v/100);
+    s+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" stroke="var(--border)"/><text x="${L-6}" y="${y+4}" text-anchor="end" font-size="10" fill="var(--muted)">${v}%</text>`;
+  });
+  return s;
+}
+function chartTime(){
+  const box=el('div','chartbox'); box.appendChild(el('b','','Accuracy over time'));
+  const log=(S.log||[]).slice().sort((a,b)=>a.t-b.t);
+  if(!log.length){
+    box.appendChild(el('div','hint','Answer some questions to see your running accuracy here. (Answers given before this chart existed were not timed.)'));
+    return box;
+  }
+  const {W,H,L,R,T,B}=CH, pw=W-L-R, ph=H-T-B;
+  let ok=0;
+  const pts=log.map((e,k)=>{
+    if(e.ok) ok++; const pct=ok/(k+1)*100;
+    return {e,k,pct,x:L+(log.length===1?pw/2:pw*k/(log.length-1)),y:T+ph*(1-pct/100)};
+  });
+  const r=pts.length>60?2:3.5;
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Running accuracy over time">`+chartGrid();
+  s+=`<polyline fill="none" stroke="var(--accent)" stroke-width="2" points="${pts.map(p=>p.x.toFixed(1)+','+p.y.toFixed(1)).join(' ')}"/>`;
+  pts.forEach(p=>{
+    s+=`<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${r}" fill="var(${p.e.ok?'--ok':'--bad'})"><title>#${p.k+1} · ${p.e.ok?'Correct':'Incorrect'} · ${new Date(p.e.t).toLocaleString()} · running ${p.pct.toFixed(0)}%</title></circle>`;
+  });
+  const d0=new Date(log[0].t), d1=new Date(log[log.length-1].t);
+  const sameDay=d0.toDateString()===d1.toDateString();
+  const f=d=>sameDay?d.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'}):d.toLocaleDateString(undefined,{month:'short',day:'numeric'});
+  s+=`<text x="${L}" y="${H-B+16}" font-size="10" fill="var(--muted)">${f(d0)}</text>`;
+  if(log.length>1) s+=`<text x="${W-R}" y="${H-B+16}" text-anchor="end" font-size="10" fill="var(--muted)">${f(d1)}</text>`;
+  s+=`<text x="${L+pw/2}" y="${H-6}" text-anchor="middle" font-size="10" fill="var(--muted)">answers in order (green = correct, red = incorrect)</text></svg>`;
+  const holder=document.createElement('div'); holder.innerHTML=s; box.appendChild(holder.firstChild);
+  box.appendChild(el('small','m',`Running % correct · ${log.length} answers across all attempts · now ${pts[pts.length-1].pct.toFixed(0)}%`));
+  return box;
+}
+function chartSection(){
+  const box=el('div','chartbox'); box.appendChild(el('b','','Correct by question group'));
+  const total=S.questions.length, size=Math.max(5,Math.ceil(total/10/5)*5);
+  const groups=[]; for(let a=0;a<total;a+=size){
+    let n=0,ok=0; const end=Math.min(a+size,total);
+    for(let i=a;i<end;i++){const p=S.progress[i]; if(p&&p.submitted){n++; if(p.correct)ok++}}
+    groups.push({a,end:end-1,n,ok});
+  }
+  const {W,H,L,R,T,B}=CH, pw=W-L-R, ph=H-T-B, slot=pw/groups.length, bw=Math.min(40,slot*0.7);
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Correct answers by question group">`+chartGrid();
+  groups.forEach((g,k)=>{
+    const cx=L+slot*k+slot/2, pct=g.n?g.ok/g.n*100:0, h=ph*pct/100, y=T+ph-h;
+    const lab=g.a===g.end?String(label(g.a)):label(g.a)+'–'+label(g.end);
+    if(g.n){
+      s+=`<rect x="${(cx-bw/2).toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(h,1).toFixed(1)}" rx="3" fill="var(--accent)"><title>Questions ${lab}: ${g.ok} of ${g.n} answered correct (${pct.toFixed(0)}%)</title></rect>`;
+      s+=`<text x="${cx.toFixed(1)}" y="${(y-4).toFixed(1)}" text-anchor="middle" font-size="10" fill="var(--text)">${g.ok}/${g.n}</text>`;
+    } else {
+      s+=`<text x="${cx.toFixed(1)}" y="${T+ph-4}" text-anchor="middle" font-size="10" fill="var(--muted)">–</text>`;
+    }
+    s+=`<text x="${cx.toFixed(1)}" y="${H-B+16}" text-anchor="middle" font-size="${groups.length>8?9:10}" fill="var(--muted)">${lab}</text>`;
+  });
+  s+=`<text x="${L+pw/2}" y="${H-6}" text-anchor="middle" font-size="10" fill="var(--muted)">question numbers</text></svg>`;
+  const holder=document.createElement('div'); holder.innerHTML=s; box.appendChild(holder.firstChild);
+  box.appendChild(el('small','m',`% correct of answered, ${size} questions per group (label = correct/answered)`));
+  return box;
+}
+function renderSummary(){
+  const c=counts(), p=$('summaryPanel'); p.innerHTML='';
+  p.appendChild(el('strong','','Summary' + (S.name?' · '+S.name:'')));
+  p.appendChild(el('div','big',c.done?`${c.ok} / ${c.done} correct (${Math.round(c.ok/c.done*100)}%)`:'No answers yet'));
+  p.appendChild(el('small','m',`${c.total-c.done} unanswered · ${c.done-c.ok} incorrect`));
+
+  const leg=el('div','legend');
+  [['done-ok','Correct'],['done-bad','Incorrect'],['','Unanswered']].forEach(([cl,t])=>{
+    const s=el('span','lg'); const d=el('i','sw '+cl); s.appendChild(d); s.appendChild(document.createTextNode(t)); leg.appendChild(s);
+  });
+  p.appendChild(leg);
+  p.appendChild(el('div','hint','Tap a number to open that question.'));
+  const g=el('div','grid');
+  S.questions.forEach((q,i)=>{
+    const pr=S.progress[i]; const b=el('button','',label(i));
+    if(pr&&pr.submitted) b.classList.add(pr.correct?'done-ok':'done-bad');
+    b.title='Question '+label(i);
+    b.onclick=()=>{go(i); $('summaryPanel').classList.add('hidden')};
+    g.appendChild(b);
+  });
+  p.appendChild(g);
+
+  const ch=el('div','charts'); ch.appendChild(chartTime()); ch.appendChild(chartSection());
+  p.appendChild(ch);
+}
+function go(i){
+  if(i<0||i>=S.questions.length) return;
+  S.current=i; save(); renderQuiz(); renderGrid(); window.scrollTo({top:0,behavior:'smooth'});
+}
+function renderAll(){
+  const home=view==='home';
+  $('home').classList.toggle('hidden',!home);
+  ['stats','barWrap','quiz','btnNav','btnSummary'].forEach(id=>$(id).classList.toggle('hidden',home));
+  $('btnHome').classList.toggle('hidden',home);
+  if(home){
+    $('navPanel').classList.add('hidden'); $('summaryPanel').classList.add('hidden');
+    renderHome(); return;
+  }
+  renderStats(); renderGrid(); renderQuiz();
+  $('jumpNum').max=S.questions.length||1;
+  $('jumpNum').value=S.questions.length?label(S.current):1;
+}
+
+/* ---------- actions ---------- */
+function toggle(id){ $(id).classList.toggle('hidden'); }
+$('btnNav').onclick=()=>{toggle('navPanel'); $('summaryPanel').classList.add('hidden');};
+$('btnSummary').onclick=()=>{renderSummary(); toggle('summaryPanel'); $('navPanel').classList.add('hidden');};
+$('btnLoad').onclick=()=>toggle('loadPanel');
+$('btnCloseLoad').onclick=()=>$('loadPanel').classList.add('hidden');
+
+$('btnHome').onclick=()=>{ view='home'; renderAll(); window.scrollTo({top:0}); };
+
+$('fileIn').onchange=async e=>{
+  const files=[...e.target.files]; e.target.value='';
+  $('loadErr').textContent=''; let last=null; const errs=[], warns=[];
+  for(const f of files){
+    try{
+      const text=await f.text();
+      parseQuestions(text); // validate before asking for a name
+      let name=prompt('Name for this set:', f.name.replace(/\.json$/i,''));
+      if(name===null) continue;
+      name=name.trim(); if(!name) name=f.name.replace(/\.json$/i,'');
+      const ex=findByName(name);
+      if(ex&&!confirm('A set named "'+DB.sets[ex].name+'" already exists. Update it with this file? (Progress on unchanged questions is kept.)')) continue;
+      const r=upsert(name,text); last=r.id;
+      r.warns.forEach(w=>warns.push(name+' – '+w));
+    }catch(err){ errs.push(f.name+': '+err.message); }
+  }
+  if(last) activate(last);
+  view='home'; save(); renderAll();
+  if(errs.length) $('loadErr').textContent='Could not load:\n'+errs.join('\n');
+  else if(last) $('loadPanel').classList.add('hidden');
+  if(warns.length) alert('Loaded, but:\n'+warns.slice(0,10).join('\n'));
+};
+
+$('btnReplace').onclick=()=>{
+  $('loadErr').textContent='';
+  try{
+    const name=$('setName').value.trim();
+    if(!name) throw new Error('Give the set a name first.');
+    const text=$('jsonIn').value.trim();
+    const ex=findByName(name);
+    if(ex&&!confirm('A set named "'+DB.sets[ex].name+'" already exists. Update it? (Progress on unchanged questions is kept.)')) return;
+    const r=upsert(name,text);
+    activate(r.id); view='home'; save(); $('jsonIn').value=''; $('setName').value='';
+    $('loadPanel').classList.add('hidden'); renderAll();
+    if(r.warns.length) alert('Loaded, but:\n'+r.warns.slice(0,10).join('\n'));
+  }catch(e){ $('loadErr').textContent='Could not load: '+e.message; }
+};
+$('btnAppend').onclick=()=>{
+  $('loadErr').textContent='';
+  try{
+    if(!DB.active) throw new Error('No current set. Use “Save as set” instead.');
+    const {out,warns}=parseQuestions($('jsonIn').value.trim());
+    S.questions=S.questions.concat(out); S.src=null; save(); $('jsonIn').value='';
+    $('loadPanel').classList.add('hidden'); renderAll();
+    if(warns.length) alert('Added, but:\n'+warns.slice(0,10).join('\n'));
+  }catch(e){ $('loadErr').textContent='Could not load: '+e.message; }
+};
+
+$('btnGo').onclick=()=>{
+  const n=$('jumpNum').value.trim(); if(!n) return;
+  let i=S.questions.findIndex(q=>q.qnum!=null&&String(q.qnum)===n);
+  if(i<0){ const k=parseInt(n,10)-1; if(k>=0&&k<S.questions.length) i=k; }
+  if(i<0){alert('No question #'+n); return;}
+  go(i); $('navPanel').classList.add('hidden');
+};
+$('jumpNum').onkeydown=e=>{if(e.key==='Enter')$('btnGo').click()};
+$('btnFirstUn').onclick=()=>{
+  const i=S.questions.findIndex((q,k)=>!(S.progress[k]&&S.progress[k].submitted));
+  if(i<0) alert('All questions answered.'); else {go(i); $('navPanel').classList.add('hidden');}
+};
+$('btnRetryWrong').onclick=()=>{
+  const w=S.questions.map((q,i)=>i).filter(i=>S.progress[i]&&S.progress[i].submitted&&!S.progress[i].correct);
+  if(!w.length){alert('No incorrect questions to retry.');return;}
+  w.forEach(i=>delete S.progress[i]); S.current=w[0]; save(); renderAll();
+  $('navPanel').classList.add('hidden');
+};
+$('btnReset').onclick=()=>{
+  if(!confirm('Reset all progress in "'+S.name+'" so you can do every question again? Your questions are kept.')) return;
+  S.progress={}; S.current=0; save(); renderAll(); $('navPanel').classList.add('hidden');
+};
+document.addEventListener('keydown',e=>{
+  if(view==='home') return;
+  if(/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)&&document.activeElement.type!=='radio'&&document.activeElement.type!=='checkbox') return;
+  if(e.key==='ArrowRight') go(S.current+1);
+  if(e.key==='ArrowLeft') go(S.current-1);
+});
+
+/* auto-load questions.json from the same folder (works when served over http; file:// is usually blocked) */
+function autoload(){
+  fetch('questions.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('missing');return r.text()})
+  .then(t=>{
+    const had=DB.active;
+    const r=upsert('questions',t,'questions');
+    if(!had) activate(r.id);
+    if(!r.unchanged) { if(DB.active===r.id) S=DB.sets[r.id]; renderAll(); }
+  })
+  .catch(()=>{
+    if(!Object.keys(DB.sets).length){
+      $('loadPanel').classList.remove('hidden');
+      $('loadErr').textContent='Could not read questions.json automatically (browsers block this when a page is opened straight from a folder). Choose your .json file(s) above instead; they are remembered.';
+    }
+  });
+}
+load(); renderAll(); autoload();
+})();
+</script>
+</body>
+</html>

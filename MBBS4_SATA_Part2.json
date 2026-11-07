@@ -1,0 +1,2834 @@
+[
+  {
+    "type": "sata",
+    "q": "A 56-year-old male presents with groin swelling and abdominal pain. Which of the following are typical features of an obstructed inguinal hernia?",
+    "q-number": 1,
+    "options": [
+      "Sudden onset groin swelling",
+      "Colicky abdominal pain",
+      "Vomiting",
+      "Reducible mass on lying down",
+      "Abdominal distension"
+    ],
+    "answer": [
+      "Sudden onset groin swelling",
+      "Colicky abdominal pain",
+      "Vomiting",
+      "Abdominal distension"
+    ],
+    "explanation": "A: Correct. Sudden onset groin swelling is typical of an acutely obstructed or strangulating hernia. B: Correct. Colicky abdominal pain reflects peristaltic effort against the obstruction. C: Correct. Vomiting is a standard feature of small bowel obstruction. D: Incorrect. A reducible mass means the hernia is not obstructed. Trap: a hernia may reduce when the patient lies down early, but an obstructed one does not. E: Correct. Abdominal distension develops as the obstructed bowel dilates."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are consistent with an obstructed inguinal hernia?",
+    "q-number": 2,
+    "options": [
+      "Tender groin swelling",
+      "Absent cough impulse",
+      "Skin erythema over swelling",
+      "Soft, compressible mass",
+      "Irreducibility"
+    ],
+    "answer": [
+      "Tender groin swelling",
+      "Absent cough impulse",
+      "Skin erythema over swelling",
+      "Irreducibility"
+    ],
+    "explanation": "A: Correct. Tender groin swelling indicates inflammation or ischaemia in the sac. B: Correct. An absent cough impulse suggests the contents are fixed and irreducible. C: Correct. Erythema over the swelling suggests tissue compromise or strangulation. D: Incorrect. A soft compressible mass is a reducible hernia, the opposite of this diagnosis. E: Correct. Irreducibility is the defining feature of an incarcerated hernia."
+  },
+  {
+    "type": "sata",
+    "q": "Laboratory and Imaging\nfindings support the diagnosis of an obstructed inguinal hernia?",
+    "q-number": 3,
+    "options": [
+      "Leucocytosis",
+      "Elevated lactate",
+      "Air-fluid levels on abdominal X-ray",
+      "Ultrasound showing bowel loops in hernia sac",
+      "Normal inflammatory markers"
+    ],
+    "answer": [
+      "Leucocytosis",
+      "Elevated lactate",
+      "Air-fluid levels on abdominal X-ray",
+      "Ultrasound showing bowel loops in hernia sac"
+    ],
+    "explanation": "A: Correct. Leucocytosis reflects an inflammatory or ischaemic process. B: Correct. Raised lactate is a marker of bowel ischaemia. C: Correct. Air-fluid levels on erect abdominal X-ray indicate bowel obstruction. D: Correct. Ultrasound can show bowel loops within the hernia sac. E: Incorrect. Normal inflammatory markers do not support obstruction and would argue against strangulation."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to obstructed inguinal hernia?",
+    "q-number": 4,
+    "options": [
+      "Narrow hernia neck compressing the bowel",
+      "Impaired venous return",
+      "Continued arterial inflow",
+      "Immediate bowel necrosis",
+      "Luminal obstruction of the intestine"
+    ],
+    "answer": [
+      "Narrow hernia neck compressing the bowel",
+      "Impaired venous return",
+      "Continued arterial inflow",
+      "Luminal obstruction of the intestine"
+    ],
+    "explanation": "A: Correct. A narrow neck compresses the bowel wall and causes obstruction. B: Correct. The tight neck impairs venous return, causing congestion and oedema. C: Correct. Arterial inflow can continue early, so the bowel becomes engorged before ischaemia develops. D: Incorrect. Necrosis takes hours to develop and is not immediate. E: Correct. Luminal obstruction is the basic mechanism of bowel obstruction."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from an untreated obstructed inguinal hernia?",
+    "q-number": 5,
+    "options": [
+      "Strangulation",
+      "Bowel ischemia",
+      "Perforation",
+      "Sepsis",
+      "Spontaneous reduction"
+    ],
+    "answer": [
+      "Strangulation",
+      "Bowel ischemia",
+      "Perforation",
+      "Sepsis"
+    ],
+    "explanation": "A: Correct. Strangulation occurs when the blood supply to the herniated bowel is compromised. B: Correct. Bowel ischaemia follows strangulation. C: Correct. Perforation of necrotic bowel can follow. D: Correct. Sepsis can follow perforation or bowel necrosis. E: Incorrect. Spontaneous reduction is not a complication; an obstructed hernia does not return of its own accord once it is incarcerated."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management steps for obstructed inguinal hernia?",
+    "q-number": 6,
+    "options": [
+      "Nil per os (NPO)",
+      "IV fluid resuscitation",
+      "Attempt forceful reduction (taxis)",
+      "Emergency surgical intervention",
+      "Analgesia and monitoring only."
+    ],
+    "answer": [
+      "Nil per os (NPO)",
+      "IV fluid resuscitation",
+      "Emergency surgical intervention"
+    ],
+    "explanation": "A: Correct. Nil by mouth is needed because surgery is likely. B: Correct. IV fluid resuscitation corrects losses from the obstructed bowel. C: Incorrect. Forceful taxis is contraindicated because it risks perforating a strangulated bowel. Gentle reduction is only considered in selected early cases. D: Correct. Emergency surgery is required for suspected strangulation. E: Incorrect. Analgesia and observation alone is inadequate because obstruction will progress."
+  },
+  {
+    "type": "sata",
+    "q": "68-year-old man presents with urinary complaints. Which of the following are typical symptoms of prostate enlargement (BPH)?",
+    "q-number": 7,
+    "options": [
+      "Hesitancy in urination",
+      "Weak urinary stream",
+      "Increased urinary frequency",
+      "Hematuria as the most common symptom",
+      "Nocturia"
+    ],
+    "answer": [
+      "Hesitancy in urination",
+      "Weak urinary stream",
+      "Increased urinary frequency",
+      "Nocturia"
+    ],
+    "explanation": "A: Correct. Hesitancy is a classic obstructive symptom. B: Correct. A weak stream results from urethral obstruction. C: Correct. Increased frequency is a common storage symptom. D: Incorrect. Haematuria is not the most common symptom and should prompt investigation for other causes. E: Correct. Nocturia is a common symptom of BPH."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are consistent with benign prostate enlargement?",
+    "q-number": 8,
+    "options": [
+      "Smooth, enlarged prostate on digital rectal exam (DRE)",
+      "Firm nodular prostate",
+      "Non-tender prostate",
+      "Symmetrical enlargement",
+      "Irregular hard mass"
+    ],
+    "answer": [
+      "Smooth, enlarged prostate on digital rectal exam (DRE)",
+      "Non-tender prostate",
+      "Symmetrical enlargement"
+    ],
+    "explanation": "A: Correct. A smooth, enlarged prostate is characteristic of benign enlargement. B: Incorrect. A firm nodular prostate raises concern for prostate cancer. C: Correct. BPH is usually non-tender. D: Correct. BPH enlarges the prostate symmetrically. E: Incorrect. An irregular hard mass suggests malignancy."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations support the evaluation of BPH?",
+    "q-number": 9,
+    "options": [
+      "Prostate-specific antigen (PSA)",
+      "Urinalysis",
+      "Ultrasound for post-void residual volume",
+      "CT scan as first-line imaging",
+      "Uroflowmetry"
+    ],
+    "answer": [
+      "Prostate-specific antigen (PSA)",
+      "Urinalysis",
+      "Ultrasound for post-void residual volume",
+      "Uroflowmetry"
+    ],
+    "explanation": "A: Correct. PSA is used for risk assessment after counselling. B: Correct. Urinalysis excludes infection and haematuria. C: Correct. Post-void residual volume is measured by bladder scan or ultrasound. D: Incorrect. CT is not first-line for BPH, which is assessed with simpler tests. E: Correct. Uroflowmetry objectively measures the flow rate."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to prostate enlargement (BPH)?",
+    "q-number": 10,
+    "options": [
+      "Increased dihydrotestosterone (DHT) activity",
+      "Stromal and glandular hyperplasia",
+      "Estrogen-androgen imbalance",
+      "Acute inflammatory destruction of prostate",
+      "Compression of urethra"
+    ],
+    "answer": [
+      "Increased dihydrotestosterone (DHT) activity",
+      "Stromal and glandular hyperplasia",
+      "Estrogen-androgen imbalance",
+      "Compression of urethra"
+    ],
+    "explanation": "A: Correct. Dihydrotestosterone drives prostatic growth. B: Correct. BPH is due to stromal and glandular hyperplasia. C: Correct. The relative increase in oestrogen with age contributes to hyperplasia. D: Incorrect. BPH is a benign hyperplastic process, not an acute inflammatory destruction. E: Correct. Mechanical compression of the urethra causes the obstructive symptoms."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may result from untreated BPH?",
+    "q-number": 11,
+    "options": [
+      "Acute urinary retention",
+      "Hydronephrosis",
+      "Recurrent urinary tract infections",
+      "Bladder stones",
+      "Prostate cancer"
+    ],
+    "answer": [
+      "Acute urinary retention",
+      "Hydronephrosis",
+      "Recurrent urinary tract infections",
+      "Bladder stones"
+    ],
+    "explanation": "A: Correct. Acute urinary retention is a common complication. B: Correct. Chronic retention can cause hydronephrosis. C: Correct. Residual urine predisposes to recurrent UTI. D: Correct. Stasis of urine can lead to bladder stones. E: Incorrect. BPH does not cause prostate cancer; the two are separate conditions."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for BPH?",
+    "q-number": 12,
+    "options": [
+      "Alpha-1 blockers (e.g., tamsulosin)",
+      "5-alpha reductase inhibitors (e.g., finasteride)",
+      "Immediate radical prostatectomy for all patients",
+      "Transurethral resection of prostate (TURP)",
+      "Lifestyle modification (fluid timing, reduce caffeine)"
+    ],
+    "answer": [
+      "Alpha-1 blockers (e.g., tamsulosin)",
+      "5-alpha reductase inhibitors (e.g., finasteride)",
+      "Transurethral resection of prostate (TURP)",
+      "Lifestyle modification (fluid timing, reduce caffeine)"
+    ],
+    "explanation": "A: Correct. Alpha-1 blockers relax smooth muscle in the prostate and bladder neck. B: Correct. 5-alpha reductase inhibitors shrink the prostate over months. C: Incorrect. Radical prostatectomy is not indicated for benign enlargement. D: Correct. TURP is a surgical option for moderate to severe symptoms. E: Correct. Lifestyle modification is first-line for mild symptoms."
+  },
+  {
+    "type": "sata",
+    "q": "A patient presents with respiratory symptoms. Which features are suggestive of pleural disease?",
+    "q-number": 13,
+    "options": [
+      "Pleuritic chest pain",
+      "Dyspnea",
+      "Dry cough",
+      "Hemoptysis as the most common symptom",
+      "Reduced chest expansion on one side"
+    ],
+    "answer": [
+      "Pleuritic chest pain",
+      "Dyspnea",
+      "Dry cough",
+      "Reduced chest expansion on one side"
+    ],
+    "explanation": "A: Correct. Pleuritic chest pain is the classic pain of pleural inflammation. B: Correct. Dyspnoea occurs with effusion or pneumothorax. C: Correct. A dry cough is common. D: Incorrect. Haemoptysis is not the most common symptom; it is a red flag for other pathology. E: Correct. Reduced expansion on one side indicates pleural pathology."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are consistent with pleural effusion?",
+    "q-number": 14,
+    "options": [
+      "Stony dullness to percussion",
+      "Reduced breath sounds",
+      "Decreased tactile fremitus",
+      "Bronchial breath sounds over fluid",
+      "Hyperresonance"
+    ],
+    "answer": [
+      "Stony dullness to percussion",
+      "Reduced breath sounds",
+      "Decreased tactile fremitus"
+    ],
+    "explanation": "A: Correct. Stony dullness is the classic percussion finding of fluid. B: Correct. Breath sounds are reduced over the effusion. C: Correct. Tactile fremitus is reduced over fluid. D: Incorrect. Bronchial breath sounds are heard above the upper level of fluid (Garland's triangle), not over the fluid itself. Trap: bronchial sounds suggest underlying consolidation or collapse, not the effusion. E: Incorrect. Hyperresonance suggests air, not fluid. Disagreement with answer key: key gives A, B, C, D; I give A, B, C. The key includes D (bronchial breath sounds over fluid). Bronchial breathing is heard above the upper level of the fluid, not over it, and over the fluid itself breath sounds are reduced or absent."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations help evaluate pleural disease?",
+    "q-number": 15,
+    "options": [
+      "Chest X-ray showing blunting of costophrenic angle",
+      "Ultrasound to detect pleural fluid",
+      "CT scan for detailed pleural assessment",
+      "Pleural fluid analysis (thoracentesis)",
+      "ECG as primary diagnostic tool"
+    ],
+    "answer": [
+      "Chest X-ray showing blunting of costophrenic angle",
+      "Ultrasound to detect pleural fluid",
+      "CT scan for detailed pleural assessment",
+      "Pleural fluid analysis (thoracentesis)"
+    ],
+    "explanation": "A: Correct. A blunted costophrenic angle is the classic chest X-ray sign of effusion. B: Correct. Ultrasound detects small effusions and guides aspiration. C: Correct. CT gives detailed pleural assessment. D: Correct. Thoracentesis with fluid analysis establishes the cause. E: Incorrect. An ECG is not a diagnostic test for pleural disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to pleural effusion formation?",
+    "q-number": 16,
+    "options": [
+      "Increased hydrostatic pressure",
+      "Decreased oncotic pressure",
+      "Increased capillary permeability",
+      "Lymphatic obstruction",
+      "Increased alveolar ventilation"
+    ],
+    "answer": [
+      "Increased hydrostatic pressure",
+      "Decreased oncotic pressure",
+      "Increased capillary permeability",
+      "Lymphatic obstruction"
+    ],
+    "explanation": "A: Correct. Raised hydrostatic pressure (e.g. heart failure) drives fluid out of capillaries. B: Correct. Reduced oncotic pressure (e.g. hypoalbuminaemia) favours effusion. C: Correct. Increased capillary permeability (e.g. infection, malignancy) causes exudate. D: Correct. Lymphatic obstruction prevents fluid clearance. E: Incorrect. Increased ventilation does not cause effusion."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from pleural disease?",
+    "q-number": 17,
+    "options": [
+      "Empyema",
+      "Fibrothorax",
+      "Respiratory failure",
+      "Lung collapse (atelectasis)",
+      "Pulmonary embolism"
+    ],
+    "answer": [
+      "Empyema",
+      "Fibrothorax",
+      "Respiratory failure",
+      "Lung collapse (atelectasis)"
+    ],
+    "explanation": "A: Correct. Empyema is an infected effusion. B: Correct. Fibrothorax can follow organised empyema or haemothorax. C: Correct. Respiratory failure can result from severe disease. D: Correct. Lung collapse (atelectasis) can occur from compression. E: Incorrect. Pulmonary embolism is not a complication of pleural disease, though it may be a differential."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management options for pleural disease (effusion/pneumothorax depending on cause)?",
+    "q-number": 18,
+    "options": [
+      "Thoracentesis",
+      "Chest tube insertion",
+      "Antibiotics for empyema",
+      "Immediate intubation for all cases",
+      "Treat underlying cause (e.g., heart failure, malignance"
+    ],
+    "answer": [
+      "Thoracentesis",
+      "Chest tube insertion",
+      "Antibiotics for empyema",
+      "Treat underlying cause (e.g., heart failure, malignance"
+    ],
+    "explanation": "A: Correct. Thoracentesis is diagnostic and therapeutic for effusion. B: Correct. Chest tube drainage is used for empyema and pneumothorax. C: Correct. Antibiotics are needed for empyema. D: Incorrect. Intubation is not needed for all cases; it is reserved for respiratory failure. E: Correct. Treating the underlying cause, such as heart failure or malignancy, is essential."
+  },
+  {
+    "type": "sata",
+    "q": "A patient presents after a house fire. Which features are typical of thermal burns?",
+    "q-number": 19,
+    "options": [
+      "Pain at the burn site",
+      "Blister formation",
+      "Charred or leathery skin",
+      "Immediate absence of all sensation in every burn",
+      "Signs of inhalation injury (hoarseness, soot in airway)"
+    ],
+    "answer": [
+      "Pain at the burn site",
+      "Blister formation",
+      "Charred or leathery skin",
+      "Signs of inhalation injury (hoarseness, soot in airway)"
+    ],
+    "explanation": "A: Correct. Pain at the burn is typical of superficial and partial-thickness burns. B: Correct. Blisters form in partial-thickness burns. C: Correct. Charred or leathery skin is typical of full-thickness burns. D: Incorrect. Trap: not all burns lose sensation. Deep burns can be painless, but superficial ones are painful, so \"every burn\" is wrong. E: Correct. Signs of inhalation injury such as hoarseness and soot in the airway are expected after house fires."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings help assess burn severity and depth?",
+    "q-number": 20,
+    "options": [
+      "Erythema",
+      "Moist, red wound",
+      "Dry, leathery eschar",
+      "Capillary refill present",
+      "Presence of hair in burned area"
+    ],
+    "answer": [
+      "Erythema",
+      "Moist, red wound",
+      "Dry, leathery eschar",
+      "Capillary refill present",
+      "Presence of hair in burned area"
+    ],
+    "explanation": "A: Correct. Erythema suggests a superficial burn. B: Correct. A moist red wound suggests a partial-thickness burn. C: Correct. A dry leathery eschar indicates full-thickness injury. D: Correct. Preserved capillary refill suggests superficial to partial-thickness burns. E: Correct. Retained hair in the burn suggests superficial injury. This is a less commonly used sign, so it is least useful clinically."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are useful in evaluating thermal burns?",
+    "q-number": 21,
+    "options": [
+      "Carboxyhemoglobin levels",
+      "Arterial blood gas (ABG)",
+      "Serum electrolytes",
+      "Chest X-ray for inhalation injury",
+      "MRI as routine investigation"
+    ],
+    "answer": [
+      "Carboxyhemoglobin levels",
+      "Arterial blood gas (ABG)",
+      "Serum electrolytes",
+      "Chest X-ray for inhalation injury"
+    ],
+    "explanation": "A: Correct. Carboxyhaemoglobin confirms carbon monoxide exposure. B: Correct. ABG assesses oxygenation and acid-base status. C: Correct. Serum electrolytes guide fluid and electrolyte replacement. D: Correct. Chest X-ray is part of assessment for inhalation injury, though it is insensitive and bronchoscopy is the reference test. E: Incorrect. MRI is not a routine burn investigation."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms occur in thermal burn injury?",
+    "q-number": 22,
+    "options": [
+      "Protein denaturation",
+      "Increased capillary permeability",
+      "Fluid loss from intravascular space",
+      "Decreased metabolic rate",
+      "Inflammatory mediator release"
+    ],
+    "answer": [
+      "Protein denaturation",
+      "Increased capillary permeability",
+      "Fluid loss from intravascular space",
+      "Inflammatory mediator release"
+    ],
+    "explanation": "A: Correct. Heat denatures proteins in the skin. B: Correct. Capillary permeability increases, causing oedema. C: Correct. Fluid shifts from the intravascular space into tissues. D: Incorrect. Burns cause a hypermetabolic state, which increases the metabolic rate. E: Correct. Inflammatory mediators are released from damaged tissue."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may result from thermal burns?",
+    "q-number": 23,
+    "options": [
+      "Hypovolemic shock",
+      "Infection and sepsis",
+      "Acute kidney injury",
+      "Contractures",
+      "Immediate hyperthyroidism"
+    ],
+    "answer": [
+      "Hypovolemic shock",
+      "Infection and sepsis",
+      "Acute kidney injury",
+      "Contractures"
+    ],
+    "explanation": "A: Correct. Hypovolaemic shock follows fluid loss. B: Correct. Infection and sepsis are major causes of death in burns. C: Correct. Acute kidney injury follows hypovolaemia and myoglobinuria. D: Correct. Contractures develop as scars shrink. E: Incorrect. Burns cause a hypermetabolic state, not hyperthyroidism."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management steps for thermal burns?",
+    "q-number": 24,
+    "options": [
+      "Airway assessment and protection",
+      "Fluid resuscitation (e.g., Parkland formula)",
+      "Early wound cooling with water",
+      "Immediate prophylactic systemic antibiotics for all burns",
+      "Pain control"
+    ],
+    "answer": [
+      "Airway assessment and protection",
+      "Fluid resuscitation (e.g., Parkland formula)",
+      "Early wound cooling with water",
+      "Pain control"
+    ],
+    "explanation": "A: Correct. Airway assessment comes first because inhalation injury can cause airway oedema. B: Correct. Parkland formula guides fluid resuscitation in major burns. C: Correct. Early cooling with running water within three hours limits burn depth. D: Incorrect. Prophylactic systemic antibiotics are not indicated for all burns; infection is treated when it occurs. E: Correct. Analgesia is essential because burns are painful."
+  },
+  {
+    "type": "sata",
+    "q": "A 25-year-old patient presents with gastrointestinal symptoms. Which features are typical of inflammatory bowel disease (IBD)?",
+    "q-number": 25,
+    "options": [
+      "Chronic diarrhea",
+      "Abdominal pain",
+      "Weight loss",
+      "Constipation as the primary symptom",
+      "Blood in stool"
+    ],
+    "answer": [
+      "Chronic diarrhea",
+      "Abdominal pain",
+      "Weight loss",
+      "Blood in stool"
+    ],
+    "explanation": "A: Correct. Chronic diarrhoea is a core feature of IBD. B: Correct. Abdominal pain is common, especially in Crohn disease. C: Correct. Weight loss reflects malabsorption and chronic inflammation. D: Incorrect. Diarrhoea, not constipation, is the typical primary symptom. Trap: constipation is seen in some Crohn strictures, but it is not the primary symptom. E: Correct. Blood in the stool is typical of ulcerative colitis and colonic Crohn disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings may be present in IBD?",
+    "q-number": 26,
+    "options": [
+      "Abdominal tenderness",
+      "Perianal fistula",
+      "Fever",
+      "Palpable abdominal mass",
+      "Generalized lymphadenopathy as a key feature"
+    ],
+    "answer": [
+      "Abdominal tenderness",
+      "Perianal fistula",
+      "Fever",
+      "Palpable abdominal mass"
+    ],
+    "explanation": "A: Correct. Abdominal tenderness is common in active disease. B: Correct. Perianal fistula is a classic feature of Crohn disease. C: Correct. Fever occurs in active or severe disease. D: Correct. A palpable mass can represent an inflammatory mass in Crohn disease. E: Incorrect. Generalised lymphadenopathy is not a key feature of IBD."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations support the diagnosis of IBD?",
+    "q-number": 27,
+    "options": [
+      "Elevated C-reactive protein (CRP)",
+      "Fecal calprotectin",
+      "Colonoscopy with biopsy",
+      "CT/MRI enterography",
+      "Normal inflammatory markers exclude IBD"
+    ],
+    "answer": [
+      "Elevated C-reactive protein (CRP)",
+      "Fecal calprotectin",
+      "Colonoscopy with biopsy",
+      "CT/MRI enterography"
+    ],
+    "explanation": "A: Correct. CRP is raised in active inflammation. B: Correct. Faecal calprotectin is a sensitive marker of intestinal inflammation. C: Correct. Colonoscopy with biopsy gives the definitive diagnosis. D: Correct. CT or MRI enterography assesses the small bowel and complications. E: Incorrect. Normal inflammatory markers do not exclude IBD, especially in quiescent or small bowel disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms are involved in IBD?",
+    "q-number": 28,
+    "options": [
+      "Immune dysregulation",
+      "Genetic predisposition",
+      "Disruption of intestinal barrier",
+      "Infectious etiology as the sole cause",
+      "Chronic inflammation of the gastrointestinal tract"
+    ],
+    "answer": [
+      "Immune dysregulation",
+      "Genetic predisposition",
+      "Disruption of intestinal barrier",
+      "Chronic inflammation of the gastrointestinal tract"
+    ],
+    "explanation": "A: Correct. Immune dysregulation drives the chronic inflammatory response. B: Correct. Genetic predisposition (e.g. NOD2 in Crohn) is established. C: Correct. Breakdown of the epithelial barrier allows luminal antigens to enter. D: Incorrect. IBD is multifactorial; infection is not the sole cause. E: Correct. Chronic inflammation of the GI tract is the defining feature."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from IBD?",
+    "q-number": 29,
+    "options": [
+      "Intestinal strictures",
+      "Fistula formation",
+      "Toxic megacolon",
+      "Colorectal cancer",
+      "Acute appendicitis as a direct complication"
+    ],
+    "answer": [
+      "Intestinal strictures",
+      "Fistula formation",
+      "Toxic megacolon",
+      "Colorectal cancer"
+    ],
+    "explanation": "A: Correct. Strictures result from fibrosis in chronic disease. B: Correct. Fistulae form in transmural Crohn disease. C: Correct. Toxic megacolon is a severe complication of ulcerative colitis. D: Correct. Long-standing colitis increases colorectal cancer risk. E: Incorrect. Acute appendicitis is not a direct complication of IBD. Trap: Crohn disease can mimic appendicitis, but it does not cause it."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for IBD?",
+    "q-number": 30,
+    "options": [
+      "Amino salicylates (e.g., mesalamine)",
+      "Corticosteroids for acute flares",
+      "Immunosuppressants (e.g., azathioprine)",
+      "Biologic therapy (e.g., anti-TNF agents)",
+      "Routine immediate surgery for all patients"
+    ],
+    "answer": [
+      "Amino salicylates (e.g., mesalamine)",
+      "Corticosteroids for acute flares",
+      "Immunosuppressants (e.g., azathioprine)",
+      "Biologic therapy (e.g., anti-TNF agents)"
+    ],
+    "explanation": "A: Correct. Aminosalicylates are first-line for mild to moderate ulcerative colitis. B: Correct. Corticosteroids are used for acute flares. C: Correct. Immunosuppressants such as azathioprine maintain remission. D: Correct. Biologics such as anti-TNF agents treat moderate to severe disease. E: Incorrect. Routine surgery for all patients is wrong; surgery is reserved for complications or refractory disease."
+  },
+  {
+    "type": "sata",
+    "q": "A patient presents after a road traffic accident. Which features suggest a head injury?",
+    "q-number": 31,
+    "options": [
+      "Loss of consciousness",
+      "Vomiting",
+      "Headache",
+      "Sudden onset jaundice",
+      "Amnesia"
+    ],
+    "answer": [
+      "Loss of consciousness",
+      "Vomiting",
+      "Headache",
+      "Amnesia"
+    ],
+    "explanation": "A: Correct. Loss of consciousness indicates a significant brain injury. B: Correct. Vomiting is a common sign of raised intracranial pressure. C: Correct. Headache is a common symptom after head injury. D: Incorrect. Sudden jaundice is not a feature of head injury; it suggests liver disease. E: Correct. Amnesia, particularly post-traumatic, suggests concussion or contusion."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are concerning in head injury?",
+    "q-number": 32,
+    "options": [
+      "Unequal pupils (anisocoria)",
+      "Decreased Glasgow Coma Scale (GCS)",
+      "Battle’s sign",
+      "Raccoon eyes (periorbital ecchymosis)",
+      "Hyperactive bowel sounds"
+    ],
+    "answer": [
+      "Unequal pupils (anisocoria)",
+      "Decreased Glasgow Coma Scale (GCS)",
+      "Battle’s sign",
+      "Raccoon eyes (periorbital ecchymosis)"
+    ],
+    "explanation": "A: Correct. Unequal pupils (anisocoria) suggest raised intracranial pressure or herniation. B: Correct. A falling GCS indicates deteriorating brain function. C: Correct. Battle sign (post-auricular bruising) suggests basal skull fracture. D: Correct. Raccoon eyes suggest anterior skull base fracture. E: Incorrect. Hyperactive bowel sounds are not a head injury sign."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are important in head injury assessment?",
+    "q-number": 33,
+    "options": [
+      "CT scan of the head",
+      "MRI as first-line in acute trauma",
+      "Blood glucose level",
+      "Coagulation profile",
+      "Skull X-ray as definitive test"
+    ],
+    "answer": [
+      "CT scan of the head",
+      "Blood glucose level",
+      "Coagulation profile"
+    ],
+    "explanation": "A: Correct. CT head is the first-line investigation. B: Incorrect. MRI is not first-line in acute trauma; it is slower and less available. Trap: MRI is useful later for diffuse axonal injury, but not in the acute setting. C: Correct. Blood glucose is checked because hypoglycaemia mimics neurological injury. D: Correct. Coagulation profile is checked because bleeding risk affects management. E: Incorrect. Skull X-ray does not exclude intracranial injury and is not definitive."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms occur in head injury?",
+    "q-number": 34,
+    "options": [
+      "Primary brain injury at impact",
+      "Secondary brain injury from hypoxia",
+      "Increased intracranial pressure (ICP)",
+      "Immediate neuronal regeneration",
+      "Cerebral edema"
+    ],
+    "answer": [
+      "Primary brain injury at impact",
+      "Secondary brain injury from hypoxia",
+      "Increased intracranial pressure (ICP)",
+      "Cerebral edema"
+    ],
+    "explanation": "A: Correct. Primary injury occurs at impact and cannot be reversed. B: Correct. Secondary injury from hypoxia and hypotension is preventable. C: Correct. Raised intracranial pressure reduces cerebral perfusion. D: Incorrect. Neurons do not regenerate in the acute setting. E: Correct. Cerebral oedema contributes to secondary injury."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from head injury?",
+    "q-number": 35,
+    "options": [
+      "Epidural hematoma",
+      "Subdural hematoma",
+      "Brain herniation",
+      "Seizures",
+      "Chronic liver disease"
+    ],
+    "answer": [
+      "Epidural hematoma",
+      "Subdural hematoma",
+      "Brain herniation",
+      "Seizures"
+    ],
+    "explanation": "A: Correct. Epidural haematoma is a surgical emergency. B: Correct. Subdural haematoma is a common complication. C: Correct. Brain herniation is life-threatening. D: Correct. Post-traumatic seizures can follow head injury. E: Incorrect. Chronic liver disease is not a complication of head injury."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management steps in head injury?",
+    "q-number": 36,
+    "options": [
+      "Airway protection and cervical spine stabilization",
+      "Elevation of head to 30 degrees",
+      "Immediate oral feeding",
+      "Control of intracranial pressure",
+      "Continuous neurological monitoring"
+    ],
+    "answer": [
+      "Airway protection and cervical spine stabilization",
+      "Elevation of head to 30 degrees",
+      "Control of intracranial pressure",
+      "Continuous neurological monitoring"
+    ],
+    "explanation": "A: Correct. Airway protection and cervical spine stabilisation come first (ABC). B: Correct. Head elevation to 30 degrees reduces intracranial pressure. C: Incorrect. Nil by mouth is needed in case of surgery and to reduce aspiration risk. Immediate oral feeding is unsafe. D: Correct. Control of intracranial pressure is a key treatment goal. E: Correct. Continuous neurological monitoring detects deterioration early."
+  },
+  {
+    "type": "sata",
+    "q": "CT Interpretation – Epidural Hematoma\nA patient presents after head trauma with a brief loss of consciousness followed by a lucid interval. CT scan shows a biconvex (lens-shaped) hyperdense lesion. Which statements are correct?",
+    "q-number": 37,
+    "options": [
+      "Associated with middle meningeal artery rupture",
+      "Does not cross suture lines",
+      "Crosses suture lines freely",
+      "Often associated with skull fracture",
+      "Rapid neurological deterioration can occur"
+    ],
+    "answer": [
+      "Associated with middle meningeal artery rupture",
+      "Does not cross suture lines",
+      "Often associated with skull fracture",
+      "Rapid neurological deterioration can occur"
+    ],
+    "explanation": "A: Correct. Epidural haematoma usually results from rupture of the middle meningeal artery. B: Correct. The haematoma does not cross suture lines because the dura is attached to the skull at sutures. C: Incorrect. Epidural haematoma does not cross suture lines. Trap: subdural haematoma does cross them, so this is the classic distinction. D: Correct. It is often associated with a skull fracture that tears the artery. E: Correct. Rapid deterioration is possible when the haematoma expands quickly."
+  },
+  {
+    "type": "sata",
+    "q": "CT Interpretation – Subdural Hematoma\nAn elderly patient presents with progressive confusion after a minor fall. CT shows a crescent-shaped lesion. Which are true?",
+    "q-number": 38,
+    "options": [
+      "Caused by rupture of bridging veins",
+      "Can cross suture lines",
+      "Typically has a lucid interval",
+      "More common in elderly patients",
+      "Usually arterial in origin"
+    ],
+    "answer": [
+      "Caused by rupture of bridging veins",
+      "Can cross suture lines",
+      "More common in elderly patients"
+    ],
+    "explanation": "A: Correct. Subdural haematoma results from rupture of bridging veins. B: Correct. It can cross suture lines because the dura is not attached to the skull there. C: Incorrect. There is usually no lucid interval; that classically belongs to epidural haematoma. Trap: the lucid interval is a feature of epidural, not subdural. D: Correct. Subdural haematoma is more common in the elderly because cerebral atrophy stretches bridging veins. E: Incorrect. It is venous in origin, not arterial. Trap: the arterial origin is epidural."
+  },
+  {
+    "type": "sata",
+    "q": "CT Interpretation – Subarachnoid Hemorrhage (SAH)\nA patient presents with a sudden severe headache (“worst headache of life”). CT shows blood in the basal cisterns. Which are correct?",
+    "q-number": 39,
+    "options": [
+      "Often due to ruptured berry aneurysm",
+      "May present with neck stiffness",
+      "Blood appears in sulci and cisterns",
+      "Always caused by trauma",
+      "Can lead to vasospasm"
+    ],
+    "answer": [
+      "Often due to ruptured berry aneurysm",
+      "May present with neck stiffness",
+      "Blood appears in sulci and cisterns",
+      "Can lead to vasospasm"
+    ],
+    "explanation": "A: Correct. Most SAH is due to a ruptured berry aneurysm. B: Correct. Neck stiffness reflects meningeal irritation. C: Correct. Blood is seen in the sulci and basal cisterns. D: Incorrect. SAH is usually spontaneous, most often from a berry aneurysm, not trauma. E: Correct. Vasospasm is a major cause of delayed ischaemia after SAH."
+  },
+  {
+    "type": "sata",
+    "q": "Raised Intracranial Pressure (ICP) and Herniation\nWhich findings suggest increased ICP or impending herniation?",
+    "q-number": 40,
+    "options": [
+      "Bradycardia",
+      "Hypertension",
+      "Irregular respiration",
+      "Dilated, non-reactive pupil",
+      "Increased level of consciousness"
+    ],
+    "answer": [
+      "Bradycardia",
+      "Hypertension",
+      "Irregular respiration",
+      "Dilated, non-reactive pupil"
+    ],
+    "explanation": "A: Correct. Bradycardia is part of the Cushing response. B: Correct. Hypertension is part of the Cushing response. C: Correct. Irregular respiration is a sign of brainstem compression. D: Correct. A dilated, non-reactive pupil suggests herniation on that side. E: Incorrect. Reduced, not increased, consciousness is a sign of raised ICP."
+  },
+  {
+    "type": "sata",
+    "q": "Diffuse Axonal Injury (DAI)\nWhich features are associated with diffuse axonal injury?",
+    "q-number": 41,
+    "options": [
+      "Caused by rotational forces",
+      "Often normal initial CT scan",
+      "Immediate prolonged unconsciousness",
+      "Localized focal neurological deficit only",
+      "Seen in high-speed trauma"
+    ],
+    "answer": [
+      "Caused by rotational forces",
+      "Often normal initial CT scan",
+      "Immediate prolonged unconsciousness",
+      "Seen in high-speed trauma"
+    ],
+    "explanation": "A: Correct. Rotational forces shear axons. B: Correct. The initial CT is often normal, so MRI is needed. C: Correct. Prolonged immediate unconsciousness is typical. D: Incorrect. DAI causes diffuse rather than focal deficits. Trap: focal deficits point to a focal lesion. E: Correct. DAI is typical of high-speed trauma and rapid acceleration-deceleration."
+  },
+  {
+    "type": "sata",
+    "q": "Management Decision-Making (CT-Based)\nA patient with head injury shows a large hematoma with midline shift on CT. Which are appropriate management steps?",
+    "q-number": 42,
+    "options": [
+      "Urgent neurosurgical intervention",
+      "Observation only if patient is stable",
+      "Airway protection and ventilation",
+      "Mannitol or hypertonic saline",
+      "Delay treatment until MRI is done"
+    ],
+    "answer": [
+      "Urgent neurosurgical intervention",
+      "Airway protection and ventilation",
+      "Mannitol or hypertonic saline"
+    ],
+    "explanation": "A: Correct. Urgent neurosurgical intervention is needed to evacuate the mass. B: Incorrect. Observation alone is inappropriate with midline shift; the patient is at risk of herniation. C: Correct. Airway protection and ventilation are essential. D: Correct. Mannitol or hypertonic saline reduces raised intracranial pressure temporarily. E: Incorrect. Delaying treatment for MRI is dangerous; CT is sufficient to decide."
+  },
+  {
+    "type": "sata",
+    "q": "A 62-year-old patient presents with bowel symptoms. Which features suggest rectal carcinoma?",
+    "q-number": 43,
+    "options": [
+      "Change in bowel habits",
+      "Rectal bleeding",
+      "Tenesmus",
+      "Sudden severe hematemesis",
+      "Unintentional weight loss"
+    ],
+    "answer": [
+      "Change in bowel habits",
+      "Rectal bleeding",
+      "Tenesmus",
+      "Unintentional weight loss"
+    ],
+    "explanation": "A: Correct. A change in bowel habit is a key early symptom. B: Correct. Rectal bleeding is the most common presenting symptom. C: Correct. Tenesmus suggests a rectal mass. D: Incorrect. Haematemesis suggests upper GI bleeding, not rectal carcinoma. E: Correct. Unintentional weight loss suggests advanced disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings may be present in rectal carcinoma?",
+    "q-number": 44,
+    "options": [
+      "Palpable rectal mass on digital rectal exam (DRE)",
+      "Irregular, hard lesion",
+      "Mobile, smooth mass",
+      "Blood on examining finger",
+      "Tender fluctuant swelling"
+    ],
+    "answer": [
+      "Palpable rectal mass on digital rectal exam (DRE)",
+      "Irregular, hard lesion",
+      "Blood on examining finger"
+    ],
+    "explanation": "A: Correct. A palpable mass on DRE is the main finding. B: Correct. Rectal tumours are irregular and hard. C: Incorrect. A mobile, smooth mass suggests a benign lesion, not carcinoma. D: Correct. Blood on the examining finger is a common sign. E: Incorrect. A tender fluctuant swelling suggests an abscess, not carcinoma."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are useful in rectal carcinoma?",
+    "q-number": 45,
+    "options": [
+      "Colonoscopy with biopsy",
+      "Carcinoembryonic antigen (CEA)",
+      "MRI pelvis",
+      "CT scan for staging",
+      "Plain abdominal X-ray as definitive test"
+    ],
+    "answer": [
+      "Colonoscopy with biopsy",
+      "Carcinoembryonic antigen (CEA)",
+      "MRI pelvis",
+      "CT scan for staging"
+    ],
+    "explanation": "A: Correct. Colonoscopy with biopsy gives the diagnosis. B: Correct. CEA is a baseline and monitoring marker, though it is not diagnostic. C: Correct. MRI pelvis stages local tumour extent. D: Correct. CT chest, abdomen and pelvis assesses for metastasis. E: Incorrect. A plain abdominal X-ray is not a definitive test for rectal cancer."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms are involved in rectal carcinoma development?",
+    "q-number": 46,
+    "options": [
+      "Adenoma–carcinoma sequence",
+      "Genetic mutations (e.g., APC, p53)",
+      "Chronic inflammation (e.g., IBD)",
+      "Acute infection as the sole cause",
+      "Dysplastic changes in mucosa"
+    ],
+    "answer": [
+      "Adenoma–carcinoma sequence",
+      "Genetic mutations (e.g., APC, p53)",
+      "Chronic inflammation (e.g., IBD)",
+      "Dysplastic changes in mucosa"
+    ],
+    "explanation": "A: Correct. The adenoma-carcinoma sequence is the main pathway. B: Correct. APC and p53 mutations drive carcinogenesis. C: Correct. Chronic inflammation (e.g. colitis) increases risk. D: Incorrect. Infection is not the sole cause of rectal carcinoma. E: Correct. Dysplasia in the mucosa precedes carcinoma."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from rectal carcinoma?",
+    "q-number": 47,
+    "options": [
+      "Bowel obstruction",
+      "Local invasion (e.g., bladder, prostate)",
+      "Liver metastasis",
+      "Perforation",
+      "Spontaneous complete resolution"
+    ],
+    "answer": [
+      "Bowel obstruction",
+      "Local invasion (e.g., bladder, prostate)",
+      "Liver metastasis",
+      "Perforation"
+    ],
+    "explanation": "A: Correct. Bowel obstruction can occur as the tumour grows. B: Correct. Local invasion of adjacent organs such as bladder or prostate can occur. C: Correct. Liver metastases are common. D: Correct. Perforation can occur at the tumour. E: Incorrect. Spontaneous complete resolution does not occur in rectal cancer."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for rectal carcinoma?",
+    "q-number": 48,
+    "options": [
+      "Surgical resection (e.g., low anterior resection, APR)",
+      "Neoadjuvant chemoradiotherapy",
+      "Adjuvant chemotherapy",
+      "Routine antibiotics alone as definitive treatment",
+      "Palliative care for advanced disease"
+    ],
+    "answer": [
+      "Surgical resection (e.g., low anterior resection, APR)",
+      "Neoadjuvant chemoradiotherapy",
+      "Adjuvant chemotherapy",
+      "Palliative care for advanced disease"
+    ],
+    "explanation": "A: Correct. Surgical resection (LAR or APR) is the mainstay of curative treatment. B: Correct. Neoadjuvant chemoradiotherapy is used for locally advanced disease. C: Correct. Adjuvant chemotherapy is used after resection for higher-risk stage. D: Incorrect. Antibiotics alone cannot treat cancer. E: Correct. Palliative care is appropriate for advanced disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which features are more suggestive of rectal carcinoma (vs colon carcinoma)?",
+    "q-number": 49,
+    "options": [
+      "Tenesmus",
+      "Fresh rectal bleeding",
+      "Pencil-thin stools",
+      "Iron deficiency anemia as primary presentation",
+      "Sensation of incomplete evacuation"
+    ],
+    "answer": [
+      "Tenesmus",
+      "Fresh rectal bleeding",
+      "Pencil-thin stools",
+      "Sensation of incomplete evacuation"
+    ],
+    "explanation": "A: Correct. Tenesmus reflects a rectal lesion in the pelvis. B: Correct. Fresh red blood per rectum is typical of distal lesions. C: Correct. Pencil-thin stools reflect luminal narrowing by a rectal tumour. D: Incorrect. Iron deficiency anaemia suggests right-sided colon tumours, which bleed occultly. E: Correct. A sensation of incomplete evacuation suggests a rectal lesion."
+  },
+  {
+    "type": "sata",
+    "q": "Which features are typical of right-sided colon carcinoma?",
+    "q-number": 50,
+    "options": [
+      "Occult bleeding",
+      "Iron deficiency anemia",
+      "Large exophytic mass",
+      "Early obstruction",
+      "Weight loss"
+    ],
+    "answer": [
+      "Occult bleeding",
+      "Iron deficiency anemia",
+      "Large exophytic mass",
+      "Weight loss"
+    ],
+    "explanation": "A: Correct. Occult bleeding is typical because the right colon contents are liquid. B: Correct. Iron deficiency anaemia is typical. C: Correct. A large exophytic mass is typical because the right colon is wide. D: Incorrect. Early obstruction is a left-sided feature because the left colon is narrow. The right colon usually presents late with a large lumen. E: Correct. Weight loss is common in advanced disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which features are typical of left-sided colon carcinoma?",
+    "q-number": 51,
+    "options": [
+      "Altered bowel habits (constipation/diarrhea)",
+      "Colicky abdominal pain",
+      "Early obstruction",
+      "Tenesmus as a key symptom",
+      "Narrow “apple-core” lesion on imaging"
+    ],
+    "answer": [
+      "Altered bowel habits (constipation/diarrhea)",
+      "Colicky abdominal pain",
+      "Early obstruction",
+      "Narrow “apple-core” lesion on imaging"
+    ],
+    "explanation": "A: Correct. Altered bowel habit is typical because stool becomes more solid. B: Correct. Colicky abdominal pain is typical. C: Correct. Early obstruction is typical because the lumen is narrow. D: Incorrect. Tenesmus is a rectal feature, not a left colon feature. E: Correct. An apple-core lesion is typical of a constricting tumour."
+  },
+  {
+    "type": "sata",
+    "q": "Which statements regarding spread patterns are correct?",
+    "q-number": 52,
+    "options": [
+      "Rectal cancer may spread to lungs via systemic circulation",
+      "Colon cancer commonly metastasizes to liver via portal vein",
+      "Rectal cancer spreads only to liver",
+      "Lymphatic spread occurs in both",
+      "Peritoneal carcinomatosis can occur"
+    ],
+    "answer": [
+      "Rectal cancer may spread to lungs via systemic circulation",
+      "Colon cancer commonly metastasizes to liver via portal vein",
+      "Lymphatic spread occurs in both",
+      "Peritoneal carcinomatosis can occur"
+    ],
+    "explanation": "A: Correct. Rectal cancer can reach the lungs via the systemic venous drainage of the lower rectum. B: Correct. Colon cancer commonly spreads to the liver via the portal vein. C: Incorrect. Rectal cancer spreads to lungs and other sites, not only the liver. Trap: the liver is the main site for colon cancer. D: Correct. Both spread via lymphatics. E: Correct. Peritoneal carcinomatosis can occur."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are particularly important for rectal carcinoma compared to colon carcinoma?",
+    "q-number": 53,
+    "options": [
+      "MRI pelvis for local staging",
+      "Endorectal ultrasound",
+      "Colonoscopy with biopsy",
+      "CT scan for metastasis",
+      "Plain X-ray for diagnosis"
+    ],
+    "answer": [
+      "MRI pelvis for local staging",
+      "Endorectal ultrasound"
+    ],
+    "explanation": "A: Correct. MRI pelvis is the key test for local staging of rectal cancer, including circumferential resection margin. B: Correct. Endorectal ultrasound assesses depth of invasion and nodes. C: Incorrect. Colonoscopy is essential for both colon and rectal cancer, so it is not specific to rectal disease. D: Incorrect. CT for metastasis is equally needed for colon cancer, so it is not specific to rectal disease. E: Incorrect. A plain X-ray is not diagnostic for either cancer. Disagreement with answer key: key gives A, B, C, D; I give A, B. The key includes C (colonoscopy) and D (CT for metastasis). Both are needed for colon cancer as well, so they do not distinguish rectal cancer, which is what the question asks. If the question instead means which investigations are important for rectal cancer in general, C and D are also correct. This is a contested reading."
+  },
+  {
+    "type": "sata",
+    "q": "Which management strategies are more specific to rectal carcinoma?",
+    "q-number": 54,
+    "options": [
+      "Neoadjuvant chemoradiotherapy",
+      "Total mesorecta excision (TME)",
+      "Right hemicolectomy",
+      "Abdominoperineal resection (APR)",
+      "Stoma formation in low tumors"
+    ],
+    "answer": [
+      "Neoadjuvant chemoradiotherapy",
+      "Total mesorecta excision (TME)",
+      "Abdominoperineal resection (APR)",
+      "Stoma formation in low tumors"
+    ],
+    "explanation": "A: Correct. Neoadjuvant chemoradiotherapy is standard for locally advanced rectal cancer. B: Correct. Total mesorectal excision is the key surgical principle for rectal cancer. C: Incorrect. Right hemicolectomy treats right colon cancer, not rectal cancer. D: Correct. Abdominoperineal resection is used for low tumours involving the anal sphincter. E: Correct. A stoma may be needed for very low tumours."
+  },
+  {
+    "type": "sata",
+    "q": "A 22-year-old male presents with testicular swelling. Which features help characterize testicular pathology?",
+    "q-number": 55,
+    "options": [
+      "Acute onset pain",
+      "Gradual painless swelling",
+      "Fever",
+      "Dysuria",
+      "Weight loss"
+    ],
+    "answer": [
+      "Acute onset pain",
+      "Gradual painless swelling",
+      "Fever",
+      "Dysuria",
+      "Weight loss"
+    ],
+    "explanation": "A: Correct. Acute pain suggests torsion or epididymitis. B: Correct. Gradual painless swelling suggests tumour. C: Correct. Fever suggests infection (epididymitis or orchitis). D: Correct. Dysuria suggests a urinary or epididymal infection. E: Correct. Weight loss suggests advanced malignancy. This is a late feature, so it is the weakest of these markers."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings help differentiate causes of testicular swelling?",
+    "q-number": 56,
+    "options": [
+      "Transillumination of swelling",
+      "Absent cremasteric reflex",
+      "High-riding testis",
+      "Tender epididymis",
+      "Hard irregular mass"
+    ],
+    "answer": [
+      "Transillumination of swelling",
+      "Absent cremasteric reflex",
+      "High-riding testis",
+      "Tender epididymis",
+      "Hard irregular mass"
+    ],
+    "explanation": "A: Correct. Transillumination indicates a fluid-filled hydrocele. B: Correct. An absent cremasteric reflex suggests torsion. C: Correct. A high-riding testis suggests torsion. D: Correct. A tender epididymis suggests epididymitis. E: Correct. A hard irregular mass suggests tumour."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are useful in evaluating testicular swelling?",
+    "q-number": 57,
+    "options": [
+      "Scrotal ultrasound with Doppler",
+      "Urinalysis",
+      "Tumor markers (AFP, β-hCG)",
+      "CT scan as first-line investigation",
+      "Full blood count"
+    ],
+    "answer": [
+      "Scrotal ultrasound with Doppler",
+      "Urinalysis",
+      "Tumor markers (AFP, β-hCG)",
+      "Full blood count"
+    ],
+    "explanation": "A: Correct. Scrotal ultrasound with Doppler is the first-line test. B: Correct. Urinalysis looks for infection. C: Correct. Tumour markers (AFP, beta-hCG, LDH) are used to assess for germ cell tumour. D: Incorrect. CT is not first-line for testicular swelling. Scrotal ultrasound is the investigation of choice. E: Correct. A full blood count checks for infection and anaemia."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to testicular swelling?",
+    "q-number": 58,
+    "options": [
+      "Fluid accumulation in tunica vaginalis",
+      "Venous congestion due to torsion",
+      "Infection of epididymis/testis",
+      "Neoplastic growth",
+      "Increased arterial supply preventing ischemia in torsion"
+    ],
+    "answer": [
+      "Fluid accumulation in tunica vaginalis",
+      "Venous congestion due to torsion",
+      "Infection of epididymis/testis",
+      "Neoplastic growth"
+    ],
+    "explanation": "A: Correct. Fluid accumulation in the tunica vaginalis causes hydrocele. B: Correct. Venous congestion from torsion causes swelling. C: Correct. Infection of the epididymis or testis causes swelling. D: Correct. Neoplastic growth causes swelling. E: Incorrect. Increased arterial supply does not prevent ischaemia in torsion; the arterial supply is obstructed."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from testicular swelling conditions?",
+    "q-number": 59,
+    "options": [
+      "Testicular infarction",
+      "Infertility",
+      "Abscess formation",
+      "Metastasis",
+      "Spontaneous resolution in all cases"
+    ],
+    "answer": [
+      "Testicular infarction",
+      "Infertility",
+      "Abscess formation",
+      "Metastasis"
+    ],
+    "explanation": "A: Correct. Testicular infarction follows prolonged torsion. B: Correct. Infertility can follow torsion or severe infection. C: Correct. Abscess can form in severe infection. D: Correct. Metastasis occurs in testicular tumour. E: Incorrect. Spontaneous resolution does not occur in all cases; torsion needs urgent surgery."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for testicular swelling?",
+    "q-number": 60,
+    "options": [
+      "Immediate surgical exploration in suspected torsion",
+      "Antibiotics for epididymitis",
+      "Scrotal elevation and analgesia",
+      "Radical orchiectomy for suspected malignancy",
+      "Delayed treatment in acute painful swelling"
+    ],
+    "answer": [
+      "Immediate surgical exploration in suspected torsion",
+      "Antibiotics for epididymitis",
+      "Scrotal elevation and analgesia",
+      "Radical orchiectomy for suspected malignancy"
+    ],
+    "explanation": "A: Correct. Suspected torsion needs immediate surgical exploration. B: Correct. Epididymitis is treated with antibiotics. C: Correct. Scrotal elevation and analgesia are supportive measures for epididymitis. D: Correct. Radical inguinal orchidectomy is the treatment for suspected tumour. E: Incorrect. Delay is dangerous in acute painful swelling, particularly torsion."
+  },
+  {
+    "type": "sata",
+    "q": "A 17-year-old presents with sudden severe unilateral testicular pain for 3 hours, associated with nausea. Which findings suggest testicular torsion?",
+    "q-number": 61,
+    "options": [
+      "Absent cremasteric reflex",
+      "High-riding testis",
+      "Relief of pain with scrotal elevation (Prehn’s sign positive)",
+      "Sudden onset of symptoms",
+      "Reduced blood flow on Doppler ultrasound"
+    ],
+    "answer": [
+      "Absent cremasteric reflex",
+      "High-riding testis",
+      "Sudden onset of symptoms",
+      "Reduced blood flow on Doppler ultrasound"
+    ],
+    "explanation": "A: Correct. An absent cremasteric reflex is typical of torsion. B: Correct. A high-riding testis is typical. C: Incorrect. A positive Prehn sign (pain relief on elevation) favours epididymitis. Trap: torsion gives a negative Prehn sign. D: Correct. Sudden onset is the classic presentation of torsion. E: Correct. Reduced arterial flow on Doppler indicates torsion."
+  },
+  {
+    "type": "sata",
+    "q": "A 28-year-old presents with scrotal pain, fever, and dysuria. Which findings suggest epididymitis?",
+    "q-number": 62,
+    "options": [
+      "Tender epididymis",
+      "Positive Prehn’s sign (pain relief on elevation)",
+      "Increased blood flow on Doppler",
+      "Absent cremasteric reflex",
+      "Pyuria on urinalysis"
+    ],
+    "answer": [
+      "Tender epididymis",
+      "Positive Prehn’s sign (pain relief on elevation)",
+      "Increased blood flow on Doppler",
+      "Pyuria on urinalysis"
+    ],
+    "explanation": "A: Correct. A tender epididymis is the hallmark of epididymitis. B: Correct. A positive Prehn sign (pain relief on elevation) favours epididymitis. C: Correct. Increased Doppler flow reflects hyperaemia from inflammation. D: Incorrect. The cremasteric reflex is preserved in epididymitis; absence suggests torsion. E: Correct. Pyuria suggests an infective cause."
+  },
+  {
+    "type": "sata",
+    "q": "A 35-year-old man presents with painless testicular enlargement. Which features suggest testicular tumor?",
+    "q-number": 63,
+    "options": [
+      "Hard, irregular mass",
+      "Does not transilluminate",
+      "Elevated tumor markers (AFP, β-hCG)",
+      "Acute severe pain",
+      "Associated weight loss"
+    ],
+    "answer": [
+      "Hard, irregular mass",
+      "Does not transilluminate",
+      "Elevated tumor markers (AFP, β-hCG)",
+      "Associated weight loss"
+    ],
+    "explanation": "A: Correct. A hard irregular mass is the typical tumour finding. B: Correct. A tumour does not transilluminate because it is solid. C: Correct. Raised AFP or beta-hCG supports germ cell tumour. D: Incorrect. Acute severe pain points away from tumour, which is usually painless. E: Correct. Weight loss suggests advanced disease. It is a late feature."
+  },
+  {
+    "type": "sata",
+    "q": "A patient presents with painless scrotal swelling that transilluminates. Which features suggest hydrocele?",
+    "q-number": 64,
+    "options": [
+      "Positive transillumination",
+      "Fluctuant swelling",
+      "Ability to “get above” the swelling",
+      "Hard irregular mass",
+      "Usually painless"
+    ],
+    "answer": [
+      "Positive transillumination",
+      "Fluctuant swelling",
+      "Usually painless"
+    ],
+    "explanation": "A: Correct. Hydrocele transilluminates because it is fluid-filled. B: Correct. The swelling is fluctuant. C: Incorrect. Trap: you cannot get above a hydrocele, because it is confined to the scrotum; you can get above an inguinal hernia. D: Incorrect. A hard irregular mass suggests tumour, not hydrocele. E: Correct. Hydrocele is typically painless. Disagreement with answer key: key gives A, B, C, E; I give A, B, E. The key includes C (ability to get above the swelling). You cannot get above a hydrocele because it is confined to the scrotum. Being able to get above the swelling is the classic sign of an inguinal hernia, so C is incorrect for hydrocele."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings indicate need for immediate intervention in testicular swelling?",
+    "q-number": 65,
+    "options": [
+      "Sudden onset severe pain",
+      "Absent cremasteric reflex",
+      "Nausea and vomiting with scrotal pain",
+      "Gradual painless swelling",
+      "High-riding testis"
+    ],
+    "answer": [
+      "Sudden onset severe pain",
+      "Absent cremasteric reflex",
+      "Nausea and vomiting with scrotal pain",
+      "High-riding testis"
+    ],
+    "explanation": "A: Correct. Sudden severe pain suggests torsion, a surgical emergency. B: Correct. An absent cremasteric reflex suggests torsion. C: Correct. Nausea and vomiting with scrotal pain are typical of torsion. D: Incorrect. Gradual painless swelling is typical of tumour or hydrocele, which are not emergencies. E: Correct. A high-riding testis suggests torsion."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies based on diagnosis?",
+    "q-number": 66,
+    "options": [
+      "Immediate surgical exploration for suspected torsion",
+      "Antibiotics for epididymitis",
+      "Radical inguinal orchiectomy for testicular tumor",
+      "Observation only for acute torsion",
+      "Surgical repair for symptomatic hydrocele"
+    ],
+    "answer": [
+      "Immediate surgical exploration for suspected torsion",
+      "Antibiotics for epididymitis",
+      "Radical inguinal orchiectomy for testicular tumor",
+      "Surgical repair for symptomatic hydrocele"
+    ],
+    "explanation": "A: Correct. Suspected torsion needs immediate surgical exploration. B: Correct. Epididymitis is treated with antibiotics. C: Correct. Radical inguinal orchidectomy is the treatment for testicular tumour. D: Incorrect. Observation alone is wrong for acute torsion because the testis will be lost. E: Correct. Surgical repair (hydrocelectomy) is for symptomatic hydrocele."
+  },
+  {
+    "type": "sata",
+    "q": "A 40-year-old patient presents with flank pain. Which features are typical of nephrolithiasis?",
+    "q-number": 67,
+    "options": [
+      "Sudden severe colicky flank pain",
+      "Pain radiating to groin",
+      "Hematuria",
+      "Relief of pain with rest",
+      "Nausea and vomiting"
+    ],
+    "answer": [
+      "Sudden severe colicky flank pain",
+      "Pain radiating to groin",
+      "Hematuria",
+      "Nausea and vomiting"
+    ],
+    "explanation": "A: Correct. Sudden severe colicky flank pain is the classic presentation. B: Correct. Pain radiates to the groin as the stone moves down the ureter. C: Correct. Haematuria is common. D: Incorrect. Patients with renal colic are restless and cannot get comfortable, unlike peritonitis. E: Correct. Nausea and vomiting are common with colic."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings may be present in nephrolithiasis?",
+    "q-number": 68,
+    "options": [
+      "Costovertebral angle (CVA) tenderness",
+      "Restless patient unable to stay still",
+      "Fever",
+      "Guarding and rigidity as primary finding",
+      "Tachycardia"
+    ],
+    "answer": [
+      "Costovertebral angle (CVA) tenderness",
+      "Restless patient unable to stay still",
+      "Fever",
+      "Tachycardia"
+    ],
+    "explanation": "A: Correct. CVA tenderness is typical of renal colic. B: Correct. Patients are restless and cannot find a comfortable position. C: Correct. Fever suggests infection and is an emergency if obstructed. D: Incorrect. Guarding and rigidity suggest peritonitis, not renal colic. E: Correct. Tachycardia reflects pain and distress."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are useful in nephrolithiasis?",
+    "q-number": 69,
+    "options": [
+      "Non-contrast CT KUB (gold standard)",
+      "Urinalysis",
+      "Serum creatinine",
+      "Ultrasound",
+      "MRI as first-line"
+    ],
+    "answer": [
+      "Non-contrast CT KUB (gold standard)",
+      "Urinalysis",
+      "Serum creatinine",
+      "Ultrasound"
+    ],
+    "explanation": "A: Correct. Non-contrast CT KUB is the gold standard. B: Correct. Urinalysis detects haematuria and infection. C: Correct. Serum creatinine checks renal function. D: Correct. Ultrasound is useful, especially in pregnancy and for hydronephrosis. E: Incorrect. MRI is not first-line for stones."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to stone formation?",
+    "q-number": 70,
+    "options": [
+      "Supersaturation of urine with solutes",
+      "Crystal nucleation and aggregation",
+      "Urinary stasis",
+      "Increased urine flow preventing stones",
+      "Metabolic abnormalities (e.g., hypercalciuria)"
+    ],
+    "answer": [
+      "Supersaturation of urine with solutes",
+      "Crystal nucleation and aggregation",
+      "Urinary stasis",
+      "Metabolic abnormalities (e.g., hypercalciuria)"
+    ],
+    "explanation": "A: Correct. Supersaturation of urine with solutes is the basis of stone formation. B: Correct. Crystal nucleation and aggregation form the stone. C: Correct. Urinary stasis allows crystals to aggregate. D: Incorrect. Increased urine flow reduces stone formation. This is a protective factor. E: Correct. Metabolic abnormalities such as hypercalciuria increase stone risk."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from nephrolithiasis?",
+    "q-number": 71,
+    "options": [
+      "Hydronephrosis",
+      "Urinary tract infection",
+      "Acute kidney injury",
+      "Urosepsis",
+      "Spontaneous permanent cure"
+    ],
+    "answer": [
+      "Hydronephrosis",
+      "Urinary tract infection",
+      "Acute kidney injury",
+      "Urosepsis"
+    ],
+    "explanation": "A: Correct. Obstruction causes hydronephrosis. B: Correct. UTI is common behind an obstructing stone. C: Correct. Acute kidney injury can follow obstruction. D: Correct. Urosepsis is a life-threatening complication of an infected obstructed kidney. E: Incorrect. Spontaneous permanent cure is not a complication. Stones may pass, but recurrence is common."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for nephrolithiasis?",
+    "q-number": 72,
+    "options": [
+      "Adequate hydration",
+      "Analgesia (e.g., NSAIDs)",
+      "Alpha-blockers (medical expulsive therapy)",
+      "Immediate surgery for all stones",
+      "Lithotripsy or surgical removal if indicated"
+    ],
+    "answer": [
+      "Adequate hydration",
+      "Analgesia (e.g., NSAIDs)",
+      "Alpha-blockers (medical expulsive therapy)",
+      "Lithotripsy or surgical removal if indicated"
+    ],
+    "explanation": "A: Correct. Hydration reduces stone risk and aids passage. B: Correct. NSAIDs are effective analgesia for renal colic. C: Correct. Alpha-blockers improve passage of distal ureteric stones (medical expulsive therapy). D: Incorrect. Not all stones need immediate surgery. Most small stones can pass spontaneously. E: Correct. Lithotripsy or surgical removal is used when indicated."
+  },
+  {
+    "type": "sata",
+    "q": "Which associations between stone type and risk factors are correct?",
+    "q-number": 73,
+    "options": [
+      "Calcium oxalate – hypercalciuria",
+      "Uric acid stones – acidic urine",
+      "Struvite stones – urease-producing bacteria",
+      "Cystine stones – genetic disorder",
+      "Calcium stones – always radiolucent"
+    ],
+    "answer": [
+      "Calcium oxalate – hypercalciuria",
+      "Uric acid stones – acidic urine",
+      "Struvite stones – urease-producing bacteria",
+      "Cystine stones – genetic disorder"
+    ],
+    "explanation": "A: Correct. Calcium oxalate stones are associated with hypercalciuria. B: Correct. Uric acid stones form in acidic urine. C: Correct. Struvite stones form with urease-producing bacteria (e.g. Proteus). D: Correct. Cystine stones result from an inherited transport disorder. E: Incorrect. Calcium stones are usually radiopaque, not always radiolucent. Trap: uric acid and cystine are the radiolucent ones."
+  },
+  {
+    "type": "sata",
+    "q": "Which statements regarding imaging of kidney stones are correct?",
+    "q-number": 74,
+    "options": [
+      "Calcium stones are radiopaque on X-ray",
+      "Uric acid stones are radiolucent on X-ray",
+      "Non-contrast CT detects nearly all stones",
+      "Ultrasound is best for detecting small ureteric stones",
+      "CT KUB is the gold standard"
+    ],
+    "answer": [
+      "Calcium stones are radiopaque on X-ray",
+      "Uric acid stones are radiolucent on X-ray",
+      "Non-contrast CT detects nearly all stones",
+      "CT KUB is the gold standard"
+    ],
+    "explanation": "A: Correct. Calcium stones are usually radiopaque on plain X-ray. B: Correct. Uric acid stones are radiolucent on plain X-ray. C: Correct. Non-contrast CT detects nearly all stones. D: Incorrect. CT, not ultrasound, is best for small ureteric stones. Ultrasound is poor for distal ureteric stones. E: Correct. CT KUB is the gold standard for stone imaging."
+  },
+  {
+    "type": "sata",
+    "q": "Which factors promote stone formation?",
+    "q-number": 75,
+    "options": [
+      "Low urine volume",
+      "High urinary calcium",
+      "High citrate levels",
+      "Hyperoxaluria",
+      "Alkaline urine promoting calcium phosphate stones"
+    ],
+    "answer": [
+      "Low urine volume",
+      "High urinary calcium",
+      "Hyperoxaluria",
+      "Alkaline urine promoting calcium phosphate stones"
+    ],
+    "explanation": "A: Correct. Low urine volume concentrates solutes. B: Correct. High urinary calcium promotes calcium stone formation. C: Incorrect. Citrate inhibits stone formation, so high citrate is protective. D: Correct. Hyperoxaluria promotes calcium oxalate stones. E: Correct. Alkaline urine favours calcium phosphate stones."
+  },
+  {
+    "type": "sata",
+    "q": "A patient has a 4 mm distal ureteric stone with stable vitals. Which management options are appropriate?",
+    "q-number": 76,
+    "options": [
+      "Conservative management with hydration",
+      "NSAIDs for pain control",
+      "Alpha-blockers (e.g., tamsulosin)",
+      "Immediate surgical removal",
+      "Observation for spontaneous passage"
+    ],
+    "answer": [
+      "Conservative management with hydration",
+      "NSAIDs for pain control",
+      "Alpha-blockers (e.g., tamsulosin)",
+      "Observation for spontaneous passage"
+    ],
+    "explanation": "A: Correct. Conservative management with hydration is appropriate for a small stone. B: Correct. NSAIDs control the pain. C: Correct. Alpha-blockers (e.g. tamsulosin) help passage of distal stones. D: Incorrect. Immediate surgical removal is not needed for a 4 mm stone with stable vitals. E: Correct. Observation for spontaneous passage is reasonable."
+  },
+  {
+    "type": "sata",
+    "q": "Which scenarios require urgent intervention in nephrolithiasis?",
+    "q-number": 77,
+    "options": [
+      "Obstructed kidney with infection",
+      "Bilateral ureteric obstruction",
+      "Rising creatinine",
+      "Mild pain controlled with analgesics",
+      "Solitary kidney with obstruction"
+    ],
+    "answer": [
+      "Obstructed kidney with infection",
+      "Bilateral ureteric obstruction",
+      "Rising creatinine",
+      "Solitary kidney with obstruction"
+    ],
+    "explanation": "A: Correct. An infected obstructed kidney is a urological emergency requiring drainage. B: Correct. Bilateral obstruction can cause renal failure and needs urgent decompression. C: Correct. Rising creatinine indicates deteriorating renal function. D: Incorrect. Mild pain controlled with analgesia does not need urgent intervention. E: Correct. A solitary kidney with obstruction threatens all renal function."
+  },
+  {
+    "type": "sata",
+    "q": "Which strategies help prevent recurrent nephrolithiasis?",
+    "q-number": 78,
+    "options": [
+      "Increased fluid intake",
+      "Dietary sodium restriction",
+      "Thiazide diuretics for hypercalciuria",
+      "High protein diet",
+      "Potassium citrate supplementation"
+    ],
+    "answer": [
+      "Increased fluid intake",
+      "Dietary sodium restriction",
+      "Thiazide diuretics for hypercalciuria",
+      "Potassium citrate supplementation"
+    ],
+    "explanation": "A: Correct. Increased fluid intake dilutes urine. B: Correct. Dietary sodium restriction reduces urinary calcium excretion. C: Correct. Thiazides reduce urinary calcium in hypercalciuria. D: Incorrect. A high-protein diet increases urinary calcium and uric acid, which raises stone risk. E: Correct. Potassium citrate raises urinary citrate, which is protective."
+  },
+  {
+    "type": "sata",
+    "q": "Which statements regarding the parotid gland anatomy are correct?",
+    "q-number": 79,
+    "options": [
+      "It is the largest salivary gland",
+      "It lies anterior to the ear",
+      "The facial nerve passes through it",
+      "It drains via Wharton’s duct",
+      "It secretes serous saliva"
+    ],
+    "answer": [
+      "It is the largest salivary gland",
+      "It lies anterior to the ear",
+      "The facial nerve passes through it",
+      "It secretes serous saliva"
+    ],
+    "explanation": "A: Correct. The parotid is the largest salivary gland. B: Correct. It lies anterior and inferior to the ear. C: Correct. The facial nerve passes through the gland, dividing it into lobes. D: Incorrect. The parotid drains via Stensen duct, not Wharton duct. Wharton duct drains the submandibular gland. Trap: this is a common error. E: Correct. The parotid secretes serous saliva."
+  },
+  {
+    "type": "sata",
+    "q": "Which features may be seen in parotid gland disease?",
+    "q-number": 80,
+    "options": [
+      "Preauricular swelling",
+      "Pain while chewing",
+      "Facial nerve weakness",
+      "Dry mouth",
+      "Dysphagia as the primary symptom"
+    ],
+    "answer": [
+      "Preauricular swelling",
+      "Pain while chewing",
+      "Facial nerve weakness",
+      "Dry mouth"
+    ],
+    "explanation": "A: Correct. Preauricular swelling is the classic presentation. B: Correct. Pain on chewing occurs with parotid swelling and infection. C: Correct. Facial nerve weakness suggests malignancy or nerve involvement. D: Correct. Dry mouth can occur with infection or Sjogren disease. E: Incorrect. Dysphagia is not a primary symptom of parotid disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are suggestive of parotid gland pathology?",
+    "q-number": 81,
+    "options": [
+      "Swelling that lifts the ear lobule",
+      "Facial asymmetry",
+      "Pus from Stensen’s duct",
+      "Transillumination of swelling",
+      "Fixation to underlying structures"
+    ],
+    "answer": [
+      "Swelling that lifts the ear lobule",
+      "Facial asymmetry",
+      "Pus from Stensen’s duct",
+      "Fixation to underlying structures"
+    ],
+    "explanation": "A: Correct. A swelling that lifts the ear lobule suggests a parotid tumour. B: Correct. Facial asymmetry suggests nerve involvement or a mass. C: Correct. Pus from Stensen duct suggests infection or sialadenitis. D: Incorrect. A solid parotid tumour does not transilluminate. E: Correct. Fixation to underlying structures suggests malignancy."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to parotid gland disease?",
+    "q-number": 82,
+    "options": [
+      "Viral infection (e.g., mumps)",
+      "Bacterial infection (e.g., Staphylococcus aureus)",
+      "Salivary duct obstruction",
+      "Autoimmune destruction (e.g., Sjögren syndrome)",
+      "Increased salivary flow preventing disease"
+    ],
+    "answer": [
+      "Viral infection (e.g., mumps)",
+      "Bacterial infection (e.g., Staphylococcus aureus)",
+      "Salivary duct obstruction",
+      "Autoimmune destruction (e.g., Sjögren syndrome)"
+    ],
+    "explanation": "A: Correct. Viral infection (e.g. mumps) causes parotitis. B: Correct. Staphylococcus aureus causes bacterial parotitis, often in dehydrated patients. C: Correct. Salivary duct obstruction (e.g. stones) causes sialadenitis. D: Correct. Autoimmune destruction (e.g. Sjogren syndrome) causes gland inflammation. E: Incorrect. Increased salivary flow protects against disease; it does not cause it."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from parotid gland disorders?",
+    "q-number": 83,
+    "options": [
+      "Facial nerve palsy",
+      "Abscess formation",
+      "Fistula formation",
+      "Malignant transformation",
+      "Immediate spontaneous resolution in all cases"
+    ],
+    "answer": [
+      "Facial nerve palsy",
+      "Abscess formation",
+      "Fistula formation",
+      "Malignant transformation"
+    ],
+    "explanation": "A: Correct. Facial nerve palsy can follow surgery or malignancy. B: Correct. Abscess can form in suppurative parotitis. C: Correct. A salivary fistula can form after surgery or infection. D: Correct. Pleomorphic adenoma can undergo malignant transformation. E: Incorrect. Spontaneous resolution does not occur in all cases; some need surgery."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for parotid gland conditions?",
+    "q-number": 84,
+    "options": [
+      "Hydration and sialagogues",
+      "Antibiotics for bacterial infection",
+      "Surgical excision for tumors",
+      "Facial nerve preservation during surgery",
+      "Immediate radiotherapy for all benign lesions"
+    ],
+    "answer": [
+      "Hydration and sialagogues",
+      "Antibiotics for bacterial infection",
+      "Surgical excision for tumors",
+      "Facial nerve preservation during surgery"
+    ],
+    "explanation": "A: Correct. Hydration and sialagogues help salivary flow in sialadenitis. B: Correct. Antibiotics treat bacterial infection. C: Correct. Surgical excision is the treatment for tumours. D: Correct. Facial nerve preservation is a key surgical goal. E: Incorrect. Radiotherapy is not used immediately for benign lesions."
+  },
+  {
+    "type": "sata",
+    "q": "Which features suggest a malignant parotid tumor rather than benign?",
+    "q-number": 85,
+    "options": [
+      "Rapid growth",
+      "Facial nerve palsy",
+      "Pain",
+      "Mobile, well-circumscribed mass",
+      "Fixation to surrounding tissues"
+    ],
+    "answer": [
+      "Rapid growth",
+      "Facial nerve palsy",
+      "Pain",
+      "Fixation to surrounding tissues"
+    ],
+    "explanation": "A: Correct. Rapid growth suggests malignancy. B: Correct. Facial nerve palsy suggests malignancy. C: Correct. Pain suggests malignancy, particularly with rapid growth. D: Incorrect. A mobile, well-circumscribed mass suggests a benign tumour. E: Correct. Fixation to surrounding tissue suggests malignancy."
+  },
+  {
+    "type": "sata",
+    "q": "Which statements regarding parotid tumors are correct?",
+    "q-number": 86,
+    "options": [
+      "Pleomorphic adenoma is the most common benign tumor",
+      "Warthin tumor is associated with smoking",
+      "Mucoepidermoid carcinoma is a common malignant tumor",
+      "All parotid tumors are malignant",
+      "Bilateral tumors are common in Warthin tumor"
+    ],
+    "answer": [
+      "Pleomorphic adenoma is the most common benign tumor",
+      "Warthin tumor is associated with smoking",
+      "Mucoepidermoid carcinoma is a common malignant tumor",
+      "Bilateral tumors are common in Warthin tumor"
+    ],
+    "explanation": "A: Correct. Pleomorphic adenoma is the most common benign parotid tumour. B: Correct. Warthin tumour is associated with smoking. C: Correct. Mucoepidermoid carcinoma is the most common malignant parotid tumour. D: Incorrect. Most parotid tumours are benign, not malignant. Trap: \"all parotid tumours are malignant\" is wrong. E: Correct. Warthin tumour is often bilateral."
+  },
+  {
+    "type": "sata",
+    "q": "Which statements regarding the facial nerve in parotid disease are correct?",
+    "q-number": 87,
+    "options": [
+      "Facial nerve palsy suggests malignancy",
+      "The nerve divides the gland into superficial and deep lobes",
+      "All parotid surgeries sacrifice the facial nerve",
+      "Preservation of the nerve is a key surgical goal",
+      "Injury leads to facial asymmetry"
+    ],
+    "answer": [
+      "Facial nerve palsy suggests malignancy",
+      "The nerve divides the gland into superficial and deep lobes",
+      "Preservation of the nerve is a key surgical goal",
+      "Injury leads to facial asymmetry"
+    ],
+    "explanation": "A: Correct. Facial nerve palsy suggests malignancy. B: Correct. The nerve divides the gland into superficial and deep lobes. C: Incorrect. Not all parotid surgery sacrifices the nerve; nerve preservation is the aim when possible. D: Correct. Nerve preservation is a key surgical goal. E: Correct. Nerve injury causes facial asymmetry."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are important in parotid tumor evaluation?",
+    "q-number": 88,
+    "options": [
+      "Ultrasound",
+      "Fine-needle aspiration cytology (FNAC)",
+      "MRI for deep lobe involvement",
+      "CT scan for staging",
+      "Routine biopsy via open incision"
+    ],
+    "answer": [
+      "Ultrasound",
+      "Fine-needle aspiration cytology (FNAC)",
+      "MRI for deep lobe involvement",
+      "CT scan for staging"
+    ],
+    "explanation": "A: Correct. Ultrasound assesses size and character of the mass. B: Correct. FNAC gives a tissue diagnosis. C: Correct. MRI assesses deep lobe involvement. D: Correct. CT assesses staging and extent. E: Incorrect. Open incision biopsy is avoided because it risks tumour seeding."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate principles in parotid surgery?",
+    "q-number": 89,
+    "options": [
+      "Superficial parotidectomy for benign tumors",
+      "Total parotidectomy for malignant tumors",
+      "Facial nerve identification before dissection",
+      "Enucleation of pleomorphic adenoma",
+      "Adequate margin excision"
+    ],
+    "answer": [
+      "Superficial parotidectomy for benign tumors",
+      "Total parotidectomy for malignant tumors",
+      "Facial nerve identification before dissection",
+      "Adequate margin excision"
+    ],
+    "explanation": "A: Correct. Superficial parotidectomy is standard for benign tumours. B: Correct. Total parotidectomy is used for malignant tumours. C: Correct. The facial nerve should be identified before dissection. D: Incorrect. Enucleation of pleomorphic adenoma risks recurrence and capsule rupture, so it is not standard. E: Correct. Adequate margin excision is needed for malignancy."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may occur after parotidectomy?",
+    "q-number": 90,
+    "options": [
+      "Facial nerve palsy",
+      "Frey’s syndrome (gustatory sweating)",
+      "Hematoma",
+      "Salivary fistula",
+      "Immediate permanent cure without complications"
+    ],
+    "answer": [
+      "Facial nerve palsy",
+      "Frey’s syndrome (gustatory sweating)",
+      "Hematoma",
+      "Salivary fistula"
+    ],
+    "explanation": "A: Correct. Facial nerve palsy is a recognised complication. B: Correct. Frey syndrome (gustatory sweating) is a recognised complication. C: Correct. Haematoma can occur and needs drainage. D: Correct. Salivary fistula can occur after surgery. E: Incorrect. No surgery is without complication; permanent cure without complications is not guaranteed."
+  },
+  {
+    "type": "sata",
+    "q": "A 70-year-old male presents with abdominal discomfort. Which features suggest an aortic aneurysm?",
+    "q-number": 91,
+    "options": [
+      "Pulsatile abdominal mass",
+      "Back pain",
+      "Asymptomatic incidental finding",
+      "Sudden tearing chest pain radiating to back",
+      "Hematemesis"
+    ],
+    "answer": [
+      "Pulsatile abdominal mass",
+      "Back pain",
+      "Asymptomatic incidental finding"
+    ],
+    "explanation": "A: Correct. A pulsatile abdominal mass is the classic finding. B: Correct. Back pain can be a symptom of AAA. C: Correct. AAA is often an incidental finding on imaging. D: Incorrect. Sudden tearing chest pain radiating to the back suggests aortic dissection, not aneurysm. E: Incorrect. Haematemesis is not a feature of aneurysm. Sudden haematemesis would suggest another cause. Disagreement with answer key: key gives A, B, C, D; I give A, B, C. The key includes D (sudden tearing chest pain radiating to the back). This is the classic presentation of aortic dissection rather than an aneurysm. The question asks for features suggesting aneurysm, so D is incorrect."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are consistent with aortic aneurysm?",
+    "q-number": 92,
+    "options": [
+      "Expansile pulsatile abdominal mass",
+      "Bruit over abdomen",
+      "Hypotension in rupture",
+      "Tender abdomen",
+      "Hyperactive bowel sounds"
+    ],
+    "answer": [
+      "Expansile pulsatile abdominal mass",
+      "Bruit over abdomen",
+      "Hypotension in rupture",
+      "Tender abdomen"
+    ],
+    "explanation": "A: Correct. An expansile pulsatile mass is classic. B: Correct. A bruit over the aneurysm is a common finding. C: Correct. Hypotension suggests rupture. D: Correct. Tenderness suggests rupture or expansion. E: Incorrect. Hyperactive bowel sounds are not a feature of aneurysm."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are useful in diagnosing aortic aneurysm?",
+    "q-number": 93,
+    "options": [
+      "Ultrasound (screening tool)",
+      "CT angiography",
+      "MRI angiography",
+      "Chest X-ray (may show widened mediastinum)",
+      "Urinalysis as primary diagnostic test"
+    ],
+    "answer": [
+      "Ultrasound (screening tool)",
+      "CT angiography",
+      "MRI angiography",
+      "Chest X-ray (may show widened mediastinum)"
+    ],
+    "explanation": "A: Correct. Ultrasound is the screening tool for AAA. B: Correct. CT angiography is used for diagnosis and planning. C: Correct. MR angiography is an alternative for diagnosis and planning. D: Correct. A chest X-ray may show a widened mediastinum, which suggests thoracic aortic pathology. This is non-specific. E: Incorrect. Urinalysis does not diagnose aneurysm."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to aortic aneurysm formation?",
+    "q-number": 94,
+    "options": [
+      "Degeneration of the medial layer",
+      "Atherosclerosis",
+      "Hypertension",
+      "Genetic disorders (e.g., Marfan syndrome)",
+      "Increased collagen strength"
+    ],
+    "answer": [
+      "Degeneration of the medial layer",
+      "Atherosclerosis",
+      "Hypertension",
+      "Genetic disorders (e.g., Marfan syndrome)"
+    ],
+    "explanation": "A: Correct. Medial degeneration weakens the aortic wall. B: Correct. Atherosclerosis contributes to aneurysm formation. C: Correct. Hypertension increases wall stress. D: Correct. Genetic disorders such as Marfan syndrome predispose to aneurysm. E: Incorrect. Increased collagen strength would not cause aneurysm; the problem is collagen weakness."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from aortic aneurysm?",
+    "q-number": 95,
+    "options": [
+      "Rupture",
+      "Thromboembolism",
+      "Compression of adjacent structures",
+      "Dissection",
+      "Spontaneous regression"
+    ],
+    "answer": [
+      "Rupture",
+      "Thromboembolism",
+      "Compression of adjacent structures",
+      "Dissection"
+    ],
+    "explanation": "A: Correct. Rupture is the most dangerous complication. B: Correct. Thromboembolism can follow mural thrombus. C: Correct. Compression of adjacent structures causes symptoms. D: Correct. Dissection can occur in aneurysm. E: Incorrect. Spontaneous regression does not occur in aneurysm."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for aortic aneurysm?",
+    "q-number": 96,
+    "options": [
+      "Blood pressure control",
+      "Regular imaging surveillance",
+      "Surgical repair for large aneurysms",
+      "Endovascular aneurysm repair (EVAR)",
+      "Immediate surgery for all small asymptomatic aneurysms"
+    ],
+    "answer": [
+      "Blood pressure control",
+      "Regular imaging surveillance",
+      "Surgical repair for large aneurysms",
+      "Endovascular aneurysm repair (EVAR)"
+    ],
+    "explanation": "A: Correct. Blood pressure control reduces expansion and rupture risk. B: Correct. Regular imaging surveillance is used for small aneurysms. C: Correct. Surgical repair is indicated for large or symptomatic aneurysm. D: Correct. Endovascular repair (EVAR) is an option for suitable anatomy. E: Incorrect. Immediate surgery for all small asymptomatic aneurysms is not indicated. Surveillance is standard."
+  },
+  {
+    "type": "sata",
+    "q": "Which features are more typical of abdominal aortic aneurysm (AAA)?",
+    "q-number": 97,
+    "options": [
+      "Pulsatile abdominal mass",
+      "Epigastric or back pain",
+      "Hoarseness",
+      "Dysphagia",
+      "Often asymptomatic"
+    ],
+    "answer": [
+      "Pulsatile abdominal mass",
+      "Epigastric or back pain",
+      "Often asymptomatic"
+    ],
+    "explanation": "A: Correct. A pulsatile abdominal mass is typical. B: Correct. Epigastric or back pain is typical. C: Incorrect. Hoarseness suggests thoracic aneurysm compressing the recurrent laryngeal nerve. D: Incorrect. Dysphagia suggests thoracic aneurysm compressing the oesophagus. E: Correct. AAA is often asymptomatic."
+  },
+  {
+    "type": "sata",
+    "q": "Which features are more suggestive of aortic dissection rather than aneurysm?",
+    "q-number": 98,
+    "options": [
+      "Sudden tearing chest pain",
+      "Pain radiating to the back",
+      "Pulse asymmetry",
+      "Gradual enlargement without symptoms",
+      "Acute onset hypertension"
+    ],
+    "answer": [
+      "Sudden tearing chest pain",
+      "Pain radiating to the back",
+      "Pulse asymmetry",
+      "Acute onset hypertension"
+    ],
+    "explanation": "A: Correct. Sudden tearing chest pain is typical of dissection. B: Correct. Pain radiating to the back is typical of dissection. C: Correct. Pulse asymmetry suggests dissection. D: Incorrect. Gradual enlargement without symptoms suggests aneurysm, not dissection. E: Correct. Acute hypertension is a feature of dissection."
+  },
+  {
+    "type": "sata",
+    "q": "Which statements regarding AAA management thresholds are correct?",
+    "q-number": 99,
+    "options": [
+      "Repair is indicated at ≥5.5 cm in men",
+      "Repair is indicated at ≥5.0 cm in women (often considered)",
+      "Rapid expansion (>0.5 cm in 6 months) is an indication for repair",
+      "All aneurysms require immediate surgery regardless of size",
+      "Symptomatic aneurysms require intervention"
+    ],
+    "answer": [
+      "Repair is indicated at ≥5.5 cm in men",
+      "Repair is indicated at ≥5.0 cm in women (often considered)",
+      "Rapid expansion (>0.5 cm in 6 months) is an indication for repair",
+      "Symptomatic aneurysms require intervention"
+    ],
+    "explanation": "A: Correct. Repair is generally indicated at 5.5 cm or more in men. B: Correct. A threshold of 5.0 cm is often considered in women. C: Correct. Rapid expansion (around 0.5 cm in 6 months) is an indication for review and repair. D: Incorrect. Not all aneurysms need immediate surgery; small ones are monitored. E: Correct. Symptomatic aneurysms need intervention regardless of size."
+  },
+  {
+    "type": "sata",
+    "q": "Which factors increase the risk of aneurysm rupture?",
+    "q-number": 100,
+    "options": [
+      "Large aneurysm size",
+      "Rapid expansion",
+      "Smoking",
+      "Hypertension",
+      "Small stable aneurysm"
+    ],
+    "answer": [
+      "Large aneurysm size",
+      "Rapid expansion",
+      "Smoking",
+      "Hypertension"
+    ],
+    "explanation": "A: Correct. Large size increases rupture risk. B: Correct. Rapid expansion increases rupture risk. C: Correct. Smoking increases rupture risk. D: Correct. Hypertension increases rupture risk. E: Incorrect. A small stable aneurysm has low rupture risk."
+  },
+  {
+    "type": "sata",
+    "q": "Which statements regarding imaging are correct?",
+    "q-number": 101,
+    "options": [
+      "Ultrasound is ideal for AAA screening",
+      "CT angiography is best for preoperative planning",
+      "MRI is always first-line in emergencies",
+      "Chest X-ray may show widened mediastinum",
+      "Bedside ultrasound can detect rupture quickly"
+    ],
+    "answer": [
+      "Ultrasound is ideal for AAA screening",
+      "CT angiography is best for preoperative planning",
+      "Chest X-ray may show widened mediastinum",
+      "Bedside ultrasound can detect rupture quickly"
+    ],
+    "explanation": "A: Correct. Ultrasound is ideal for AAA screening. B: Correct. CT angiography is best for preoperative planning. C: Incorrect. MRI is not first-line in emergencies because it is slower. D: Correct. A chest X-ray may show a widened mediastinum. E: Correct. Bedside ultrasound can rapidly detect rupture."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies?",
+    "q-number": 102,
+    "options": [
+      "EVAR for suitable AAA patients",
+      "Open surgical repair for large or ruptured aneurysms",
+      "Immediate blood pressure control in aortic dissection",
+      "Anticoagulation as primary treatment for rupture",
+      "Beta-blockers to reduce shear stress in dissection"
+    ],
+    "answer": [
+      "EVAR for suitable AAA patients",
+      "Open surgical repair for large or ruptured aneurysms",
+      "Immediate blood pressure control in aortic dissection",
+      "Beta-blockers to reduce shear stress in dissection"
+    ],
+    "explanation": "A: Correct. EVAR is suitable for anatomically suitable AAA. B: Correct. Open repair is used for large or ruptured aneurysms, or when EVAR is unsuitable. C: Correct. Blood pressure control is the first step in aortic dissection. D: Incorrect. Anticoagulation is contraindicated in rupture and worsens bleeding. E: Correct. Beta-blockers reduce shear stress in dissection."
+  },
+  {
+    "type": "sata",
+    "q": "A 60-year-old patient presents with bowel complaints. Which features suggest rectal carcinoma?",
+    "q-number": 103,
+    "options": [
+      "Tenesmus",
+      "Fresh rectal bleeding",
+      "Change in bowel habits",
+      "Projectile vomiting",
+      "Unintentional weight loss"
+    ],
+    "answer": [
+      "Tenesmus",
+      "Fresh rectal bleeding",
+      "Change in bowel habits",
+      "Unintentional weight loss"
+    ],
+    "explanation": "A: Correct. Tenesmus is a classic rectal symptom. B: Correct. Fresh rectal bleeding is a classic symptom. C: Correct. A change in bowel habit is a key feature. D: Incorrect. Projectile vomiting suggests a different cause, such as raised intracranial pressure or obstruction. E: Correct. Unintentional weight loss suggests advanced disease."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are suggestive of rectal carcinoma on examination?",
+    "q-number": 104,
+    "options": [
+      "Palpable irregular mass on DRE",
+      "Hard, fixed lesion",
+      "Blood on glove after examination",
+      "Soft, mobile mass",
+      "Enlarged inguinal lymph nodes"
+    ],
+    "answer": [
+      "Palpable irregular mass on DRE",
+      "Hard, fixed lesion",
+      "Blood on glove after examination"
+    ],
+    "explanation": "A: Correct. A palpable irregular mass on DRE is the key finding. B: Correct. A hard, fixed lesion suggests malignancy. C: Correct. Blood on the glove after DRE suggests a bleeding lesion. D: Incorrect. A soft mobile mass suggests a benign lesion. E: Incorrect. Enlarged inguinal nodes are not a rectal cancer finding; rectal cancer spreads to mesorectal and pelvic nodes. Inguinal nodes are involved in distal anal cancer. Disagreement with answer key: key gives A, B, C, E; I give A, B, C. The key includes E (enlarged inguinal lymph nodes). Rectal cancer drains to mesorectal, internal iliac and para-aortic nodes. Inguinal nodes are involved in distal anal cancer, not rectal cancer, so E is incorrect."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are important in rectal carcinoma?",
+    "q-number": 105,
+    "options": [
+      "Colonoscopy with biopsy",
+      "MRI pelvis",
+      "CT scan (chest/abdomen/pelvis)",
+      "Carcinoembryonic antigen (CEA)",
+      "Plain abdominal X-ray as definitive test"
+    ],
+    "answer": [
+      "Colonoscopy with biopsy",
+      "MRI pelvis",
+      "CT scan (chest/abdomen/pelvis)",
+      "Carcinoembryonic antigen (CEA)"
+    ],
+    "explanation": "A: Correct. Colonoscopy with biopsy gives the diagnosis. B: Correct. MRI pelvis stages local extent. C: Correct. CT chest, abdomen and pelvis assesses for metastasis. D: Correct. CEA is a baseline and monitoring marker. E: Incorrect. A plain abdominal X-ray is not a definitive test for rectal cancer."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to rectal carcinoma development?",
+    "q-number": 106,
+    "options": [
+      "Adenoma–carcinoma sequence",
+      "Genetic mutations (APC, p53)",
+      "Chronic inflammation (IBD)",
+      "High-fiber diet as a risk factor",
+      "Dysplasia of mucosal cells"
+    ],
+    "answer": [
+      "Adenoma–carcinoma sequence",
+      "Genetic mutations (APC, p53)",
+      "Chronic inflammation (IBD)",
+      "Dysplasia of mucosal cells"
+    ],
+    "explanation": "A: Correct. The adenoma-carcinoma sequence is the main pathway. B: Correct. APC and p53 mutations drive carcinogenesis. C: Correct. Chronic inflammation (e.g. IBD) increases risk. D: Incorrect. A high-fibre diet is protective, not a risk factor. Trap: a low-fibre diet is the risk factor. E: Correct. Dysplasia of mucosal cells precedes carcinoma."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from rectal carcinoma?",
+    "q-number": 107,
+    "options": [
+      "Bowel obstruction",
+      "Perforation",
+      "Local invasion (bladder, prostate, vagina)",
+      "Liver metastasis",
+      "Spontaneous regression"
+    ],
+    "answer": [
+      "Bowel obstruction",
+      "Perforation",
+      "Local invasion (bladder, prostate, vagina)",
+      "Liver metastasis"
+    ],
+    "explanation": "A: Correct. Bowel obstruction can occur as the tumour grows. B: Correct. Perforation can occur at the tumour or after obstruction. C: Correct. Local invasion of bladder, prostate or vagina can occur. D: Correct. Liver metastasis can occur, by systemic spread from the lower rectum. E: Incorrect. Spontaneous regression does not occur in rectal cancer."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for rectal carcinoma?",
+    "q-number": 108,
+    "options": [
+      "Neoadjuvant chemoradiotherapy",
+      "Total mesorectal excision (TME)",
+      "Abdominoperineal resection (APR) for low tumors",
+      "Local excision for all tumors",
+      "Adjuvant chemotherapy"
+    ],
+    "answer": [
+      "Neoadjuvant chemoradiotherapy",
+      "Total mesorectal excision (TME)",
+      "Abdominoperineal resection (APR) for low tumors",
+      "Adjuvant chemotherapy"
+    ],
+    "explanation": "A: Correct. Neoadjuvant chemoradiotherapy is used for locally advanced disease. B: Correct. Total mesorectal excision is the key surgical principle. C: Correct. APR is used for low tumours involving the sphincter. D: Incorrect. Local excision alone is not appropriate for all tumours; it is limited to selected early lesions. E: Correct. Adjuvant chemotherapy is used after resection for higher-risk stage."
+  },
+  {
+    "type": "sata",
+    "q": "A 58-year-old man presents with tenesmus, fresh rectal bleeding, and weight loss. On DRE, there is a hard irregular mass 6 cm from the anal verge. What supports a diagnosis of rectal carcinoma?",
+    "q-number": 109,
+    "options": [
+      "Tenesmus",
+      "Hard irregular mass on DRE",
+      "Fresh rectal bleeding",
+      "Severe epigastric pain",
+      "Hematemesis"
+    ],
+    "answer": [
+      "Tenesmus",
+      "Hard irregular mass on DRE",
+      "Fresh rectal bleeding"
+    ],
+    "explanation": "A: Correct. Tenesmus is a classic rectal symptom. B: Correct. A hard irregular mass on DRE is a key finding. C: Correct. Fresh rectal bleeding is a classic symptom. D: Incorrect. Severe epigastric pain points to pancreatic or biliary disease, not rectal carcinoma. E: Incorrect. Haematemesis points to upper GI bleeding, not rectal carcinoma."
+  },
+  {
+    "type": "sata",
+    "q": "MRI pelvis shows a locally advanced rectal tumor (T3) with mesorectal involvement. Which are appropriate next steps?",
+    "q-number": 110,
+    "options": [
+      "Neoadjuvant chemoradiotherapy",
+      "Immediate surgery without staging",
+      "Total mesorectal excision (after downstaging)",
+      "Ignore MRI findings",
+      "Multidisciplinary team (MDT) discussion"
+    ],
+    "answer": [
+      "Neoadjuvant chemoradiotherapy",
+      "Total mesorectal excision (after downstaging)",
+      "Multidisciplinary team (MDT) discussion"
+    ],
+    "explanation": "A: Correct. Neoadjuvant chemoradiotherapy is standard for locally advanced disease. B: Incorrect. Surgery without staging is inappropriate; staging is needed first. C: Correct. TME after downstaging is the surgical step once neoadjuvant therapy is complete. D: Incorrect. MRI findings must be acted on, not ignored. E: Correct. Discussion at a multidisciplinary team (MDT) meeting is standard."
+  },
+  {
+    "type": "sata",
+    "q": "A tumor is located very low (2 cm from anal verge) involving sphincters. Which are appropriate management options?",
+    "q-number": 111,
+    "options": [
+      "Abdominoperineal resection (APR)",
+      "Permanent colostomy",
+      "Sphincter-preserving surgery in all cases",
+      "Local excision regardless of stage",
+      "Oncologic resection with clear margins"
+    ],
+    "answer": [
+      "Abdominoperineal resection (APR)",
+      "Permanent colostomy",
+      "Oncologic resection with clear margins"
+    ],
+    "explanation": "A: Correct. APR is the surgery for very low tumours involving the sphincters. B: Correct. APR results in a permanent colostomy. C: Incorrect. Sphincter-preserving surgery is not possible in all cases; very low tumours with sphincter involvement often need APR. D: Incorrect. Local excision regardless of stage is not appropriate; it is only for selected early lesions. E: Correct. Oncological resection with clear margins is the aim."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings suggest advanced rectal carcinoma with metastasis?",
+    "q-number": 112,
+    "options": [
+      "Liver lesions on CT",
+      "Lung nodules",
+      "Enlarged mesorectal lymph nodes",
+      "Isolated hemorrhoids",
+      "Acute appendicitis"
+    ],
+    "answer": [
+      "Liver lesions on CT",
+      "Lung nodules",
+      "Enlarged mesorectal lymph nodes"
+    ],
+    "explanation": "A: Correct. Liver lesions on CT indicate metastasis. B: Correct. Lung nodules indicate metastasis. C: Correct. Enlarged mesorectal nodes indicate regional nodal metastasis. D: Incorrect. Isolated haemorrhoids are benign and do not indicate metastasis. E: Incorrect. Acute appendicitis is unrelated to rectal cancer metastasis."
+  },
+  {
+    "type": "sata",
+    "q": "A patient presents with abdominal distension, vomiting, and inability to pass stool. Which complications of rectal carcinoma are likely?",
+    "q-number": 113,
+    "options": [
+      "Bowel obstruction",
+      "Perforation",
+      "Sepsis",
+      "Migraine headache",
+      "Peptic ulcer disease"
+    ],
+    "answer": [
+      "Bowel obstruction",
+      "Perforation",
+      "Sepsis"
+    ],
+    "explanation": "A: Correct. Obstruction is the presenting complication. B: Correct. Perforation can occur proximal to the obstruction. C: Correct. Sepsis follows perforation or obstruction. D: Incorrect. Migraine is unrelated to rectal cancer obstruction. E: Incorrect. Peptic ulcer disease is unrelated to rectal cancer obstruction."
+  },
+  {
+    "type": "sata",
+    "q": "After surgery for rectal carcinoma, which are appropriate follow-up strategies?",
+    "q-number": 114,
+    "options": [
+      "Regular CEA monitoring",
+      "Surveillance colonoscopy",
+      "Periodic CT scans",
+      "No follow-up needed if asymptomatic",
+      "Routine antibiotic prophylaxis"
+    ],
+    "answer": [
+      "Regular CEA monitoring",
+      "Surveillance colonoscopy",
+      "Periodic CT scans"
+    ],
+    "explanation": "A: Correct. Regular CEA monitoring is part of surveillance. B: Correct. Surveillance colonoscopy is recommended. C: Correct. Periodic CT scans are part of surveillance for recurrence. D: Incorrect. Follow-up is needed even when asymptomatic, to detect recurrence. E: Incorrect. Routine antibiotic prophylaxis is not needed for surveillance."
+  },
+  {
+    "type": "sata",
+    "q": "A 65-year-old patient presents with abdominal pain. Which features suggest diverticulitis?",
+    "q-number": 115,
+    "options": [
+      "Left lower quadrant pain",
+      "Fever",
+      "Change in bowel habits",
+      "Sudden severe epigastric pain radiating to back",
+      "Nausea and vomiting"
+    ],
+    "answer": [
+      "Left lower quadrant pain",
+      "Fever",
+      "Change in bowel habits",
+      "Nausea and vomiting"
+    ],
+    "explanation": "A: Correct. Left lower quadrant pain is the classic presentation. B: Correct. Fever suggests inflammation or infection. C: Correct. A change in bowel habit can occur. D: Incorrect. Sudden severe epigastric pain radiating to the back suggests pancreatitis or aortic pathology. E: Correct. Nausea and vomiting are common."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are consistent with diverticulitis?",
+    "q-number": 116,
+    "options": [
+      "Left lower quadrant tenderness",
+      "Guarding and rebound tenderness",
+      "Palpable mass",
+      "Hyper resonant abdomen",
+      "Fever"
+    ],
+    "answer": [
+      "Left lower quadrant tenderness",
+      "Guarding and rebound tenderness",
+      "Palpable mass",
+      "Fever"
+    ],
+    "explanation": "A: Correct. Left lower quadrant tenderness is typical. B: Correct. Guarding and rebound tenderness suggest peritonitis. C: Correct. A palpable mass suggests a pericolic abscess or phlegmon. D: Incorrect. Hyper-resonance is not a typical finding in diverticulitis. E: Correct. Fever is typical."
+  },
+  {
+    "type": "sata",
+    "q": "Which investigations are appropriate for diverticulitis?",
+    "q-number": 117,
+    "options": [
+      "CT scan abdomen (with contrast)",
+      "Full blood count (leukocytosis)",
+      "CRP level",
+      "Colonoscopy during acute phase",
+      "Ultrasound"
+    ],
+    "answer": [
+      "CT scan abdomen (with contrast)",
+      "Full blood count (leukocytosis)",
+      "CRP level",
+      "Ultrasound"
+    ],
+    "explanation": "A: Correct. CT abdomen with contrast is the investigation of choice. B: Correct. Full blood count shows leucocytosis. C: Correct. CRP reflects the inflammatory response. D: Incorrect. Colonoscopy is avoided in the acute phase because of perforation risk. E: Correct. Ultrasound is an alternative, especially in young or pregnant patients, though it is operator dependent."
+  },
+  {
+    "type": "sata",
+    "q": "Which mechanisms contribute to diverticulitis?",
+    "q-number": 118,
+    "options": [
+      "Increased intraluminal pressure",
+      "Weakness in colonic wall",
+      "Micro perforation of diverticula",
+      "High-fiber diet as a cause",
+      "Fecal stasis within diverticula"
+    ],
+    "answer": [
+      "Increased intraluminal pressure",
+      "Weakness in colonic wall",
+      "Micro perforation of diverticula",
+      "Fecal stasis within diverticula"
+    ],
+    "explanation": "A: Correct. Raised intraluminal pressure forms diverticula. B: Correct. Weakness in the colonic wall allows diverticula to form. C: Correct. Microperforation of a diverticulum causes inflammation. D: Incorrect. Low-fibre diets, not high-fibre diets, are associated with diverticular disease. E: Correct. Faecal stasis within diverticula promotes inflammation."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from diverticulitis?",
+    "q-number": 119,
+    "options": [
+      "Abscess formation",
+      "Perforation",
+      "Fistula (e.g., colovesical)",
+      "Bowel obstruction",
+      "Immediate spontaneous resolution in all cases"
+    ],
+    "answer": [
+      "Abscess formation",
+      "Perforation",
+      "Fistula (e.g., colovesical)",
+      "Bowel obstruction"
+    ],
+    "explanation": "A: Correct. Abscess formation is common. B: Correct. Perforation can occur. C: Correct. Fistula formation (e.g. colovesical) can occur. D: Correct. Bowel obstruction can occur from stricture or inflammation. E: Incorrect. Spontaneous resolution does not occur in all cases; complicated disease needs treatment."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management strategies for diverticulitis?",
+    "q-number": 120,
+    "options": [
+      "Antibiotics",
+      "Bowel rest (NPO)",
+      "Percutaneous drainage for abscess",
+      "Emergency surgery for perforation",
+      "Immediate colonoscopy in acute phase"
+    ],
+    "answer": [
+      "Antibiotics",
+      "Bowel rest (NPO)",
+      "Percutaneous drainage for abscess",
+      "Emergency surgery for perforation"
+    ],
+    "explanation": "A: Correct. Antibiotics treat uncomplicated and complicated disease. B: Correct. Bowel rest (NPO) is used in acute disease. C: Correct. Percutaneous drainage treats abscess. D: Correct. Emergency surgery is needed for perforation or peritonitis. E: Incorrect. Colonoscopy is avoided in the acute phase."
+  },
+  {
+    "type": "sata",
+    "q": "A CT scan shows localized pericolic inflammation with a small abscess (3 cm). Which are appropriate interpretations/management steps?",
+    "q-number": 121,
+    "options": [
+      "Complicated diverticulitis (Hinchey I–II)",
+      "IV antibiotics",
+      "Percutaneous drainage if abscess enlarges",
+      "Immediate laparotomy",
+      "Routine colonoscopy during acute phase"
+    ],
+    "answer": [
+      "Complicated diverticulitis (Hinchey I–II)",
+      "IV antibiotics",
+      "Percutaneous drainage if abscess enlarges"
+    ],
+    "explanation": "A: Correct. A localised pericolic abscess is Hinchey I or II (complicated diverticulitis). B: Correct. IV antibiotics are the first-line treatment. C: Correct. Percutaneous drainage is considered if the abscess enlarges or fails to respond. D: Incorrect. Immediate laparotomy is not indicated for a small abscess that responds to antibiotics. E: Incorrect. Routine colonoscopy during the acute phase is avoided."
+  },
+  {
+    "type": "sata",
+    "q": "A patient presents with diffuse abdominal pain, guarding, and CT showing free air and fluid. Which are appropriate?",
+    "q-number": 122,
+    "options": [
+      "Emergency surgery",
+      "Broad-spectrum IV antibiotics",
+      "Resuscitation (fluids, monitoring)",
+      "Outpatient management",
+      "High-fiber diet immediately"
+    ],
+    "answer": [
+      "Emergency surgery",
+      "Broad-spectrum IV antibiotics",
+      "Resuscitation (fluids, monitoring)"
+    ],
+    "explanation": "A: Correct. Free air with diffuse peritonitis needs emergency surgery. B: Correct. Broad-spectrum IV antibiotics are needed. C: Correct. Resuscitation with fluids and monitoring is essential. D: Incorrect. Outpatient management is unsafe with peritonitis. E: Incorrect. A high-fibre diet is not appropriate immediately; the patient should be nil by mouth."
+  },
+  {
+    "type": "sata",
+    "q": "A CT scan shows a 5 cm pericolic abscess. Which are appropriate management strategies?",
+    "q-number": 123,
+    "options": [
+      "Percutaneous drainage",
+      "IV antibiotics",
+      "Elective surgery after resolution",
+      "Immediate discharge",
+      "Colonoscopy during acute inflammation"
+    ],
+    "answer": [
+      "Percutaneous drainage",
+      "IV antibiotics",
+      "Elective surgery after resolution"
+    ],
+    "explanation": "A: Correct. Percutaneous drainage is the treatment for a large abscess. B: Correct. IV antibiotics are given. C: Correct. Elective surgery after resolution is often needed, for example for recurrence or fistula risk. D: Incorrect. Immediate discharge is unsafe with a 5 cm abscess. E: Incorrect. Colonoscopy during acute inflammation is avoided."
+  },
+  {
+    "type": "sata",
+    "q": "Which are indications for surgical intervention in diverticulitis?",
+    "q-number": 124,
+    "options": [
+      "Recurrent episodes",
+      "Fistula formation (e.g., colovesical)",
+      "Bowel obstruction",
+      "Mild first episode responding to antibiotics",
+      "Uncomplicated diverticulosis"
+    ],
+    "answer": [
+      "Recurrent episodes",
+      "Fistula formation (e.g., colovesical)",
+      "Bowel obstruction"
+    ],
+    "explanation": "A: Correct. Recurrent episodes are an indication for elective surgery. B: Correct. Fistula formation is an indication for surgery. C: Correct. Bowel obstruction is an indication for surgery. D: Incorrect. A mild first episode responding to antibiotics is managed medically. E: Incorrect. Uncomplicated diverticulosis does not need surgery."
+  },
+  {
+    "type": "sata",
+    "q": "After recovery from acute diverticulitis, which are appropriate next steps?",
+    "q-number": 125,
+    "options": [
+      "Colonoscopy after resolution",
+      "High-fiber diet",
+      "Lifestyle modification",
+      "Immediate repeat CT scan daily",
+      "Lifelong antibiotics"
+    ],
+    "answer": [
+      "Colonoscopy after resolution",
+      "High-fiber diet",
+      "Lifestyle modification"
+    ],
+    "explanation": "A: Correct. Colonoscopy after resolution excludes malignancy. B: Correct. A high-fibre diet is recommended for prevention. C: Correct. Lifestyle modification (exercise, diet, weight) reduces recurrence. D: Incorrect. Daily repeat CT scans are not indicated. E: Incorrect. Lifelong antibiotics are not recommended."
+  },
+  {
+    "type": "sata",
+    "q": "A patient develops pneumaturia and recurrent UTIs after diverticulitis. Which are correct?",
+    "q-number": 126,
+    "options": [
+      "Suggests colovesical fistula",
+      "Requires surgical repair",
+      "CT scan helps confirm diagnosis",
+      "Managed with antibiotics alone indefinitely",
+      "Caused by appendicitis"
+    ],
+    "answer": [
+      "Suggests colovesical fistula",
+      "Requires surgical repair",
+      "CT scan helps confirm diagnosis"
+    ],
+    "explanation": "A: Correct. Pneumaturia suggests colovesical fistula. B: Correct. Colovesical fistula requires surgical repair. C: Correct. CT helps confirm the diagnosis. D: Incorrect. Antibiotics alone do not treat the fistula. E: Incorrect. Appendicitis is not the cause of this picture."
+  },
+  {
+    "type": "sata",
+    "q": "A 30-year-old patient with ulcerative colitis presents with fever, abdominal distension, and altered mental status. Which features suggest toxic megacolon?",
+    "q-number": 127,
+    "options": [
+      "Severe abdominal distension",
+      "Fever >38°C",
+      "Tachycardia",
+      "Hyperactive bowel sounds",
+      "Hypotension"
+    ],
+    "answer": [
+      "Severe abdominal distension",
+      "Fever >38°C",
+      "Tachycardia",
+      "Hypotension"
+    ],
+    "explanation": "A: Correct. Severe abdominal distension is a key feature. B: Correct. Fever above 38 degrees C indicates systemic toxicity. C: Correct. Tachycardia indicates systemic toxicity. D: Incorrect. Hyperactive bowel sounds are not typical; the bowel is typically quiet. E: Correct. Hypotension is a late sign of toxicity."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings support the diagnosis of toxic megacolon?",
+    "q-number": 128,
+    "options": [
+      "Leukocytosis",
+      "Electrolyte imbalance",
+      "Radiologic colonic dilation (>6 cm)",
+      "Normal vital signs",
+      "Anaemia"
+    ],
+    "answer": [
+      "Leukocytosis",
+      "Electrolyte imbalance",
+      "Radiologic colonic dilation (>6 cm)",
+      "Anaemia"
+    ],
+    "explanation": "A: Correct. Leucocytosis reflects severe inflammation. B: Correct. Electrolyte imbalance is common. C: Correct. Colonic dilation above 6 cm is the diagnostic radiological criterion. D: Incorrect. Normal vital signs argue against toxic megacolon. E: Correct. Anaemia is common in severe colitis."
+  },
+  {
+    "type": "sata",
+    "q": "Which imaging findings are consistent with toxic megacolon?",
+    "q-number": 129,
+    "options": [
+      "Dilated colon (>6 cm) on X-ray",
+      "Loss of haustral pattern",
+      "Free air under diaphragm (perforation)",
+      "Apple-core lesion",
+      "Thumbprinting"
+    ],
+    "answer": [
+      "Dilated colon (>6 cm) on X-ray",
+      "Loss of haustral pattern",
+      "Free air under diaphragm (perforation)",
+      "Thumbprinting"
+    ],
+    "explanation": "A: Correct. Colonic dilation above 6 cm on X-ray is diagnostic. B: Correct. Loss of haustral pattern suggests severe colitis. C: Correct. Free air under the diaphragm suggests perforation. D: Incorrect. An apple-core lesion suggests malignancy, not toxic megacolon. E: Correct. Thumbprinting reflects oedema in severe colitis. It is non-specific."
+  },
+  {
+    "type": "sata",
+    "q": "Which conditions are commonly associated with toxic megacolon?",
+    "q-number": 130,
+    "options": [
+      "Ulcerative colitis",
+      "Crohn’s disease",
+      "Clostridioides difficile infection",
+      "Acute appendicitis",
+      "Ischemic colitis"
+    ],
+    "answer": [
+      "Ulcerative colitis",
+      "Crohn’s disease",
+      "Clostridioides difficile infection",
+      "Ischemic colitis"
+    ],
+    "explanation": "A: Correct. Ulcerative colitis is the commonest cause. B: Correct. Crohn colitis can cause toxic megacolon. C: Correct. C. difficile infection is a recognised cause. D: Incorrect. Acute appendicitis does not cause toxic megacolon. E: Correct. Ischaemic colitis can cause toxic dilation."
+  },
+  {
+    "type": "sata",
+    "q": "Which pathophysiologic processes are occurring simultaneously?",
+    "q-number": 131,
+    "options": [
+      "Metabolic acidosis (DKA)",
+      "Severe infection/sepsis",
+      "Tissue necrosis",
+      "Increased insulin sensitivity",
+      "Reduced inflammation"
+    ],
+    "answer": [
+      "Severe infection/sepsis",
+      "Tissue necrosis"
+    ],
+    "explanation": "A: Incorrect. Metabolic acidosis from diabetic ketoacidosis is not part of toxic megacolon. B: Correct. Severe infection and sepsis occur together with bowel necrosis. C: Correct. Tissue necrosis occurs as the bowel wall becomes ischaemic. D: Incorrect. Insulin sensitivity is not affected in the disease process. E: Incorrect. Inflammation is increased, not reduced."
+  },
+  {
+    "type": "sata",
+    "q": "Which are appropriate management steps for toxic megacolon?",
+    "q-number": 132,
+    "options": [
+      "Bowel rest (NPO)",
+      "IV corticosteroids (for IBD cause)",
+      "Broad-spectrum antibiotics",
+      "Urgent surgery if no improvement or perforation",
+      "Colonoscopy during acute phase"
+    ],
+    "answer": [
+      "Bowel rest (NPO)",
+      "IV corticosteroids (for IBD cause)",
+      "Broad-spectrum antibiotics",
+      "Urgent surgery if no improvement or perforation"
+    ],
+    "explanation": "A: Correct. Bowel rest (NPO) decompresses the bowel. B: Correct. IV corticosteroids treat severe IBD flares. C: Correct. Broad-spectrum antibiotics treat sepsis. D: Correct. Urgent surgery is needed if there is no improvement or if perforation occurs. E: Incorrect. Colonoscopy is avoided in the acute phase because of perforation risk."
+  },
+  {
+    "type": "sata",
+    "q": "Which are common causes/risk factors for Ludwig’s angina?",
+    "q-number": 133,
+    "options": [
+      "Dental infection (especially molars)",
+      "Poor oral hygiene",
+      "Diabetes mellitus",
+      "Migraine",
+      "Peptic ulcer disease",
+      "Hyperthyroidis"
+    ],
+    "answer": [
+      "Dental infection (especially molars)",
+      "Poor oral hygiene",
+      "Diabetes mellitus"
+    ],
+    "explanation": "A: Correct. Dental infection, especially of the molars, is the most common source. B: Correct. Poor oral hygiene increases the risk. C: Correct. Diabetes increases infection risk and impairs healing. D: Incorrect. Migraine is not a cause of Ludwig angina. E: Incorrect. Peptic ulcer disease is not a cause of Ludwig angina. F: Incorrect. Hyperthyroidism is not a cause of Ludwig angina."
+  },
+  {
+    "type": "sata",
+    "q": "Differentiation: Toxic Megacolon vs A patient with known ulcerative colitis presents with abdominal distension, fever, and tachycardia. Which features specifically support toxic megacolon (not just severe colitis)?",
+    "q-number": 134,
+    "options": [
+      "Colonic dilation >6 cm on imaging",
+      "Systemic toxicity (fever, tachycardia)",
+      "Abdominal distension",
+      "Bloody diarrhea alone",
+      "Mild abdominal discomfort"
+    ],
+    "answer": [
+      "Colonic dilation >6 cm on imaging",
+      "Systemic toxicity (fever, tachycardia)"
+    ],
+    "explanation": "A: Correct. Colonic dilation above 6 cm is the defining feature of toxic megacolon. B: Correct. Systemic toxicity (fever, tachycardia) is required together with dilation. Trap: severe colitis can also cause toxicity, so dilation is what makes it toxic megacolon. C: Incorrect. Abdominal distension occurs in severe colitis too, so it does not distinguish toxic megacolon. D: Incorrect. Bloody diarrhoea alone is seen in ordinary colitis. E: Incorrect. Mild discomfort does not support toxic megacolon. Disagreement with answer key: key gives A, B, C; I give A, B. The key includes C (abdominal distension). Distension also occurs in severe colitis without toxic megacolon, so it does not separate toxic megacolon from severe colitis. The defining features are colonic dilation above 6 cm together with systemic toxicity."
+  },
+  {
+    "type": "sata",
+    "q": "An abdominal X-ray shows colonic dilation >6 cm with loss of haustra. Which interpretations are correct?",
+    "q-number": 135,
+    "options": [
+      "Suggests toxic megacolon",
+      "Indicates severe colonic inflammation",
+      "Requires urgent clinical correlation",
+      "Pathognomonic for colorectal cancer",
+      "Normal finding in constipation"
+    ],
+    "answer": [
+      "Suggests toxic megacolon",
+      "Indicates severe colonic inflammation",
+      "Requires urgent clinical correlation"
+    ],
+    "explanation": "A: Correct. This suggests toxic megacolon. B: Correct. It indicates severe colonic inflammation. C: Correct. It needs urgent clinical correlation. D: Incorrect. Dilation of this kind is not pathognomonic for colorectal cancer. E: Incorrect. This is not a normal finding in constipation."
+  },
+  {
+    "type": "sata",
+    "q": "Which management steps are appropriate in toxic megacolon?",
+    "q-number": 136,
+    "options": [
+      "IV corticosteroids (if IBD-related)",
+      "Broad-spectrum antibiotics",
+      "Bowel rest and IV fluids",
+      "Colonoscopy for evaluation during acute phase",
+      "Antidiarrheal agents (e.g., loperamide)"
+    ],
+    "answer": [
+      "IV corticosteroids (if IBD-related)",
+      "Broad-spectrum antibiotics",
+      "Bowel rest and IV fluids"
+    ],
+    "explanation": "A: Correct. IV corticosteroids are given if the cause is IBD. B: Correct. Broad-spectrum antibiotics treat infection and sepsis. C: Correct. Bowel rest and IV fluids are the mainstay of treatment. D: Incorrect. Colonoscopy in the acute phase is dangerous because of perforation risk. E: Incorrect. Antidiarrhoeal agents such as loperamide are contraindicated; they can precipitate perforation."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings indicate need for urgent surgery in toxic megacolon?",
+    "q-number": 137,
+    "options": [
+      "Perforation",
+      "Worsening colonic dilation",
+      "Clinical deterioration despite therapy",
+      "Mild symptoms improving with treatment",
+      "Stable vital signs"
+    ],
+    "answer": [
+      "Perforation",
+      "Worsening colonic dilation",
+      "Clinical deterioration despite therapy"
+    ],
+    "explanation": "A: Correct. Perforation requires urgent surgery. B: Correct. Worsening dilation despite treatment requires surgery. C: Correct. Clinical deterioration despite therapy requires surgery. D: Incorrect. Mild symptoms improving with treatment do not require surgery. E: Incorrect. Stable vital signs are not an indication for urgent surgery."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings indicate life-threatening complications of toxic megacolon?",
+    "q-number": 138,
+    "options": [
+      "Free air under diaphragm",
+      "Septic shock",
+      "Multi-organ failure",
+      "Mild leukocytosis only",
+      "Isolated constipation"
+    ],
+    "answer": [
+      "Free air under diaphragm",
+      "Septic shock",
+      "Multi-organ failure"
+    ],
+    "explanation": "A: Correct. Free air under the diaphragm indicates perforation. B: Correct. Septic shock is life-threatening. C: Correct. Multi-organ failure is life-threatening. D: Incorrect. Mild leucocytosis alone is not life-threatening. E: Incorrect. Isolated constipation is not a complication."
+  },
+  {
+    "type": "sata",
+    "q": "Which conditions are true causes of toxic megacolon?",
+    "q-number": 139,
+    "options": [
+      "Ulcerative colitis",
+      "Clostridioides difficile infection",
+      "Crohn’s colitis",
+      "Simple constipation",
+      "Irritable bowel syndrome"
+    ],
+    "answer": [
+      "Ulcerative colitis",
+      "Clostridioides difficile infection",
+      "Crohn’s colitis"
+    ],
+    "explanation": "A: Correct. Ulcerative colitis is a true cause. B: Correct. C. difficile infection is a true cause. C: Correct. Crohn colitis is a true cause. D: Incorrect. Simple constipation does not cause toxic megacolon. E: Incorrect. Irritable bowel syndrome does not cause toxic megacolon."
+  },
+  {
+    "type": "sata",
+    "q": "An elderly woman presents with a mass protruding through the anus during defecation. Which features suggest rectal prolapse?",
+    "q-number": 140,
+    "options": [
+      "Protruding circumferential mass",
+      "Mucus discharge",
+      "Fecal incontinence",
+      "Severe epigastric pain",
+      "Hematemesis"
+    ],
+    "answer": [
+      "Protruding circumferential mass",
+      "Mucus discharge",
+      "Fecal incontinence"
+    ],
+    "explanation": "A: Correct. A circumferential protruding mass is typical of full-thickness prolapse. B: Correct. Mucus discharge is common. C: Correct. Faecal incontinence is common. D: Incorrect. Severe epigastric pain is unrelated to rectal prolapse. E: Incorrect. Haematemesis is unrelated to rectal prolapse."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings are characteristic of rectal prolapse?",
+    "q-number": 141,
+    "options": [
+      "Concentric mucosal folds",
+      "Visible full-thickness rectal protrusion",
+      "Reduced anal sphincter tone",
+      "Radial folds only",
+      "Tender fluctuant mass"
+    ],
+    "answer": [
+      "Concentric mucosal folds",
+      "Visible full-thickness rectal protrusion",
+      "Reduced anal sphincter tone"
+    ],
+    "explanation": "A: Correct. Concentric mucosal folds are typical of full-thickness prolapse. B: Correct. A full-thickness rectal protrusion is visible. C: Correct. Reduced anal sphincter tone is typical. D: Incorrect. Radial folds are typical of haemorrhoids, not prolapse. E: Incorrect. A tender fluctuant mass suggests an abscess."
+  },
+  {
+    "type": "sata",
+    "q": "Which features favor rectal prolapse over hemorrhoids",
+    "q-number": 142,
+    "options": [
+      "Circumferential protrusion",
+      "Concentric folds",
+      "Associated incontinence",
+      "Bleeding as the only symptom",
+      "Small localized swelling"
+    ],
+    "answer": [
+      "Circumferential protrusion",
+      "Concentric folds",
+      "Associated incontinence"
+    ],
+    "explanation": "A: Correct. A circumferential protrusion favours prolapse. B: Correct. Concentric folds favour prolapse. C: Correct. Associated incontinence favours prolapse. D: Incorrect. Bleeding alone is typical of haemorrhoids. E: Incorrect. A small localised swelling is typical of haemorrhoids."
+  },
+  {
+    "type": "sata",
+    "q": "Which factors contribute to rectal prolapse?",
+    "q-number": 143,
+    "options": [
+      "Weak pelvic floor muscles",
+      "Chronic straining",
+      "Increased intra-abdominal pressure",
+      "Acute appendicitis",
+      "Connective tissue weakness"
+    ],
+    "answer": [
+      "Weak pelvic floor muscles",
+      "Chronic straining",
+      "Increased intra-abdominal pressure",
+      "Connective tissue weakness"
+    ],
+    "explanation": "A: Correct. Weak pelvic floor muscles are a major factor. B: Correct. Chronic straining increases pressure. C: Correct. Raised intra-abdominal pressure contributes. D: Incorrect. Acute appendicitis does not contribute to rectal prolapse. E: Correct. Connective tissue weakness predisposes to prolapse."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications may arise from rectal prolapse?",
+    "q-number": 144,
+    "options": [
+      "Ulceration",
+      "Bleeding",
+      "Incarceration/strangulation",
+      "Portal hypertension",
+      "Sepsis"
+    ],
+    "answer": [
+      "Ulceration",
+      "Bleeding",
+      "Incarceration/strangulation",
+      "Sepsis"
+    ],
+    "explanation": "A: Correct. Ulceration of exposed mucosa can occur. B: Correct. Bleeding from exposed mucosa is common. C: Correct. Incarceration or strangulation can occur. D: Incorrect. Portal hypertension is not a complication of rectal prolapse. E: Correct. Sepsis can follow strangulation or ulceration."
+  },
+  {
+    "type": "sata",
+    "q": "Which findings suggest bowel perforation?",
+    "q-number": 145,
+    "options": [
+      "Sudden severe pain",
+      "Generalized peritonitis",
+      "Free air under diaphragm",
+      "Colicky pain",
+      "Hyperactive bowel sounds",
+      "Mild distension only"
+    ],
+    "answer": [
+      "Sudden severe pain",
+      "Generalized peritonitis",
+      "Free air under diaphragm"
+    ],
+    "explanation": "A: Correct. Sudden severe pain is typical of perforation. B: Correct. Generalised peritonitis is typical. C: Correct. Free air under the diaphragm confirms perforation. D: Incorrect. Colicky pain suggests obstruction, not perforation. E: Incorrect. Hyperactive bowel sounds suggest obstruction; sounds are quiet or absent in peritonitis. F: Incorrect. Mild distension alone does not suggest perforation."
+  },
+  {
+    "type": "sata",
+    "q": "Which factors influence the choice of surgical approach?",
+    "q-number": 146,
+    "options": [
+      "Patient age",
+      "Comorbidities",
+      "Severity of prolapse",
+      "Hair color",
+      "Blood group"
+    ],
+    "answer": [
+      "Patient age",
+      "Comorbidities",
+      "Severity of prolapse"
+    ],
+    "explanation": "A: Correct. Patient age affects fitness for surgery and the choice of approach. B: Correct. Comorbidities affect fitness and risk. C: Correct. Severity of prolapse determines the procedure. D: Incorrect. Hair colour is irrelevant to surgical planning. E: Incorrect. Blood group is irrelevant to surgical planning."
+  },
+  {
+    "type": "sata",
+    "q": "A patient presents with a mass protruding from the anus during defecation. Which features favor rectal prolapse?",
+    "q-number": 147,
+    "options": [
+      "Circumferential mass",
+      "Concentric mucosal folds",
+      "Associated fecal incontinence",
+      "Radial folds",
+      "Small localized swelling",
+      "Bright red bleeding only"
+    ],
+    "answer": [
+      "Circumferential mass",
+      "Concentric mucosal folds",
+      "Associated fecal incontinence"
+    ],
+    "explanation": "A: Correct. A circumferential mass favours prolapse. B: Correct. Concentric mucosal folds favour prolapse. C: Correct. Associated faecal incontinence favours prolapse. D: Incorrect. Radial folds are typical of haemorrhoids. E: Incorrect. A small localised swelling is typical of haemorrhoids. F: Incorrect. Bright red bleeding alone is typical of haemorrhoids or fissure, not prolapse."
+  },
+  {
+    "type": "sata",
+    "q": "Which features are more typical of an anal fissure rather than rectal prolapse?",
+    "q-number": 148,
+    "options": [
+      "Severe pain during defecation",
+      "Pain lasting after defecation",
+      "Small tear in anal mucosa",
+      "Circumferential protrusion",
+      "Concentric folds",
+      "Fecal incontinence"
+    ],
+    "answer": [
+      "Severe pain during defecation",
+      "Pain lasting after defecation",
+      "Small tear in anal mucosa"
+    ],
+    "explanation": "A: Correct. Severe pain during defecation is typical of fissure. B: Correct. Pain lasting after defecation is typical of fissure. C: Correct. A small tear in the anal mucosa is the lesion in fissure. D: Incorrect. A circumferential protrusion suggests prolapse, not fissure. E: Incorrect. Concentric folds suggest prolapse, not fissure. F: Incorrect. Faecal incontinence is not typical of a simple fissure; it suggests prolapse or sphincter damage."
+  },
+  {
+    "type": "sata",
+    "q": "Which features suggest fistula-in-ano rather than rectal prolapse?",
+    "q-number": 149,
+    "options": [
+      "Persistent purulent discharge",
+      "External opening near anus",
+      "Recurrent perianal abscess",
+      "Circumferential rectal mass",
+      "Concentric folds",
+      "Reducible protrusion"
+    ],
+    "answer": [
+      "Persistent purulent discharge",
+      "External opening near anus",
+      "Recurrent perianal abscess"
+    ],
+    "explanation": "A: Correct. Persistent purulent discharge is typical of fistula. B: Correct. An external opening near the anus is typical of fistula. C: Correct. Recurrent perianal abscess is typical of fistula. D: Incorrect. A circumferential rectal mass suggests prolapse, not fistula. E: Incorrect. Concentric folds suggest prolapse, not fistula. F: Incorrect. A reducible protrusion suggests prolapse or haemorrhoid, not fistula."
+  },
+  {
+    "type": "mcq",
+    "q": "A patient presents with painless rectal bleeding and a prolapsing mass that is not circumferential. Which are likely diagnoses?",
+    "q-number": 150,
+    "options": [
+      "Internal hemorrhoids",
+      "Rectal prolapse",
+      "Anal fissure",
+      "External hemorrhoids",
+      "Fistula-in-ano",
+      "Perianal abscess"
+    ],
+    "answer": [
+      "Internal hemorrhoids"
+    ],
+    "explanation": "A: Correct. Internal haemorrhoids cause painless bleeding and prolapse that is not circumferential. B: Incorrect. Rectal prolapse is circumferential, so this is less likely. C: Incorrect. A fissure is painful, not painless. D: Incorrect. External haemorrhoids sit below the dentate line and typically cause pain or thrombosis, not painless prolapse. E: Incorrect. Fistula-in-ano causes discharge and abscesses, not painless bleeding. F: Incorrect. A perianal abscess is painful. Disagreement with answer key: key gives A, D; I give A. The key includes D (external haemorrhoids). External haemorrhoids sit below the dentate line and usually cause pain, especially when thrombosed. They do not typically present as a painless, prolapsing mass. Internal haemorrhoids fit this presentation."
+  },
+  {
+    "type": "sata",
+    "q": "Which complications are associated with rectal prolapse?",
+    "q-number": 151,
+    "options": [
+      "Ulceration of mucosa",
+      "Bleeding",
+      "Incarceration",
+      "Portal hypertension",
+      "Peptic ulcer disease",
+      "Acute pancreatitis"
+    ],
+    "answer": [
+      "Ulceration of mucosa",
+      "Bleeding",
+      "Incarceration"
+    ],
+    "explanation": "A: Correct. Ulceration of the mucosa is a common complication. B: Correct. Bleeding is a common complication. C: Correct. Incarceration can occur. D: Incorrect. Portal hypertension is not a complication of rectal prolapse. E: Incorrect. Peptic ulcer disease is not a complication of rectal prolapse. F: Incorrect. Acute pancreatitis is not a complication of rectal prolapse."
+  }
+]
