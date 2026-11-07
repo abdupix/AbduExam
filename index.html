@@ -585,20 +585,34 @@ document.addEventListener('keydown',e=>{
 });
 
 /* auto-load questions.json from the same folder (works when served over http; file:// is usually blocked) */
-function autoload(){
-  fetch('questions.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('missing');return r.text()})
-  .then(t=>{
-    const had=DB.active;
-    const r=upsert('questions',t,'questions');
-    if(!had) activate(r.id);
-    if(!r.unchanged) { if(DB.active===r.id) S=DB.sets[r.id]; renderAll(); }
-  })
-  .catch(()=>{
-    if(!Object.keys(DB.sets).length){
-      $('loadPanel').classList.remove('hidden');
-      $('loadErr').textContent='Could not read questions.json automatically (browsers block this when a page is opened straight from a folder). Choose your .json file(s) above instead; they are remembered.';
+// Files fetched automatically when the page is served over http(s), e.g. GitHub Pages. Add more names here if you like.
+const AUTO_FILES=['MBBS4_SATA_Part1.json','MBBS4_SATA_Part2.json','questions.json'];
+async function autoload(){
+  const names=new Set(AUTO_FILES);
+  // On GitHub Pages (user.github.io/repo/) also pick up every other .json file in the repo root.
+  try{
+    const m=location.hostname.match(/^(.+)\.github\.io$/), repo=location.pathname.split('/')[1];
+    if(m&&repo&&!/\.html?$/i.test(repo)){
+      const r=await fetch(`https://api.github.com/repos/${m[1]}/contents`);
+      if(r.ok) (await r.json()).forEach(x=>{ if(x.type==='file'&&/\.json$/i.test(x.name)) names.add(x.name); });
     }
-  });
+  }catch(e){}
+  let changed=false;
+  for(const f of names){
+    try{
+      const r=await fetch(encodeURI(f),{cache:'no-store'}); if(!r.ok) continue;
+      const text=await r.text();
+      const id=f==='questions.json'?'questions':'file-'+f.toLowerCase().replace(/[^a-z0-9]+/g,'-');
+      const res=upsert(f.replace(/\.json$/i,'').replace(/_+/g,' '),text,id);
+      if(!res.unchanged) changed=true;
+      if(!DB.active) activate(res.id);
+    }catch(e){ /* missing or not a question file: skip */ }
+  }
+  if(changed) renderAll();
+  if(!Object.keys(DB.sets).length){
+    $('loadPanel').classList.remove('hidden');
+    $('loadErr').textContent='Could not load question files automatically (browsers block this when the page is opened straight from a folder). Choose your .json file(s) above instead; they are remembered.';
+  }
 }
 load(); renderAll(); autoload();
 })();
