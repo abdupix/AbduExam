@@ -10,9 +10,9 @@
      {file:"Week3.json", name:"Week 3 Cardiac"}
 ------------------------------------------------------------------- */
 window.QUIZ_SETS = [
-  "MBBS4_SATA_Part1.json",
-  "MBBS4_SATA_Part2.json",
-  "questions.json"
+  "PSYC406_2024.json",
+  "PSYC406_2025.json",
+  "PSYC406_EOB_2026.json"
   // "MyNewSet.json",
 ];
 
