@@ -17,7 +17,7 @@
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:820px;margin:0 auto;padding:16px}
+.wrap{max-width:820px;margin:0 auto;padding:60px 16px 16px}
 header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:12px}
 h1{font-size:1.2rem;margin:0}
 .stats{color:var(--muted);font-size:.9rem}
@@ -80,9 +80,59 @@ select{max-width:100%;min-width:180px}
 .hidden{display:none!important}
 small.m{color:var(--muted)}
 hr{border:0;border-top:1px solid var(--border);margin:14px 0}
+/* SAQ / LAQ */
+.saq{display:block;width:100%;min-height:200px;resize:vertical;font:inherit;line-height:1.5;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:10px;padding:12px;margin:8px 0}
+.saq:focus{outline:2px solid var(--accent);outline-offset:1px}
+.saq:disabled{opacity:.85}
+.wc{color:var(--muted);font-size:.8rem;text-align:right}
+.ansbox{border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin:10px 0;white-space:pre-wrap}
+.ansbox.model{border-color:var(--ok);background:var(--ok-bg);white-space:normal}
+.ansbox.model ul{margin:4px 0 0;padding-left:20px}
+.ansbox.model li{margin:4px 0}
+.ansbox.model .sh{font-weight:700;margin:12px 0 2px}
+.ansbox.model .sh:first-of-type{margin-top:0}
+.ansbox.model p{margin:4px 0}
+.ansbox strong,.explfull strong{font-weight:700}
+.ansbox .lbl{display:block;font-weight:700;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.ansbox.model .lbl{color:var(--ok)}
+.explfull{white-space:pre-wrap}
+.selfmark{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0 4px}
+button.ok{background:var(--ok-bg);border-color:var(--ok);color:var(--ok);font-weight:600}
+button.bad{background:var(--bad-bg);border-color:var(--bad);color:var(--bad);font-weight:600}
+/* timer */
+.timer{position:fixed;top:8px;right:8px;z-index:50;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:6px 8px;box-shadow:0 2px 10px rgba(0,0,0,.15);min-width:150px}
+.timer .thead{display:flex;align-items:center;gap:6px;justify-content:space-between}
+.timer .ttime{font:700 1.15rem/1.2 ui-monospace,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;padding:0 4px}
+.timer .tbtn{padding:3px 9px;font-size:.85rem;line-height:1.3}
+.timer .tbody{margin-top:8px;display:flex;flex-direction:column;gap:8px}
+.timer .tbody .row{gap:6px}
+.timer .tbody select{min-width:0;font-size:.85rem;padding:4px 6px}
+.timer .tbody input[type=number]{width:64px;font-size:.85rem;padding:4px 6px}
+.timer.alarm{border-color:var(--bad);animation:tflash 1s steps(2) infinite}
+.timer.alarm .ttime{color:var(--bad)}
+@keyframes tflash{50%{background:var(--bad-bg)}}
 </style>
 </head>
 <body>
+<div class="timer" id="timer">
+  <div class="thead">
+    <span class="ttime" id="tTime" aria-live="off">00:00</span>
+    <span class="row" style="gap:4px;flex-wrap:nowrap">
+      <button class="tbtn primary" id="tPlay" title="Start / pause">▶</button>
+      <button class="tbtn" id="tCollapse" title="Collapse / expand timer" aria-expanded="true">–</button>
+    </span>
+  </div>
+  <div class="tbody" id="tBody">
+    <div class="row">
+      <select id="tMode" aria-label="Timer mode">
+        <option value="up">Stopwatch</option>
+        <option value="down">Countdown</option>
+      </select>
+      <span id="tMinWrap" class="row"><input type="number" id="tMin" min="1" max="600" value="10" aria-label="Countdown minutes"><small class="m">min</small></span>
+    </div>
+    <div class="row"><button class="tbtn" id="tReset">Reset</button></div>
+  </div>
+</div>
 <div class="wrap">
   <header>
     <h1>MCQ & SATA Practice</h1>
@@ -110,14 +160,14 @@ hr{border:0;border-top:1px solid var(--border);margin:14px 0}
       <label for="setName">Set name</label>
       <input type="text" id="setName" placeholder="e.g. Cardiac, Week 3">
     </div>
-    <textarea id="jsonIn" placeholder='[{"type":"mcq","q":"…","q-number":1,"options":["A text","B text"],"answer":["A text"],"explanation":"…"}]'></textarea>
+    <textarea id="jsonIn" placeholder='[{"type":"saq","q":"Explain…","answer":"Model answer text","explanation":"Marking notes"},{"type":"mcq","q":"…","q-number":1,"options":["A text","B text"],"answer":["A text"],"explanation":"…"}]'></textarea>
     <div class="row" style="margin-top:10px">
       <button class="primary" id="btnReplace">Save as set</button>
       <button id="btnAppend">Add to current set</button>
       <button id="btnCloseLoad">Close</button>
     </div>
     <div class="err" id="loadErr"></div>
-    <div class="hint" style="margin-top:8px">Tip: <b>answer</b> can be the option text (best), a letter (A, B…) or a number (1, 2…).</div>
+    <div class="hint" style="margin-top:8px">Tip: <b>answer</b> can be the option text (best), a letter (A, B…) or a number (1, 2…). For <b>"type":"saq"</b> (or "laq") questions no options are needed; <b>answer</b> is the model answer (any length; use an array, one item per bullet) and <b>explanation</b> is shown in full.</div>
   </section>
 
   <section id="navPanel" class="card hidden">
@@ -186,15 +236,19 @@ function parseQuestions(text){
   if(!Array.isArray(d)) throw new Error('Expected a JSON array of questions.');
   const warns=[]; const out=[];
   d.forEach((r,i)=>{
+    const isSaq=/saq|laq|short|long|essay/i.test(String(r.type));
     const opts=toArr(r.options).map(String);
-    if(!r.q||opts.length<2) throw new Error('Question #'+(i+1)+' needs "q" and at least 2 options.');
-    const correct=resolveAnswers(opts,r.answer);
-    if(!correct.length) warns.push('Q'+(i+1)+': could not match the answer to any option.');
+    if(!r.q) throw new Error('Question #'+(i+1)+' needs "q".');
+    if(!isSaq&&opts.length<2) throw new Error('Question #'+(i+1)+' needs at least 2 options.');
+    const correct=isSaq?[]:resolveAnswers(opts,r.answer);
+    if(!isSaq&&!correct.length) warns.push('Q'+(i+1)+': could not match the answer to any option.');
     let n=r['q-number']??r.q_number??r.qNumber??r.number;
+    const joinTxt=v=>Array.isArray(v)?v.map(String).join('\n'):String(v||'');
     out.push({
-      type:/sata|select/i.test(String(r.type))?'sata':'mcq',
+      type:isSaq?'saq':(/sata|select/i.test(String(r.type))?'sata':'mcq'),
       q:String(r.q), qnum:(n===''||n==null)?null:n,
-      options:opts, correct, explanation:Array.isArray(r.explanation)?r.explanation.map(String).join('\n'):String(r.explanation||'')
+      options:isSaq?[]:opts, correct, explanation:joinTxt(r.explanation),
+      model:isSaq?joinTxt(r.answer??r.model_answer??r.modelAnswer):''
     });
   });
   if(!out.length) throw new Error('No questions found.');
@@ -252,6 +306,35 @@ function explPoints(t,opts){
   return bullets.map(s=>s.replace(/^[-•*●▪]\s*/,'').trim()).filter(Boolean);
 }
 function el(tag,cls,text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e;}
+/* inline **bold** -> <strong>, built with DOM nodes (no innerHTML) */
+function addInline(parent,text){
+  String(text).split(/(\*\*[^*]+?\*\*)/g).forEach(part=>{
+    if(!part) return;
+    const m=part.match(/^\*\*([^*]+?)\*\*$/);
+    if(m){ const b=document.createElement('strong'); b.textContent=m[1]; parent.appendChild(b); }
+    else parent.appendChild(document.createTextNode(part));
+  });
+}
+/* model answer: **bold heading** lines, "* item" bullet lines, other lines as paragraphs.
+   Old-style answers (no headings, no bullet markers) keep the original one-bullet-per-line look. */
+function renderModel(box,text){
+  const lines=String(text||'').split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+  const HEAD=/^\*\*(.+)\*\*:?$/, BUL=/^[-•*●▪]\s+/;
+  const rich=lines.some(l=>HEAD.test(l));
+  let ul=null;
+  lines.forEach(l=>{
+    if(HEAD.test(l)){
+      ul=null;
+      const h=document.createElement('div'); h.className='sh'; addInline(h,l); box.appendChild(h);
+    } else if(BUL.test(l)||!rich){
+      if(!ul){ ul=document.createElement('ul'); box.appendChild(ul); }
+      const li=document.createElement('li'); addInline(li,l.replace(BUL,'')); ul.appendChild(li);
+    } else {
+      ul=null;
+      const p=document.createElement('p'); addInline(p,l); box.appendChild(p);
+    }
+  });
+}
 
 /* ---------- render ---------- */
 function renderHome(){
@@ -300,7 +383,7 @@ function renderGrid(){
   S.questions.forEach((q,i)=>{
     const p=S.progress[i]; const b=el('button','',label(i));
     if(p&&p.submitted) b.classList.add(p.correct?'done-ok':'done-bad');
-    else if(p&&p.sel.length) b.classList.add('picked');
+    else if(p&&(p.sel.length||(p.text&&p.text.trim()))) b.classList.add('picked');
     if(i===S.current) b.classList.add('cur');
     b.title='Question '+label(i);
     b.onclick=()=>{go(i);$('navPanel').classList.add('hidden')};
@@ -317,11 +400,11 @@ function renderQuiz(){
   const i=S.current, q=S.questions[i], p=prog(i), locked=p.submitted;
   const card=el('div','card');
   const meta=el('div','qmeta');
-  meta.appendChild(el('span','badge',q.type.toUpperCase()));
+  meta.appendChild(el('span','badge',q.type==='saq'?'SAQ/LAQ':q.type.toUpperCase()));
   meta.appendChild(el('span','',`Question ${label(i)} · ${i+1} of ${S.questions.length}`));
   const cp=el('button','','Copy question'); cp.style.marginLeft='auto'; cp.style.padding='4px 10px'; cp.style.fontSize='.82rem';
   cp.onclick=()=>{
-    const txt=q.q+'\n\n'+q.options.map((t,k)=>String.fromCharCode(65+k)+'. '+t).join('\n');
+    const txt=(q.q+'\n\n'+q.options.map((t,k)=>String.fromCharCode(65+k)+'. '+t).join('\n')).trim();
     const done=()=>{cp.textContent='Copied ✓'; setTimeout(()=>{cp.textContent='Copy question'},1500)};
     const fallback=()=>{
       const ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
@@ -334,8 +417,8 @@ function renderQuiz(){
   meta.appendChild(cp);
   card.appendChild(meta);
   card.appendChild(el('div','qtext',q.q));
-  card.appendChild(el('div','hint',q.type==='sata'?'Select all that apply.':'Select one answer.'));
-  if(!q.correct.length) card.appendChild(el('div','warn','This question has no readable answer key, so it cannot be marked.'));
+  card.appendChild(el('div','hint',q.type==='saq'?'Write your answer in the box (no length limit).':q.type==='sata'?'Select all that apply.':'Select one answer.'));
+  if(q.type!=='saq'&&!q.correct.length) card.appendChild(el('div','warn','This question has no readable answer key, so it cannot be marked.'));
 
   q.options.forEach((t,k)=>{
     const lab=el('label','opt'+(locked?' locked':''));
@@ -359,7 +442,43 @@ function renderQuiz(){
     card.appendChild(lab);
   });
 
-  if(locked){
+  if(q.type==='saq'){
+    const ta=document.createElement('textarea'); ta.className='saq'; ta.placeholder='Type your answer here…'; ta.value=p.text||''; ta.disabled=locked;
+    const wc=el('div','wc');
+    const upd=()=>{const w=(ta.value.trim().match(/\S+/g)||[]).length; wc.textContent=w+' word'+(w===1?'':'s');};
+    upd();
+    ta.oninput=()=>{
+      p.text=ta.value; upd(); save(); renderGrid();
+      const b=document.getElementById('saqReveal'); if(b) b.disabled=!ta.value.trim();
+    };
+    card.appendChild(ta); card.appendChild(wc);
+    if(p.revealed||locked){
+      if(q.model.trim()){
+        const mb=el('div','ansbox model'); mb.appendChild(el('span','lbl','Model answer'));
+        renderModel(mb,q.model);
+        card.appendChild(mb);
+      }
+      if(q.explanation.trim()){
+        const e=el('div','expl'); e.appendChild(el('b','','Explanation'));
+        const ex=el('div','explfull'); addInline(ex,q.explanation); e.appendChild(ex); card.appendChild(e);
+      }
+      const grade=ok=>{
+        p.submitted=true; p.correct=ok;
+        (S.log=S.log||[]).push({t:Date.now(),ok});
+        save(); renderQuiz(); renderGrid(); renderStats();
+      };
+      if(locked){
+        card.appendChild(el('div','result '+(p.correct?'ok':'bad'),p.correct?'Marked as correct':'Marked as incorrect'));
+      } else {
+        const sm=el('div','selfmark'); sm.appendChild(el('b','','Compare with the model answer. How did you do?'));
+        const y=el('button','ok','I got it'); y.onclick=()=>grade(true);
+        const n=el('button','bad','Missed it'); n.onclick=()=>grade(false);
+        sm.appendChild(y); sm.appendChild(n); card.appendChild(sm);
+      }
+    }
+  }
+
+  if(locked&&q.type!=='saq'){
     card.appendChild(el('div','result '+(p.correct?'ok':'bad'),p.correct?'Correct!':'Incorrect'));
     const pts=explPoints(q.explanation,q.options);
     if(pts.length){
@@ -372,7 +491,14 @@ function renderQuiz(){
   const nav=el('div','row spread'); nav.style.marginTop='14px';
   const prev=el('button','','← Previous'); prev.disabled=i===0; prev.onclick=()=>go(i-1);
   const mid=el('div','row');
-  if(!locked){
+  if(!locked&&q.type==='saq'){
+    if(!p.revealed){
+      const rv=el('button','primary','Show model answer'); rv.id='saqReveal'; rv.disabled=!(p.text&&p.text.trim());
+      rv.onclick=()=>{p.revealed=true; save(); renderQuiz();};
+      mid.appendChild(rv);
+      if(p.text&&p.text.trim()){const clr=el('button','','Clear'); clr.onclick=()=>{p.text='';save();renderQuiz();renderGrid();}; mid.appendChild(clr);}
+    }
+  } else if(!locked){
     const sub=el('button','primary','Submit answer'); sub.disabled=!p.sel.length||!q.correct.length;
     sub.onclick=()=>{
       p.submitted=true;
@@ -614,6 +740,62 @@ async function autoload(){
     $('loadErr').textContent='Could not load question files automatically (browsers block this when the page is opened straight from a folder). Choose your .json file(s) above instead; they are remembered.';
   }
 }
+/* ---------- timer (stopwatch / countdown, collapsible, survives reloads) ---------- */
+(function(){
+  const TK='practice_timer_v1';
+  let T={mode:'up',base:0,start:null,min:10,collapsed:false};
+  try{const r=JSON.parse(localStorage.getItem(TK)); if(r&&typeof r==='object') T=Object.assign(T,r);}catch(e){}
+  const tsave=()=>{try{localStorage.setItem(TK,JSON.stringify(T))}catch(e){}};
+  const elapsed=()=>T.base+(T.start?Date.now()-T.start:0);
+  const fmt=ms=>{
+    let s=Math.max(0,Math.floor(ms/1000)); const h=Math.floor(s/3600); s%=3600;
+    const m=Math.floor(s/60); s%=60; const p=n=>String(n).padStart(2,'0');
+    return (h?h+':'+p(m):p(m))+':'+p(s);
+  };
+  let alarmed=false;
+  function beep(){
+    try{
+      const C=window.AudioContext||window.webkitAudioContext; if(!C) return;
+      const c=new C(), o=c.createOscillator(), g=c.createGain();
+      o.connect(g); g.connect(c.destination); o.frequency.value=880; g.gain.value=.15;
+      o.start(); setTimeout(()=>{o.stop(); c.close();},700);
+    }catch(e){}
+  }
+  function draw(){
+    const down=T.mode==='down', total=T.min*60000;
+    const shown=down?Math.max(0,total-elapsed()):elapsed();
+    $('tTime').textContent=fmt(shown);
+    $('tPlay').textContent=T.start?'⏸':'▶';
+    $('timer').classList.toggle('alarm',down&&shown===0&&alarmed);
+    if(down&&T.start&&shown===0&&!alarmed){
+      alarmed=true; T.base=total; T.start=null; tsave(); beep(); $('tPlay').textContent='▶'; $('timer').classList.add('alarm');
+    }
+  }
+  function layout(){
+    $('tBody').classList.toggle('hidden',T.collapsed);
+    $('tCollapse').textContent=T.collapsed?'+':'–';
+    $('tCollapse').setAttribute('aria-expanded',String(!T.collapsed));
+    $('tMode').value=T.mode; $('tMin').value=T.min;
+    $('tMinWrap').classList.toggle('hidden',T.mode!=='down');
+  }
+  $('tPlay').onclick=()=>{
+    if(T.start){T.base=elapsed(); T.start=null;}
+    else{
+      if(T.mode==='down'&&T.base>=T.min*60000){T.base=0;}
+      alarmed=false; T.start=Date.now();
+    }
+    tsave(); draw();
+  };
+  $('tReset').onclick=()=>{T.base=0; T.start=null; alarmed=false; tsave(); draw();};
+  $('tCollapse').onclick=()=>{T.collapsed=!T.collapsed; tsave(); layout();};
+  $('tMode').onchange=e=>{T.mode=e.target.value; T.base=0; T.start=null; alarmed=false; tsave(); layout(); draw();};
+  $('tMin').onchange=e=>{
+    let v=parseInt(e.target.value,10); if(!(v>=1)) v=10; T.min=Math.min(600,v);
+    T.base=0; T.start=null; alarmed=false; tsave(); layout(); draw();
+  };
+  layout(); draw(); setInterval(draw,250);
+})();
+
 load(); renderAll(); autoload();
 })();
 </script>

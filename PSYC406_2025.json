@@ -1,0 +1,888 @@
+[
+  {
+    "type": "mcq",
+    "q-number": 1,
+    "q": "A 13 year old girl is seen in the GP surgery with her mother as she has been more irritable, unable to concentrate, and not enjoying her usual hobbies over the past year. She has been experiencing trouble sleeping. Her school grades have deteriorated over the past year. She was previously a bright student. During her consultation, the young girl laughs inappropriately. She does not provide coherent answers in the clinic, nor does she have good eye contact. What is the most appropriate action?",
+    "options": [
+      "Refer to an occupational therapist",
+      "Refer to a counseling service",
+      "Refer to an educational psychologist",
+      "Refer to a child psychiatrist"
+    ],
+    "answer": [
+      "Refer to a child psychiatrist"
+    ],
+    "explanation": "A. Incorrect. OT helps with functional rehabilitation after a diagnosis; it does not diagnose. B. Incorrect. Counselling suits mild distress or adjustment problems, not possible psychosis. C. Incorrect. An educational psychologist assesses learning difficulties; this is a marked decline with thought disorder, not a learning problem. D. Correct. A year of functional decline in a previously bright student, with inappropriate affect, incoherent (disorganised) speech and poor eye contact, suggests an emerging psychotic disorder (early-onset schizophrenia or prodrome). This needs specialist diagnostic assessment."
+  },
+  {
+    "type": "mcq",
+    "q-number": 2,
+    "q": "A 32 year old woman complains of reduced sleep for the past four days, feeling hyperactive, and her family says she has been talking very rapidly and jumping from topic to topic. She does not appear to have any depressive symptoms. She has not experienced these symptoms before this week. Her neurological exam is normal. What is the single most likely diagnosis?",
+    "options": [
+      "Cyclothymia",
+      "Hypomania",
+      "Malingering",
+      "Dysthymia"
+    ],
+    "answer": [
+      "Hypomania"
+    ],
+    "explanation": "A. Incorrect. Cyclothymia needs at least 2 years of fluctuating subthreshold hypomanic and depressive symptoms. B. Correct. Elevated/overactive state with decreased need for sleep, pressured speech and flight of ideas lasting about 4 days fits a hypomanic episode (DSM-5 needs at least 4 days). Normal neurology makes an organic cause less likely. C. Incorrect. Malingering is deliberate feigning for gain; nothing suggests this. D. Incorrect. Dysthymia is chronic low mood for at least 2 years; she has no depressive symptoms. Note: If the episode caused marked impairment or psychosis it would be mania, but mania is not offered, so hypomania is the best fit."
+  },
+  {
+    "type": "mcq",
+    "q-number": 3,
+    "q": "A 21 year-old girl presents to the Emergency department after collapsing in the house. She's very slim and has a BMI of 14 kg/m2. She states that she is only eating vegetables, and has been reducing fat in her diet because she is trying to lose weight before her holiday. She does not think that she's under the weight and does not want to have treatment. She does not want to be admitted under any circumstances. Her thought process is coherent. On examination, she has calluses on the back of her hands and fine hair on the arms. She has a heart rate of 45 bpm and a blood pressure of 95/60 mmHg. What is the most initial appropriate management?",
+    "options": [
+      "Temporary admission under the Mental Health Act",
+      "Referred to psychotherapist for cognitive behaviour therapy",
+      "Prescribe protein shakes and discharge.",
+      "Refer to the dietician"
+    ],
+    "answer": [
+      "Temporary admission under the Mental Health Act"
+    ],
+    "explanation": "A. Correct. Severe anorexia nervosa (BMI 14, syncope, bradycardia 45 bpm, hypotension, lanugo, Russell's sign) is a medical emergency. She lacks insight and refuses all treatment, so short-term compulsory admission under the Mental Health Act is needed to stabilise her. B. Incorrect. CBT is an outpatient treatment and is inappropriate while she is medically unstable and refusing care. C. Incorrect. Discharge with supplements is unsafe in a collapsed patient with bradycardia and hypotension. D. Incorrect. Dietetic input is part of care but not sufficient or the first step in an unstable patient. Note: Under Fiji's Mental Health Decree 2010, detention requires a mental disorder plus serious likelihood of harm; assess capacity and document it."
+  },
+  {
+    "type": "mcq",
+    "q-number": 4,
+    "q": "A 35 year-old man presents to the general practitioner with low mood, fatigue, and difficulty concentrating over the past few months. He mentioned that he recently broke up with his fiancee. He has a history of alcohol dependence but had been sober for 12 months until the break up, after which he started drinking heavily again. He reports feeling guilty about relapsing into this old habits but states that these activities briefly make him feel better. Which neurotransmitter is most likely responsible for the patient's behaviour following his break up?",
+    "options": [
+      "Acetylcholine",
+      "Dopamine",
+      "Oxytocin",
+      "Norepinephrine"
+    ],
+    "answer": [
+      "Dopamine"
+    ],
+    "explanation": "A. Incorrect. Acetylcholine is mainly involved in memory and attention (for example Alzheimer's disease). B. Correct. Alcohol use activates the mesolimbic dopamine reward pathway. The brief relief after drinking reinforces the behaviour and drives relapse. C. Incorrect. Oxytocin is involved in bonding and attachment, not reward-driven substance use. D. Incorrect. Norepinephrine mediates arousal and stress responses, not the reinforcing reward of alcohol."
+  },
+  {
+    "type": "mcq",
+    "q-number": 5,
+    "q": "A 28 year old woman has been feeling anxious for most days over the past six months. She feels distressed when thinking about her finances. She is unable to sleep well and finds it difficult to concentrate at work. On occasion, she feels she's about to die, and feels her heart racing, and that she is choking. On examination her blood pressure is 120/80, and pulse rate is 90 per minute. She just wants some medication to help her feel better. What is the most appropriate medication to prescribe for her management?",
+    "options": [
+      "Citalopram",
+      "Propranolol",
+      "Lithium",
+      "Alprazolam"
+    ],
+    "answer": [
+      "Citalopram"
+    ],
+    "explanation": "A. Correct. More than 6 months of excessive worry with sleep and concentration problems indicates generalised anxiety disorder with panic-type symptoms. An SSRI such as citalopram is first-line drug treatment. B. Incorrect. Propranolol can blunt physical symptoms but does not treat the underlying disorder; it is not first line. C. Incorrect. Lithium is a mood stabiliser with no role in GAD. D. Incorrect. Alprazolam is a benzodiazepine; only for short-term crisis use because of dependence and tolerance."
+  },
+  {
+    "type": "mcq",
+    "q-number": 6,
+    "q": "A 44-year-old man is brought to the emergency department by his 22 year old son, who expresses increasing concern about his father's mental health. The patient has been severely depressed since his wife's death from cancer six months ago. He has withdrawn socially, stopped engaging in activities he used to enjoy, and has been eating very little. He frequently expresses feelings of helplessness and guilt, stating \"there is no point in living without her\", and he has refused to seek help from his GP or mental health services despite his son's encouragement. The son states that he is struggling to care for his father, as he has a full-time job and a young family of his own. The patient remains adamant that he does not need medical assistance. What is single most appropriate next step?",
+    "options": [
+      "Voluntary admission to psychiatric ward.",
+      "Compulsory admission under the Mental Health Act",
+      "Refer to social services",
+      "Find alternate housing"
+    ],
+    "answer": [
+      "Compulsory admission under the Mental Health Act"
+    ],
+    "explanation": "A. Incorrect. He refuses help, so voluntary admission is not achievable. B. Correct. Severe depression with hopelessness, statements suggesting suicidal risk, self-neglect and poor intake, plus refusal of all help, justifies compulsory assessment and admission to protect his safety and health. C. Incorrect. Social services address carer strain, not the clinical risk. D. Incorrect. Housing does not address his depression or suicide risk. Note: A full suicide risk assessment and attempt at voluntary care come first under the least-restrictive principle; of the options, B is intended. Fiji criteria: Mental Health Decree 2010 s24 and s32."
+  },
+  {
+    "type": "mcq",
+    "q-number": 7,
+    "q": "A 29 year-old woman has presented to a mental health clinic for a follow-up appointment. She is 28 weeks pregnant and has been managing schizophrenia with Olanzapine for the past year, with good control of her symptoms. During the consultation, she mentions that she recently read about the risks of antipsychotic medication during pregnancy, and is concerned about the safety of continuing on Olanzapine. She feels well but she seeks reassurance about whether she should be worried about any potential complications. Which of the following is the most relevant information regarding her medication?",
+    "options": [
+      "Olanzapine increases the risk of miscarriage.",
+      "Olanzapine increases the risk of cleft lip",
+      "Olanzapine increases the risk of gestational diabetes mellitus",
+      "Olanzapine is linked to increase risk of pre-eclampsia"
+    ],
+    "answer": [
+      "Olanzapine increases the risk of gestational diabetes mellitus"
+    ],
+    "explanation": "A. Incorrect. No established increase in miscarriage. B. Incorrect. Olanzapine is not a recognised cause of oral clefts. C. Correct. Olanzapine causes weight gain and insulin resistance, so the key pregnancy concern is gestational diabetes (and macrosomia). Screen glucose and continue the drug because relapse risk is high. D. Incorrect. A link to pre-eclampsia is not established."
+  },
+  {
+    "type": "mcq",
+    "q-number": 8,
+    "q": "A 28-year-old woman witnessed a tragic road traffic accident where a young boy was suddenly struck and killed by an oncoming lorry. On the night of the event, she was not able to sleep as she had horrible thoughts about the incident. On the following morning she woke up and was not able to see. She has no previous history of medical psychological issues. What is the single most likely diagnosis?",
+    "options": [
+      "Functional neurological disorder/ Conversion disorder.",
+      "Somatic symptom disorder",
+      "Post-traumatic stress disorder",
+      "Depression"
+    ],
+    "answer": [
+      "Functional neurological disorder/ Conversion disorder."
+    ],
+    "explanation": "A. Correct. Sudden loss of function (blindness) after an acute psychological stressor, in someone with no organic cause or psychiatric history, is classic functional neurological (conversion) disorder. B. Incorrect. Somatic symptom disorder involves persistent excessive worry about symptoms, usually over months. C. Incorrect. PTSD needs re-experiencing, avoidance and hyperarousal persisting beyond a month. D. Incorrect. No pervasive low mood or anhedonia is described."
+  },
+  {
+    "type": "mcq",
+    "q-number": 9,
+    "q": "Which of the following medications is most appropriate first line treatment for major depression?",
+    "options": [
+      "Imipramine",
+      "Quetiapine",
+      "Sodium Valproate",
+      "Paroxetine"
+    ],
+    "answer": [
+      "Paroxetine"
+    ],
+    "explanation": "A. Incorrect. Imipramine is a TCA, second line because of side effects and toxicity in overdose. B. Incorrect. Quetiapine is an antipsychotic used as augmentation or in bipolar depression. C. Incorrect. Sodium valproate is a mood stabiliser/anticonvulsant. D. Correct. SSRIs (paroxetine, sertraline, fluoxetine, citalopram, escitalopram) are first-line for major depression because they are effective and safer in overdose than older drugs. Note: Paroxetine is the only SSRI listed; sertraline or escitalopram are usually preferred in practice."
+  },
+  {
+    "type": "mcq",
+    "q-number": 10,
+    "q": "Which antipsychotic medication is least likely to cause metabolic syndrome in a non-obese patient?",
+    "options": [
+      "Risperidone",
+      "Aripiprazole",
+      "Haloperidol",
+      "Paliperidone"
+    ],
+    "answer": [
+      "Aripiprazole"
+    ],
+    "explanation": "A. Incorrect. Risperidone has moderate weight and metabolic effects and raises prolactin. B. Correct. Aripiprazole (partial D2 agonist) is weight-neutral with the lowest metabolic risk among second-generation antipsychotics. C. Incorrect. Haloperidol has low metabolic risk, but its main problem is extrapyramidal side effects; it is a first-generation drug. D. Incorrect. Paliperidone (active metabolite of risperidone) has moderate metabolic risk. Note: Haloperidol is also low metabolic risk, so the question is arguable. The usual intended answer is aripiprazole."
+  },
+  {
+    "type": "mcq",
+    "q-number": 11,
+    "q": "How long do symptoms of mania need to be present during an episode for a diagnosis of type II Bipolar Affective Disorder?",
+    "options": [
+      "One week",
+      "One month",
+      "Six months",
+      "One year"
+    ],
+    "answer": [
+      "One week"
+    ],
+    "explanation": "A. Correct. Of the options, one week is the standard duration for a manic episode. Bipolar II actually requires a hypomanic episode (at least 4 days) plus a major depressive episode, with no full mania. B. Incorrect. One month is far longer than any mood-episode threshold. C. Incorrect. Six months is the GAD or schizophrenia course threshold, not mood episodes. D. Incorrect. One year is not a threshold for bipolar episodes. Note: The stem is flawed: Bipolar II needs hypomania of at least 4 days, which is not offered. One week (mania, Bipolar I) is the intended answer."
+  },
+  {
+    "type": "mcq",
+    "q-number": 12,
+    "q": "Which of these symptoms typically need to be present for a diagnosis of major depressive disorder?",
+    "options": [
+      "Insomnia",
+      "Fatigue",
+      "Loss of interest/anhedonia",
+      "Suicidal ideations"
+    ],
+    "answer": [
+      "Loss of interest/anhedonia"
+    ],
+    "explanation": "A. Incorrect. Insomnia (or hypersomnia) is a supporting symptom, not required. B. Incorrect. Fatigue is a supporting symptom, not required. C. Correct. A diagnosis needs at least one cardinal symptom: depressed mood or loss of interest/pleasure (anhedonia), plus enough other symptoms for at least 2 weeks. D. Incorrect. Suicidal ideation is a supporting symptom, not required."
+  },
+  {
+    "type": "mcq",
+    "q-number": 13,
+    "q": "A 44 year old man presents to the health centre and complains that his neighbours have been trying to kill him through various forms of witchcraft, although he does not have any proof. He appears unkempt and has poor eye contact. What form of disorganised thought or behaviour is he experiencing?",
+    "options": [
+      "Tangentiality",
+      "Delusion",
+      "Hallucination",
+      "Circumstantiality"
+    ],
+    "answer": [
+      "Delusion"
+    ],
+    "explanation": "A. Incorrect. Tangentiality is a speech disorder where replies drift off topic and never return. B. Correct. A fixed, false belief held without evidence (persecutory belief) is a delusion. Self-neglect and poor eye contact support a pathological rather than purely cultural explanation. C. Incorrect. Hallucination is perception without an external stimulus; none is described. D. Incorrect. Circumstantiality is overly detailed speech that eventually reaches the point. Note: Belief in sorcery can be culturally normative in Fiji (and the Decree s3 says cultural belief alone is not a mental disorder). Self-neglect and lack of evidence tip it to delusion."
+  },
+  {
+    "type": "mcq",
+    "q-number": 14,
+    "q": "A 17 year-old girl was found by her mother collapsed on the floor at home and brought to the emergency department. She regained consciousness just before the paramedics arrived. She gives a history of increasing fatigue for the past few weeks since joining the gym two months ago. Upon further questioning, her mother says that she found some pills, which turned out to be laxatives and diuretics, in her daughter's room. What is a single most likely reason for her symptoms?",
+    "options": [
+      "Substance use disorder",
+      "Epilepsy",
+      "Anorexia nervosa",
+      "Hyperthyroidism"
+    ],
+    "answer": [
+      "Anorexia nervosa"
+    ],
+    "explanation": "A. Incorrect. Laxative/diuretic misuse for weight control is purging behaviour, not a substance use disorder. B. Incorrect. Epilepsy would not explain the pills, fatigue and exercise pattern. C. Correct. Laxative and diuretic misuse with excessive exercise indicates an eating disorder with purging (anorexia nervosa, binge-purge type). Syncope is likely from electrolyte disturbance (hypokalaemia), dehydration or arrhythmia. D. Incorrect. No features of thyrotoxicosis are described. Note: Purging could also suggest bulimia nervosa, but it is not offered; anorexia nervosa is the best of the options."
+  },
+  {
+    "type": "mcq",
+    "q-number": 15,
+    "q": "Which of these is regarded as a positive symptom in the syndrome of schizophrenia?",
+    "options": [
+      "Blunted affect",
+      "Withdrawal",
+      "Cognitive impairment",
+      "Hallucinations"
+    ],
+    "answer": [
+      "Hallucinations"
+    ],
+    "explanation": "A. Incorrect. Blunted affect is a negative symptom. B. Incorrect. Social withdrawal is a negative symptom. C. Incorrect. Cognitive impairment is a separate cognitive symptom domain. D. Correct. Positive symptoms are additions to normal experience: hallucinations, delusions, disorganised speech and behaviour."
+  },
+  {
+    "type": "mcq",
+    "q-number": 16,
+    "q": "Which Part of the Mental Health Act of Fiji describes the laws governing detention and involuntary psychiatric assessment of a person?",
+    "options": [
+      "Part 1",
+      "Part 2",
+      "Part 3",
+      "Part 4"
+    ],
+    "answer": [
+      "Part 4"
+    ],
+    "explanation": "A. Incorrect. Part 1 is Preliminary (definitions, principles). B. Incorrect. Part 2 is Administration (facilities, Advisory Council). C. Incorrect. Part 3 is Voluntary Admission and Assessment. D. Correct. In the Mental Health Decree 2010 (Decree No. 54 of 2010), Part 4 is 'Detention and Involuntary Assessment' (sections 23 to 33). Note: Verified against the text of the Mental Health Decree 2010 (PacLII)."
+  },
+  {
+    "type": "mcq",
+    "q-number": 17,
+    "q": "The Mental Health Act allows physicians to detain a person for assessment if they are deemed to present a risk to themselves or to the public. How long does this period last before requiring a review by an authorised mental health practitioner?",
+    "options": [
+      "24 hours",
+      "48 hours",
+      "72 hours",
+      "90 days"
+    ],
+    "answer": [
+      "72 hours"
+    ],
+    "explanation": "A. Incorrect. 24 hours is only when the assessment must commence, not the maximum detention. B. Incorrect. 48 hours is not a limit set in the Decree. C. Correct. Under s31(4) and s32(10) of the Mental Health Decree 2010, a person cannot be detained longer than 72 hours (including the first 24 hours for assessment) without a decision to release or to make a treatment order. D. Incorrect. 90 days is far longer; inpatient treatment orders last up to 3 months. Note: Wording of the stem is loose; the 72-hour limit is the figure the Decree gives. Verified against the Decree."
+  },
+  {
+    "type": "mcq",
+    "q-number": 18,
+    "q": "A client on lithium has been feeling low recently, says he has no energy, feels disengaged, and cannot concentrate. Upon investigation, his serum lithium level was found to be 0.4mEq/L. What is the next course of action?",
+    "options": [
+      "Increase lithium dose",
+      "Decrease lithium dose",
+      "Add Risperidone",
+      "Refer to counselor"
+    ],
+    "answer": [
+      "Increase lithium dose"
+    ],
+    "explanation": "A. Correct. The level is below the therapeutic range (about 0.6 to 1.0 mEq/L), consistent with relapse of mood symptoms. Check adherence and timing of the sample (12 hours post-dose), then increase the dose with level monitoring. B. Incorrect. The level is already low; reducing the dose would worsen control. C. Incorrect. Risperidone treats mania/psychosis, not this picture. D. Incorrect. Counselling alone does not correct a subtherapeutic level."
+  },
+  {
+    "type": "mcq",
+    "q-number": 19,
+    "q": "A 24 year old man has just been diagnosed with Bipolar Affective Disorder. Which of these is the drug of first choice for treatment?",
+    "options": [
+      "Carbamazepine",
+      "Lithium",
+      "Lamotrigine",
+      "Sodium Valproate"
+    ],
+    "answer": [
+      "Lithium"
+    ],
+    "explanation": "A. Incorrect. Carbamazepine is second line. B. Correct. Lithium is the classic first-line mood stabiliser, effective for mania, relapse prevention and reducing suicide risk. C. Incorrect. Lamotrigine is mainly for preventing bipolar depression, weak against mania. D. Incorrect. Valproate is an alternative first-line agent but is avoided in women of childbearing age. Note: Valproate is also first line in many guidelines for acute mania; lithium is the usual textbook answer."
+  },
+  {
+    "type": "mcq",
+    "q-number": 20,
+    "q": "Which of these medications for managing mania is contraindicated in young females due to the risks of neural tube defects?",
+    "options": [
+      "Risperidone",
+      "Carbamazepine",
+      "Fluoxetine",
+      "Sodium Valproate"
+    ],
+    "answer": [
+      "Sodium Valproate"
+    ],
+    "explanation": "A. Incorrect. Risperidone is not linked to neural tube defects. B. Incorrect. Carbamazepine has a smaller teratogenic risk and is less strongly contraindicated. C. Incorrect. Fluoxetine is an antidepressant and not an antimanic drug. D. Correct. Valproate carries the highest teratogenic risk (neural tube defects, neurodevelopmental harm) and should be avoided in women of childbearing potential."
+  },
+  {
+    "type": "mcq",
+    "q-number": 21,
+    "q": "A 30 year female has been experiencing episodes of palpitations, dizziness, peri-oral numbness and feelings of fear out of the blue, for the last three months. She denies any depressive symptoms. What is the treatment of first choice?",
+    "options": [
+      "Refer for EMDR",
+      "Advise her on self help methods and review",
+      "Commence sertraline",
+      "Prescribe diazepam PRN"
+    ],
+    "answer": [
+      "Commence sertraline"
+    ],
+    "explanation": "A. Incorrect. EMDR is for PTSD. B. Incorrect. Self-help is a reasonable first step in mild cases but insufficient for 3 months of recurrent panic attacks. C. Correct. This is panic disorder (recurrent unexpected panic attacks with autonomic symptoms and hyperventilation features). SSRIs such as sertraline are first-line drug treatment (alongside CBT, which is not offered). D. Incorrect. Benzodiazepines are not recommended for panic disorder because of dependence and poor long-term outcome. Note: NICE-style stepped care allows self-help or CBT first; sertraline is the best of the options listed."
+  },
+  {
+    "type": "mcq",
+    "q-number": 22,
+    "q": "What is the main neurotransmitter affected in Schizophrenia?",
+    "options": [
+      "Serotonin",
+      "Acetylcholine",
+      "Dopamine",
+      "GABA"
+    ],
+    "answer": [
+      "Dopamine"
+    ],
+    "explanation": "A. Incorrect. Serotonin is more central to depression and hallucinogen effects. B. Incorrect. Acetylcholine is more central to dementia. C. Correct. The dopamine hypothesis is the core model: excess mesolimbic dopamine drives positive symptoms, and antipsychotics block D2 receptors. D. Incorrect. GABA is more central to anxiety and epilepsy."
+  },
+  {
+    "type": "mcq",
+    "q-number": 23,
+    "q": "Which of these disorders is part of the schizophrenia spectrum?",
+    "options": [
+      "Paranoid Personality Disorder",
+      "Schizotypal Personality Disorder",
+      "Schizophreniform Disorder",
+      "Schizoid Personality Disorder"
+    ],
+    "answer": [
+      "Schizotypal Personality Disorder"
+    ],
+    "explanation": "A. Incorrect. Paranoid personality disorder is a Cluster A personality disorder outside the spectrum. B. Correct. Schizotypal (personality) disorder is the one personality disorder classified in the DSM-5 schizophrenia spectrum (ICD-11: schizotypal disorder under primary psychotic disorders). C. Incorrect. Schizophreniform disorder (symptoms 1 to 6 months) is a psychotic disorder and also sits in the DSM-5 spectrum chapter. D. Incorrect. Schizoid personality disorder is Cluster A but outside the spectrum. Note: Ambiguous: schizophreniform (C) is also in the DSM-5 'schizophrenia spectrum and other psychotic disorders' chapter. B is chosen because the other options are personality disorders; check your lecture notes."
+  },
+  {
+    "type": "mcq",
+    "q-number": 24,
+    "q": "A mother has brought her five year son for review. She says she has noticed her son is not exactly like other children ever since he was a baby. He does not like playing with children his own age. He loves playing with the same toys every day for hours on end. He does not like being hugged even by his mother. He tends to get very upset when they go to new places. He can speak but usually prefers to communicate by pointing. The mother has noticed the son doesn't smile much and does not like looking at people when they are talking to him. What is the best course for management for this case?",
+    "options": [
+      "Provide information and refer to support groups",
+      "Commence antipsychotic",
+      "Commence mood stabiliser",
+      "Commence anti epileptic medication"
+    ],
+    "answer": [
+      "Provide information and refer to support groups"
+    ],
+    "explanation": "A. Correct. This is autism spectrum disorder (social communication deficit, restricted repetitive behaviour, resistance to change). Management is psychoeducation, support groups and early behavioural/speech/educational interventions; no drug treats the core features. B. Incorrect. Antipsychotics are reserved for severe irritability or aggression, not first-line. C. Incorrect. No mood disorder is described. D. Incorrect. No seizures are described."
+  },
+  {
+    "type": "mcq",
+    "q-number": 25,
+    "q": "In which year was the present Mental Health legislation of Fiji formulated?",
+    "options": [
+      "2010",
+      "2016",
+      "1970",
+      "2000"
+    ],
+    "answer": [
+      "2010"
+    ],
+    "explanation": "A. Correct. The Mental Health Decree 2010 (Decree No. 54) was endorsed on 15 October 2010, replacing the Mental Treatment Act. B. Incorrect. 2016 is the date of a review article about the Decree, not its enactment. C. Incorrect. 1970 is the year of Fiji's independence. D. Incorrect. 2000 is not the date of the present legislation."
+  },
+  {
+    "type": "mcq",
+    "q-number": 26,
+    "q": "How long does the Mental Health Act allow a person to be admitted involuntarily at a mental health facility before requiring permission from the Mental Health Review Board?",
+    "options": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "120 days"
+    ],
+    "answer": [
+      "90 days"
+    ],
+    "explanation": "A. Incorrect. 30 days is not a threshold in the Decree. B. Incorrect. 60 days is not a threshold in the Decree. C. Correct. An inpatient treatment order lasts up to 3 months (s62(3)) and is reviewed by the Review Board within 3 months of admission and every 3 months after (s71), so 90 days is the closest option. D. Incorrect. 120 days exceeds the 3-month order limit. Note: The Decree uses 'not exceeding 3 months' and does not literally say 'permission'; the stem is loosely worded. Confirm with your lecturer's notes."
+  },
+  {
+    "type": "mcq",
+    "q-number": 27,
+    "q": "Ophelia is a 28 year female who has been taking lithium for the past two years for Bipolar Affective Disorder. She has presented to clinic today with a three month history of weight gain, feeling puffy and bloated, having constipation, hair feeling brittle and falling, and feeling cold even on warm nights. Which of these investigations is most likely to be present?",
+    "options": [
+      "Elevated lipids",
+      "Elevated T3",
+      "Abnormal LFTS",
+      "Elevated TSH"
+    ],
+    "answer": [
+      "Elevated TSH"
+    ],
+    "explanation": "A. Incorrect. Lipids may rise in hypothyroidism but are a non-specific, secondary finding. B. Incorrect. Raised T3 indicates hyperthyroidism. C. Incorrect. Lithium is not hepatotoxic. D. Correct. Features of hypothyroidism on lithium (lithium inhibits thyroid hormone release). TSH is raised with low free T4."
+  },
+  {
+    "type": "mcq",
+    "q-number": 28,
+    "q": "A 65 year male is brought in to the emergency department by his family, with a two day history of being agitated, being confused, has stated he can see visions of fire in his room, and is now becoming aggressive at times. His symptoms appear to be worse at night, and there are periods during the day when he seems absolutely fine. He does not have any previous psychiatric history and had been completely well until two days ago. He has a history of hypertension and has been poorly adherent to medications. Which of the following is the most likely cause of his presentation?",
+    "options": [
+      "Schizophrenia",
+      "Delirium",
+      "Dementia",
+      "Bipolar Affective Disorder"
+    ],
+    "answer": [
+      "Delirium"
+    ],
+    "explanation": "A. Incorrect. Schizophrenia does not begin acutely at 65 with fluctuating confusion. B. Correct. Acute onset over days, fluctuating course, worse at night, visual hallucinations and confusion are hallmarks of delirium; look for the underlying cause (infection, metabolic, vascular). C. Incorrect. Dementia is gradual and non-fluctuating over days. D. Incorrect. No mood episode or psychiatric history."
+  },
+  {
+    "type": "mcq",
+    "q-number": 29,
+    "q": "A 53 year male comes in to ED complaining of headaches, visual hallucinations, and feeling tired for the past two days. He has no previous psychiatric history. He has been on medications for ischaemic heart disease. He recalls having falling off the ladder and sustaining a knock to his head whilst doing repair works on his house. Which of these investigations is most recommended to diagnose his condition?",
+    "options": [
+      "FBC",
+      "Coagulation studies",
+      "CT scan",
+      "Thyroid function tests"
+    ],
+    "answer": [
+      "CT scan"
+    ],
+    "explanation": "A. Incorrect. FBC checks anaemia or infection but does not diagnose the cause. B. Incorrect. Coagulation studies guide management but do not diagnose a bleed. C. Correct. Head injury in someone likely on antiplatelet/anticoagulant drugs, now with headache and new neuropsychiatric symptoms, suggests an intracranial bleed (for example subdural haematoma). A CT head is diagnostic. D. Incorrect. Thyroid tests are not suggested by the history."
+  },
+  {
+    "type": "mcq",
+    "q-number": 30,
+    "q": "A 42 year male who is on medications for treatment resistant Schizophrenia with refractory symptoms has presented to clinic with a history of fever, sore throat, and feeling tired. On preliminary investigations, it is noted he has a low white cell count. Which of the following antipsychotic drug is most likely responsible for this effect?",
+    "options": [
+      "Risperidone",
+      "Clozapine",
+      "Aripriprazole",
+      "Quetiapine"
+    ],
+    "answer": [
+      "Clozapine"
+    ],
+    "explanation": "A. Incorrect. Risperidone rarely causes neutropenia. B. Correct. Clozapine is used for treatment-resistant schizophrenia and causes agranulocytosis/neutropenia. Fever and sore throat with low WCC is an emergency: stop the drug and check neutrophils urgently. C. Incorrect. Aripiprazole rarely causes neutropenia. D. Incorrect. Quetiapine rarely causes neutropenia."
+  },
+  {
+    "type": "mcq",
+    "q-number": 31,
+    "q": "The next three questions are based on the following scenario: A 21 year old female is rushed into the emergency department having been found by family with ingestion of several sheets of paracetamol/acetaminophen. Upon counting, she is found to have ingested 20 tablets of 500mg extended release tablets. The time of ingestion is unknown. The patient refuses to reveal any further details, and appears to be clinically stable. What is the minimum toxic dose in adults for paracetamol/acetaminophen in a single dose?",
+    "options": [
+      "4g- 6g",
+      "7.5g- 10g",
+      "10g-12g",
+      "12g - 15g"
+    ],
+    "answer": [
+      "7.5g- 10g"
+    ],
+    "explanation": "A. Incorrect. 4 g is the maximum therapeutic daily dose. B. Correct. A single ingestion of about 7.5 to 10 g (roughly 150 mg/kg) can cause hepatotoxicity. Her 20 x 500 mg = 10 g is in the toxic range. C. Incorrect. 10 to 12 g is above the usual minimum toxic threshold. D. Incorrect. 12 to 15 g is above the usual minimum toxic threshold."
+  },
+  {
+    "type": "mcq",
+    "q-number": 32,
+    "q": "The next three questions are based on the following scenario: A 21 year old female is rushed into the emergency department having been found by family with ingestion of several sheets of paracetamol/acetaminophen. Upon counting, she is found to have ingested 20 tablets of 500mg extended release tablets. The time of ingestion is unknown. The patient refuses to reveal any further details, and appears to be clinically stable. What is the best initial recommended investigation for her to determine diagnosis and treatment?",
+    "options": [
+      "Liver function tests",
+      "Coagulation studies",
+      "Acetaminophen concentration",
+      "Renal function tests"
+    ],
+    "answer": [
+      "Acetaminophen concentration"
+    ],
+    "explanation": "A. Incorrect. LFTs are normal early and are a baseline, not the best initial test. B. Incorrect. Coagulation studies become abnormal late. C. Correct. The serum paracetamol level is the first test to confirm exposure and guide antidote treatment; take baseline LFTs and INR with it. D. Incorrect. Renal impairment is a late complication. Note: Time of ingestion is unknown and the tablets are extended release, so a single level cannot be plotted on the nomogram; repeat at 4 h and treat empirically (see Q33)."
+  },
+  {
+    "type": "mcq",
+    "q-number": 33,
+    "q": "The next three questions are based on the following scenario: A 21 year old female is rushed into the emergency department having been found by family with ingestion of several sheets of paracetamol/acetaminophen. Upon counting, she is found to have ingested 20 tablets of 500mg extended release tablets. The time of ingestion is unknown. The patient refuses to reveal any further details, and appears to be clinically stable. What is the immediate management for her presentation?",
+    "options": [
+      "Administer N-acetylcysteine",
+      "Administer IV fluids",
+      "Administer activated charcoal",
+      "Start antidepressants"
+    ],
+    "answer": [
+      "Administer N-acetylcysteine"
+    ],
+    "explanation": "A. Correct. With an unknown time of ingestion, extended-release tablets and a potentially toxic dose, give N-acetylcysteine immediately without waiting for the level. B. Incorrect. IV fluids are supportive only. C. Incorrect. Activated charcoal helps only within about 1 hour of ingestion; the time here is unknown. D. Incorrect. Antidepressants are not an emergency measure; psychiatric review follows medical care. Note: Charcoal would be the answer if she presented within 1 hour of ingestion."
+  },
+  {
+    "type": "mcq",
+    "q-number": 34,
+    "q": "A 21 year-old woman is followed up for her mental health by the psychiatric team. She gave birth to her first baby five weeks ago. Since then she feels she is unable to cope with her looking after her baby. She's seen crying all the time. She has very low moods and finds no pleasure in life. She feels very anxious about looking after her newborn as well as isolated and unable to relate to other people. At times she has intrusive thoughts of harming her baby. What is the single most likely diagnosis?",
+    "options": [
+      "Postpartum blues",
+      "Postpartum depression",
+      "Postpartum psychosis",
+      "Generalised Anxiety Disorder"
+    ],
+    "answer": [
+      "Postpartum depression"
+    ],
+    "explanation": "A. Incorrect. Blues is mild, peaks at days 3 to 5 and resolves within 2 weeks. B. Correct. Persistent low mood, anhedonia, anxiety and difficulty bonding starting within weeks of birth and lasting beyond 2 weeks is postpartum depression. Intrusive harm thoughts are obsessional and need risk assessment, but psychosis is absent. C. Incorrect. Psychosis has delusions, hallucinations or disorganisation with rapid onset in the first 2 weeks. D. Incorrect. GAD does not explain the depressive core or the postpartum onset."
+  },
+  {
+    "type": "mcq",
+    "q-number": 35,
+    "q": "A 30 year known case of recurrent depressive episodes with severe suicidal ideations has presented to the clinic with complaints of active suicidal ideations, and has attempted to kill himself several times over the last two days, and was only prevented in doing so by constant supervision from his family. He refuses to take medications because he no longer wants to get better, he just wants to die. He is still actively planning to kill himself. He does not have any psychosis at present. What is the best management for him in the acute phase?",
+    "options": [
+      "Commence sertraline",
+      "Commence Haloperidol decanoate",
+      "Electroconvulsive therapy",
+      "Refer for cognitive behavioural therapy"
+    ],
+    "answer": [
+      "Electroconvulsive therapy"
+    ],
+    "explanation": "A. Incorrect. Sertraline takes 2 to 4 weeks to work and he refuses medication. B. Incorrect. Haloperidol decanoate is a long-acting antipsychotic; no psychosis is present. C. Correct. Severe depression with active suicidality, repeated attempts and refusal of medication is an indication for ECT because it works fastest. Admit for safety. D. Incorrect. CBT is not adequate or fast enough for acute high suicide risk. Note: In Fiji, ECT needs informed consent or, if he lacks capacity or refuses, a Review Board ECT inquiry (Decree s72 to s75)."
+  },
+  {
+    "type": "mcq",
+    "q-number": 36,
+    "q": "A 35 year old military officer has just returned from service with the UN peacekeepers corps. He has presented today with a history of difficulty sleeping. He gets easily startled with loud noises. He has been unable to socialise and integrate back into his family life since his return. He constantly has flashbacks of his time during service. What is the recommended medication for treatment of his condition?",
+    "options": [
+      "Citalopram",
+      "Lorazepam",
+      "Amitriptyline",
+      "Risperidone"
+    ],
+    "answer": [
+      "Citalopram"
+    ],
+    "explanation": "A. Correct. This is PTSD (flashbacks, hyperarousal, avoidance). Trauma-focused therapy is first line; when medication is used, an SSRI is the recommended class. B. Incorrect. Benzodiazepines can worsen PTSD outcomes and risk dependence. C. Incorrect. Amitriptyline is a second-line TCA. D. Incorrect. Risperidone is only an adjunct for psychotic symptoms. Note: Sertraline and paroxetine have the strongest evidence for PTSD; citalopram is the SSRI offered."
+  },
+  {
+    "type": "mcq",
+    "q-number": 37,
+    "q": "A 70 year male is brought in by his family with a history of progressive forgetfulness, and he is now becoming emotionally labile, and often tries to abscond from his home. His physical examination and CT scan are normal. He has no other known co-morbidities. Which of the following is the most likely diagnosis?",
+    "options": [
+      "Huntington disease",
+      "Alzheimer's dementia",
+      "Dementia with Lewy body",
+      "Vascular dementia"
+    ],
+    "answer": [
+      "Alzheimer's dementia"
+    ],
+    "explanation": "A. Incorrect. Huntington's has chorea and a family history, and starts earlier. B. Correct. Gradual progressive memory loss, emotional lability and wandering with normal examination and CT is typical Alzheimer's disease. C. Incorrect. DLB has visual hallucinations, parkinsonism and fluctuating cognition. D. Incorrect. Vascular dementia is stepwise with vascular risk factors, focal signs or infarcts on CT."
+  },
+  {
+    "type": "mcq",
+    "q-number": 38,
+    "q": "A 24 year female is rushed into ED whilst being bagged. According to her friend they had been at a party where they had used some substances by injecting themselves. A preliminary survey shows the patient has very slowed breathing, has no verbal response, pinpoint pupils, and needle track marks on her inner forearm. What is the best immediate management?",
+    "options": [
+      "Intubate",
+      "Continuous positive airway pressure",
+      "Naloxone",
+      "Benzodiazepine"
+    ],
+    "answer": [
+      "Naloxone"
+    ],
+    "explanation": "A. Incorrect. Intubation is only needed if naloxone and bag-mask ventilation fail. B. Incorrect. CPAP does not address the cause and is unsafe in a comatose patient. C. Correct. Respiratory depression, coma and pinpoint pupils with injection marks is opioid overdose. Naloxone (opioid antagonist) reverses it quickly. D. Incorrect. Benzodiazepines add respiratory depression."
+  },
+  {
+    "type": "mcq",
+    "q-number": 39,
+    "q": "A 34 year lawyer has presented to the clinic with a history of feeling anxious in courtrooms during trials. She says she prefers to stick to paperwork and does not like attending trials anymore, as she feels scared to speak in public, and feels like she is about to pass out if she has to, because she feels people are judging her every word. She feels extremely self conscious when talking to people and is considering working from home to avoid interactions. What is she most likely to have?",
+    "options": [
+      "PTSD",
+      "Generalised Anxiety Disorder",
+      "Agoraphobia",
+      "Social anxiety disorder"
+    ],
+    "answer": [
+      "Social anxiety disorder"
+    ],
+    "explanation": "A. Incorrect. No traumatic event or re-experiencing. B. Incorrect. GAD has diffuse worry across many areas, not situation-specific fear. C. Incorrect. Agoraphobia is fear of places where escape is hard, not fear of scrutiny. D. Correct. Marked fear of being judged in social/performance situations with avoidance indicates social anxiety disorder."
+  },
+  {
+    "type": "mcq",
+    "q-number": 40,
+    "q": "A 21 year male has been brought to the emergency room after reports of vagrant and violent behaviour from the public. He is noted to be agitated, does not answer any questions, has marked facial anger, and tried to hit an orderly when being triaged. He appears to smile inappropriately to himself, and is mumbling softly to himself. He spat out water that was offered at staff. The police have kept him in handcuffs. What is the most appropriate initial management?",
+    "options": [
+      "Haloperidol IM",
+      "Promethazine IM",
+      "Diazepam IM",
+      "Modecate IM"
+    ],
+    "answer": [
+      "Haloperidol IM"
+    ],
+    "explanation": "A. Correct. Acute agitation with probable psychosis (inappropriate smiling, mumbling to himself, hostility) needs rapid tranquillisation after de-escalation fails. IM haloperidol is the standard antipsychotic choice. B. Incorrect. Promethazine alone is a weak sedative; it is often co-administered to reduce EPSE but is not the main drug. C. Incorrect. IM diazepam has erratic absorption; if a benzodiazepine is used IM lorazepam is preferred. D. Incorrect. Modecate (fluphenazine decanoate) is a depot for maintenance and is useless acutely. Note: Try verbal de-escalation first, take baseline observations and ECG where possible. In Fiji practice haloperidol is often paired with promethazine."
+  },
+  {
+    "type": "saq",
+    "q-number": 41,
+    "q": "List at least 3 symptoms of lithium side effects or toxicity? (1.5 marks)",
+    "answer": [
+      "Fine tremor (common side effect)",
+      "Polyuria and polydipsia (common side effect)",
+      "Weight gain (common side effect)",
+      "Nausea and diarrhoea (common side effect)",
+      "Metallic taste (common side effect)",
+      "Hypothyroidism (long-term effect)",
+      "Nephrogenic diabetes insipidus and renal impairment (long-term effect)",
+      "Hypercalcaemia from hyperparathyroidism (long-term effect)",
+      "T-wave flattening on ECG (long-term effect)",
+      "Teratogenicity, for example Ebstein's anomaly (long-term effect)",
+      "Coarse tremor (toxicity, level above 1.5 mEq/L)",
+      "Vomiting and severe diarrhoea (toxicity)",
+      "Ataxia (toxicity)",
+      "Slurred speech and nystagmus (toxicity)",
+      "Drowsiness and confusion (toxicity)",
+      "Muscle twitching and hyperreflexia (toxicity)",
+      "Seizures and coma (toxicity)"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 42,
+    "q": "What are two side effects of second generation antipsychotics not commonly seen with first generation antipsychotics? (1 marks)",
+    "answer": [
+      "Weight gain and metabolic syndrome (dyslipidaemia, insulin resistance, type 2 diabetes), especially olanzapine and clozapine",
+      "Agranulocytosis or neutropenia (clozapine-specific)",
+      "Myocarditis (clozapine-specific)",
+      "Hypersalivation (clozapine-specific)",
+      "Lowered seizure threshold (clozapine-specific)"
+    ],
+    "explanation": "Accept any two valid effects. First-generation drugs mainly cause EPSE and hyperprolactinaemia."
+  },
+  {
+    "type": "saq",
+    "q-number": 43,
+    "q": "List the 6 levels of insight with a short description for each in order, from most insightful to least insightful. (3 marks)",
+    "answer": [
+      "Level 6, true emotional insight: emotional awareness of motives and feelings leading to basic personality or behaviour change",
+      "Level 5, intellectual insight: admits illness and that symptoms are caused by own irrational feelings or disturbances, but does not apply this knowledge to future experiences",
+      "Level 4, illness due to something unknown in the patient: accepts something is wrong inside but cannot say what",
+      "Level 3, blames external factors: aware of being sick but blames others, external events or an organic cause",
+      "Level 2, slight awareness: slight awareness of being sick and needing help, but denies it at the same time",
+      "Level 1, complete denial of illness: no awareness of being ill"
+    ],
+    "explanation": "Classification follows Kaplan and Sadock's six levels; different textbooks word them differently, so check your lecture notes."
+  },
+  {
+    "type": "saq",
+    "q-number": 44,
+    "q": "List at least three symptoms of extrapyramidal side effects. (1.5 marks)",
+    "answer": [
+      "Acute dystonia: sudden muscle spasms (torticollis, oculogyric crisis, jaw or tongue spasm)",
+      "Parkinsonism: tremor, rigidity, bradykinesia, mask-like face, shuffling gait, drooling",
+      "Akathisia: inner restlessness and inability to sit still",
+      "Tardive dyskinesia: involuntary orofacial movements (lip smacking, tongue protrusion, grimacing) and choreoathetoid limb movements"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 45,
+    "q": "What are the four main features of neuroleptic malignant syndrome? (2 marks)",
+    "answer": [
+      "Hyperthermia (fever above 38 C)",
+      "Severe generalised ('lead-pipe') muscle rigidity",
+      "Altered mental status (confusion, agitation, stupor, mutism, coma)",
+      "Autonomic instability (tachycardia, labile blood pressure, sweating, tachypnoea)"
+    ],
+    "explanation": "Supporting findings: raised CK, leucocytosis, myoglobinuria and renal failure."
+  },
+  {
+    "type": "saq",
+    "q-number": 46,
+    "q": "What are the principles of management of neuroleptic malignant syndrome? (1.5 marks)",
+    "answer": [
+      "Stop the antipsychotic immediately (and any other precipitant such as lithium)",
+      "Transfer to a medical/ICU setting for supportive care: IV fluids, cooling, treat electrolytes and monitor vitals, CK and renal function",
+      "Drug treatment in moderate to severe cases: dantrolene (muscle relaxant), bromocriptine (dopamine agonist), benzodiazepines for agitation and rigidity",
+      "Treat complications (rhabdomyolysis, renal failure, aspiration, VTE prophylaxis); consider ECT if refractory",
+      "Delay and cautiously rechallenge, usually after at least 2 weeks, with a low-potency or different antipsychotic"
+    ],
+    "explanation": "Question printed as 'neuroleptic management syndrome'; read as neuroleptic malignant syndrome (OCR/typo)."
+  },
+  {
+    "type": "saq",
+    "q-number": 47,
+    "q": "List at least five symptoms required for the diagnosis of major depressive disorder, including at least one cardinal symptom. (2.5 marks)",
+    "answer": [
+      "Cardinal: persistent depressed mood (most of the day, nearly every day)",
+      "Cardinal: loss of interest or pleasure (anhedonia)",
+      "Significant change in appetite or weight",
+      "Insomnia or hypersomnia",
+      "Psychomotor agitation or retardation",
+      "Fatigue or loss of energy",
+      "Feelings of worthlessness or excessive guilt",
+      "Reduced concentration or indecisiveness",
+      "Recurrent thoughts of death or suicidal ideation"
+    ],
+    "explanation": "At least 5 symptoms present for at least 2 weeks, including at least one cardinal symptom, causing distress or impairment."
+  },
+  {
+    "type": "saq",
+    "q-number": 48,
+    "q": "List at least 4 symptoms required to diagnose a manic episode. (2 marks)",
+    "answer": [
+      "Elevated, expansive or irritable mood with increased energy lasting at least 1 week (or any duration if hospitalisation is needed)",
+      "Grandiosity or inflated self-esteem",
+      "Decreased need for sleep",
+      "Pressured speech (more talkative than usual)",
+      "Flight of ideas or racing thoughts",
+      "Distractibility",
+      "Increased goal-directed activity or psychomotor agitation",
+      "Excessive involvement in risky activities (spending, sexual indiscretion, reckless behaviour)"
+    ],
+    "explanation": "At least 3 of these symptoms (4 if mood is only irritable) plus the mood disturbance."
+  },
+  {
+    "type": "saq",
+    "q-number": 49,
+    "q": "List the four principles of medical ethics, with a short description of their meaning. (2 marks)",
+    "answer": [
+      "Autonomy: respect the patient's right to make informed, voluntary decisions about their own care",
+      "Beneficence: act in the patient's best interests and do good",
+      "Non-maleficence: do no harm; avoid causing unnecessary harm or risk",
+      "Justice: treat patients fairly and distribute resources and care equitably"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 50,
+    "q": "List at least 3 side effects of SSRIs. (1.5 marks)",
+    "answer": [
+      "Nausea, diarrhoea and dyspepsia (gastrointestinal)",
+      "Headache, insomnia, jitteriness or increased anxiety early in treatment",
+      "Sexual dysfunction (reduced libido, delayed ejaculation, anorgasmia)",
+      "Hyponatraemia (SIADH), especially in the elderly",
+      "Increased bleeding risk, especially with NSAIDs",
+      "QT prolongation (citalopram)",
+      "Serotonin syndrome, with other serotonergic drugs",
+      "Discontinuation syndrome"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 51,
+    "q": "List at least three clinical features that may be noted in a child less than 5 years of age with ADHD. (1.5 marks)",
+    "answer": [
+      "Excessive motor activity: constantly running, climbing, unable to stay seated",
+      "Very short attention span and easily distracted; moves rapidly from one activity to another",
+      "Impulsivity: difficulty waiting turn, interrupts others, acts without thinking",
+      "Excessive talking and noisiness; difficulty with quiet play",
+      "Frequent accidents or injuries, poor safety awareness",
+      "Frequent tantrums, aggression, poor response to discipline, trouble following instructions"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 52,
+    "q": "List at least two medications which can be opted for use in adults with ADHD? (1 marks)",
+    "answer": [
+      "Methylphenidate (stimulant; first line)",
+      "Lisdexamfetamine or dexamfetamine (stimulants)",
+      "Atomoxetine (non-stimulant noradrenaline reuptake inhibitor)",
+      "Alternatives: guanfacine, bupropion, clonidine"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 53,
+    "q": "What is the minimum duration required for the presence of active symptoms to diagnose these disorders: (1 marks)\nA) Major Depressive Episode (0.5 mark)\nB) Schizophrenia (0.5 mark)",
+    "answer": [
+      "**A) Major depressive episode, minimum duration (0.5 mark)**\n* At least 2 weeks",
+      "**B) Schizophrenia, minimum duration (0.5 mark)**\n* At least 1 month of active (positive) symptoms\n* DSM-5 also requires continuous signs of disturbance for at least 6 months overall"
+    ],
+    "explanation": "Schizophrenia: ICD-11 requires at least 1 month of symptoms; DSM-5 needs 1 month of active phase within a 6-month total. Both are given. Use 1 month as the active-symptom answer and mention the 6-month total for DSM-5."
+  },
+  {
+    "type": "saq",
+    "q-number": 54,
+    "q": "Write the name of the neurotransmitter most affected by the use of these medications: (1 marks)\nA) Fluoxetine (0.5 mark)\nB) Haloperidol (0.5 mark)",
+    "answer": [
+      "**A) Fluoxetine (0.5 mark)**\n* Serotonin (5-HT), by blocking its reuptake (SSRI)",
+      "**B) Haloperidol (0.5 mark)**\n* Dopamine, by blocking D2 receptors"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 55,
+    "q": "List at least three features required for diagnosis of PTSD. (1.5 marks)",
+    "answer": [
+      "Exposure to a traumatic or life-threatening event (directly experienced or witnessed)",
+      "Re-experiencing: flashbacks, intrusive memories, nightmares",
+      "Avoidance of reminders, thoughts or places linked to the trauma",
+      "Hyperarousal or persistent sense of threat: hypervigilance, exaggerated startle, insomnia, irritability",
+      "Negative changes in mood and cognition (detachment, guilt, emotional numbing)",
+      "Symptoms lasting more than 1 month (DSM-5; ICD-11 says several weeks) and causing significant impairment"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 56,
+    "q": "A patient has been having trouble sleeping for the past four days. List at least three sleep hygiene interventions you can advise to help improve sleep without pharmacological interventions. (1.5 marks)",
+    "answer": [
+      "Keep a regular sleep and wake time, including weekends",
+      "Avoid caffeine, nicotine and alcohol, especially in the evening",
+      "Keep the bedroom dark, quiet, cool and comfortable; use the bed only for sleep",
+      "Avoid screens and bright light before bed; wind down with relaxing activities",
+      "Avoid heavy meals and vigorous exercise close to bedtime; exercise earlier in the day",
+      "Avoid daytime naps; if unable to sleep after about 20 minutes, get up and do something calming"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 57,
+    "q": "Which antidepressant / class of antidepressants is least likely to be prescribed in a patient with cardiac co-morbidities? (0.5 marks)",
+    "answer": [
+      "Tricyclic antidepressants (for example amitriptyline), because of arrhythmia, QT prolongation, conduction block, postural hypotension and toxicity in overdose"
+    ],
+    "explanation": "Citalopram/escitalopram also prolong QT; sertraline is preferred in cardiac disease."
+  },
+  {
+    "type": "saq",
+    "q-number": 58,
+    "q": "Prior to conducting a psychiatric interview, list at least three measures to be taken to ensure physical safety. (1.5 marks)",
+    "answer": [
+      "Risk assessment beforehand: review history, collateral information, past violence, intoxication",
+      "Tell colleagues where you are, use a chaperone or have security nearby, and know how to raise the alarm (panic button)",
+      "Choose a suitable room: two exits, door unlocked or ajar, sit nearest the door with an unobstructed exit so the patient is not between you and the door",
+      "Remove potential weapons or hazards (sharp objects, heavy items, cords) and check the room",
+      "Remove your own hazards (lanyards, jewellery, pens) and keep a safe distance",
+      "Have a de-escalation plan and an agreed approach with the team"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 59,
+    "q": "You have been asked to assess a person with alcohol use disorder for dependency. List the CAGE criteria used to identify possible cases of substance dependency. (2 marks)",
+    "answer": [
+      "C (Cut down): Have you ever felt you should cut down on your drinking?",
+      "A (Annoyed): Have people annoyed you by criticising your drinking?",
+      "G (Guilty): Have you ever felt bad or guilty about your drinking?",
+      "E (Eye-opener): Have you ever had a drink first thing in the morning to steady your nerves or get rid of a hangover?"
+    ],
+    "explanation": "Two or more 'yes' answers indicates clinically significant alcohol problems or possible dependence."
+  },
+  {
+    "type": "saq",
+    "q-number": 60,
+    "q": "Scenario 1 (10 marks). A 35 year old female has presented to ED with chest pain. She says that she has been transitioning into a new role at work where she manages the finances, and she is constantly scared that she will make a mistake. She keeps worrying about the future of her family, and feels anxious about how she and her partner will afford their mortgage and pay for the school fees of their two children. She sometimes feels like she is a bad mother, and constantly worries about her husband or children becoming ill. Her muscles have been feeling stiff and sore, and she is often restless. She has been finding it difficult to concentrate. She becomes irritated with small things, and recently has been more angry towards her husband and children. She cannot sleep because she is flooded with thoughts about the future and how she will manage her job and family life. She now feels low sometimes, but denies any suicidal ideations, although she does feel her family would be better off without her, and that she should go somewhere far away and be alone. She had some blood tests done with her GP, which all came back normal. She is really worried and wants to get better, as her symptoms are causing problems with her work and her relationship. Answer parts A to E:\nA) Most likely diagnosis (1 mark).\nB) Differential diagnoses (1 mark).\nC) Support for diagnosis (2 marks).\nD) Non-pharmacological management and considerations (3 marks).\nE) Pharmacological management and considerations (3 marks).",
+    "answer": [
+      "**A) Most likely diagnosis (1 mark)**\n* Generalised anxiety disorder (GAD)",
+      "**B) Differential diagnoses (1 mark)**\n* Major depressive disorder with anxious distress, or mixed anxiety and depressive disorder (low mood, feels family better off without her)\n* Adjustment disorder with anxiety (new job role)\n* Panic disorder, OCD or social anxiety\n* Cardiac causes of chest pain (ACS, arrhythmia), with ECG and troponin (medical cause to rule out)\n* Hyperthyroidism (medical cause to rule out), with TFTs\n* Anaemia, phaeochromocytoma, or caffeine or substance/medication-induced anxiety (medical causes to rule out)",
+      "**C) Support for diagnosis (2 marks)**\n* Excessive, hard-to-control worry about multiple areas (work performance, finances, children's school fees, family health)\n* Associated symptoms: restlessness, muscle tension, difficulty concentrating, irritability, sleep disturbance (DSM-5 needs at least 3 of 6)\n* Marked distress and impairment at work and in relationships\n* Not explained by a medical condition or substance, as blood tests are normal\n* Low mood is present but secondary and not pervasive, with no suicidal ideation, so MDD criteria are not met\n* Chest pain is a somatic manifestation of anxiety once cardiac causes are excluded",
+      "**D) Non-pharmacological management and considerations (3 marks)**\n* Exclude cardiac causes in ED first, then reassure and explain\n* Psychoeducation about anxiety and its physical symptoms\n* CBT (first-line): identify and challenge worry thoughts, worry time, problem solving, exposure to avoided situations\n* Relaxation training: breathing exercises, progressive muscle relaxation, mindfulness\n* Lifestyle: sleep hygiene, regular exercise, cut caffeine and alcohol\n* Social and work: workplace stress and workload discussion, practical help with finances (budgeting), couple/family involvement and support\n* Safety: risk assessment for suicide given her comment about family being better off without her\n* Screen for depression\n* Follow-up and review, self-help materials, relapse prevention plan",
+      "**E) Pharmacological management and considerations (3 marks)**\n* First line: an SSRI (sertraline or escitalopram), starting low and titrating because anxiety can worsen in the first 1 to 2 weeks\n* If SSRI fails or is not tolerated: SNRI (venlafaxine or duloxetine), then pregabalin or buspirone\n* Review response at 4 to 6 weeks\n* Continue for at least 6 to 12 months after remission, then taper slowly\n* Short-term adjuncts: propranolol for somatic symptoms\n* Hydroxyzine\n* Benzodiazepines only for a very short course (2 to 4 weeks) because of dependence\n* Considerations: ask about pregnancy and contraception and breastfeeding, other drugs and bleeding risk, side effects (nausea, sexual dysfunction, hyponatraemia), suicide risk monitoring in early treatment, discontinuation symptoms, and combine with CBT"
+    ],
+    "explanation": "Duration of symptoms is not given in the vignette; DSM-5 needs worry more days than not for at least 6 months (ICD-11: several months). State that you would confirm duration."
+  },
+  {
+    "type": "saq",
+    "q-number": 61,
+    "q": "Scenario 2 (10 marks). An 18 year old male has been brought to the ED by police for trying to baptise passers by on the street with 'holy water'. According to his parents, he has not been sleeping well for the last two weeks, talking incessantly and loudly, he is unable to sit still, and appears unusually happy. On examination, the client appears dressed in robes made out of bedsheets, he speaks very quickly and jumps from topic to topic without answering most questions, his voice is sometimes loud, and he appears to be rather joyful. He says he has been appointed by God to bring people to the light, and that God has been telling him wonderful things. He keeps walking around the room, talking and gesturing to himself. He does not let anyone speak over him and seems to get agitated when asked to sit down. He becomes very demanding when being asked questions, and seems to get quite upset with his parents when they answer for him, and tell them to shut up. He denies any substance use, saying this is against his religion. He denies feeling unwell, and says he needs to go back to preaching as God is commanding him to leave the hospital. He does not want any tablets or injections. Answer parts A to E:\nA) Most likely diagnosis (1 mark).\nB) Differential diagnoses (1 mark).\nC) Support for diagnosis (2 marks).\nD) Non-pharmacological management and considerations (3 marks).\nE) Pharmacological management and considerations (3 marks).",
+    "answer": [
+      "**A) Most likely diagnosis (1 mark)**\n* Bipolar I disorder, current episode manic with psychotic features (mood-congruent grandiose delusions and auditory hallucinations)",
+      "**B) Differential diagnoses (1 mark)**\n* Schizophrenia, schizoaffective disorder or brief psychotic disorder\n* Substance or medication-induced mania/psychosis (stimulants, cannabis, steroids) with urine drug screen\n* Medical or organic causes to rule out: hyperthyroidism, temporal lobe epilepsy, head injury, encephalitis or CNS tumour, delirium, neurosyphilis/HIV\n* Religious or culturally normative experience (consider, but not enough to explain the pattern)",
+      "**C) Support for diagnosis (2 marks)**\n* Elevated and irritable mood (joyful, becomes upset and demanding when challenged) lasting about 2 weeks, more than the 1 week required\n* Decreased need for sleep\n* Pressured, loud speech with flight of ideas\n* Psychomotor agitation and increased goal-directed activity (walking around, preaching, baptising strangers)\n* Grandiose delusion (appointed by God) and auditory hallucinations (God speaking to him)\n* Marked impairment and risk (police involvement), poor insight (denies being unwell), disinhibited behaviour (robes), distractibility\n* A first manic episode is by definition Bipolar I",
+      "**D) Non-pharmacological management and considerations (3 marks)**\n* Risk assessment (to self, others, reputation, exploitation) and a safe, low-stimulation environment with close observation\n* Build rapport, verbal de-escalation, avoid arguing with or confronting beliefs, respect his religious and cultural background (the Decree s3 says religion alone is not a disorder)\n* Capacity and consent: he lacks insight and refuses treatment, so assess capacity and, if he meets criteria, detain for involuntary assessment under the Mental Health Decree 2010 Part 4 (72 hours, then inpatient treatment order if needed) using the least restrictive option\n* Collateral from parents\n* Inform and involve family as primary carer\n* Physical examination and investigations: urine drug screen, FBC, U&E, TFT, glucose, consider CT/EEG if indicated\n* Reduce stimulation, regulate sleep, avoid caffeine\n* Later: psychoeducation for patient and family, relapse prevention, adherence support, community follow-up and recovery planning",
+      "**E) Pharmacological management and considerations (3 marks)**\n* Acute: antipsychotic (olanzapine, risperidone, quetiapine or haloperidol) with or without a benzodiazepine (lorazepam) for agitation and sleep\n* Oral first, IM only if he refuses and is detained or in an emergency\n* Mood stabiliser: lithium (first line) or valproate (acceptable in males)\n* Carbamazepine is alternative\n* Stop or avoid antidepressants\n* Baseline: ECG, U&E and TFT before lithium, weight, glucose, lipids\n* Lithium levels 0.6 to 1.0 mEq/L (up to 1.2 in acute mania) at 12 hours post-dose\n* Monitor EPSE, sedation, metabolic effects and adherence\n* Continue antipsychotic for a period then reassess\n* Maintenance mood stabiliser for at least 2 years or longer\n* Long-acting injection if poor adherence\n* Consent: he refuses medication so treatment under the Decree s51 and treatment orders applies when criteria are met\n* Psychoeducation"
+    ]
+  },
+  {
+    "type": "saq",
+    "q-number": 62,
+    "q": "Scenario 3 (10 marks). A 17 year old male has been brought in by police for trespassing onto private property. The nurse tracks down his family, and according to history from his parents, he has a 6 month history of talking to himself, becoming very agitated and throwing things at people, has not been sleeping and feels like he is being watched. He claims the police have been surveilling him, and that he can hear their voices talking about taking him in and torturing him for information. Upon examination, he appears dishevelled, has underlying facial anger, does not make eye contact and constantly keeps looking around. He often begins to answer a question and then stops. He makes up words as he speaks. He is suspicious towards the physician, claiming he must be a police officer in disguise. He says he should 'take out' all the police officers before they have a chance to interrogate him. He does not make sense when asked questions, and often deviates completely from what he was talking about. He denies any substance use, and the parents aren't sure if he has been taking anything. He feels nothing is wrong with him, and cannot understand why his claims are not being taken seriously. The family claims they had an uncle who had become similarly unwell and had to be hospitalised. The police have decided to question him once medically cleared. Answer parts A to E:\nA) Most likely diagnosis (1 mark).\nB) Differential diagnoses (1 mark).\nC) Support for diagnosis (2 marks).\nD) Non-pharmacological management and considerations, especially forensic (3 marks).\nE) Pharmacological management and considerations (3 marks).",
+    "answer": [
+      "**A) Most likely diagnosis (1 mark)**\n* Schizophrenia (early-onset, first episode, paranoid presentation with prominent positive symptoms)",
+      "**B) Differential diagnoses (1 mark)**\n* Substance-induced psychotic disorder (cannabis, amphetamines, synthetic drugs) with urine drug screen\n* Bipolar disorder with psychotic features or schizoaffective disorder\n* Medical or organic causes to rule out: temporal lobe epilepsy, autoimmune/NMDA encephalitis, CNS infection (HIV, syphilis), head injury or tumour, thyroid disease, SLE, Wilson's disease\n* Brief psychotic disorder or schizophreniform (excluded by the 6-month course), delusional disorder, autism spectrum disorder, PTSD",
+      "**C) Support for diagnosis (2 marks)**\n* Persecutory delusions (police surveilling and planning to torture him)\n* Auditory hallucinations (voices discussing him in third person) and talking to himself\n* Disorganised speech: neologisms, thought blocking (starts answering then stops), derailment, incoherence\n* Disorganised and bizarre behaviour: dishevelled, agitation, trespassing, aggression\n* Duration of 6 months, meeting the minimum duration (1 month active symptoms, 6 months overall in DSM-5)\n* Functional decline, poor insight, and family history (uncle)\n* Exclusion of substance/medical cause is still needed (he denies substance use)",
+      "**D) Non-pharmacological management and considerations, especially forensic (3 marks)**\n* Medical clearance and physical assessment first (head injury, intoxication, drug screen), and the police interview should be deferred until he is medically and psychiatrically fit\n* Assess fitness to be interviewed and capacity\n* He is a 17-year-old 'young person' under the Decree (Part 7), so a parent/guardian or appropriate adult and a lawyer must be present for any questioning\n* Risk assessment (violence toward police, self-harm, command hallucinations) and safe, low-stimulation setting\n* Remove from handcuffs as soon as safe, use verbal de-escalation\n* Involuntary assessment under Mental Health Decree 2010 Part 4 (72 hours) and, if criteria are met, an inpatient treatment order in a unit suitable for young persons (separate from adults)\n* Liaise with police and courts and Part 8 (persons in custody) while keeping confidentiality (s39)\n* Collateral from family and school\n* Psychoeducation for patient and family\n* Early psychosis programme: CBT for psychosis, family intervention, supported education, vocational and social rehabilitation, substance use screening\n* Relapse prevention plan, safety plan and long-term community follow-up with child and adolescent psychiatry",
+      "**E) Pharmacological management and considerations (3 marks)**\n* First-line: a second-generation antipsychotic (risperidone, olanzapine or aripiprazole) started at a low dose and titrated slowly because adolescents are more sensitive to side effects\n* Acute agitation: oral or IM haloperidol or olanzapine with or without a benzodiazepine (lorazepam), with procyclidine available for EPSE\n* Baseline: weight, BMI, waist, BP, fasting glucose or HbA1c, lipids, prolactin, ECG, LFT, then monitor regularly\n* Allow an adequate trial (4 to 6 weeks at therapeutic dose)\n* If two antipsychotics fail, use clozapine with FBC monitoring\n* Long-acting injection (for example paliperidone) if poor adherence\n* Continue for at least 1 to 2 years after first episode\n* Consent: parents consent for a minor while seeking his assent\n* Treatment under the Decree if he is detained\n* Counsel about weight gain, EPSE, hyperprolactinaemia and sedation\n* Avoid cannabis"
+    ]
+  }
+]
