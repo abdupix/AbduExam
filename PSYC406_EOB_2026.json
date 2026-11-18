@@ -1,0 +1,146 @@
+[
+  {
+    "type": "mcq",
+    "q-number": 1,
+    "q": "Which part of the Mental Health Act involves involuntary admission?",
+    "options": ["Part 2", "Part 3", "Part 4", "Part 5"],
+    "answer": ["Part 4"],
+    "explanation": "A. Part 2 is not the involuntary admission part in the exam's Act. B. Part 3 is not the involuntary admission part in the exam's Act. C. Part 4 is the answer given in the recreated exam; verify numbering against your own Act. D. Part 5 is not the involuntary admission part in the exam's Act."
+  },
+  {
+    "type": "mcq",
+    "q-number": 2,
+    "q": "Main transmitter involved in schizophrenia?",
+    "options": ["Serotonin", "Dopamine", "GABA", "Acetylcholine"],
+    "answer": ["Dopamine"],
+    "explanation": "A. Serotonin modulates dopamine and is a target of some atypicals, but it is not the main transmitter. B. Dopamine: excess mesolimbic D2 activity drives positive symptoms (glutamate is also implicated, but dopamine is the classic answer). C. GABA is implicated in interneuron dysfunction but is not the main transmitter. D. Acetylcholine is relevant to Alzheimer's disease and anticholinergic effects, not core schizophrenia."
+  },
+  {
+    "type": "mcq",
+    "q-number": 3,
+    "q": "Which antipsychotic has the lowest risk of metabolic syndrome?",
+    "options": ["Olanzapine", "Clozapine", "Quetiapine", "Haloperidol"],
+    "answer": ["Haloperidol"],
+    "explanation": "A. Olanzapine has a very high risk of weight gain, diabetes and dyslipidaemia. B. Clozapine has the highest metabolic risk of all antipsychotics. C. Quetiapine has moderate to high metabolic risk. D. Haloperidol is a first-generation antipsychotic with little metabolic risk but a high rate of extrapyramidal side effects (among atypicals, aripiprazole, lurasidone and ziprasidone are lowest)."
+  },
+  {
+    "type": "mcq",
+    "q-number": 4,
+    "q": "Which of these medications is best for PTSD?",
+    "options": ["Lithium", "Citalopram", "Diazepam", "Haloperidol"],
+    "answer": ["Citalopram"],
+    "explanation": "A. Lithium is a mood stabiliser with no role in PTSD. B. Citalopram is an SSRI, the first-line drug class for PTSD (sertraline and paroxetine have the strongest evidence; trauma-focused therapy is first-line overall). C. Diazepam: benzodiazepines are avoided in PTSD as they do not treat core symptoms and may worsen outcomes. D. Haloperidol is an antipsychotic and is not indicated for PTSD."
+  },
+  {
+    "type": "mcq",
+    "q-number": 5,
+    "q": "Which medication is the antidote for opioid toxicity?",
+    "options": ["Flumazenil", "Naltrexone", "Naloxone", "N-acetylcysteine"],
+    "answer": ["Naloxone"],
+    "explanation": "A. Flumazenil reverses benzodiazepine overdose. B. Naltrexone is a long-acting antagonist used for relapse prevention, not emergency reversal. C. Naloxone is a short-acting competitive mu-opioid antagonist that rapidly reverses respiratory depression; repeat doses may be needed. D. N-acetylcysteine is the antidote for paracetamol overdose."
+  },
+  {
+    "type": "mcq",
+    "q-number": 6,
+    "q": "What is the therapeutic range of lithium in bipolar affective disorder?",
+    "options": ["0.1 - 0.4 mmol/L", "0.6 - 1.2 mmol/L", "1.5 - 2.0 mmol/L", "2.0 - 2.5 mmol/L"],
+    "answer": ["0.6 - 1.2 mmol/L"],
+    "explanation": "A. 0.1 - 0.4 mmol/L is subtherapeutic. B. 0.6 - 1.2 mmol/L is correct: maintenance is usually 0.6 to 0.8 and acute mania may need up to 1.2, with levels taken 12 hours post-dose. C. 1.5 - 2.0 mmol/L causes moderate toxicity (coarse tremor, ataxia, vomiting, confusion). D. 2.0 - 2.5 mmol/L causes severe toxicity (seizures, coma)."
+  },
+  {
+    "type": "mcq",
+    "q-number": 7,
+    "q": "A mother caught her 7-year-old child staring blankly during play. His teacher has also noticed him blanking out, and his grades are falling. What is your best course of action?",
+    "options": ["Reassure the parents that this is normal daydreaming", "Start methylphenidate for ADHD", "Refer to a paediatrician", "Refer to a child psychiatrist for conduct problems"],
+    "answer": ["Refer to a paediatrician"],
+    "explanation": "A. Reassuring the parents is wrong as it misses a treatable epilepsy and is unsafe. B. Methylphenidate: ADHD can look similar but should not be treated before seizures are excluded. C. Referral to a paediatrician is correct as the picture suggests absence seizures, needing EEG (3 Hz spike-and-wave) and possibly ethosuximide. D. A child psychiatrist referral is wrong as there is no conduct or behavioural disturbance."
+  },
+  {
+    "type": "saq",
+    "q-number": 8,
+    "q": "What are the two cardinal signs of MDD?",
+    "answer": [
+      "Persistent depressed mood, most of the day, nearly every day for at least 2 weeks",
+      "Anhedonia, meaning loss of interest or pleasure in usual activities"
+    ],
+    "explanation": "DSM-5 requires at least one of these two. ICD-10 also lists reduced energy or fatigability as a third core symptom."
+  },
+  {
+    "type": "saq",
+    "q-number": 9,
+    "q": "List 3 side effects of atypical antipsychotics.",
+    "answer": [
+      "Weight gain and metabolic syndrome (diabetes, dyslipidaemia), worst with olanzapine and clozapine",
+      "Sedation and postural hypotension",
+      "Hyperprolactinaemia (galactorrhoea, amenorrhoea, sexual dysfunction), especially with risperidone and amisulpride"
+    ],
+    "explanation": "Other acceptable answers: QT prolongation, extrapyramidal symptoms (less than typicals), neuroleptic malignant syndrome, agranulocytosis and seizures (clozapine)."
+  },
+  {
+    "type": "saq",
+    "q-number": 10,
+    "q": "List 3 side effects of SSRIs.",
+    "answer": [
+      "Gastrointestinal upset (nausea, diarrhoea), commonest early on",
+      "Sexual dysfunction (reduced libido, delayed orgasm)",
+      "Insomnia, headache and initial anxiety or jitteriness"
+    ],
+    "explanation": "Other acceptable answers: hyponatraemia (SIADH), increased bleeding risk, serotonin syndrome, discontinuation syndrome."
+  },
+  {
+    "type": "saq",
+    "q-number": 11,
+    "q": "List 3 side effects of lithium.",
+    "answer": [
+      "Fine tremor",
+      "Polyuria and polydipsia (nephrogenic diabetes insipidus)",
+      "Hypothyroidism and weight gain"
+    ],
+    "explanation": "Other acceptable answers: nausea and diarrhoea, metallic taste, leucocytosis, hypercalcaemia, long-term renal impairment, teratogenicity (Ebstein's anomaly). Toxicity: coarse tremor, vomiting, ataxia, confusion, seizures."
+  },
+  {
+    "type": "saq",
+    "q-number": 12,
+    "q": "List 3 diagnostic criteria of a manic episode.",
+    "answer": [
+      "Abnormally elevated, expansive or irritable mood with increased energy or activity, lasting at least 1 week (any duration if hospitalised)",
+      "Three or more of the following (four if mood is only irritable): grandiosity, decreased need for sleep, pressured speech, flight of ideas, distractibility, increased goal-directed activity or psychomotor agitation, risky behaviour",
+      "Marked functional impairment, psychosis or need for hospitalisation, and not due to a substance or medical condition"
+    ],
+    "explanation": "Any three well-stated criteria earn marks."
+  },
+  {
+    "type": "saq",
+    "q-number": 13,
+    "q": "What is the minimum period needed to classify the disorder?\na) PTSD\nb) Bipolar affective disorder\nc) Schizophrenia",
+    "answer": [
+      "**a) PTSD**\n* Symptoms must last more than 1 month (DSM-5); before that it is acute stress disorder (3 days to 1 month)\n* ICD-10 requires onset within 6 months of the trauma",
+      "**b) Bipolar affective disorder**\n* A manic episode needs at least 1 week (any duration if hospitalised), which is enough for Bipolar I\n* A hypomanic episode needs at least 4 days, and Bipolar II also needs a major depressive episode of at least 2 weeks",
+      "**c) Schizophrenia**\n* DSM-5: continuous signs for at least 6 months, including at least 1 month of active-phase symptoms\n* ICD-10 and ICD-11: symptoms present for at least 1 month"
+    ],
+    "explanation": "Durations depend on whether DSM-5 or ICD-10/11 is used in your course."
+  },
+  {
+    "type": "saq",
+    "q-number": 14,
+    "q": "List 3 positive symptoms of schizophrenia.",
+    "answer": [
+      "Hallucinations, typically auditory (running commentary, voices conversing)",
+      "Delusions (persecutory, referential, grandiose) and passivity phenomena (thought insertion, withdrawal, broadcasting)",
+      "Disorganised speech and thought (loosening of associations, tangentiality)"
+    ],
+    "explanation": "Disorganised or catatonic behaviour is also accepted."
+  },
+  {
+    "type": "saq",
+    "q-number": 15,
+    "q": "A 25-year-old woman has had trouble sleeping for the last 9 months. She thinks her neighbours are targeting her with witchcraft. She has been talking to herself and has had auditory hallucinations. She has been aggressive towards family members and hit her parents. She does not see anything wrong with her behaviour and is not willing to take any medication or be admitted.\nA) What are your differentials? Give your reasoning.\nB) Would you admit her? If so, why and under which kind of admission?\nC) What is your pharmacological management? Explain your reasoning and what you would do to improve adherence.\nD) What are your non-pharmacological management options? What are some important considerations to take into account?",
+    "answer": [
+      "**A) Differential diagnoses, with reasoning**\n* Schizophrenia (most likely), as there are at least 6 months of illness with persecutory delusions and auditory hallucinations, talking to herself, poor sleep and aggression, functional decline and no insight\n* Schizoaffective disorder or bipolar disorder with psychotic features, so screen for mood episodes (elevated or depressed mood, reduced need for sleep, grandiosity)\n* Major depressive disorder with psychotic features, less likely as there is no low mood or anhedonia described\n* Substance-induced psychotic disorder (cannabis, methamphetamine), which must be excluded with a drug history and urine drug screen\n* Organic causes: autoimmune encephalitis (anti-NMDAR, more common in young women), temporal lobe epilepsy, SLE, thyroid disease, HIV, neurosyphilis and Wilson's disease\n* Delusional disorder, less likely because hallucinations are prominent\n* Culturally sanctioned belief in witchcraft, so ask whether family and community share the belief; culture alone does not explain the hallucinations, aggression and functional decline\n* Investigations: FBC, U&E, LFT, TFT, glucose, B12, HIV and VDRL, urine drug screen, pregnancy test, and CT or MRI brain and EEG if indicated",
+      "**B) Admission, reasons and type**\n* Yes, admit her, as she has been aggressive to others (hit her parents), is acutely psychotic with no insight, and is refusing treatment and admission, so the risk to others and the risk of deterioration is high\n* Nine months without treatment, with disturbed sleep and likely poor self-care, supports the need for a structured inpatient assessment\n* She lacks capacity to consent to admission because of her lack of insight, so this is an involuntary admission under the Mental Health Act (Part 4 per Q1 of this exam)\n* The exact procedure (who applies, number of doctors, duration and review) depends on your jurisdiction's Act, so confirm it in your notes\n* Use the least restrictive approach, explain her rights, review capacity regularly, and aim to move to voluntary status as insight improves",
+      "**C) Pharmacological management, rationale and adherence**\n* Start an antipsychotic, preferably an atypical such as risperidone, aripiprazole or amisulpride, at a low dose and titrate to a therapeutic dose\n* Choose the drug by side-effect profile: in a young woman avoid olanzapine because of metabolic effects, watch prolactin with risperidone and amisulpride, and consider aripiprazole as a metabolically safer choice\n* Rationale: antipsychotics block D2 receptors, which treats positive symptoms; review response at 4 to 6 weeks, and if two adequate trials fail, use clozapine\n* Acute agitation: short-term benzodiazepine (lorazepam), with oral or IM antipsychotic per the rapid tranquillisation protocol; a short-term hypnotic can help sleep\n* Monitoring: baseline weight, BMI, waist, BP, glucose or HbA1c, lipids, ECG and prolactin, plus extrapyramidal symptoms\n* Continue treatment for at least 1 to 2 years after a first episode, longer if relapse occurs\n* Improve adherence with a long-acting injectable (paliperidone, risperidone, aripiprazole or depot flupentixol) once oral tolerability is shown, a simple once-daily regimen and early treatment of side effects\n* Further adherence measures: psychoeducation, motivational interviewing and shared decision-making, family involvement in supervising medication, and community follow-up with outreach if she misses appointments\n* Respect her explanatory model by engaging faith or traditional leaders where she wishes, and avoid arguing about the delusion",
+      "**D) Non-pharmacological management and considerations**\n* Psychoeducation for the patient and family, and family intervention to reduce expressed emotion and relapse\n* CBT for psychosis, social skills training and cognitive remediation\n* Occupational therapy, supported employment and rehabilitation, and community case management\n* Substance use counselling if indicated, sleep hygiene, healthy diet and exercise, and smoking cessation\n* A relapse prevention plan with early warning signs and a crisis plan\n* Considerations: safety of the family and neighbours, risk assessment and a safe environment\n* Culture and religion: take her belief in witchcraft seriously and non-judgementally, and engage community leaders without colluding with the delusion\n* Legal and ethical: capacity, confidentiality, her rights under the Act, and the least restrictive option\n* Carer burden and stigma, reproductive health (contraception and pregnancy plans while on antipsychotics), and a clear discharge plan with early community follow-up"
+    ],
+    "explanation": "The source scenario switches between he and she; the patient is treated as a woman throughout."
+  }
+]

@@ -200,6 +200,7 @@ body:has(#loadPanel:not(.hidden)){overflow:hidden}
   <main id="quiz"></main>
 </div>
 
+<script src="sets.js" onerror="void 0"></script>
 <script>
 (function(){
 const KEY='practice_quiz_v1';
@@ -723,13 +724,15 @@ document.addEventListener('keydown',e=>{
 
 /* auto-load questions.json from the same folder (works when served over http; file:// is usually blocked) */
 // Files fetched automatically when the page is served over http(s), e.g. GitHub Pages. Add more names here if you like.
-const AUTO_FILES=['MBBS4_SATA_Part1.json','MBBS4_SATA_Part2.json','questions.json'];
+// The list now lives in sets.js (window.QUIZ_SETS) so index.html never needs editing.
+const AUTO_FILES=Array.isArray(window.QUIZ_SETS)?window.QUIZ_SETS:['MBBS4_SATA_Part1.json','MBBS4_SATA_Part2.json','questions.json'];
 async function autoload(){
-  const names=new Set(AUTO_FILES);
+  const custom={}; // file -> custom display name
+  const names=new Set(AUTO_FILES.map(x=>{ if(x&&typeof x==='object'){ if(x.name) custom[x.file]=x.name; return x.file; } return x; }));
   // On GitHub Pages (user.github.io/repo/) also pick up every other .json file in the repo root.
   try{
     const m=location.hostname.match(/^(.+)\.github\.io$/), repo=location.pathname.split('/')[1];
-    if(m&&repo&&!/\.html?$/i.test(repo)){
+    if(window.QUIZ_AUTO_SCAN_GITHUB!==false&&m&&repo&&!/\.html?$/i.test(repo)){
       const r=await fetch(`https://api.github.com/repos/${m[1]}/contents`);
       if(r.ok) (await r.json()).forEach(x=>{ if(x.type==='file'&&/\.json$/i.test(x.name)) names.add(x.name); });
     }
@@ -740,7 +743,7 @@ async function autoload(){
       const r=await fetch(encodeURI(f),{cache:'no-store'}); if(!r.ok) continue;
       const text=await r.text();
       const id=f==='questions.json'?'questions':'file-'+f.toLowerCase().replace(/[^a-z0-9]+/g,'-');
-      const res=upsert(f.replace(/\.json$/i,'').replace(/_+/g,' '),text,id);
+      const res=upsert(custom[f]||f.replace(/\.json$/i,'').replace(/_+/g,' '),text,id);
       if(!res.unchanged) changed=true;
       if(!DB.active) activate(res.id);
     }catch(e){ /* missing or not a question file: skip */ }
