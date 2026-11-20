@@ -269,6 +269,14 @@ button.sm{padding:4px 9px;font-size:.82rem}
   .charts{grid-template-columns:1fr}
   .qcard.ghost{display:none}                  /* touch swipe feels better without the ghost card */
 }
+/* rule-out crosses on options */
+.xout{margin-left:auto;flex:none;align-self:center;width:30px;height:30px;padding:0;border-radius:50%;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.9rem;line-height:1;display:grid;place-items:center;opacity:.75}
+.xout:hover{opacity:1;color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
+.xout.on{opacity:1;color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
+.opt.ruled{background:transparent}
+.opt.ruled .otxt,.opt.ruled .l{text-decoration:line-through;text-decoration-thickness:2px;opacity:.5}
+.opt.ruled{border-style:dashed}
+@media (max-width:620px){.xout{width:36px;height:36px}}
 /* ---------- motion ---------- */
 @keyframes rise{from{opacity:0;transform:translateY(14px)}}
 @keyframes popin{from{opacity:0;transform:scale(.94) translateY(8px)}}
@@ -300,6 +308,7 @@ button.sm{padding:4px 9px;font-size:.82rem}
 .opt:not(.locked):hover{transform:translateX(3px);box-shadow:0 3px 10px rgba(0,0,0,.07)}
 .opt:not(.locked):active{transform:scale(.99)}
 .opt.sel{animation:tick .16s ease-out}
+.opt.cur{outline:2px solid var(--accent);outline-offset:2px}
 .opt.right{animation:okpulse .35s ease-out}
 .opt.wrong{animation:shake .35s ease-out}
 .result{animation:popin .28s cubic-bezier(.2,.8,.2,1) backwards}
@@ -432,6 +441,7 @@ let DB={sets:{},active:null};
 function emptySet(){return {name:'',questions:[],progress:{},current:0}}
 let S=emptySet();
 let view='home';
+let optCur=-1; // keyboard cursor on select-all questions
 let lastQK=null,lastQI=0; // which question was last shown (so only a *new* question animates in)
 const $=id=>document.getElementById(id);
 
@@ -900,7 +910,7 @@ function renderQuiz(){
     const sameSet=lastQK&&lastQK.split(':')[0]===String(DB.active);
     swipeDir=sameSet?(i>lastQI?'next':'prev'):null;
     card.classList.add('enter',swipeDir==='next'?'dnext':swipeDir==='prev'?'dprev':'dfresh');
-    lastQK=qk; lastQI=i;
+    lastQK=qk; lastQI=i; optCur=-1;
   }
   const meta=el('div','qmeta');
   meta.appendChild(el('span','badge',q.type==='saq'?'SAQ/LAQ':q.type.toUpperCase()));
@@ -921,7 +931,7 @@ function renderQuiz(){
   card.appendChild(meta);
   card.appendChild(el('div','qtext',q.q));
   const nk=q.options.length, rng=nk?`1–${nk} or A–${String.fromCharCode(64+nk)}`:'';
-  card.appendChild(el('div','hint',q.type==='saq'?'Write your answer in the box (no length limit). Type - for bullet points · Ctrl+Enter shows the model answer.':q.type==='sata'?`Select all that apply · press ${rng} to toggle, Enter to submit.`:`Select one answer · press ${rng}, then Enter to submit.`));
+  card.appendChild(el('div','hint',q.type==='saq'?'Write your answer in the box (no length limit). Type - for bullet points · Ctrl+Enter shows the model answer.':q.type==='sata'?`Select all that apply · press ${rng} to toggle (or ↑/↓ then Space), Enter to submit.`:`Select one answer · press ${rng} or ↑/↓, then Enter to submit.`));
   if(q.type!=='saq'&&!q.correct.length) card.appendChild(el('div','warn','This question has no readable answer key, so it cannot be marked.'));
 
   q.options.forEach((t,k)=>{
@@ -931,13 +941,27 @@ function renderQuiz(){
     inp.onchange=()=>{
       if(q.type==='sata'){ p.sel=inp.checked?[...new Set([...p.sel,k])]:p.sel.filter(x=>x!==k); }
       else p.sel=[k];
+      if(p.out&&p.sel.includes(k)) p.out=p.out.filter(x=>x!==k); // choosing an option un-crosses it
       save(); renderQuiz(); renderGrid(); renderStats();
     };
     lab.appendChild(inp);
     lab.appendChild(el('span','l',String.fromCharCode(65+k)+'.'));
-    lab.appendChild(el('span','',t));
+    const txt=el('span','otxt',t); lab.appendChild(txt);
+    const isOut=!locked&&(p.out||[]).includes(k);
+    if(isOut) lab.classList.add('ruled');
+    if(!locked){
+      const x=el('button','xout'+(isOut?' on':''),'✕'); x.type='button';
+      x.title=isOut?'Put this option back':'Rule out this option'; x.setAttribute('aria-label',x.title); x.setAttribute('aria-pressed',String(isOut));
+      x.onclick=ev=>{
+        ev.preventDefault(); ev.stopPropagation();
+        const o=new Set(p.out||[]); if(o.has(k)) o.delete(k); else { o.add(k); p.sel=p.sel.filter(y=>y!==k); }
+        p.out=[...o].sort((a,b)=>a-b); save(); renderQuiz(); renderGrid(); renderStats();
+      };
+      lab.appendChild(x);
+    }
     const isC=q.correct.includes(k), isS=p.sel.includes(k);
     if(!locked && isS) lab.classList.add('sel');
+    if(!locked && q.type==='sata' && k===optCur) lab.classList.add('cur');
     if(locked){
       if(isC&&isS){lab.classList.add('right'); lab.appendChild(el('span','tag ok','✓ Correct'));}
       else if(!isC&&isS){lab.classList.add('wrong'); lab.appendChild(el('span','tag bad','✗ Incorrect'));}
@@ -1226,35 +1250,19 @@ $('btnReset').onclick=()=>{
 const SHORTCUTS=[
   ['Answering',[
     ['1–9 / A–H','Select an option (toggles on select-all questions)'],
-    ['Backspace','Clear your selection'],
+    ['↑ / ↓','Move through the options (select-all questions: move, then press Space to tick)'],
+    ['Space','Tick / untick the highlighted option on select-all questions'],
     ['Enter','Submit your answer; press Enter again for the next question'],
-    ['Enter / Ctrl+Enter','Short answer: show the model answer (Ctrl+Enter inside the text box)'],
     ['1 / 2','After a model answer: “I got it” / “Missed it”'],
-    ['R','Redo the question'],
     ['Shift+C','Copy the question']
   ]],
   ['Moving around',[
     ['← / P','Previous question'],
     ['→ / N','Next question'],
-    ['Home / End','First / last question'],
-    ['U','Jump to the first unanswered question'],
-    ['Q','Open / close the question list'],
-    ['S','Open / close the summary'],
     ['Esc','Open the question list; press Esc again to go back to your sets']
   ]],
   ['Writing short answers',[
-    ['-','Type - at the start of a line to make a bullet point'],
-    ['Enter','Continue the list; Enter on an empty bullet ends it'],
-    ['Backspace','Remove an empty bullet']
-  ]],
-  ['Anywhere',[
-    ['T','Start / pause the timer'],
-    ['?','Show / hide this list']
-  ]],
-  ['Main screen',[
-    ['/','Search your sets'],
-    ['1 / 2 / 3','Dashboard / List / Tiles'],
-    ['C','Continue where you left off']
+    ['-','Type - at the start of a line to make a bullet point']
   ]]
 ];
 const helpOpen=()=>!!document.querySelector('.helpwrap');
@@ -1361,6 +1369,21 @@ function studyKey(e,k,onBtn){
     return;
   }
   if(locked) return;
+  const n=q.options.length;
+  if(k==='ArrowDown'||k==='ArrowUp'){
+    e.preventDefault(); const d=k==='ArrowDown'?1:-1;
+    const inputs=document.querySelectorAll('#quiz .opt input');
+    if(q.type==='sata'){
+      optCur=optCur<0?(d>0?0:n-1):(optCur+d+n)%n;
+      document.querySelectorAll('#quiz .opt').forEach((l,j)=>l.classList.toggle('cur',j===optCur));
+      if(document.querySelectorAll('#quiz .opt')[optCur]) document.querySelectorAll('#quiz .opt')[optCur].scrollIntoView({block:'nearest'});
+    } else {
+      const at=p.sel&&p.sel.length?p.sel[0]:-1, to=at<0?(d>0?0:n-1):(at+d+n)%n;
+      if(inputs[to]) inputs[to].click();
+    }
+    return;
+  }
+  if(k===' '&&q.type==='sata'&&optCur>=0){ e.preventDefault(); const inp=document.querySelectorAll('#quiz .opt input')[optCur]; if(inp) inp.click(); return; }
   let i=-1;
   if(/^[1-9]$/.test(k)) i=+k-1; else if(/^[a-h]$/.test(k)) i=k.charCodeAt(0)-97;
   if(i>=0&&i<q.options.length){
