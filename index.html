@@ -142,6 +142,20 @@ body:has(#loadPanel:not(.hidden)){overflow:hidden}
 .pickwrap{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:12px;background:rgba(10,14,22,.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 .pickwrap .card{width:min(560px,100%);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;margin:0;box-shadow:0 20px 60px rgba(0,0,0,.35)}
 .setcard .acts{width:100%}
+/* questions modal */
+#navPanel:not(.hidden){position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:100;width:min(640px,calc(100vw - 24px));max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;margin:0;border:2px solid var(--accent);box-shadow:0 20px 60px rgba(0,0,0,.4);animation:mpop .16s ease-out}
+#navBackdrop{display:none;position:fixed;inset:0;z-index:90;background:rgba(10,14,22,.45);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+#navPanel:not(.hidden) + #navBackdrop{display:block;animation:mfade .16s ease-out}
+body:has(#navPanel:not(.hidden)){overflow:hidden}
+.grid .cur{font-weight:700;background:var(--sel)}
+/* shortcuts pop-up */
+.helpwrap{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:12px;background:rgba(10,14,22,.45);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.helpwrap .card{width:min(640px,100%);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;margin:0;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.khead{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:16px 0 4px}
+.krow{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-top:1px solid var(--border);font-size:.92rem}
+.keys{display:flex;flex-wrap:wrap;gap:4px}
+kbd{font:600 .8rem ui-monospace,Menlo,Consolas,monospace;background:var(--bg);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;white-space:nowrap}
+@media (max-width:520px){.krow{grid-template-columns:1fr;gap:2px}}
 /* archived sets */
 .archive{margin-top:26px;padding-top:6px;border-top:1px dashed var(--border)}
 .archhead{display:block;width:100%;text-align:left;font-weight:700;margin:10px 0 8px;color:var(--muted)}
@@ -218,6 +232,7 @@ button.sm{padding:4px 9px;font-size:.82rem}
       <button class="tplay" id="tPlay" type="button" title="Start / pause" aria-label="Start or pause timer"><span id="tIcon"></span></button>
     </div>
     <div class="tinfo"><span class="ttime" id="tTime" aria-live="off">25:00</span><small id="tLabel">Countdown · 25 min</small></div>
+    <button class="tcog" id="tKeys" type="button" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></svg></button>
     <button class="tcog" id="tCollapse" type="button" title="Timer settings" aria-expanded="false" aria-label="Timer settings"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
   </div>
 </div>
@@ -261,6 +276,8 @@ button.sm{padding:4px 9px;font-size:.82rem}
   <div id="loadBackdrop"></div>
 
   <section id="navPanel" class="card hidden">
+    <div class="row spread" style="margin-bottom:6px"><strong style="font-size:1.1rem">Questions</strong><button class="sm" id="btnCloseNav">Close</button></div>
+    <div class="hint">Tap a question to open it · green = correct · red = incorrect · outlined = current</div>
     <div class="row spread">
       <div class="row">
         <label for="jumpNum"><b>Start / jump to question #</b></label>
@@ -275,6 +292,8 @@ button.sm{padding:4px 9px;font-size:.82rem}
       <button class="danger" id="btnReset">Reset this set's progress</button>
     </div>
   </section>
+
+  <div id="navBackdrop"></div>
 
   <section id="summaryPanel" class="card hidden"></section>
 
@@ -430,10 +449,10 @@ function renderModel(box,text){
 /* ---------- render ---------- */
 /* ---------- home (set picker): several switchable views ---------- */
 const HKEY='practice_homeview_v1';
-const VIEWS=[['cards','Cards','Large cards'],['list','List','Compact list'],['tiles','Tiles','Progress rings'],['dash','Dashboard','Overview, continue and focus areas']];
-let HV={view:'cards',sort:'name',group:false,q:'',archOpen:false};
+const VIEWS=[['dash','Dashboard','Overview, continue and focus areas'],['list','List','Compact list'],['tiles','Tiles','Progress rings']];
+let HV={view:'dash',sort:'name',group:false,q:'',archOpen:false};
 try{const r=JSON.parse(localStorage.getItem(HKEY)); if(r&&typeof r==='object') Object.assign(HV,r,{q:''});}catch(e){}
-if(!VIEWS.some(v=>v[0]===HV.view)) HV.view='cards';
+if(!VIEWS.some(v=>v[0]===HV.view)) HV.view='dash';
 function saveHV(){ try{localStorage.setItem(HKEY,JSON.stringify({view:HV.view,sort:HV.sort,group:HV.group,archOpen:HV.archOpen}))}catch(e){} }
 
 function setStats(st){
@@ -740,7 +759,7 @@ function renderQuiz(){
   const meta=el('div','qmeta');
   meta.appendChild(el('span','badge',q.type==='saq'?'SAQ/LAQ':q.type.toUpperCase()));
   meta.appendChild(el('span','',`Question ${label(i)} · ${i+1} of ${S.questions.length}`));
-  const cp=el('button','','Copy question'); cp.style.marginLeft='auto'; cp.style.padding='4px 10px'; cp.style.fontSize='.82rem';
+  const cp=el('button','','Copy question'); cp.id='qCopy'; cp.style.marginLeft='auto'; cp.style.padding='4px 10px'; cp.style.fontSize='.82rem';
   cp.onclick=()=>{
     const txt=(q.q+'\n\n'+q.options.map((t,k)=>String.fromCharCode(65+k)+'. '+t).join('\n')).trim();
     const done=()=>{cp.textContent='Copied ✓'; setTimeout(()=>{cp.textContent='Copy question'},1500)};
@@ -755,7 +774,8 @@ function renderQuiz(){
   meta.appendChild(cp);
   card.appendChild(meta);
   card.appendChild(el('div','qtext',q.q));
-  card.appendChild(el('div','hint',q.type==='saq'?'Write your answer in the box (no length limit).':q.type==='sata'?'Select all that apply.':'Select one answer.'));
+  const nk=q.options.length, rng=nk?`1–${nk} or A–${String.fromCharCode(64+nk)}`:'';
+  card.appendChild(el('div','hint',q.type==='saq'?'Write your answer in the box (no length limit). Type - for bullet points · Ctrl+Enter shows the model answer.':q.type==='sata'?`Select all that apply · press ${rng} to toggle, Enter to submit.`:`Select one answer · press ${rng}, then Enter to submit.`));
   if(q.type!=='saq'&&!q.correct.length) card.appendChild(el('div','warn','This question has no readable answer key, so it cannot be marked.'));
 
   q.options.forEach((t,k)=>{
@@ -783,10 +803,11 @@ function renderQuiz(){
   if(q.type==='saq'){
     const ta=document.createElement('textarea'); ta.className='saq'; ta.placeholder='Type your answer here…'; ta.value=p.text||''; ta.disabled=locked;
     const wc=el('div','wc');
-    const upd=()=>{const w=(ta.value.trim().match(/\S+/g)||[]).length; wc.textContent=w+' word'+(w===1?'':'s');};
+    const upd=()=>{const w=(ta.value.replace(/•/g,' ').trim().match(/\S+/g)||[]).length; wc.textContent=w+' word'+(w===1?'':'s');};
     upd();
-    ta.oninput=()=>{
-      p.text=ta.value; upd(); save(); renderGrid();
+    ta.onkeydown=bulletKeys;
+    ta.oninput=e=>{
+      bulletize(ta,e); p.text=ta.value; upd(); save(); renderGrid();
       const b=document.getElementById('saqReveal'); if(b) b.disabled=!ta.value.trim();
     };
     card.appendChild(ta); card.appendChild(wc);
@@ -809,8 +830,8 @@ function renderQuiz(){
         card.appendChild(el('div','result '+(p.correct?'ok':'bad'),p.correct?'Marked as correct':'Marked as incorrect'));
       } else {
         const sm=el('div','selfmark'); sm.appendChild(el('b','','Compare with the model answer. How did you do?'));
-        const y=el('button','ok','I got it'); y.onclick=()=>grade(true);
-        const n=el('button','bad','Missed it'); n.onclick=()=>grade(false);
+        const y=el('button','ok','I got it'); y.id='saqGot'; y.onclick=()=>grade(true);
+        const n=el('button','bad','Missed it'); n.id='saqMiss'; n.onclick=()=>grade(false);
         sm.appendChild(y); sm.appendChild(n); card.appendChild(sm);
       }
     }
@@ -837,7 +858,7 @@ function renderQuiz(){
       if(p.text&&p.text.trim()){const clr=el('button','','Clear'); clr.onclick=()=>{p.text='';save();renderQuiz();renderGrid();}; mid.appendChild(clr);}
     }
   } else if(!locked){
-    const sub=el('button','primary','Submit answer'); sub.disabled=!p.sel.length||!q.correct.length;
+    const sub=el('button','primary','Submit answer'); sub.id='qSubmit'; sub.disabled=!p.sel.length||!q.correct.length;
     sub.onclick=()=>{
       p.submitted=true;
       p.correct=p.sel.length===q.correct.length&&q.correct.every(x=>p.sel.includes(x));
@@ -845,9 +866,9 @@ function renderQuiz(){
       save(); renderQuiz(); renderGrid(); renderStats();
     };
     mid.appendChild(sub);
-    if(p.sel.length){const clr=el('button','','Clear'); clr.onclick=()=>{p.sel=[];save();renderQuiz();renderGrid();}; mid.appendChild(clr);}
+    if(p.sel.length){const clr=el('button','','Clear'); clr.id='qClear'; clr.onclick=()=>{p.sel=[];save();renderQuiz();renderGrid();}; mid.appendChild(clr);}
   } else {
-    const redo=el('button','','Redo this question'); redo.onclick=()=>{S.progress[i]={sel:[],submitted:false,correct:false};save();renderQuiz();renderGrid();renderStats();};
+    const redo=el('button','','Redo this question'); redo.id='qRedo'; redo.onclick=()=>{S.progress[i]={sel:[],submitted:false,correct:false};save();renderQuiz();renderGrid();renderStats();};
     mid.appendChild(redo);
   }
   const next=el('button',locked?'primary':'','Next →'); next.disabled=i===S.questions.length-1; next.onclick=()=>go(i+1);
@@ -967,9 +988,10 @@ function toggle(id){ $(id).classList.toggle('hidden'); }
 $('btnNav').onclick=()=>{toggle('navPanel'); $('summaryPanel').classList.add('hidden');};
 $('btnSummary').onclick=()=>{renderSummary(); toggle('summaryPanel'); $('navPanel').classList.add('hidden');};
 $('btnLoad').onclick=()=>toggle('loadPanel');
+$('btnCloseNav').onclick=()=>$('navPanel').classList.add('hidden');
+$('navBackdrop').onclick=()=>$('navPanel').classList.add('hidden');
 $('btnCloseLoad').onclick=()=>$('loadPanel').classList.add('hidden');
 $('loadBackdrop').onclick=()=>$('loadPanel').classList.add('hidden');
-document.addEventListener('keydown',e=>{ if(e.key==='Escape') $('loadPanel').classList.add('hidden'); });
 
 $('btnHome').onclick=()=>{ view='home'; renderAll(); window.scrollTo({top:0}); };
 
@@ -1043,11 +1065,168 @@ $('btnReset').onclick=()=>{
   if(!confirm('Reset all progress in "'+S.name+'" so you can do every question again? Your questions are kept.')) return;
   S.progress={}; S.current=0; save(); renderAll(); $('navPanel').classList.add('hidden');
 };
-document.addEventListener('keydown',e=>{
+/* ---------- keyboard shortcuts ---------- */
+const SHORTCUTS=[
+  ['Answering',[
+    ['1–9 / A–H','Select an option (toggles on select-all questions)'],
+    ['Backspace','Clear your selection'],
+    ['Enter','Submit your answer; press Enter again for the next question'],
+    ['Enter / Ctrl+Enter','Short answer: show the model answer (Ctrl+Enter inside the text box)'],
+    ['1 / 2','After a model answer: “I got it” / “Missed it”'],
+    ['R','Redo the question'],
+    ['Shift+C','Copy the question']
+  ]],
+  ['Moving around',[
+    ['← / P','Previous question'],
+    ['→ / N','Next question'],
+    ['Home / End','First / last question'],
+    ['U','Jump to the first unanswered question'],
+    ['Q','Open / close the question list'],
+    ['S','Open / close the summary'],
+    ['Esc','Open the question list; press Esc again to go back to your sets']
+  ]],
+  ['Writing short answers',[
+    ['-','Type - at the start of a line to make a bullet point'],
+    ['Enter','Continue the list; Enter on an empty bullet ends it'],
+    ['Backspace','Remove an empty bullet']
+  ]],
+  ['Anywhere',[
+    ['T','Start / pause the timer'],
+    ['?','Show / hide this list']
+  ]],
+  ['Main screen',[
+    ['/','Search your sets'],
+    ['1 / 2 / 3','Dashboard / List / Tiles'],
+    ['C','Continue where you left off']
+  ]]
+];
+const helpOpen=()=>!!document.querySelector('.helpwrap');
+const pickOpen=()=>!!document.querySelector('.pickwrap');
+const loadOpen=()=>!$('loadPanel').classList.contains('hidden');
+function closeHelp(){ const w=document.querySelector('.helpwrap'); if(w) w.remove(); }
+function toggleHelp(){
+  if(helpOpen()){ closeHelp(); return; }
+  const wrap=el('div','helpwrap'), card=el('div','card');
+  wrap.onclick=e=>{ if(e.target===wrap) closeHelp(); };
+  const hd=el('div','row spread'); hd.appendChild(el('strong','','Keyboard shortcuts'));
+  const x=el('button','sm','Close'); x.onclick=closeHelp; hd.appendChild(x); card.appendChild(hd);
+  SHORTCUTS.forEach(([title,rows])=>{
+    card.appendChild(el('div','khead',title));
+    rows.forEach(([keys,desc])=>{
+      const r=el('div','krow'), k=el('span','keys');
+      keys.split(' / ').forEach((t,i)=>{ if(i) k.appendChild(document.createTextNode(' ')); k.appendChild(el('kbd','',t)); });
+      r.appendChild(k); r.appendChild(el('span','',desc)); card.appendChild(r);
+    });
+  });
+  wrap.appendChild(card); document.body.appendChild(wrap);
+}
+$('tKeys').onclick=e=>{ e.stopPropagation(); toggleHelp(); };
+
+/* bullet points in short-answer boxes: type "-" at the start of a line */
+function bulletize(ta,e){
+  if(!e||e.inputType!=='insertText'||e.data!=='-') return;
+  const pos=ta.selectionStart, v=ta.value, at=pos-1, ls=at?v.lastIndexOf('\n',at-1)+1:0;
+  if(/^\s*$/.test(v.slice(ls,at))) ta.setRangeText('• ',at,pos,'end');
+}
+function bulletKeys(e){
+  const ta=e.target; if(e.isComposing||ta.selectionStart!==ta.selectionEnd) return;
+  const pos=ta.selectionStart, v=ta.value, ls=pos?v.lastIndexOf('\n',pos-1)+1:0, before=v.slice(ls,pos);
+  if(e.key==='Enter'&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey){
+    const m=before.match(/^(\s*)•\s?(.*)$/);
+    if(!m) return;
+    e.preventDefault();
+    if(!m[2].trim()) ta.setRangeText('',ls,pos,'end'); else ta.setRangeText('\n'+m[1]+'• ',pos,pos,'end');
+    ta.dispatchEvent(new Event('input'));
+  } else if(e.key==='Backspace'&&/^\s*• $/.test(before)){
+    e.preventDefault(); ta.setRangeText('',pos-2,pos,'end'); ta.dispatchEvent(new Event('input'));
+  }
+}
+
+/* mouse clicks shouldn't leave a button focused (otherwise Enter would press it again) */
+document.addEventListener('click',e=>{
+  const b=e.target.closest&&e.target.closest('button');
+  if(b&&e.detail>0) setTimeout(()=>b.blur(),0);
+});
+
+function typingTarget(){
+  const a=document.activeElement; if(!a) return false; const t=a.tagName;
+  return t==='TEXTAREA'||t==='SELECT'||(t==='INPUT'&&!/^(radio|checkbox|button|submit)$/.test(a.type));
+}
+function handleEsc(){
+  if(loadOpen()){ $('loadPanel').classList.add('hidden'); return; }
+  if(pickOpen()) return; // the pop-up closes itself
+  if(helpOpen()){ closeHelp(); return; }
   if(view==='home') return;
-  if(/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)&&document.activeElement.type!=='radio'&&document.activeElement.type!=='checkbox') return;
-  if(e.key==='ArrowRight') go(S.current+1);
-  if(e.key==='ArrowLeft') go(S.current-1);
+  if(!$('summaryPanel').classList.contains('hidden')){ $('summaryPanel').classList.add('hidden'); return; }
+  if(!$('tBody').classList.contains('hidden')){ $('tCollapse').click(); return; }
+  if($('navPanel').classList.contains('hidden')){
+    $('summaryPanel').classList.add('hidden'); $('navPanel').classList.remove('hidden');
+    if(document.activeElement&&document.activeElement.blur) document.activeElement.blur();
+    return;
+  }
+  $('navPanel').classList.add('hidden'); view='home'; renderAll(); window.scrollTo({top:0});
+}
+function homeKey(e,k){
+  if(k==='/'){ const i=document.querySelector('.htool input[type=text]'); if(i){ e.preventDefault(); i.focus(); } }
+  else if(/^[1-3]$/.test(k)){ const b=document.querySelectorAll('.htool .seg button')[+k-1]; if(b) b.click(); }
+  else if(k==='c'){ const b=document.querySelector('.hero .primary'); if(b) b.click(); }
+}
+function studyKey(e,k,onBtn){
+  const q=S.questions[S.current]; if(!q) return;
+  const navOpen=!$('navPanel').classList.contains('hidden');
+  const p=S.progress[S.current]||{}, locked=!!p.submitted;
+  const click=id=>{ const b=$(id); if(b&&!b.disabled){ b.click(); return true; } return false; };
+  const next=()=>{
+    if(S.current<S.questions.length-1) go(S.current+1);
+    else { renderSummary(); $('summaryPanel').classList.remove('hidden'); $('navPanel').classList.add('hidden'); }
+  };
+  if(k==='q'){ $('btnNav').click(); return; }
+  if(k==='s'){ $('btnSummary').click(); return; }
+  if(k==='u'){ $('btnFirstUn').click(); return; }
+  if(navOpen) return;
+  if(k==='ArrowRight'||k==='n'){ e.preventDefault(); go(S.current+1); return; }
+  if(k==='ArrowLeft'||k==='p'){ e.preventDefault(); go(S.current-1); return; }
+  if(k==='Home'){ e.preventDefault(); go(0); return; }
+  if(k==='End'){ e.preventDefault(); go(S.questions.length-1); return; }
+  if(k==='Enter'){
+    if(onBtn||e.repeat) return;
+    e.preventDefault();
+    if(locked) next();
+    else if(q.type==='saq'){ if(!p.revealed) click('saqReveal'); }
+    else click('qSubmit');
+    return;
+  }
+  if(k==='Backspace'){ if(!locked&&q.type!=='saq'){ e.preventDefault(); click('qClear'); } return; }
+  if(k==='r'){ if(locked) click('qRedo'); return; }
+  if(k==='c'&&e.shiftKey){ click('qCopy'); return; }
+  if(q.type==='saq'){
+    if(p.revealed&&!locked){ if(k==='1') click('saqGot'); else if(k==='2') click('saqMiss'); }
+    return;
+  }
+  if(locked) return;
+  let i=-1;
+  if(/^[1-9]$/.test(k)) i=+k-1; else if(/^[a-h]$/.test(k)) i=k.charCodeAt(0)-97;
+  if(i>=0&&i<q.options.length){
+    const inp=document.querySelectorAll('#quiz .opt input')[i];
+    if(inp&&!inp.disabled){ e.preventDefault(); inp.click(); }
+  }
+}
+document.addEventListener('keydown',e=>{
+  const key=e.key;
+  if(key==='Escape'){ handleEsc(); return; }
+  if(e.ctrlKey||e.metaKey){
+    if(key==='Enter'&&e.target&&e.target.classList&&e.target.classList.contains('saq')){
+      const b=$('saqReveal'); if(b&&!b.disabled){ e.preventDefault(); b.click(); }
+    }
+    return;
+  }
+  if(e.altKey||typingTarget()) return;
+  const a=document.activeElement, onBtn=!!a&&(a.tagName==='BUTTON'||a.tagName==='A'||a.tagName==='SUMMARY');
+  if(key==='?'){ if(!loadOpen()&&!pickOpen()){ e.preventDefault(); toggleHelp(); } return; }
+  if(loadOpen()||pickOpen()||helpOpen()) return;
+  const k=key.length===1?key.toLowerCase():key;
+  if(k==='t'){ e.preventDefault(); $('tPlay').click(); return; }
+  if(view==='home') homeKey(e,k); else studyKey(e,k,onBtn);
 });
 
 /* auto-load questions.json from the same folder (works when served over http; file:// is usually blocked) */
