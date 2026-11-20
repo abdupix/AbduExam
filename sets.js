@@ -12,6 +12,7 @@
 window.QUIZ_SETS = [
   "PAED404_2024.json",
   "PAED404_2025.json",
+  "PAED404_2023.json",
   "PAED404_EOB_2026.json",
   "PAED404_LongQuiz_2026.json"
 ];
