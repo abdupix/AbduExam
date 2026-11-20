@@ -211,6 +211,72 @@ button.sm{padding:4px 9px;font-size:.82rem}
 .hero .stack{margin:10px 0 12px}
 .frow{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:8px 0;border-top:1px solid var(--border)}
 .frow:first-of-type{border-top:0}
+/* ---------- motion ---------- */
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@keyframes popin{from{opacity:0;transform:scale(.94) translateY(8px)}}
+@keyframes cardin{from{opacity:0;transform:translateX(var(--dx,0)) rotate(var(--rot,0deg)) scale(.95)}}
+@keyframes swipeL{to{opacity:0;transform:translateX(-115%) rotate(-7deg)}}
+@keyframes swipeR{to{opacity:0;transform:translateX(115%) rotate(7deg)}}
+@keyframes grow{from{transform:scaleY(0)}}
+@keyframes fillx{from{transform:scaleX(0)}}
+@keyframes drawl{from{stroke-dashoffset:1}}
+@keyframes ringin{from{stroke-dashoffset:var(--d)}}
+@keyframes shake{20%{transform:translateX(-5px)}45%{transform:translateX(4px)}70%{transform:translateX(-2px)}}
+@keyframes okpulse{40%{transform:scale(1.015)}}
+@keyframes tick{from{transform:scale(.97)}}
+/* cards get a soft shadow so they feel like physical cards */
+.card{box-shadow:0 1px 2px rgba(0,0,0,.05),0 8px 22px rgba(0,0,0,.05);transition:box-shadow .2s,transform .2s,border-color .2s}
+.setcard:hover{box-shadow:0 2px 4px rgba(0,0,0,.06),0 14px 30px rgba(0,0,0,.1);transform:translateY(-2px)}
+/* question card slides in when you change question */
+.qcard{margin-bottom:24px;box-shadow:0 6px 0 -3px var(--card),0 7px 0 -3px var(--border),0 12px 0 -6px var(--card),0 13px 0 -6px var(--border),0 14px 26px -8px rgba(0,0,0,.18)}
+#quiz{position:relative;overflow-x:clip}
+.qcard.enter{animation:cardin .17s cubic-bezier(.2,.8,.2,1) backwards;will-change:transform}
+.qcard.dnext{--dx:60px;--rot:3deg}
+.qcard.dprev{--dx:-60px;--rot:-3deg}
+.qcard.dfresh{--dx:0px;--rot:0deg}
+.qcard.ghost{position:absolute;margin:0;z-index:5;pointer-events:none;will-change:transform,opacity;animation-duration:.15s;animation-timing-function:cubic-bezier(.4,0,.8,.6);animation-fill-mode:forwards}
+.qcard.ghost.next{animation-name:swipeL;transform-origin:50% 100%}
+.qcard.ghost.prev{animation-name:swipeR;transform-origin:50% 100%}
+.qcard.ghost *{animation:none!important}
+.opt{transition:transform .12s,border-color .12s,background .12s,box-shadow .12s}
+.opt:not(.locked):hover{transform:translateX(3px);box-shadow:0 3px 10px rgba(0,0,0,.07)}
+.opt:not(.locked):active{transform:scale(.99)}
+.opt.sel{animation:tick .16s ease-out}
+.opt.right{animation:okpulse .35s ease-out}
+.opt.wrong{animation:shake .35s ease-out}
+.result{animation:popin .28s cubic-bezier(.2,.8,.2,1) backwards}
+.expl{animation:rise .3s .08s ease-out backwards}
+.ansbox.model{animation:rise .3s ease-out backwards}
+/* buttons */
+button{transition:transform .12s,box-shadow .12s,border-color .12s,background .12s,filter .12s}
+button:not(:disabled):active{transform:scale(.96)}
+button.primary:not(:disabled):hover{box-shadow:0 4px 12px rgba(47,95,208,.35);transform:translateY(-1px)}
+.grid button{transition:transform .12s,border-color .12s,background .12s}
+.grid button:hover{transform:scale(1.08)}
+/* main screen: items rise in one after another */
+.stagger .sbox,.stagger .hero,.stagger .card,.stagger .tile,.stagger .lrow,.stagger .archive,.stagger .ghead{animation:rise .38s cubic-bezier(.2,.8,.2,1) backwards;animation-delay:calc(var(--i,0)*45ms)}
+.tile{transition:transform .15s,box-shadow .15s,border-color .15s}
+.tile:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(0,0,0,.14)}
+.tile:active{transform:translateY(-1px) scale(.98)}
+.lrow{transition:background .12s}
+.stack i{transform-origin:left;animation:fillx .55s .15s cubic-bezier(.2,.8,.2,1) backwards}
+.ringarc{animation:ringin .8s .1s cubic-bezier(.2,.8,.2,1) backwards}
+.archlist{animation:rise .25s ease-out backwards}
+/* summary + charts */
+#summaryPanel:not(.hidden){animation:rise .25s ease-out backwards}
+.chartbox rect{transform-box:fill-box;transform-origin:bottom;animation:grow .5s cubic-bezier(.2,.8,.2,1) backwards}
+.chartbox .trend{stroke-dasharray:1;animation:drawl .8s ease-out backwards}
+.chartbox circle{transform-box:fill-box;transform-origin:center;animation:popin .3s .5s backwards}
+/* pop-ups */
+.pickwrap,.helpwrap,#loadBackdrop,#navBackdrop{animation:mfade .15s ease-out}
+.pickwrap .card,.helpwrap .card{animation:popin .2s cubic-bezier(.2,.8,.2,1) backwards}
+.tpanel{animation:popin .18s cubic-bezier(.2,.8,.2,1) backwards}
+.timer{animation:rise .45s .25s cubic-bezier(.2,.8,.2,1) backwards}
+.tplay{transition:transform .12s,filter .12s}
+.tplay:active{transform:scale(.9)}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
+}
 </style>
 </head>
 <body>
@@ -308,6 +374,7 @@ let DB={sets:{},active:null};
 function emptySet(){return {name:'',questions:[],progress:{},current:0}}
 let S=emptySet();
 let view='home';
+let lastQK=null,lastQI=0; // which question was last shown (so only a *new* question animates in)
 const $=id=>document.getElementById(id);
 
 function save(){ try{localStorage.setItem(KEY,JSON.stringify(DB))}catch(e){alert('Could not save progress (storage blocked or full).')} }
@@ -476,7 +543,7 @@ function stackBar(s){
 function ringSVG(s){
   const r=30, C=2*Math.PI*r, d=(C*s.pct).toFixed(1), p=Math.round(s.pct*100), col=s.pct>=1?'var(--ok)':'var(--accent)';
   return `<svg class="ring" viewBox="0 0 76 76" role="img" aria-label="${p}% answered"><circle cx="38" cy="38" r="${r}" fill="none" stroke="var(--border)" stroke-width="7"/>`
-    +(s.pct>0?`<circle cx="38" cy="38" r="${r}" fill="none" stroke="${col}" stroke-width="7" stroke-linecap="round" stroke-dasharray="${d} ${C.toFixed(1)}" transform="rotate(-90 38 38)"/>`:'')
+    +(s.pct>0?`<circle cx="38" cy="38" r="${r}" fill="none" stroke="${col}" stroke-width="7" stroke-linecap="round" stroke-dasharray="${d} ${C.toFixed(1)}" style="--d:${d}" class="ringarc" transform="rotate(-90 38 38)"/>`:'')
     +`<text x="38" y="43" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text)">${p}%</text></svg>`;
 }
 
@@ -690,7 +757,14 @@ function renderArchive(body,ids){
   }
   body.appendChild(sec);
 }
-function drawBody(body){
+function countUp(n){
+  const m=String(n.textContent).match(/^(\d+)(%?)$/);
+  if(!m||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
+  const end=+m[1], suf=m[2], t0=performance.now(), dur=550;
+  const step=t=>{ const k=Math.min(1,(t-t0)/dur); n.textContent=Math.round(end*(1-Math.pow(1-k,3)))+suf; if(k<1) requestAnimationFrame(step); };
+  n.textContent='0'+suf; requestAnimationFrame(step);
+}
+function drawBody(body,animate){
   body.innerHTML='';
   const all=Object.keys(DB.sets), qq=HV.q.trim().toLowerCase();
   const match=id=>!qq||DB.sets[id].name.toLowerCase().includes(qq);
@@ -698,6 +772,11 @@ function drawBody(body){
   const ids=sortIds(live.filter(match));
   if(HV.view==='dash') renderDash(body,live,ids); else renderCollection(body,ids);
   renderArchive(body,sortIds(arch.filter(match)));
+  if(animate){
+    body.classList.add('stagger');
+    body.querySelectorAll('.sbox,.hero,.card,.lrow,.tile,.archive,.ghead').forEach((n,k)=>n.style.setProperty('--i',Math.min(k,14)));
+    body.querySelectorAll('.sbox b').forEach(countUp);
+  } else body.classList.remove('stagger');
 }
 function homeToolbar(draw){
   const bar=el('div','htool');
@@ -728,7 +807,7 @@ function renderHome(){
   const body=el('div','hbody');
   h.appendChild(homeToolbar(()=>drawBody(body)));
   h.appendChild(body);
-  drawBody(body);
+  drawBody(body,true);
 }
 function renderStats(){
   const c=counts();
@@ -748,14 +827,23 @@ function renderGrid(){
   });
 }
 function renderQuiz(){
-  const m=$('quiz'); m.innerHTML='';
+  const m=$('quiz'); const oldCard=m.querySelector('.qcard'); let swipeDir=null;
+  const oldBox=oldCard?{t:oldCard.offsetTop,l:oldCard.offsetLeft,w:oldCard.offsetWidth,h:oldCard.offsetHeight}:null; // measure before it is removed
+  m.innerHTML='';
   if(!S.questions.length){
     const c=el('div','card'); c.appendChild(el('p','','No questions yet. Click “Import sets” and choose your .json file(s).')); m.appendChild(c);
     $('loadPanel').classList.remove('hidden'); return;
   }
   if(S.current>=S.questions.length) S.current=S.questions.length-1;
   const i=S.current, q=S.questions[i], p=prog(i), locked=p.submitted;
-  const card=el('div','card');
+  const card=el('div','card qcard');
+  const qk=DB.active+':'+i;
+  if(qk!==lastQK){
+    const sameSet=lastQK&&lastQK.split(':')[0]===String(DB.active);
+    swipeDir=sameSet?(i>lastQI?'next':'prev'):null;
+    card.classList.add('enter',swipeDir==='next'?'dnext':swipeDir==='prev'?'dprev':'dfresh');
+    lastQK=qk; lastQI=i;
+  }
   const meta=el('div','qmeta');
   meta.appendChild(el('span','badge',q.type==='saq'?'SAQ/LAQ':q.type.toUpperCase()));
   meta.appendChild(el('span','',`Question ${label(i)} · ${i+1} of ${S.questions.length}`));
@@ -875,6 +963,16 @@ function renderQuiz(){
   nav.appendChild(prev); nav.appendChild(mid); nav.appendChild(next);
   card.appendChild(nav);
   m.appendChild(card);
+  if(swipeDir&&oldCard&&oldBox&&oldBox.w&&!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)){
+    const g=oldCard.cloneNode(true);
+    g.className='card qcard ghost '+swipeDir; g.setAttribute('aria-hidden','true');
+    g.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));
+    g.querySelectorAll('input').forEach(n=>n.removeAttribute('name'));
+    g.style.cssText=`top:${oldBox.t}px;left:${oldBox.l}px;width:${oldBox.w}px;height:${oldBox.h}px`;
+    g.addEventListener('animationend',()=>g.remove(),{once:true});
+    setTimeout(()=>g.remove(),400); // safety
+    m.appendChild(g);
+  }
 }
 const CH={W:360,H:230,L:38,R:12,T:24,B:40};
 function chartGrid(){
@@ -900,7 +998,7 @@ function chartTime(){
   });
   const r=pts.length>60?2:3.5;
   let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Running accuracy over time">`+chartGrid();
-  s+=`<polyline fill="none" stroke="var(--accent)" stroke-width="2" points="${pts.map(p=>p.x.toFixed(1)+','+p.y.toFixed(1)).join(' ')}"/>`;
+  s+=`<polyline class="trend" pathLength="1" fill="none" stroke="var(--accent)" stroke-width="2" points="${pts.map(p=>p.x.toFixed(1)+','+p.y.toFixed(1)).join(' ')}"/>`;
   pts.forEach(p=>{
     s+=`<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${r}" fill="var(${p.e.ok?'--ok':'--bad'})"><title>#${p.k+1} · ${p.e.ok?'Correct':'Incorrect'} · ${new Date(p.e.t).toLocaleString()} · running ${p.pct.toFixed(0)}%</title></circle>`;
   });
@@ -971,6 +1069,7 @@ function go(i){
 }
 function renderAll(){
   const home=view==='home';
+  if(home) lastQK=null;
   $('home').classList.toggle('hidden',!home);
   ['stats','barWrap','quiz','btnNav','btnSummary'].forEach(id=>$(id).classList.toggle('hidden',home));
   $('btnHome').classList.toggle('hidden',home);
@@ -1371,6 +1470,17 @@ async function autoload(){
   $('tMin').onchange=e=>setMin(e.target.value);
   document.addEventListener('click',e=>{ if(!T.collapsed&&!$('timer').contains(e.target)){ T.collapsed=true; tsave(); layout(); } });
   layout(); draw(); setInterval(draw,250);
+})();
+
+/* swipe left / right on a touch screen to change question */
+(function(){
+  let x0=0,y0=0,t0=0,ok=false; const q=$('quiz');
+  q.addEventListener('touchstart',e=>{ const t=e.touches[0]; ok=e.touches.length===1&&!/TEXTAREA/.test(e.target.tagName); x0=t.clientX; y0=t.clientY; t0=Date.now(); },{passive:true});
+  q.addEventListener('touchend',e=>{
+    if(!ok||view==='home') return; ok=false;
+    const t=e.changedTouches[0], dx=t.clientX-x0, dy=t.clientY-y0;
+    if(Math.abs(dx)>70&&Math.abs(dy)<45&&Date.now()-t0<600) go(S.current+(dx<0?1:-1));
+  },{passive:true});
 })();
 
 load(); renderAll(); autoload();
