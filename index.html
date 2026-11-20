@@ -142,6 +142,10 @@ body:has(#loadPanel:not(.hidden)){overflow:hidden}
 .pickwrap{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:12px;background:rgba(10,14,22,.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 .pickwrap .card{width:min(560px,100%);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;margin:0;box-shadow:0 20px 60px rgba(0,0,0,.35)}
 .setcard .acts{width:100%}
+/* archived sets */
+.archive{margin-top:26px;padding-top:6px;border-top:1px dashed var(--border)}
+.archhead{display:block;width:100%;text-align:left;font-weight:700;margin:10px 0 8px;color:var(--muted)}
+.archlist{opacity:.85}
 /* home views */
 .htool{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
 .htool input[type=text]{flex:1 1 180px;min-width:0}
@@ -427,10 +431,10 @@ function renderModel(box,text){
 /* ---------- home (set picker): several switchable views ---------- */
 const HKEY='practice_homeview_v1';
 const VIEWS=[['cards','Cards','Large cards'],['list','List','Compact list'],['tiles','Tiles','Progress rings'],['dash','Dashboard','Overview, continue and focus areas']];
-let HV={view:'cards',sort:'name',group:false,q:''};
+let HV={view:'cards',sort:'name',group:false,q:'',archOpen:false};
 try{const r=JSON.parse(localStorage.getItem(HKEY)); if(r&&typeof r==='object') Object.assign(HV,r,{q:''});}catch(e){}
 if(!VIEWS.some(v=>v[0]===HV.view)) HV.view='cards';
-function saveHV(){ try{localStorage.setItem(HKEY,JSON.stringify({view:HV.view,sort:HV.sort,group:HV.group}))}catch(e){} }
+function saveHV(){ try{localStorage.setItem(HKEY,JSON.stringify({view:HV.view,sort:HV.sort,group:HV.group,archOpen:HV.archOpen}))}catch(e){} }
 
 function setStats(st){
   const total=st.questions.length; let done=0,ok=0;
@@ -580,7 +584,7 @@ function groupIds(ids){
   return [...m].map(([name,g])=>({name,ids:g}));
 }
 function renderCollection(body,ids){
-  if(!ids.length){ body.appendChild(el('p','hint','No sets match your search.')); return; }
+  if(!ids.length){ body.appendChild(el('p','hint',HV.q.trim()?'No sets match your search.':'No current sets.')); return; }
   const groups=HV.group?groupIds(ids):[{name:null,ids}];
   groups.forEach(g=>{
     if(g.name){
@@ -595,6 +599,7 @@ function renderCollection(body,ids){
 
 /* dashboard */
 function renderDash(body,all,ids){
+  if(!all.length){ body.appendChild(el('p','hint','No current sets.')); return; }
   const T={q:0,done:0,ok:0};
   all.forEach(id=>{const s=setStats(DB.sets[id]); T.q+=s.total; T.done+=s.done; T.ok+=s.ok;});
   const grid=el('div','sgrid');
@@ -637,7 +642,7 @@ function renderDash(body,all,ids){
   }
 
   body.appendChild(el('h2','','All sets'));
-  if(!ids.length){ body.appendChild(el('p','hint','No sets match your search.')); return; }
+  if(!ids.length){ body.appendChild(el('p','hint',HV.q.trim()?'No sets match your search.':'No current sets.')); return; }
   const wrap=el('div','vlist'); ids.forEach(id=>wrap.appendChild(itemRow(id))); body.appendChild(wrap);
 }
 
@@ -653,11 +658,27 @@ function sortIds(ids){
   }[HV.sort]||nm;
   return ids.slice().sort(f);
 }
+function renderArchive(body,ids){
+  if(!ids.length) return;
+  const sec=el('div','archive');
+  const hb=el('button','archhead',(HV.archOpen?'▾ ':'▸ ')+'Archived ('+ids.length+')');
+  hb.setAttribute('aria-expanded',String(HV.archOpen));
+  hb.onclick=()=>{ HV.archOpen=!HV.archOpen; saveHV(); drawBody(body); };
+  sec.appendChild(hb);
+  if(HV.archOpen){
+    sec.appendChild(el('div','hint','These sets are no longer in the GitHub repository. Your progress is kept here; delete them if you no longer need them.'));
+    const wrap=el('div','vlist archlist'); ids.forEach(id=>wrap.appendChild(itemRow(id))); sec.appendChild(wrap);
+  }
+  body.appendChild(sec);
+}
 function drawBody(body){
   body.innerHTML='';
   const all=Object.keys(DB.sets), qq=HV.q.trim().toLowerCase();
-  const ids=sortIds(all.filter(id=>!qq||DB.sets[id].name.toLowerCase().includes(qq)));
-  if(HV.view==='dash') renderDash(body,all,ids); else renderCollection(body,ids);
+  const match=id=>!qq||DB.sets[id].name.toLowerCase().includes(qq);
+  const live=all.filter(id=>!DB.sets[id].archived), arch=all.filter(id=>DB.sets[id].archived);
+  const ids=sortIds(live.filter(match));
+  if(HV.view==='dash') renderDash(body,live,ids); else renderCollection(body,ids);
+  renderArchive(body,sortIds(arch.filter(match)));
 }
 function homeToolbar(draw){
   const bar=el('div','htool');
@@ -1037,17 +1058,19 @@ async function autoload(){
   const custom={}; // file -> custom display name
   const names=new Set(AUTO_FILES.map(x=>{ if(x&&typeof x==='object'){ if(x.name) custom[x.file]=x.name; return x.file; } return x; }));
   // On GitHub Pages (user.github.io/repo/) also pick up every other .json file in the repo root.
+  let scanFailed=false;
   try{
     const m=location.hostname.match(/^(.+)\.github\.io$/), repo=location.pathname.split('/')[1];
     if(window.QUIZ_AUTO_SCAN_GITHUB!==false&&m&&repo&&!/\.html?$/i.test(repo)){
+      scanFailed=true;
       const r=await fetch(`https://api.github.com/repos/${m[1]}/contents`);
-      if(r.ok) (await r.json()).forEach(x=>{ if(x.type==='file'&&/\.json$/i.test(x.name)) names.add(x.name); });
+      if(r.ok){ (await r.json()).forEach(x=>{ if(x.type==='file'&&/\.json$/i.test(x.name)) names.add(x.name); }); scanFailed=false; }
     }
   }catch(e){}
-  let changed=false;
+  let changed=false, reached=false; const loaded=new Set();
   for(const f of names){
     try{
-      const r=await fetch(encodeURI(f),{cache:'no-store'}); if(!r.ok) continue;
+      const r=await fetch(encodeURI(f),{cache:'no-store'}); reached=true; if(!r.ok) continue;
       const text=await r.text();
       const id=f==='questions.json'?'questions':'file-'+f.toLowerCase().replace(/[^a-z0-9]+/g,'-');
       // File name -> set name: underscores become spaces; words containing digits (PSYC404, 2026) stay as-is,
@@ -1070,8 +1093,27 @@ async function autoload(){
       }
       const res=upsert(dispName,text,id);
       if(!res.unchanged) changed=true;
+      loaded.add(id);
+      const st=DB.sets[id]; if(st&&(st.file!==f||st.archived)){ st.file=f; st.archived=false; changed=true; save(); }
       if(!DB.active) activate(res.id);
     }catch(e){ /* missing or not a question file: skip */ }
+  }
+  /* Archive sets that came from the repository but are no longer there (only when the site was actually reachable). */
+  if(reached){
+    const nameIds=new Set([...names].map(f=>f==='questions.json'?'questions':'file-'+f.toLowerCase().replace(/[^a-z0-9]+/g,'-')));
+    for(const id of Object.keys(DB.sets)){
+      const st=DB.sets[id];
+      if(!(st.file||id==='questions'||id.startsWith('file-'))) continue; // user-added sets are never archived
+      if(loaded.has(id)) continue;
+      let gone=null; // true = confirmed missing, false = still there, null = unknown
+      const file=st.file||(id==='questions'?'questions.json':null);
+      if(file){
+        try{ const r=await fetch(encodeURI(file),{cache:'no-store'}); gone=r.status===404?true:(r.ok?false:null); }catch(e){}
+      } else if(!scanFailed&&!nameIds.has(id)) gone=true;
+      if(gone===true&&!st.archived){ st.archived=true; changed=true; }
+      else if(gone===false&&st.archived){ st.archived=false; changed=true; }
+    }
+    save();
   }
   if(changed) renderAll();
   if(!Object.keys(DB.sets).length){
