@@ -17,7 +17,7 @@
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:820px;margin:0 auto;padding:60px 16px 16px}
+.wrap{max-width:820px;margin:0 auto;padding:24px 16px 120px}
 header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:12px}
 h1{font-size:1.2rem;margin:0}
 .stats{color:var(--muted);font-size:.9rem}
@@ -100,17 +100,37 @@ hr{border:0;border-top:1px solid var(--border);margin:14px 0}
 button.ok{background:var(--ok-bg);border-color:var(--ok);color:var(--ok);font-weight:600}
 button.bad{background:var(--bad-bg);border-color:var(--bad);color:var(--bad);font-weight:600}
 /* timer */
-.timer{position:fixed;top:8px;right:8px;z-index:50;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:6px 8px;box-shadow:0 2px 10px rgba(0,0,0,.15);min-width:150px}
-.timer .thead{display:flex;align-items:center;gap:6px;justify-content:space-between}
-.timer .ttime{font:700 1.15rem/1.2 ui-monospace,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;padding:0 4px}
-.timer .tbtn{padding:3px 9px;font-size:.85rem;line-height:1.3}
-.timer .tbody{margin-top:8px;display:flex;flex-direction:column;gap:8px}
-.timer .tbody .row{gap:6px}
-.timer .tbody select{min-width:0;font-size:.85rem;padding:4px 6px}
-.timer .tbody input[type=number]{width:64px;font-size:.85rem;padding:4px 6px}
-.timer.alarm{border-color:var(--bad);animation:tflash 1s steps(2) infinite}
+.timer{position:fixed;right:16px;bottom:16px;z-index:50;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.tpill{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:6px 8px 6px 6px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.tring{position:relative;width:52px;height:52px;flex:none}
+.tring svg{position:absolute;inset:0;width:100%;height:100%}
+.tring .trk{fill:none;stroke:var(--border);stroke-width:3.5}
+.tring .tarc{fill:none;stroke:var(--accent);stroke-width:3.5;stroke-linecap:round;stroke-dasharray:144.5;stroke-dashoffset:0;transition:stroke-dashoffset .3s linear}
+.tplay{position:absolute;inset:7px;width:auto;height:auto;padding:0;border-radius:50%;border:0;background:var(--accent);color:var(--accent-text);display:grid;place-items:center}
+.tplay:hover{filter:brightness(1.1)}
+.tplay svg{display:block}
+.tinfo{display:flex;flex-direction:column;line-height:1.15;min-width:84px}
+.ttime{font:700 1.4rem/1.1 ui-monospace,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.tinfo small{color:var(--muted);font-size:.72rem;white-space:nowrap}
+.tcog{width:34px;height:34px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--muted);display:grid;place-items:center}
+.tcog:hover{background:var(--sel);color:var(--accent)}
+.tcog svg{transition:transform .2s}
+.tcog.open svg{transform:rotate(180deg)}
+.tpanel{width:min(250px,calc(100vw - 32px));background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.18);display:flex;flex-direction:column;gap:12px;animation:mpop2 .15s ease-out}
+@keyframes mpop2{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.tseg{display:grid;grid-template-columns:1fr 1fr;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:3px;gap:3px}
+.tseg button{border:0;background:transparent;border-radius:8px;padding:6px 4px;font-size:.85rem;color:var(--muted)}
+.tseg button.on{background:var(--card);color:var(--text);font-weight:600;box-shadow:0 1px 4px rgba(0,0,0,.15)}
+.tchips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.tchip{padding:5px 11px;border-radius:99px;font-size:.85rem}
+.tchip.on{background:var(--sel);border-color:var(--accent);color:var(--accent);font-weight:600}
+.tcustom{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--muted)}
+.tpanel input[type=number]{width:72px;padding:5px 8px;font-size:.9rem}
+.tbtn{font-size:.85rem;padding:6px 12px}
+.timer.alarm .tpill{border-color:var(--bad);animation:tpulse 1s ease-in-out infinite}
 .timer.alarm .ttime{color:var(--bad)}
-@keyframes tflash{50%{background:var(--bad-bg)}}
+@keyframes tpulse{50%{background:var(--bad-bg);box-shadow:0 0 0 6px var(--bad-bg)}}
+@media (max-width:620px){.timer{right:10px;bottom:10px}.tinfo{min-width:70px}.ttime{font-size:1.2rem}}
 /* import modal */
 #loadPanel:not(.hidden){position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:100;width:min(640px,calc(100vw - 24px));max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;margin:0;box-shadow:0 20px 60px rgba(0,0,0,.35);animation:mpop .16s ease-out}
 #loadBackdrop{display:none;position:fixed;inset:0;z-index:90;background:rgba(10,14,22,.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
@@ -118,26 +138,83 @@ button.bad{background:var(--bad-bg);border-color:var(--bad);color:var(--bad);fon
 body:has(#loadPanel:not(.hidden)){overflow:hidden}
 @keyframes mpop{from{opacity:0;transform:translate(-50%,-48%) scale(.97)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
 @keyframes mfade{from{opacity:0}to{opacity:1}}
+/* question picker pop-up */
+.pickwrap{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:12px;background:rgba(10,14,22,.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.pickwrap .card{width:min(560px,100%);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;margin:0;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.setcard .acts{width:100%}
+/* home views */
+.htool{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.htool input[type=text]{flex:1 1 180px;min-width:0}
+.htool select{min-width:0}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.seg button{border:0;border-radius:0;padding:7px 11px;font-size:.88rem}
+.seg button+button{border-left:1px solid var(--border)}
+.seg button.on{background:var(--accent);color:var(--accent-text);font-weight:600}
+.gchk{font-size:.88rem;color:var(--muted);display:inline-flex;align-items:center;gap:5px;cursor:pointer}
+.stack{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--border)}
+.stack i{display:block;height:100%}
+.stack i.ok{background:var(--ok)}
+.stack i.bad{background:var(--bad)}
+.setcard .stack{margin:10px 0 12px}
+.chip{display:inline-block;font-size:.78rem;font-weight:700;padding:2px 9px;border-radius:99px;white-space:nowrap}
+.chip.ok{background:var(--ok-bg);color:var(--ok)}
+.chip.mid{background:var(--warn-bg);color:var(--warn)}
+.chip.bad{background:var(--bad-bg);color:var(--bad)}
+.chip.na{background:var(--border);color:var(--muted)}
+button.sm{padding:4px 9px;font-size:.82rem}
+.ghead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px;margin:18px 0 8px}
+.ghead b{font-size:1.05rem}
+/* list */
+.vlist{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:14px}
+.lrow{display:grid;grid-template-columns:minmax(0,1fr) 140px 62px auto;gap:6px 12px;align-items:center;padding:10px 14px;border-top:1px solid var(--border);cursor:pointer}
+.lrow:first-child{border-top:0}
+.lrow:hover,.lrow:focus-visible{background:var(--sel);outline:none}
+.lrow .setname{font-size:1rem}
+.lchip{justify-self:start}
+.lacts{flex-wrap:nowrap;gap:6px}
+@media (max-width:620px){
+  .lrow{grid-template-columns:minmax(0,1fr) auto}
+  .lbar{grid-column:1/-1;order:3}
+  .lacts{grid-column:1/-1;order:4}
+}
+/* tiles */
+.vtiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin-bottom:14px}
+.tile{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 12px 12px;text-align:center;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px}
+.tile:hover,.tile:focus-visible{border-color:var(--accent);outline:none;box-shadow:0 0 0 1px var(--accent)}
+.tile .ring{width:84px;height:84px}
+.tname{font-weight:700;line-height:1.25;overflow-wrap:anywhere}
+.tacts{margin-top:4px;justify-content:center;gap:6px}
+/* dashboard */
+.sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+@media (max-width:620px){.sgrid{grid-template-columns:1fr 1fr}}
+.sbox{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px;text-align:center}
+.sbox b{display:block;font-size:1.5rem}
+.hero{background:var(--sel);border-color:var(--accent)}
+.hero .stack{margin:10px 0 12px}
+.frow{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:8px 0;border-top:1px solid var(--border)}
+.frow:first-of-type{border-top:0}
 </style>
 </head>
 <body>
 <div class="timer" id="timer">
-  <div class="thead">
-    <span class="ttime" id="tTime" aria-live="off">00:00</span>
-    <span class="row" style="gap:4px;flex-wrap:nowrap">
-      <button class="tbtn primary" id="tPlay" title="Start / pause">▶</button>
-      <button class="tbtn" id="tCollapse" title="Collapse / expand timer" aria-expanded="true">–</button>
-    </span>
-  </div>
-  <div class="tbody" id="tBody">
-    <div class="row">
-      <select id="tMode" aria-label="Timer mode">
-        <option value="up">Stopwatch</option>
-        <option value="down">Countdown</option>
-      </select>
-      <span id="tMinWrap" class="row"><input type="number" id="tMin" min="1" max="600" value="10" aria-label="Countdown minutes"><small class="m">min</small></span>
+  <div class="tpanel hidden" id="tBody">
+    <div class="tseg" role="group" aria-label="Timer mode">
+      <button id="tModeDown" type="button">Countdown</button>
+      <button id="tModeUp" type="button">Stopwatch</button>
     </div>
-    <div class="row"><button class="tbtn" id="tReset">Reset</button></div>
+    <div id="tMinWrap">
+      <div class="tchips" id="tChips"></div>
+      <label class="tcustom">Custom <input type="number" id="tMin" min="1" max="600" value="25" aria-label="Countdown minutes"> min</label>
+    </div>
+    <button class="tbtn" id="tReset" type="button">Reset</button>
+  </div>
+  <div class="tpill">
+    <div class="tring">
+      <svg viewBox="0 0 52 52" aria-hidden="true"><circle class="trk" cx="26" cy="26" r="23"/><circle class="tarc" id="tArc" cx="26" cy="26" r="23" transform="rotate(-90 26 26)"/></svg>
+      <button class="tplay" id="tPlay" type="button" title="Start / pause" aria-label="Start or pause timer"><span id="tIcon"></span></button>
+    </div>
+    <div class="tinfo"><span class="ttime" id="tTime" aria-live="off">25:00</span><small id="tLabel">Countdown · 25 min</small></div>
+    <button class="tcog" id="tCollapse" type="button" title="Timer settings" aria-expanded="false" aria-label="Timer settings"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
   </div>
 </div>
 <div class="wrap">
@@ -347,41 +424,271 @@ function renderModel(box,text){
 }
 
 /* ---------- render ---------- */
+/* ---------- home (set picker): several switchable views ---------- */
+const HKEY='practice_homeview_v1';
+const VIEWS=[['cards','Cards','Large cards'],['list','List','Compact list'],['tiles','Tiles','Progress rings'],['dash','Dashboard','Overview, continue and focus areas']];
+let HV={view:'cards',sort:'name',group:false,q:''};
+try{const r=JSON.parse(localStorage.getItem(HKEY)); if(r&&typeof r==='object') Object.assign(HV,r,{q:''});}catch(e){}
+if(!VIEWS.some(v=>v[0]===HV.view)) HV.view='cards';
+function saveHV(){ try{localStorage.setItem(HKEY,JSON.stringify({view:HV.view,sort:HV.sort,group:HV.group}))}catch(e){} }
+
+function setStats(st){
+  const total=st.questions.length; let done=0,ok=0;
+  st.questions.forEach((q,i)=>{const p=st.progress[i]; if(p&&p.submitted){done++; if(p.correct)ok++}});
+  return {total,done,ok,wrong:done-ok,left:total-done,acc:done?ok/done:null,pct:total?done/total:0};
+}
+function pctTxt(x){ return Math.round(x*100)+'%'; }
+function accCls(a){ return a==null?'na':a>=.8?'ok':a>=.6?'mid':'bad'; }
+function chip(s){ const c=el('span','chip '+accCls(s.acc),s.acc==null?'—':pctTxt(s.acc)); c.title='Accuracy on answered questions'; return c; }
+function metaLine(s){ return `${s.total} questions · ${s.done} answered`+(s.done?` · ${pctTxt(s.acc)} correct`:''); }
+function openLabel(s){ return s.done===0?'Start':(s.done===s.total?'Review':'Continue'); }
+function groupOf(n){ return String(n).trim().split(/[\s_\-]+/)[0]||String(n); }
+function stackBar(s){
+  const b=el('div','stack'); b.title=`${s.ok} correct · ${s.wrong} incorrect · ${s.left} unanswered`;
+  [['ok',s.ok],['bad',s.wrong]].forEach(([c,n])=>{
+    if(!n) return; const i=document.createElement('i'); i.className=c; i.style.width=(s.total?n/s.total*100:0)+'%'; b.appendChild(i);
+  });
+  return b;
+}
+function ringSVG(s){
+  const r=30, C=2*Math.PI*r, d=(C*s.pct).toFixed(1), p=Math.round(s.pct*100), col=s.pct>=1?'var(--ok)':'var(--accent)';
+  return `<svg class="ring" viewBox="0 0 76 76" role="img" aria-label="${p}% answered"><circle cx="38" cy="38" r="${r}" fill="none" stroke="var(--border)" stroke-width="7"/>`
+    +(s.pct>0?`<circle cx="38" cy="38" r="${r}" fill="none" stroke="${col}" stroke-width="7" stroke-linecap="round" stroke-dasharray="${d} ${C.toFixed(1)}" transform="rotate(-90 38 38)"/>`:'')
+    +`<text x="38" y="43" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text)">${p}%</text></svg>`;
+}
+
+/* set actions */
+function openSet(id,jump){
+  const st=DB.sets[id]; if(!st) return;
+  st.last=Date.now();
+  if(jump){ const i=st.questions.findIndex((q,k)=>!(st.progress[k]&&st.progress[k].submitted)); if(i>=0) st.current=i; }
+  activate(id); view='study'; save(); renderAll(); window.scrollTo({top:0});
+}
+function renameSet(id){
+  const st=DB.sets[id];
+  const n=prompt('New name for this set:',st.name); if(n===null||!n.trim()) return;
+  const clash=findByName(n); if(clash&&clash!==id){alert('Another set already has that name.');return;}
+  st.name=n.trim(); save(); renderAll();
+}
+function deleteSet(id){
+  const st=DB.sets[id];
+  if(!confirm('Delete the set "'+st.name+'" and its progress from this browser?')) return;
+  delete DB.sets[id];
+  if(DB.active===id) activate(Object.keys(DB.sets)[0]||null);
+  save(); renderAll();
+}
+function retryWrong(id){
+  const st=DB.sets[id];
+  const w=st.questions.map((q,i)=>i).filter(i=>st.progress[i]&&st.progress[i].submitted&&!st.progress[i].correct);
+  if(!w.length) return;
+  w.forEach(i=>delete st.progress[i]); st.current=w[0]; openSet(id);
+}
+function setButtons(id,o){
+  o=o||{}; const s=setStats(DB.sets[id]), row=el('div','row acts');
+  const mk=(cls,txt,fn)=>{ const b=el('button',(cls+(o.sm?' sm':'')).trim(),txt); b.onclick=e=>{e.stopPropagation(); fn();}; row.appendChild(b); };
+  if(!o.noOpen){
+    mk('primary',openLabel(s),()=>openSet(id));
+    mk('','Select question',()=>pickQuestion(id));
+  }
+  // Rename / Delete sit at the right-hand end of the row (centred on tiles, which have no Open button)
+  const first=row.children.length;
+  mk('','Rename',()=>renameSet(id));
+  mk('danger','Delete',()=>deleteSet(id));
+  if(!o.noOpen) row.children[first].style.marginLeft='auto';
+  return row;
+}
+/* pop-up to choose which question to open a set at */
+function pickQuestion(id){
+  const st=DB.sets[id]; if(!st||!st.questions.length) return;
+  const lab=(q,i)=>q.qnum!=null?q.qnum:(i+1);
+  const wrap=el('div','pickwrap'), card=el('div','card');
+  const close=()=>{ wrap.remove(); document.removeEventListener('keydown',esc); };
+  const esc=e=>{ if(e.key==='Escape') close(); };
+  document.addEventListener('keydown',esc);
+  wrap.onclick=e=>{ if(e.target===wrap) close(); };
+  const hd=el('div','row spread'); hd.appendChild(el('strong','','Select question · '+st.name));
+  const x=el('button','sm','Close'); x.onclick=close; hd.appendChild(x); card.appendChild(hd);
+  const go=i=>{ st.current=i; close(); openSet(id); };
+  const row=el('div','row'); row.style.margin='12px 0 4px';
+  row.appendChild(el('label','','Question #'));
+  const inp=document.createElement('input'); inp.type='number'; inp.min=1; inp.value=lab(st.questions[st.current]||st.questions[0],st.current||0);
+  const goBtn=el('button','primary','Go');
+  const doGo=()=>{
+    const n=inp.value.trim(); if(!n) return;
+    let i=st.questions.findIndex(q=>q.qnum!=null&&String(q.qnum)===n);
+    if(i<0){ const k=parseInt(n,10)-1; if(k>=0&&k<st.questions.length) i=k; }
+    if(i<0){ alert('No question #'+n); return; }
+    go(i);
+  };
+  goBtn.onclick=doGo; inp.onkeydown=e=>{ if(e.key==='Enter') doGo(); };
+  row.appendChild(inp); row.appendChild(goBtn); card.appendChild(row);
+  card.appendChild(el('div','hint','Or tap a question below (green = correct, red = incorrect).'));
+  const g=el('div','grid');
+  st.questions.forEach((q,i)=>{
+    const p=st.progress[i], b=el('button','',lab(q,i));
+    if(p&&p.submitted) b.classList.add(p.correct?'done-ok':'done-bad');
+    else if(p&&(p.sel.length||(p.text&&p.text.trim()))) b.classList.add('picked');
+    if(i===st.current) b.classList.add('cur');
+    b.title='Question '+lab(q,i); b.onclick=()=>go(i); g.appendChild(b);
+  });
+  card.appendChild(g); wrap.appendChild(card); document.body.appendChild(wrap);
+  inp.focus(); inp.select();
+}
+
+/* item renderers */
+function itemCard(id){
+  const st=DB.sets[id], s=setStats(st), card=el('div','card setcard');
+  const top=el('div','row spread'); top.appendChild(el('div','setname',st.name)); top.appendChild(chip(s)); card.appendChild(top);
+  card.appendChild(el('small','m',metaLine(s)));
+  card.appendChild(stackBar(s));
+  card.appendChild(setButtons(id));
+  return card;
+}
+function itemRow(id){
+  const st=DB.sets[id], s=setStats(st), r=el('div','lrow'); r.tabIndex=0;
+  r.onclick=()=>openSet(id);
+  r.onkeydown=e=>{ if(e.key==='Enter'&&e.target===r) openSet(id); };
+  const n=el('div','lname'); n.appendChild(el('div','setname',st.name)); n.appendChild(el('small','m',metaLine(s)));
+  const bar=el('div','lbar'); bar.appendChild(stackBar(s));
+  const c=chip(s); c.classList.add('lchip');
+  const a=setButtons(id,{sm:true}); a.classList.add('lacts');
+  r.appendChild(n); r.appendChild(bar); r.appendChild(c); r.appendChild(a);
+  return r;
+}
+function itemTile(id){
+  const st=DB.sets[id], s=setStats(st), t=el('div','tile'); t.tabIndex=0; t.setAttribute('role','button');
+  t.onclick=()=>openSet(id);
+  t.onkeydown=e=>{ if(e.key==='Enter'&&e.target===t) openSet(id); };
+  const holder=document.createElement('div'); holder.innerHTML=ringSVG(s); t.appendChild(holder.firstChild);
+  t.appendChild(el('div','tname',st.name));
+  t.appendChild(el('small','m',`${s.done}/${s.total} answered`));
+  t.appendChild(chip(s));
+  const f=setButtons(id,{sm:true,noOpen:true}); f.classList.add('tacts'); t.appendChild(f);
+  return t;
+}
+
+/* collection (cards / list / tiles), optionally grouped by course prefix */
+function collection(ids){
+  const wrap=el('div',HV.view==='tiles'?'vtiles':HV.view==='list'?'vlist':'vcards');
+  ids.forEach(id=>wrap.appendChild(HV.view==='tiles'?itemTile(id):HV.view==='list'?itemRow(id):itemCard(id)));
+  return wrap;
+}
+function groupIds(ids){
+  const m=new Map();
+  ids.forEach(id=>{ const k=groupOf(DB.sets[id].name); if(!m.has(k)) m.set(k,[]); m.get(k).push(id); });
+  if(m.size<2) return [{name:null,ids}];
+  return [...m].map(([name,g])=>({name,ids:g}));
+}
+function renderCollection(body,ids){
+  if(!ids.length){ body.appendChild(el('p','hint','No sets match your search.')); return; }
+  const groups=HV.group?groupIds(ids):[{name:null,ids}];
+  groups.forEach(g=>{
+    if(g.name){
+      let q=0,d=0; g.ids.forEach(id=>{const s=setStats(DB.sets[id]); q+=s.total; d+=s.done;});
+      const hd=el('div','ghead'); hd.appendChild(el('b','',g.name));
+      hd.appendChild(el('small','m',`${g.ids.length} set${g.ids.length===1?'':'s'} · ${q} questions · ${q?pctTxt(d/q):'0%'} answered`));
+      body.appendChild(hd);
+    }
+    body.appendChild(collection(g.ids));
+  });
+}
+
+/* dashboard */
+function renderDash(body,all,ids){
+  const T={q:0,done:0,ok:0};
+  all.forEach(id=>{const s=setStats(DB.sets[id]); T.q+=s.total; T.done+=s.done; T.ok+=s.ok;});
+  const grid=el('div','sgrid');
+  [[all.length,'Sets'],[T.q,'Questions'],[T.q?pctTxt(T.done/T.q):'0%','Answered'],[T.done?pctTxt(T.ok/T.done):'—','Accuracy']].forEach(([n,l])=>{
+    const b=el('div','sbox'); b.appendChild(el('b','',String(n))); b.appendChild(el('small','m',l)); grid.appendChild(b);
+  });
+  body.appendChild(grid);
+
+  const pending=all.filter(id=>setStats(DB.sets[id]).left>0);
+  const cont=pending.filter(id=>DB.sets[id].last).sort((a,b)=>DB.sets[b].last-DB.sets[a].last)[0]
+    ||(pending.includes(DB.active)?DB.active:null)
+    ||pending.find(id=>setStats(DB.sets[id]).done>0)||pending[0];
+  const hero=el('div','card hero');
+  if(cont){
+    const st=DB.sets[cont], s=setStats(st), nx=st.questions.findIndex((q,k)=>!(st.progress[k]&&st.progress[k].submitted));
+    const nq=nx>=0?(st.questions[nx].qnum!=null?st.questions[nx].qnum:nx+1):'';
+    hero.appendChild(el('small','m',s.done?'Pick up where you left off':'Start here'));
+    hero.appendChild(el('div','setname',st.name));
+    hero.appendChild(el('small','m',`Next up: question ${nq} · ${s.left} left of ${s.total}`));
+    hero.appendChild(stackBar(s));
+    const row=el('div','row'); const b=el('button','primary',s.done?'Continue':'Start'); b.onclick=()=>openSet(cont,true); row.appendChild(b);
+    const pk=el('button','','Select question'); pk.onclick=()=>pickQuestion(cont); row.appendChild(pk); hero.appendChild(row);
+  } else {
+    hero.appendChild(el('div','setname','Everything is answered 🎉'));
+    hero.appendChild(el('small','m','Review a set below, or retry your incorrect questions.'));
+  }
+  body.appendChild(hero);
+
+  const weak=all.filter(id=>setStats(DB.sets[id]).wrong>0).sort((a,b)=>setStats(DB.sets[a]).acc-setStats(DB.sets[b]).acc).slice(0,3);
+  if(weak.length){
+    const c=el('div','card'); c.appendChild(el('h2','','Needs another look'));
+    weak.forEach(id=>{
+      const st=DB.sets[id], s=setStats(st), r=el('div','frow');
+      const n=el('div','lname'); n.appendChild(el('div','setname',st.name)); n.appendChild(el('small','m',`${s.wrong} incorrect · ${pctTxt(s.acc)} correct`));
+      r.appendChild(n);
+      const b=el('button','sm','Retry incorrect'); b.onclick=()=>retryWrong(id); r.appendChild(b);
+      c.appendChild(r);
+    });
+    body.appendChild(c);
+  }
+
+  body.appendChild(el('h2','','All sets'));
+  if(!ids.length){ body.appendChild(el('p','hint','No sets match your search.')); return; }
+  const wrap=el('div','vlist'); ids.forEach(id=>wrap.appendChild(itemRow(id))); body.appendChild(wrap);
+}
+
+/* toolbar + page */
+function sortIds(ids){
+  const S_=id=>setStats(DB.sets[id]);
+  const nm=(a,b)=>DB.sets[a].name.localeCompare(DB.sets[b].name,undefined,{numeric:true});
+  const f={
+    name:nm,
+    recent:(a,b)=>(DB.sets[b].last||0)-(DB.sets[a].last||0)||nm(a,b),
+    todo:(a,b)=>S_(a).pct-S_(b).pct||nm(a,b),
+    weak:(a,b)=>{const x=S_(a).acc,y=S_(b).acc; return (x==null?2:x)-(y==null?2:y)||nm(a,b);}
+  }[HV.sort]||nm;
+  return ids.slice().sort(f);
+}
+function drawBody(body){
+  body.innerHTML='';
+  const all=Object.keys(DB.sets), qq=HV.q.trim().toLowerCase();
+  const ids=sortIds(all.filter(id=>!qq||DB.sets[id].name.toLowerCase().includes(qq)));
+  if(HV.view==='dash') renderDash(body,all,ids); else renderCollection(body,ids);
+}
+function homeToolbar(draw){
+  const bar=el('div','htool');
+  const q=document.createElement('input'); q.type='text'; q.placeholder='Search sets…'; q.value=HV.q; q.setAttribute('aria-label','Search sets');
+  q.oninput=()=>{ HV.q=q.value; draw(); };
+  const sort=document.createElement('select'); sort.setAttribute('aria-label','Sort sets');
+  [['name','Name (A→Z)'],['recent','Recently studied'],['todo','Least complete first'],['weak','Lowest accuracy first']].forEach(([v,t])=>{ const o=el('option','',t); o.value=v; sort.appendChild(o); });
+  sort.value=HV.sort; sort.onchange=()=>{ HV.sort=sort.value; saveHV(); draw(); };
+  const seg=el('div','seg');
+  VIEWS.forEach(([v,t,title])=>{
+    const b=el('button',HV.view===v?'on':'',t); b.title=title;
+    b.onclick=()=>{ HV.view=v; saveHV(); renderHome(); };
+    seg.appendChild(b);
+  });
+  const g=el('label','gchk'); const cb=document.createElement('input'); cb.type='checkbox'; cb.checked=HV.group;
+  cb.onchange=()=>{ HV.group=cb.checked; saveHV(); draw(); };
+  g.appendChild(cb); g.appendChild(document.createTextNode('Group by course'));
+  if(HV.view==='dash') g.classList.add('hidden');
+  bar.appendChild(q); bar.appendChild(sort); bar.appendChild(seg); bar.appendChild(g);
+  return bar;
+}
 function renderHome(){
   const h=$('home'); h.innerHTML='';
-  const ids=Object.keys(DB.sets).sort((a,b)=>DB.sets[a].name.localeCompare(DB.sets[b].name,undefined,{numeric:true}));
-  if(!ids.length){
+  if(!Object.keys(DB.sets).length){
     const c=el('div','card'); c.appendChild(el('p','','No study sets yet. Click “Import sets” and choose your .json file(s).')); h.appendChild(c); return;
   }
   h.appendChild(el('h2','','Choose a set to study'));
-  ids.forEach(id=>{
-    const st=DB.sets[id], total=st.questions.length; let done=0,ok=0;
-    st.questions.forEach((q,i)=>{const p=st.progress[i]; if(p&&p.submitted){done++; if(p.correct)ok++}});
-    const card=el('div','card setcard');
-    card.appendChild(el('div','setname',st.name));
-    card.appendChild(el('small','m',`${total} questions · ${done} answered`+(done?` · ${Math.round(ok/done*100)}% correct`:'')));
-    const bar=el('div','bar'); const fill=document.createElement('i'); fill.style.width=(total?done/total*100:0)+'%'; bar.appendChild(fill); card.appendChild(bar);
-    const row=el('div','row');
-    const open=el('button','primary',done===0?'Start':(done===total?'Review':'Continue'));
-    open.onclick=()=>{
-      activate(id); view='study'; save(); renderAll(); window.scrollTo({top:0});
-    };
-    const ren=el('button','','Rename');
-    ren.onclick=()=>{
-      const n=prompt('New name for this set:',st.name); if(n===null||!n.trim()) return;
-      const clash=findByName(n); if(clash&&clash!==id){alert('Another set already has that name.');return;}
-      st.name=n.trim(); save(); renderAll();
-    };
-    const del=el('button','danger','Delete');
-    del.onclick=()=>{
-      if(!confirm('Delete the set "'+st.name+'" and its progress from this browser?')) return;
-      delete DB.sets[id];
-      if(DB.active===id) activate(Object.keys(DB.sets)[0]||null);
-      save(); renderAll();
-    };
-    row.appendChild(open); row.appendChild(ren); row.appendChild(del);
-    card.appendChild(row); h.appendChild(card);
-  });
+  const body=el('div','hbody');
+  h.appendChild(homeToolbar(()=>drawBody(body)));
+  h.appendChild(body);
+  drawBody(body);
 }
 function renderStats(){
   const c=counts();
@@ -743,7 +1050,25 @@ async function autoload(){
       const r=await fetch(encodeURI(f),{cache:'no-store'}); if(!r.ok) continue;
       const text=await r.text();
       const id=f==='questions.json'?'questions':'file-'+f.toLowerCase().replace(/[^a-z0-9]+/g,'-');
-      const res=upsert(custom[f]||f.replace(/\.json$/i,'').replace(/_+/g,' '),text,id);
+      // File name -> set name: underscores become spaces; words containing digits (PSYC404, 2026) stay as-is,
+      // other words are capitalised (EXAM -> Exam).
+      const oldName=f.replace(/\.json$/i,'').replace(/_+/g,' ');
+      const dispName=custom[f]||oldName.split(' ').map(w=>/\d/.test(w)?w:w.charAt(0).toUpperCase()+w.slice(1).toLowerCase()).join(' ');
+      // Rename an already auto-loaded set that still carries the old automatic name (never overrides a name you chose)
+      if(DB.sets[id]&&DB.sets[id].name===oldName&&oldName!==dispName){ DB.sets[id].name=dispName; save(); changed=true; }
+      // Don't make a copy if this set is already stored (user-uploaded or imported earlier):
+      // skip when a user-added set (not the auto-loaded id) has the same name, the same file content,
+      // or the same file name.
+      if(!DB.sets[id]){
+        const s=sig(text), stem=f.replace(/\.json$/i,'').trim().toLowerCase();
+        const norm=x=>String(x||'').trim().toLowerCase().replace(/[\s_]+/g,' ');
+        const dup=Object.keys(DB.sets).some(k=>{
+          const st=DB.sets[k];
+          return norm(st.name)===norm(dispName)||norm(st.name)===norm(stem)||(st.src&&st.src===s);
+        });
+        if(dup) continue;
+      }
+      const res=upsert(dispName,text,id);
       if(!res.unchanged) changed=true;
       if(!DB.active) activate(res.id);
     }catch(e){ /* missing or not a question file: skip */ }
@@ -754,10 +1079,10 @@ async function autoload(){
     $('loadErr').textContent='Could not load question files automatically (browsers block this when the page is opened straight from a folder). Choose your .json file(s) above instead; they are remembered.';
   }
 }
-/* ---------- timer (stopwatch / countdown, collapsible, survives reloads) ---------- */
+/* ---------- timer (countdown / stopwatch, bottom-right, survives reloads) ---------- */
 (function(){
-  const TK='practice_timer_v1';
-  let T={mode:'up',base:0,start:null,min:10,collapsed:false};
+  const TK='practice_timer_v2', R=23, C=2*Math.PI*R;
+  let T={mode:'down',base:0,start:null,min:25,collapsed:true};
   try{const r=JSON.parse(localStorage.getItem(TK)); if(r&&typeof r==='object') T=Object.assign(T,r);}catch(e){}
   const tsave=()=>{try{localStorage.setItem(TK,JSON.stringify(T))}catch(e){}};
   const elapsed=()=>T.base+(T.start?Date.now()-T.start:0);
@@ -766,47 +1091,64 @@ async function autoload(){
     const m=Math.floor(s/60); s%=60; const p=n=>String(n).padStart(2,'0');
     return (h?h+':'+p(m):p(m))+':'+p(s);
   };
-  let alarmed=false;
+  const ICON={
+    play:'<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>',
+    pause:'<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>'
+  };
+  let alarmed=false, icon='';
   function beep(){
     try{
-      const C=window.AudioContext||window.webkitAudioContext; if(!C) return;
-      const c=new C(), o=c.createOscillator(), g=c.createGain();
+      const A=window.AudioContext||window.webkitAudioContext; if(!A) return;
+      const c=new A(), o=c.createOscillator(), g=c.createGain();
       o.connect(g); g.connect(c.destination); o.frequency.value=880; g.gain.value=.15;
       o.start(); setTimeout(()=>{o.stop(); c.close();},700);
     }catch(e){}
   }
   function draw(){
-    const down=T.mode==='down', total=T.min*60000;
-    const shown=down?Math.max(0,total-elapsed()):elapsed();
+    const down=T.mode==='down', total=T.min*60000, e=elapsed();
+    const shown=down?Math.max(0,total-e):e;
     $('tTime').textContent=fmt(shown);
-    $('tPlay').textContent=T.start?'⏸':'▶';
+    $('tLabel').textContent=down?'Countdown · '+T.min+' min':'Stopwatch';
+    const frac=down?(total?shown/total:0):((e%60000)/60000);
+    $('tArc').style.strokeDashoffset=(C*(1-frac)).toFixed(1);
+    const want=T.start?'pause':'play';
+    if(icon!==want){ icon=want; $('tIcon').innerHTML=ICON[want]; }
     $('timer').classList.toggle('alarm',down&&shown===0&&alarmed);
     if(down&&T.start&&shown===0&&!alarmed){
-      alarmed=true; T.base=total; T.start=null; tsave(); beep(); $('tPlay').textContent='▶'; $('timer').classList.add('alarm');
+      alarmed=true; T.base=total; T.start=null; tsave(); beep(); draw();
     }
   }
   function layout(){
     $('tBody').classList.toggle('hidden',T.collapsed);
-    $('tCollapse').textContent=T.collapsed?'+':'–';
+    $('tCollapse').classList.toggle('open',!T.collapsed);
     $('tCollapse').setAttribute('aria-expanded',String(!T.collapsed));
-    $('tMode').value=T.mode; $('tMin').value=T.min;
+    $('tModeDown').classList.toggle('on',T.mode==='down');
+    $('tModeUp').classList.toggle('on',T.mode==='up');
+    $('tMin').value=T.min;
     $('tMinWrap').classList.toggle('hidden',T.mode!=='down');
+    document.querySelectorAll('#tChips .tchip').forEach(b=>b.classList.toggle('on',+b.dataset.m===T.min));
   }
+  function restart(){ T.base=0; T.start=null; alarmed=false; tsave(); layout(); draw(); }
+  function setMin(v){ v=parseInt(v,10); if(!(v>=1)) v=25; T.min=Math.min(600,v); restart(); }
+  function setMode(m){ T.mode=m; restart(); }
+  [15,25,45,60].forEach(m=>{
+    const b=document.createElement('button'); b.type='button'; b.className='tchip'; b.dataset.m=m; b.textContent=m+' min';
+    b.onclick=()=>setMin(m); $('tChips').appendChild(b);
+  });
   $('tPlay').onclick=()=>{
-    if(T.start){T.base=elapsed(); T.start=null;}
+    if(T.start){ T.base=elapsed(); T.start=null; }
     else{
-      if(T.mode==='down'&&T.base>=T.min*60000){T.base=0;}
+      if(T.mode==='down'&&T.base>=T.min*60000) T.base=0;
       alarmed=false; T.start=Date.now();
     }
     tsave(); draw();
   };
-  $('tReset').onclick=()=>{T.base=0; T.start=null; alarmed=false; tsave(); draw();};
-  $('tCollapse').onclick=()=>{T.collapsed=!T.collapsed; tsave(); layout();};
-  $('tMode').onchange=e=>{T.mode=e.target.value; T.base=0; T.start=null; alarmed=false; tsave(); layout(); draw();};
-  $('tMin').onchange=e=>{
-    let v=parseInt(e.target.value,10); if(!(v>=1)) v=10; T.min=Math.min(600,v);
-    T.base=0; T.start=null; alarmed=false; tsave(); layout(); draw();
-  };
+  $('tReset').onclick=restart;
+  $('tCollapse').onclick=e=>{ e.stopPropagation(); T.collapsed=!T.collapsed; tsave(); layout(); };
+  $('tModeDown').onclick=()=>setMode('down');
+  $('tModeUp').onclick=()=>setMode('up');
+  $('tMin').onchange=e=>setMin(e.target.value);
+  document.addEventListener('click',e=>{ if(!T.collapsed&&!$('timer').contains(e.target)){ T.collapsed=true; tsave(); layout(); } });
   layout(); draw(); setInterval(draw,250);
 })();
 

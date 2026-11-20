@@ -1,0 +1,1602 @@
+[
+ {
+  "type": "mcq",
+  "q-number": 1,
+  "q": "A 6-month-old infant frequently regurgitates small amounts of milk after feeding but remains comfortable, feeds well, and continues to gain weight appropriately. Which statement best distinguishes gastroesophageal reflux (GER) from gastroesophageal reflux disease (GERD)?",
+  "options": [
+   "GER occurs only in infants, whereas GERD occurs only in older children.",
+   "GER is always pathological, whereas GERD is a normal physiological process.",
+   "GER refers to passage of gastric contents into the esophagus, whereas GERD occurs when reflux causes troublesome symptoms or complications.",
+   "GERD is simply a more severe form of reflux caused exclusively by increased gastric acid production.",
+   "GER and GERD are synonymous terms and can be used interchangeably."
+  ],
+  "answer": [
+   "GER refers to passage of gastric contents into the esophagus, whereas GERD occurs when reflux causes troublesome symptoms or complications."
+  ],
+  "explanation": "A. Both can occur at any age; GER is just far more common in infancy. B. Reversed: GER is usually physiological, GERD is the pathological state. C. GER is the passive movement of gastric contents into the oesophagus and is physiological (this infant is a happy spitter). GERD is reflux that causes troublesome symptoms (poor weight gain, irritability, feeding refusal, oesophagitis, respiratory symptoms) or complications. D. GERD has many causes (LES dysfunction, delayed emptying, hiatus hernia); it is not exclusively due to excess acid. E. They are not synonyms; the distinction is clinically important for deciding on investigation and treatment."
+ },
+ {
+  "type": "mcq",
+  "q-number": 2,
+  "q": "A healthy 4-month-old infant has frequent uncomplicated regurgitation but normal growth and development. Which factor is least likely to contribute to physiological reflux in infancy?",
+  "options": [
+   "Predominantly liquid feeds",
+   "Frequent transient relaxation of the lower esophageal sphincter",
+   "Delayed gastric emptying",
+   "Predominantly horizontal positioning",
+   "Immature gastrointestinal motility and sphincter function"
+  ],
+  "answer": [
+   "Delayed gastric emptying"
+  ],
+  "explanation": "A. Liquid feeds reflux easily and are a recognised contributor. B. Transient LES relaxation is the main mechanism of reflux in infants. C. Physiological infant reflux is explained by a liquid diet, a mostly horizontal posture, immature LES and motility, and frequent transient LES relaxations. Delayed gastric emptying is associated with GERD but is not a classic contributor to normal infant reflux, so it is the 'least likely' option. (Flagged: all five options can be argued as contributors.) D. A horizontal position favours reflux of gastric contents. E. Immature motility and sphincter function are core contributors."
+ },
+ {
+  "type": "mcq",
+  "q-number": 3,
+  "q": "A child with acid-related upper gastrointestinal symptoms is prescribed a medication that decreases gastric acid secretion by selectively blocking histamine-2 receptors on gastric parietal cells. Which class of drug has this mechanism?",
+  "options": [
+   "Proton-pump inhibitors",
+   "Histamine-2 receptor antagonists",
+   "Antacids",
+   "Prokinetic agents",
+   "Mucosal protective agents"
+  ],
+  "answer": [
+   "Histamine-2 receptor antagonists"
+  ],
+  "explanation": "A. PPIs block the H+/K+ ATPase (proton pump), not the H2 receptor. B. H2 receptor antagonists (ranitidine, famotidine, cimetidine) block histamine-2 receptors on parietal cells and reduce acid secretion. C. Antacids neutralise existing acid chemically. D. Prokinetics (e.g. domperidone, metoclopramide) increase motility and gastric emptying. E. Mucosal protectants (e.g. sucralfate) form a protective barrier over the mucosa."
+ },
+ {
+  "type": "mcq",
+  "q-number": 4,
+  "q": "A child is being assessed after several possible causes of esophageal injury. Which of the following is least likely to cause direct structural injury to the esophagus?",
+  "options": [
+   "Chronic gastro-esophageal reflux",
+   "Ingestion of a foreign body",
+   "Physical exercise like running",
+   "Blunt chest trauma",
+   "Penetrating thoracic injury"
+  ],
+  "answer": [
+   "Physical exercise like running"
+  ],
+  "explanation": "A. Chronic reflux causes oesophagitis, strictures and Barrett oesophagus. B. Foreign bodies (e.g. button batteries, sharp objects) cause erosion or perforation. C. Running is normal physical activity and does not damage the oesophageal wall. Reflux (peptic oesophagitis), foreign bodies and blunt or penetrating trauma are recognised causes of structural injury. D. Blunt chest trauma can rupture or injure the oesophagus. E. Penetrating injuries directly lacerate the oesophagus."
+ },
+ {
+  "type": "mcq",
+  "q-number": 5,
+  "q": "A 15-year-old develops sudden severe chest pain, vomiting, respiratory distress, and subcutaneous emphysema following repeated forceful vomiting. Which complication is most consistent with spontaneous transmural esophageal rupture (Boerhaave syndrome)?",
+  "options": [
+   "Mediastinitis",
+   "Acute myocardial infarction",
+   "Acute renal failure",
+   "Hemiparesis",
+   "Isolated gastritis"
+  ],
+  "answer": [
+   "Mediastinitis"
+  ],
+  "explanation": "A. Boerhaave syndrome is full-thickness rupture after forceful vomiting. Gastric contents leak into the mediastinum, causing mediastinitis, sepsis and pleural effusion; Mackler triad is vomiting, chest pain and subcutaneous emphysema. B. Chest pain mimics MI, but MI is not a complication of rupture. C. Acute renal failure is not a direct complication (only secondary to sepsis/shock). D. Hemiparesis is neurological and not related. E. Isolated gastritis does not explain transmural rupture; the injury is mediastinal."
+ },
+ {
+  "type": "mcq",
+  "q-number": 6,
+  "q": "A child with portal hypertension undergoes assessment for esophageal varices. Which hepatic venous pressure gradient (HVPG) is generally associated with a clinically significant risk of variceal hemorrhage?",
+  "options": [
+   "6 mmHg",
+   "8 mmHg",
+   "10 mmHg",
+   "12 mmHg",
+   "15 mmHg"
+  ],
+  "answer": [
+   "12 mmHg"
+  ],
+  "explanation": "A. 6 mmHg is above the normal range (1-5) but sub-clinical. B. 8 mmHg is mild portal hypertension without clinically significant risk. C. 10 mmHg marks clinically significant portal hypertension and varix formation, not the bleeding threshold. D. Varices form once HVPG is at least 10 mmHg (clinically significant portal hypertension). The risk of variceal rupture and haemorrhage rises with an HVPG of 12 mmHg or more, and bleeding rarely occurs below this threshold. (Flagged: 10 mmHg is the threshold for varix formation, so some notes may key C.) E. 15 mmHg is higher risk but not the generally quoted threshold."
+ },
+ {
+  "type": "mcq",
+  "q-number": 7,
+  "q": "A child with portal hypertension presents with massive haematemesis and signs of hypovolaemia. What is the most appropriate initial management priority?",
+  "options": [
+   "Give oral proton-pump inhibitor therapy and observe",
+   "Secure intravenous access and begin appropriate haemodynamic resuscitation",
+   "Proceed immediately to definitive surgery before resuscitation",
+   "Give oral fluids to replace blood loss",
+   "Withhold antibiotics until endoscopy confirms varices"
+  ],
+  "answer": [
+   "Secure intravenous access and begin appropriate haemodynamic resuscitation"
+  ],
+  "explanation": "A. Oral PPI and observation is inadequate in shock. B. Massive haematemesis with hypovolaemia is managed by ABC: secure IV access (two large-bore lines), resuscitate with fluids/blood, then give vasoactive drugs (octreotide), antibiotics and urgent endoscopy. C. Surgery before resuscitation is dangerous; definitive procedures come after stabilisation. D. Oral fluids are unsafe and inadequate in active bleeding. E. Antibiotic prophylaxis is given early in variceal bleeding; it should not be withheld."
+ },
+ {
+  "type": "mcq",
+  "q-number": 8,
+  "q": "A child with chronic diarrhoea, abdominal distension, poor weight gain, and iron-deficiency anaemia is suspected of having coeliac disease. What is an important early event in the immunopathogenesis of coeliac disease?",
+  "options": [
+   "Gliadin directly destroys intestinal epithelial cells without an immune response",
+   "Tissue transglutaminase modifies gliadin peptides, facilitating their presentation to gluten-reactive T cells",
+   "Gliadin stimulates excessive pancreatic enzyme secretion",
+   "Gliadin prevents all nutrient absorption by directly blocking intestinal transporters",
+   "Tissue transglutaminase completely digests gliadin in the intestinal lumen"
+  ],
+  "answer": [
+   "Tissue transglutaminase modifies gliadin peptides, facilitating their presentation to gluten-reactive T cells"
+  ],
+  "explanation": "A. Injury is immune-mediated, not a direct toxic cell destruction. B. Tissue transglutaminase deamidates gliadin peptides, which then bind HLA-DQ2/DQ8 and are presented to gluten-reactive CD4+ T cells, starting the inflammatory cascade and villous atrophy. C. Gliadin does not stimulate pancreatic secretion. D. Malabsorption results from villous atrophy, not transporter blockade. E. tTG modifies gliadin; it does not digest it in the lumen."
+ },
+ {
+  "type": "mcq",
+  "q-number": 9,
+  "q": "A newborn develops excessive salivation, coughing, choking, and respiratory distress during the first feeding. A nasogastric tube cannot be advanced into the stomach. Which type of oesophageal atresia is the most common anatomical variant?",
+  "options": [
+   "Type A – esophageal atresia without tracheoesophageal fistula",
+   "Type B – esophageal atresia with proximal tracheoesophageal fistula",
+   "Type C – esophageal atresia with distal tracheoesophageal fistula",
+   "Type D – esophageal atresia with both proximal and distal fistulae",
+   "Type E – isolated H-type tracheoesophageal fistula"
+  ],
+  "answer": [
+   "Type C – esophageal atresia with distal tracheoesophageal fistula"
+  ],
+  "explanation": "A. Isolated atresia (Gross A) is about 8%. B. Proximal fistula with atresia is rare. C. Type C (Gross type C, about 85%) has a blind proximal pouch and a distal tracheo-oesophageal fistula, so gas passes into the stomach and the NG tube coils in the pouch. D. Fistulae at both ends are rare (about 1%). E. H-type fistula has no atresia and is about 4%."
+ },
+ {
+  "type": "mcq",
+  "q-number": 10,
+  "q": "A newborn with esophageal atresia is evaluated for associated congenital abnormalities. Which of the following is NOT classically included in the VACTERL association?",
+  "options": [
+   "Vertebral anomalies",
+   "Anal atresia",
+   "Cardiac defects",
+   "Renal anomalies",
+   "Coloboma"
+  ],
+  "answer": [
+   "Coloboma"
+  ],
+  "explanation": "A. Vertebral anomalies are part of VACTERL. B. Anal atresia is part of VACTERL. C. Cardiac defects are part of VACTERL. D. Renal anomalies are part of VACTERL. E. VACTERL is Vertebral, Anal atresia, Cardiac, Tracheo-oEsophageal fistula, Renal and Limb anomalies. Coloboma belongs to the CHARGE association."
+ },
+ {
+  "type": "mcq",
+  "q-number": 11,
+  "q": "A child has difficulty initiating swallowing and experiences repeated episodes of coughing during feeding. Investigation demonstrates failure of appropriate relaxation of the upper oesophageal sphincter (UES) during swallowing. Which mechanism best explains cricopharyngeal achalasia?",
+  "options": [
+   "Failure of coordination between pharyngeal contraction and UES relaxation",
+   "Excessive gastric acid secretion",
+   "Increased relaxation of the lower oesophageal sphincter",
+   "Excessive pancreatic enzyme secretion",
+   "Increased intestinal peristalsis"
+  ],
+  "answer": [
+   "Failure of coordination between pharyngeal contraction and UES relaxation"
+  ],
+  "explanation": "A. Cricopharyngeal achalasia is failure of coordinated UES relaxation with pharyngeal contraction, giving dysphagia, choking and aspiration. B. Excess acid is irrelevant to the UES defect. C. It is the UES that fails to relax, not the LES that over-relaxes. D. Pancreatic secretion is unrelated. E. Peristalsis in the gut is not the issue."
+ },
+ {
+  "type": "mcq",
+  "q-number": 12,
+  "q": "A 12-year-old presents with progressive dysphagia to both solids and liquids, regurgitation, and weight loss. Manometry demonstrates impaired LES relaxation and absent normal oesophageal peristalsis. What is the principal pathophysiological abnormality in achalasia?",
+  "options": [
+   "Loss or dysfunction of inhibitory enteric neurons causing impaired LES relaxation",
+   "Increased production of vasoactive intestinal peptide causing excessive LES contraction",
+   "Overactivity of inhibitory postganglionic neurons",
+   "Primary destruction of the gastric parietal cells",
+   "Excessive relaxation of the upper oesophageal sphincter"
+  ],
+  "answer": [
+   "Loss or dysfunction of inhibitory enteric neurons causing impaired LES relaxation"
+  ],
+  "explanation": "A. Achalasia results from loss or dysfunction of inhibitory (NO/VIP) enteric neurons in the myenteric plexus, so the LES cannot relax and peristalsis is absent. B. VIP is inhibitory and its loss, not excess, is the problem. C. It is a loss of inhibitory neurons, not overactivity. D. Parietal cell destruction causes atrophic gastritis/pernicious anaemia. E. The defect is in the LES, not the UES."
+ },
+ {
+  "type": "mcq",
+  "q-number": 13,
+  "q": "A 14-year-old with progressive dysphagia undergoes a contrast esophagram. The distal oesophagus is dilated and tapers smoothly at the gastro-oesophageal junction. Which investigation provides the classic “bird's-beak” radiological appearance?",
+  "options": [
+   "Barium esophagram",
+   "Esophageal manometry",
+   "Upper gastrointestinal endoscopy",
+   "Abdominal ultrasonography",
+   "CT scan of the chest"
+  ],
+  "answer": [
+   "Barium esophagram"
+  ],
+  "explanation": "A. A barium oesophagram shows a dilated oesophagus tapering to a 'bird's beak' at the GOJ. B. Manometry shows high LES pressure with incomplete relaxation and no peristalsis, but no imaging picture. C. Endoscopy excludes mechanical obstruction/malignancy but does not produce a beak image. D. Ultrasound does not image the oesophageal lumen well. E. CT can show a dilated oesophagus but is not the classic investigation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 14,
+  "q": "A 15‑month‑old child with colicky abdominal pain, vomiting, fever, bloody stool with mucus. What is your possible diagnosis?",
+  "options": [
+   "Pyloric stenosis",
+   "Meckel’s diverticulum",
+   "Intussusception",
+   "Duodenal atresia",
+   "Hirschsprung’s disease"
+  ],
+  "answer": [
+   "Intussusception"
+  ],
+  "explanation": "A. Pyloric stenosis presents at 2-8 weeks with projectile non-bilious vomiting. B. Meckel's diverticulum bleeds painlessly. C. Intussusception peaks at 6-36 months with colicky pain, vomiting, 'redcurrant jelly' stool (blood and mucus) and a sausage-shaped mass. D. Duodenal atresia presents in the neonate with bilious vomiting. E. Hirschsprung disease presents with delayed meconium and constipation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 15,
+  "q": "A 5-year-old boy seen in IMCI clinic with abdominal pain, with knee pain and noted with concentrated urine. Mother noted having cough and colds 5 days ago. Upon examining the patient, a palpable reddish skin lesions noted on his legs; what is your possible diagnosis?",
+  "options": [
+   "Goodpasture syndrome",
+   "Henoch–Schönlein purpura",
+   "Systemic lupus erythematosus",
+   "Wegener’s granulomatosis",
+   "Crohn’s disease"
+  ],
+  "answer": [
+   "Henoch–Schönlein purpura"
+  ],
+  "explanation": "A. Goodpasture syndrome is pulmonary haemorrhage plus nephritis. B. Henoch-Schonlein purpura (IgA vasculitis) follows a URTI in a school-age child with palpable purpura on the legs, arthralgia/arthritis and abdominal pain. C. SLE has malar rash, photosensitivity and positive ANA; palpable purpura is not typical. D. Wegener's (GPA) involves upper airway, lungs and kidney. E. Crohn disease does not give palpable purpura."
+ },
+ {
+  "type": "mcq",
+  "q-number": 16,
+  "q": "What is the best diagnostic procedure for suspected patient mentioned on the above case#15?",
+  "options": [
+   "Barium enema to exclude intussusception",
+   "Blood culture and IV penicillin",
+   "Check BP and urinalysis to exclude nephritis",
+   "Full blood count and coagulation profile",
+   "Abdominal ultrasound"
+  ],
+  "answer": [
+   "Check BP and urinalysis to exclude nephritis"
+  ],
+  "explanation": "A. A barium enema is for intussusception, a complication, not the diagnostic test. B. HSP is not bacterial; antibiotics are not indicated. C. HSP is diagnosed clinically; the key tests are blood pressure and urinalysis to detect nephritis (the main determinant of prognosis) and follow-up of renal involvement. D. FBC and coagulation are normal in HSP and mostly exclude other causes. E. Ultrasound is for suspected complications such as intussusception."
+ },
+ {
+  "type": "mcq",
+  "q-number": 17,
+  "q": "An 8‑month‑old with watery diarrhea, severe dehydration, rapid deep breathing, weak pulse. Which statement is TRUE?",
+  "options": [
+   "The type of breathing is acidotic breathing.",
+   "Blood pH would show alkalosis.",
+   "Fast weak pulse = mild dehydration.",
+   "Needs only oral rehydration solution.",
+   "Needs zinc supplementation only."
+  ],
+  "answer": [
+   "The type of breathing is acidotic breathing."
+  ],
+  "explanation": "A. Severe dehydration causes metabolic acidosis (bicarbonate loss in stool, lactic acid), and the child compensates with deep, rapid acidotic (Kussmaul-type) breathing. B. pH would show acidosis, not alkalosis. C. A fast, weak pulse signals shock/severe dehydration, not mild. D. Severe dehydration needs IV fluids (Plan C), not ORS alone. E. Zinc is adjunctive, not the sole treatment."
+ },
+ {
+  "type": "mcq",
+  "q-number": 18,
+  "q": "Likely diagnosis for above case#17?",
+  "options": [
+   "Shigellosis",
+   "Typhoid fever",
+   "Rotavirus infection",
+   "Giardiasis",
+   "Salmonella enteritis"
+  ],
+  "answer": [
+   "Rotavirus infection"
+  ],
+  "explanation": "A. Shigella causes bloody dysentery. B. Typhoid presents with fever and constipation or diarrhoea over days. C. Rotavirus is the commonest cause of acute watery diarrhoea with severe dehydration in an infant. D. Giardia gives chronic malabsorptive diarrhoea. E. Salmonella enteritis is typically with fever and sometimes bloody stools."
+ },
+ {
+  "type": "mcq",
+  "q-number": 19,
+  "q": "An 18‑month‑old girl with painless rectal bleeding mixed with clots. What is the possible diagnosis?",
+  "options": [
+   "Juvenile polyps",
+   "Intussusception",
+   "Ulcerative colitis",
+   "Meckel’s diverticulum",
+   "Anal fissure"
+  ],
+  "answer": [
+   "Meckel’s diverticulum"
+  ],
+  "explanation": "A. Juvenile polyps cause painless bleeding, usually small amounts streaking the stool, at 2-6 years. B. Intussusception is painful and colicky. C. Ulcerative colitis bleeds with diarrhoea and pain. D. Painless, massive rectal bleeding with clots in a toddler is classic for Meckel's diverticulum (ectopic gastric mucosa ulcerates the ileum). E. Anal fissure gives bright streaks with painful defaecation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 20,
+  "q": "Common causes of massive GI bleeding in children – EXCEPT:",
+  "options": [
+   "Esophageal varices",
+   "Meckel’s diverticulum",
+   "Peptic ulcer (duodenal)",
+   "Intussusception",
+   "Gastritis"
+  ],
+  "answer": [
+   "Intussusception"
+  ],
+  "explanation": "A. Varices cause massive haematemesis. B. Meckel's gives massive painless rectal bleeding. C. Duodenal ulcer can erode a vessel and bleed massively. D. Massive bleeding is typical of varices, Meckel's diverticulum, ulcers and gastritis. Intussusception causes small amounts of blood and mucus (late sign) and is not a cause of massive GI haemorrhage. E. Erosive gastritis can bleed significantly."
+ },
+ {
+  "type": "mcq",
+  "q-number": 21,
+  "q": "A 10-year-old child presents with reduced urine output and peripheral oedema. Laboratory investigations show that the serum creatinine has increased substantially from the child's previous baseline. What does this finding most strongly suggest?",
+  "options": [
+   "Increased glomerular filtration and improved renal function",
+   "Reduced glomerular filtration and impaired kidney function",
+   "Increased renal blood flow with normal filtration",
+   "Increased tubular secretion of creatinine",
+   "Normal kidney function despite the elevated creatinine"
+  ],
+  "answer": [
+   "Reduced glomerular filtration and impaired kidney function"
+  ],
+  "explanation": "A. Raised creatinine reflects a lower, not higher, GFR. B. A sharp rise in creatinine means GFR has fallen, so kidney function is impaired (acute kidney injury). C. Renal blood flow is usually reduced in pre-renal AKI. D. Tubular secretion is not the explanation for a large rise. E. A substantial rise from baseline is abnormal."
+ },
+ {
+  "type": "mcq",
+  "q-number": 22,
+  "q": "A 14-year-old boy has a height of 150 cm and a serum creatinine of 0.8 mg/dL. His estimated GFR is calculated using the bedside Schwartz equation: eGFR = 0.413 × height (cm) / serum creatinine (mg/dL). Which constant is used in this updated bedside Schwartz equation?",
+  "options": [
+   "0.33",
+   "0.45",
+   "0.55",
+   "0.70",
+   "0.413"
+  ],
+  "answer": [
+   "0.413"
+  ],
+  "explanation": "A. 0.33 was the old constant for preterm infants. B. 0.45 was the old constant for term infants up to 1 year. C. 0.55 was the old constant for children and adolescent girls. D. 0.70 was the old constant for adolescent boys. E. The updated bedside Schwartz equation uses the constant 0.413 (eGFR = 0.413 x height / Scr)."
+ },
+ {
+  "type": "mcq",
+  "q-number": 23,
+  "q": "A child develops haematuria, proteinuria, and reduced complement levels following an immune-mediated disease. Renal biopsy demonstrates immune-complex deposition within the glomeruli. Which mechanism best explains the resulting renal injury?",
+  "options": [
+   "Immune complexes stimulate regeneration of glomerular tissue.",
+   "Immune-complex deposition activates complement and inflammatory pathways, causing glomerular injury.",
+   "Immune complexes prevent inflammatory cell recruitment.",
+   "Immune complexes increase glomerular filtration by dilating the afferent arteriole.",
+   "Immune complexes have no significant effect on renal tissue."
+  ],
+  "answer": [
+   "Immune-complex deposition activates complement and inflammatory pathways, causing glomerular injury."
+  ],
+  "explanation": "A. Deposits cause injury, not regeneration. B. Immune complex deposition fixes and activates complement and recruits inflammatory cells, producing glomerular injury (haematuria, proteinuria, low C3/C4). C. They promote, not prevent, inflammatory cell recruitment. D. They do not dilate the afferent arteriole; GFR usually falls. E. They are the cause of the renal injury."
+ },
+ {
+  "type": "mcq",
+  "q-number": 24,
+  "q": "A 13-year-old girl presents with fatigue, intermittent joint pain, photosensitive facial erythema, and thrombocytopenia. Which of the following is LEAST likely to be a clinical manifestation of systemic lupus erythematosus (SLE)?",
+  "options": [
+   "Arthritis",
+   "Malar (“butterfly”) rash",
+   "Thrombocytopenia",
+   "Renal involvement",
+   "Increased appetite as a characteristic disease manifestation"
+  ],
+  "answer": [
+   "Increased appetite as a characteristic disease manifestation"
+  ],
+  "explanation": "A. Arthritis is common. B. Malar rash is classic. C. Thrombocytopenia is a common haematological feature. D. Renal involvement is frequent in paediatric SLE. E. SLE can cause arthritis, malar rash, cytopenias and nephritis; increased appetite is not a manifestation (anorexia and weight loss are more typical)."
+ },
+ {
+  "type": "mcq",
+  "q-number": 25,
+  "q": "A 14-year-old adolescent with newly diagnosed SLE develops facial puffiness and frothy urine. Urinalysis demonstrates significant proteinuria and microscopic haematuria. Which symptom is most suggestive of underlying lupus nephritis?",
+  "options": [
+   "Increased appetite",
+   "Frothy or foamy urine",
+   "Increased sweating",
+   "Isolated headache",
+   "Increased bowel frequency"
+  ],
+  "answer": [
+   "Frothy or foamy urine"
+  ],
+  "explanation": "A. Increased appetite is not related. B. Frothy or foamy urine reflects heavy proteinuria, suggesting lupus nephritis. C. Sweating is non-specific. D. An isolated headache is non-specific (or neuropsychiatric lupus). E. Bowel frequency is unrelated to the kidney."
+ },
+ {
+  "type": "mcq",
+  "q-number": 26,
+  "q": "A 3-year-old child has recurrent febrile urinary tract infections. Vesicoureteral reflux (VUR) is suspected. Which investigation is least appropriate for directly demonstrating VUR?",
+  "options": [
+   "Voiding cystourethrography (VCUG)",
+   "Radionuclide cystography",
+   "Contrast-enhanced voiding urosonography",
+   "A non-contrast plain abdominal radiography",
+   "Indirect radionuclide cystography in selected circumstances"
+  ],
+  "answer": [
+   "A non-contrast plain abdominal radiography"
+  ],
+  "explanation": "A. VCUG is the gold standard for grading VUR. B. Direct radionuclide cystography detects VUR with low radiation. C. Contrast-enhanced voiding urosonography detects VUR without radiation. D. A plain abdominal X-ray does not show urine flowing back, so it cannot demonstrate VUR. VCUG, radionuclide cystography and contrast-enhanced voiding urosonography are direct tests. E. Indirect radionuclide cystography can be used in selected (toilet-trained) children."
+ },
+ {
+  "type": "mcq",
+  "q-number": 27,
+  "q": "A child with grade III–IV hydronephrosis secondary to suspected ureteropelvic junction obstruction is being monitored conservatively. Which finding would be least supportive of spontaneous improvement?",
+  "options": [
+   "Decreasing renal pelvic dilatation on serial ultrasonography",
+   "Renal pelvic diameter remaining below 3 cm",
+   "Preserved differential renal function on follow-up renography",
+   "Stable or improving findings on serial ultrasonography",
+   "Progressive renal pelvic dilatation exceeding 3 cm"
+  ],
+  "answer": [
+   "Progressive renal pelvic dilatation exceeding 3 cm"
+  ],
+  "explanation": "A. A decreasing pelvis supports resolution. B. A pelvis under 3 cm is less likely to progress. C. Preserved function supports conservative management. D. Stable or improving ultrasound supports observation. E. Progressive dilatation beyond 3 cm signals worsening obstruction and is a reason to operate. The other findings support spontaneous improvement."
+ },
+ {
+  "type": "mcq",
+  "q-number": 28,
+  "q": "A male infant is diagnosed with prune belly syndrome. He has abdominal wall muscle deficiency and urinary tract abnormalities but currently has no significant urinary tract obstruction. Which management approach is most appropriate?",
+  "options": [
+   "Immediate reconstructive urinary tract surgery in every case",
+   "Long-term antiviral therapy",
+   "Individualized conservative management with surveillance and treatment of urinary complications as required",
+   "No follow-up is required because obstruction is absent",
+   "Immediate nephrectomy to prevent future renal complications"
+  ],
+  "answer": [
+   "Individualized conservative management with surveillance and treatment of urinary complications as required"
+  ],
+  "explanation": "A. Surgery is not needed in every case. B. Antiviral therapy has no role. C. Prune belly syndrome needs individualised management: surveillance, infection prophylaxis and treatment of complications as needed, with surgery only when indicated. D. Ongoing follow-up is required (UTI, renal function, bladder dysfunction). E. Nephrectomy is not routine."
+ },
+ {
+  "type": "mcq",
+  "q-number": 29,
+  "q": "A 2-year-old boy with a history of repaired spina bifida presents with markedly reduced urine output of 0.4 mL/kg/hour for 48 hours. His urinary catheter was removed one week ago. He has a distended lower abdomen, and bladder ultrasonography demonstrates significant urinary retention. Which condition most likely explains the post-renal component of his acute kidney injury?",
+  "options": [
+   "Posterior urethral valves",
+   "Ureterocele",
+   "Neurogenic bladder causing urinary retention",
+   "Acute glomerulonephritis",
+   "Renal tubular acidosis"
+  ],
+  "answer": [
+   "Neurogenic bladder causing urinary retention"
+  ],
+  "explanation": "A. PUV occurs in neonates and boys without neural tube defects and is not suggested by the spina bifida history. B. Ureterocele gives obstruction but is not linked to spina bifida. C. A repaired spina bifida with a distended bladder and retention after catheter removal points to a neurogenic bladder as the post-renal cause of AKI. D. Glomerulonephritis is a renal (intrinsic) cause. E. RTA does not cause retention."
+ },
+ {
+  "type": "mcq",
+  "q-number": 30,
+  "q": "A 10-year-old boy presents with cola-coloured urine, periorbital and lower-limb oedema, and severe hypertension (185/100 mmHg). Two weeks earlier, he had an episode of pharyngitis. Which diagnosis best explains his presentation?",
+  "options": [
+   "Minimal-change nephrotic syndrome",
+   "Acute post-streptococcal glomerulonephritis",
+   "Acute pyelonephritis",
+   "Lupus nephritis",
+   "Haemolytic uraemic syndrome"
+  ],
+  "answer": [
+   "Acute post-streptococcal glomerulonephritis"
+  ],
+  "explanation": "A. Minimal change has no haematuria or hypertension. B. Cola-coloured urine, oedema and hypertension 1-2 weeks after pharyngitis is acute post-streptococcal glomerulonephritis. C. Pyelonephritis presents with fever and loin pain. D. Lupus nephritis comes with SLE features. E. HUS has anaemia, thrombocytopenia and AKI after diarrhoea."
+ },
+ {
+  "type": "mcq",
+  "q-number": 31,
+  "q": "A child develops cola-coloured urine, oedema, and hypertension following an episode of streptococcal pharyngitis. The presentation is consistent with acute post-streptococcal glomerulonephritis. Approximately how long after a streptococcal throat infection does APSGN typically become clinically apparent?",
+  "options": [
+   "Within 24–48 hours",
+   "1–2 weeks",
+   "2–3 weeks",
+   "6–9 weeks",
+   "10–12 weeks"
+  ],
+  "answer": [
+   "1–2 weeks"
+  ],
+  "explanation": "A. 24-48 hours is too short; this suggests IgA nephropathy (synpharyngitic). B. APSGN follows pharyngitis after about 1-2 weeks (3-6 weeks after skin infection). (Flagged: some texts give 1-3 weeks, so 2-3 weeks is also quoted; the 1-2 week interval is the standard figure for pharyngitis.) C. 2-3 weeks is within some quoted ranges but is the later limit for pharyngitis. D. 6-9 weeks is too long. E. 10-12 weeks is too long."
+ },
+ {
+  "type": "mcq",
+  "q-number": 32,
+  "q": "A 5-month-old infant has persistent poor weight gain, recurrent dehydration, polyuria, and occasional vomiting without diarrhoea. Laboratory investigations reveal a normal-anion-gap hyperchloremic metabolic acidosis, normal serum creatinine, and persistently alkaline urine. Which diagnosis best explains these findings?",
+  "options": [
+   "Renal tubular acidosis",
+   "Addison disease",
+   "Acute pancreatitis",
+   "Excessive parenteral nutrition",
+   "Diabetic ketoacidosis"
+  ],
+  "answer": [
+   "Renal tubular acidosis"
+  ],
+  "explanation": "A. Poor growth, polyuria and a normal anion gap hyperchloraemic acidosis with persistently alkaline urine and normal creatinine indicate distal (type 1) renal tubular acidosis. B. Addison disease causes hyponatraemia and hyperkalaemia, with hypotension. C. Pancreatitis gives abdominal pain and raised enzymes. D. Excess parenteral nutrition can cause acidosis but not alkaline urine. E. DKA has a high anion gap and glycosuria."
+ },
+ {
+  "type": "mcq",
+  "q-number": 33,
+  "q": "The infant in Question#32, which treatment is most appropriate to correct the underlying metabolic abnormality and support normal growth?",
+  "options": [
+   "High-calorie nutritional supplementation alone",
+   "Anti-reflux medication as the primary treatment",
+   "Alkali therapy with bicarbonate or an appropriate alkali preparation sufficient to correct the metabolic acidosis",
+   "Pancreatic enzyme replacement",
+   "Fluid restriction"
+  ],
+  "answer": [
+   "Alkali therapy with bicarbonate or an appropriate alkali preparation sufficient to correct the metabolic acidosis"
+  ],
+  "explanation": "A. Calories alone do not correct the acidosis. B. Anti-reflux medication does not treat RTA. C. Treatment of RTA is alkali therapy (bicarbonate or citrate) to correct acidosis, which restores growth. D. Enzymes are for pancreatic insufficiency. E. Fluid restriction would worsen dehydration."
+ },
+ {
+  "type": "mcq",
+  "q-number": 34,
+  "q": "Which infants should undergo imaging after experiencing a complicated UTI?",
+  "options": [
+   "All infants with their first UTI",
+   "Infants with recurrent UTIs",
+   "Infants with a UTI and fever",
+   "Infants with a complicated UTI",
+   "Infants with asymptomatic bacteriuria"
+  ],
+  "answer": [
+   "Infants with a complicated UTI"
+  ],
+  "explanation": "A. Not all first UTIs need imaging in older, uncomplicated cases. B. Recurrent UTI is also an indication, but the question asks specifically about complicated UTI. C. Fever alone does not mandate imaging. D. Imaging (renal ultrasound, then VCUG/DMSA as indicated) is advised after a complicated UTI, because underlying anatomical or functional abnormality is likely. E. Asymptomatic bacteriuria usually requires no imaging."
+ },
+ {
+  "type": "mcq",
+  "q-number": 35,
+  "q": "What defines a complicated UTI?",
+  "options": [
+   "Caused by antibiotic-resistant bacteria",
+   "Occurring in a child without prior health issues",
+   "Accompanied by fever and systemic symptoms",
+   "Linked to anatomical or functional abnormalities",
+   "Occurring only in neonates"
+  ],
+  "answer": [
+   "Linked to anatomical or functional abnormalities"
+  ],
+  "explanation": "A. Resistance alone does not define it. B. A healthy child with no risk factors has an uncomplicated UTI. C. Fever suggests upper tract involvement but is not the definition. D. A complicated UTI is associated with anatomical or functional urinary tract abnormalities (VUR, obstruction, neurogenic bladder, stones). E. It is not limited to neonates."
+ },
+ {
+  "type": "mcq",
+  "q-number": 36,
+  "q": "In children, which condition is MOST likely to lead to recurrent UTIs?",
+  "options": [
+   "Obstruction",
+   "Vesicoureteral reflux",
+   "Neurogenic bladder",
+   "Ureteral duplication",
+   "Renal calculi"
+  ],
+  "answer": [
+   "Vesicoureteral reflux"
+  ],
+  "explanation": "A. Obstruction predisposes to UTI but is less common than VUR. B. VUR is the commonest cause of recurrent UTI in children; urine reflux allows bacteria to ascend and reinfect the kidneys. C. Neurogenic bladder predisposes to UTI but is much rarer. D. Ureteral duplication is a less frequent cause. E. Calculi are uncommon in children."
+ },
+ {
+  "type": "mcq",
+  "q-number": 37,
+  "q": "10‑year‑old girl with end‑stage renal failure. Most appropriate treatment?",
+  "options": [
+   "Resonium",
+   "Hemodialysis",
+   "Sodium bicarbonate",
+   "Diuretics",
+   "Peritoneal dialysis"
+  ],
+  "answer": [
+   "Peritoneal dialysis"
+  ],
+  "explanation": "A. Resonium only lowers potassium. B. Haemodialysis is an acceptable option but needs vascular access and a centre, so PD is usually preferred in children. C. Bicarbonate corrects acidosis only. D. Diuretics do not replace renal function. E. In children with ESRD, peritoneal dialysis is generally preferred as a bridge to transplantation (home-based, no vascular access, better school attendance, gentler haemodynamics); transplant is the definitive therapy. (Flagged: haemodialysis is also acceptable, so it depends on local teaching.)"
+ },
+ {
+  "type": "mcq",
+  "q-number": 38,
+  "q": "Best urine specimen for culture in suspected UTI in infant?",
+  "options": [
+   "Catheter specimen urine",
+   "Mid‑stream urine",
+   "Urine bag",
+   "Suprapubic aspirate urine",
+   "Clean catch urine"
+  ],
+  "answer": [
+   "Suprapubic aspirate urine"
+  ],
+  "explanation": "A. Catheter specimen is acceptable but has more contamination risk and is second choice. B. Mid-stream urine is not possible in infants. C. Bag specimens have high contamination rates. D. Suprapubic aspiration is the gold standard for an uncontaminated sample in infants (any growth is significant); catheter specimen is the usual alternative. E. Clean catch is unreliable in infants."
+ },
+ {
+  "type": "mcq",
+  "q-number": 39,
+  "q": "2‑year‑old girl with recurrent UTIs, VCUG shows dilated collecting system with calyceal blunting. What is the possible diagnosis?",
+  "options": [
+   "Posterior urethral valves",
+   "Ureterocele",
+   "Neurogenic bladder",
+   "Vesicoureteral reflux",
+   "Renal dysplasia"
+  ],
+  "answer": [
+   "Vesicoureteral reflux"
+  ],
+  "explanation": "A. PUV shows a dilated posterior urethra. B. Ureterocele appears as a filling defect in the bladder. C. Neurogenic bladder shows a trabeculated, 'Christmas tree' bladder. D. VCUG with a dilated collecting system and calyceal blunting indicates high-grade vesicoureteral reflux. E. Renal dysplasia does not give reflux changes on VCUG."
+ },
+ {
+  "type": "mcq",
+  "q-number": 40,
+  "q": "How to grade severe VUR with gross dilation and calyceal blunting?",
+  "options": [
+   "Grade 2",
+   "Grade 3",
+   "Grade 4",
+   "Grade 5",
+   "Grade 1"
+  ],
+  "answer": [
+   "Grade 5"
+  ],
+  "explanation": "A. Grade 2 reflux fills the ureter, pelvis and calyces without dilation. B. Grade 3 has mild-moderate dilation with minimal calyceal blunting. C. Grade 4 has moderate dilation with blunting of fornices. D. Grade 5 VUR is gross dilation of the ureter and pelvis with blunting of calyces and loss of papillary impressions. E. Grade 1 reaches only the ureter."
+ },
+ {
+  "type": "mcq",
+  "q-number": 41,
+  "q": "A 38-year-old G2P1 pregnant woman presents to the clinic at 10 weeks of gestation for pre-test counselling regarding prenatal screening. Which of the following findings on her clinical profile constitutes a primary indication for formal genetic counselling and targeted prenatal diagnostic testing?",
+  "options": [
+   "Maternal age ≥30 years at estimated date of delivery",
+   "Maternal age ≥35 years at estimated date of delivery",
+   "Paternal age ≥40 years regardless of maternal age",
+   "History of a prior uneventful term delivery",
+   "First-trimester nausea and hyperemesis gravidarum"
+  ],
+  "answer": [
+   "Maternal age ≥35 years at estimated date of delivery"
+  ],
+  "explanation": "A. 30 years is below the accepted threshold. B. Maternal age of 35 years or more at delivery is a standard indication for genetic counselling and offering prenatal diagnosis because of increased aneuploidy risk. C. Paternal age is a lesser risk factor and is not the primary indication. D. A previous uneventful delivery is not an indication. E. Hyperemesis is unrelated."
+ },
+ {
+  "type": "mcq",
+  "q-number": 42,
+  "q": "A 2-month-old male child is suspected of having a rare contiguous gene deletion syndrome on chromosome 22q11.2 (DiGeorge syndrome). Which genetic technique can detect microdeletions or microduplications across the entire genome but cannot identify balanced chromosomal inversions or reciprocal translocations?",
+  "options": [
+   "Karyotype analysis",
+   "Single-gene Sanger sequencing",
+   "Array comparative genomic hybridization (aCGH)",
+   "Linkage analysis",
+   "Southern blotting"
+  ],
+  "answer": [
+   "Array comparative genomic hybridization (aCGH)"
+  ],
+  "explanation": "A. Karyotype detects balanced rearrangements but misses microdeletions. B. Sanger sequencing looks at a single gene. C. Array CGH detects genome-wide copy number changes (microdeletions/microduplications) but not balanced rearrangements, which have no net gain or loss. D. Linkage analysis tracks inheritance within families. E. Southern blotting looks at specific loci."
+ },
+ {
+  "type": "mcq",
+  "q-number": 43,
+  "q": "A male neonate born at 39 weeks gestation presents with hypotonia, a flat facial profile, upslanting palpebral fissures, epicanthal folds, low-set dysplastic ears, and a single transverse palmar crease. Which set of criteria is clinically used to evaluate these newborn physical features of Down syndrome?",
+  "options": [
+   "Jones criteria",
+   "Hall's criteria",
+   "Scarf criteria",
+   "Tanner stages",
+   "Apgar score"
+  ],
+  "answer": [
+   "Hall's criteria"
+  ],
+  "explanation": "A. Jones criteria are for rheumatic fever. B. Hall's criteria are used to assess neonatal physical features of Down syndrome (e.g. hypotonia, flat facies, slanting fissures, dysplastic ears, single palmar crease). C. Scarf criteria relate to neonatal assessment of maturity (scarf sign). D. Tanner stages are for pubertal development. E. Apgar scores assess neonatal wellbeing at birth."
+ },
+ {
+  "type": "mcq",
+  "q-number": 44,
+  "q": "A female newborn presents with bilateral lymphedema of the hands and feet, a webbed neck (cystic hygroma), a low posterior hairline, and a broad shield chest with widely spaced nipples. Echocardiography reveals coarctation of the aorta. What is the most likely karyotype?",
+  "options": [
+   "47,XX,+21",
+   "47,XXY",
+   "45,X",
+   "47,XXX",
+   "46,XX,del(5p)"
+  ],
+  "answer": [
+   "45,X"
+  ],
+  "explanation": "A. 47,XX,+21 is Down syndrome. B. 47,XXY is Klinefelter syndrome (male). C. Lymphoedema of the hands and feet, webbed neck, shield chest and coarctation of the aorta indicate Turner syndrome (45,X). D. 47,XXX is triple X, which has few physical signs. E. Del(5p) is cri-du-chat."
+ },
+ {
+  "type": "mcq",
+  "q-number": 45,
+  "q": "A newborn male infant exhibits microcephaly, microphthalmia, bilateral cleft lip and palate, postaxial polydactyly, and scalp defects (cutis aplasia). Cranial ultrasound confirms holoprosencephaly. What is the diagnosis?",
+  "options": [
+   "Down syndrome (Trisomy 21)",
+   "Edwards syndrome (Trisomy 18)",
+   "Patau syndrome (Trisomy 13)",
+   "Wolf-Hirschhorn syndrome (4p-)",
+   "Cri-du-chat syndrome (5p-)"
+  ],
+  "answer": [
+   "Patau syndrome (Trisomy 13)"
+  ],
+  "explanation": "A. Down syndrome has hypotonia, flat facies and AVSD. B. Edwards has clenched hands with overlapping fingers and rocker-bottom feet. C. Microcephaly, microphthalmia, cleft lip and palate, postaxial polydactyly, cutis aplasia and holoprosencephaly are the classic features of Patau syndrome (trisomy 13). D. Wolf-Hirschhorn gives a 'Greek warrior helmet' face and seizures. E. Cri-du-chat is a cat-like cry."
+ },
+ {
+  "type": "mcq",
+  "q-number": 46,
+  "q": "Both Turner syndrome (45,X) and Noonan syndrome share phenotypic features such as short stature, webbed neck, and shield chest. Which feature best distinguishes Noonan syndrome from Turner syndrome in a clinical setting?",
+  "options": [
+   "Noonan syndrome affects both males and females with an autosomal dominant transmission pattern.",
+   "Noonan syndrome affects females only with a normal 46,XX karyotype.",
+   "Coarctation of the aorta is the predominant cardiac lesion in Noonan syndrome.",
+   "Noonan syndrome is caused by a peroxisomal biogenesis disorder.",
+   "Noonan syndrome carries a 100% recurrence risk in all subsequent pregnancies."
+  ],
+  "answer": [
+   "Noonan syndrome affects both males and females with an autosomal dominant transmission pattern."
+  ],
+  "explanation": "A. Noonan syndrome is autosomal dominant (PTPN11 etc.) with a normal karyotype and affects both sexes. Turner is 45,X in females only. B. Noonan is not limited to females. C. Coarctation is typical of Turner; Noonan typically has pulmonary stenosis and hypertrophic cardiomyopathy. D. Peroxisomal biogenesis disorder describes Zellweger syndrome. E. Recurrence is 50% for an affected parent, not 100%."
+ },
+ {
+  "type": "mcq",
+  "q-number": 47,
+  "q": "In an autosomal dominant condition like Achondroplasia, what is the risk of an affected heterozygous parent passing the mutated gene to their child in each pregnancy?",
+  "options": [
+   "0%",
+   "25%",
+   "50%",
+   "75%",
+   "100%"
+  ],
+  "answer": [
+   "50%"
+  ],
+  "explanation": "A. 0% applies if neither parent carries it. B. 25% applies to AR carrier parents. C. An affected heterozygous parent passes the gene to 50% of offspring in each pregnancy. D. 75% is not a standard Mendelian risk here. E. 100% would require a homozygous parent."
+ },
+ {
+  "type": "mcq",
+  "q-number": 48,
+  "q": "A pedigree review demonstrates that only males are affected across multiple generations, and an affected father passes the trait to all of his sons, but none of his daughters. What mode of inheritance does this represent?",
+  "options": [
+   "Autosomal dominant",
+   "Autosomal recessive",
+   "X-linked recessive",
+   "Y-linked (Holandric) inheritance",
+   "Mitochondrial inheritance"
+  ],
+  "answer": [
+   "Y-linked (Holandric) inheritance"
+  ],
+  "explanation": "A. AD affects both sexes. B. AR affects both sexes. C. X-linked recessive cannot pass father to son. D. Only males affected, father to all sons and no daughters is Y-linked (holandric) inheritance. E. Mitochondrial is maternal and affects both sexes."
+ },
+ {
+  "type": "mcq",
+  "q-number": 49,
+  "q": "Which statement correctly describes the inheritance of mitochondrial DNA disorders?",
+  "options": [
+   "Transmitted exclusively from fathers to all daughters.",
+   "Transmitted exclusively from mothers to all offspring (both sons and daughters).",
+   "Follows classic Mendelian autosomal dominant inheritance.",
+   "Affects only males because it is carried on the Y chromosome.",
+   "Requires consanguinity between parents for expression."
+  ],
+  "answer": [
+   "Transmitted exclusively from mothers to all offspring (both sons and daughters)."
+  ],
+  "explanation": "A. Paternal mitochondria are not passed on. B. Mitochondrial DNA is inherited from the mother, so all offspring of an affected mother are at risk (sons and daughters), though heteroplasmy affects severity. C. It does not follow Mendelian rules. D. Mitochondrial DNA is not on the Y chromosome. E. Consanguinity is not required."
+ },
+ {
+  "type": "mcq",
+  "q-number": 50,
+  "q": "A 4-day-old term neonate becomes lethargic, develops poor feeding, vomiting, and hypertonia, and the nurse notices a distinct odor of maple syrup in the infant’s urine and earwax. Which group of amino acids accumulates due to a deficiency in the branched-chain α-ketoacid dehydrogenase (BCKDH) complex?",
+  "options": [
+   "Phenylalanine, Tyrosine, Tryptophan",
+   "Leucine, Isoleucine, Valine",
+   "Glycine, Alanine, Serine",
+   "Lysine, Arginine, Histidine",
+   "Methionine, Cysteine, Homocysteine"
+  ],
+  "answer": [
+   "Leucine, Isoleucine, Valine"
+  ],
+  "explanation": "A. Phenylalanine, tyrosine and tryptophan are aromatic amino acids (PKU/tyrosinaemia). B. MSUD is a BCKDH deficiency, causing accumulation of leucine, isoleucine and valine (branched-chain amino acids) with a maple-syrup smell. C. Glycine accumulates in non-ketotic hyperglycinaemia. D. Lysine and arginine relate to urea cycle and lysinuric protein intolerance. E. Methionine and homocysteine relate to homocystinuria."
+ },
+ {
+  "type": "mcq",
+  "q-number": 51,
+  "q": "A neonate with classic Phenylketonuria (PKU) requires dietary restriction of phenylalanine. Which amino acid becomes conditionally essential and must be supplemented in their diet?",
+  "options": [
+   "Leucine",
+   "Tryptophan",
+   "Tyrosine",
+   "Valine",
+   "Alanine"
+  ],
+  "answer": [
+   "Tyrosine"
+  ],
+  "explanation": "A. Leucine is essential in all individuals. B. Tryptophan is essential in all individuals. C. In PKU phenylalanine hydroxylase cannot convert phenylalanine to tyrosine, so tyrosine becomes conditionally essential. D. Valine is essential in all individuals. E. Alanine is non-essential."
+ },
+ {
+  "type": "mcq",
+  "q-number": 52,
+  "q": "A 1-week-old infant who was fed breast milk develops jaundice, hepatomegaly, vomiting, lethargy, nuclear cataracts, and *E. coli* sepsis. Urine testing is positive for reducing substances but negative for glucose (Clinistix negative). What is the most likely enzyme deficiency?",
+  "options": [
+   "Galactokinase",
+   "Galactose-1-phosphate uridyl transferase (GALT)",
+   "Uridine diphosphate galactose-4-epimerase",
+   "Fructokinase",
+   "Glucose-6-phosphatase"
+  ],
+  "answer": [
+   "Galactose-1-phosphate uridyl transferase (GALT)"
+  ],
+  "explanation": "A. Galactokinase deficiency gives cataracts only. B. Classic galactosaemia (GALT deficiency) presents after milk feeding with jaundice, hepatomegaly, cataracts and E. coli sepsis. Urine is positive for reducing substances but negative on glucose oxidase strips. C. Epimerase deficiency is milder and mostly benign. D. Fructokinase deficiency causes benign essential fructosuria. E. G6Pase deficiency causes glycogen storage disease type I with hypoglycaemia."
+ },
+ {
+  "type": "mcq",
+  "q-number": 53,
+  "q": "A 1-year-old child presents with coarse facial features, corneal clouding, hepatosplenomegaly, joint stiffness, umbilical hernia, and progressive developmental delay. Skeletal radiographs reveal dysostosis multiplex. Enzyme assay confirms a deficiency of α-L-iduronidase. What is the diagnosis?",
+  "options": [
+   "Hunter syndrome (MPS II)",
+   "Hurler syndrome (MPS I)",
+   "Scheie syndrome (MPS IS)",
+   "Sanfilippo syndrome (MPS III)",
+   "Morquio syndrome (MPS IV)"
+  ],
+  "answer": [
+   "Hurler syndrome (MPS I)"
+  ],
+  "explanation": "A. Hunter (MPS II) is iduronate sulfatase deficiency, X-linked, with no corneal clouding. B. Alpha-L-iduronidase deficiency with coarse facies, corneal clouding, organomegaly and dysostosis multiplex is Hurler syndrome (MPS I). C. Scheie (MPS IS) is a mild form without intellectual disability. D. Sanfilippo (MPS III) has severe CNS involvement but mild somatic features. E. Morquio (MPS IV) has skeletal dysplasia and normal intelligence."
+ },
+ {
+  "type": "mcq",
+  "q-number": 54,
+  "q": "A 3-day-old male neonate presents with progressive lethargy, poor feeding, severe hypotonia, and a distinct \"sweaty feet\" odor detected on his skin and diapers. Laboratory evaluation reveals marked metabolic acidosis and elevated serum isovalerylcarnitine levels. What is the primary diagnosis?",
+  "options": [
+   "Phenylketonuria",
+   "Isovaleric acidemia",
+   "Maple Syrup Urine Disease",
+   "Tyrosinemia Type I",
+   "Glutaric acidemia Type II"
+  ],
+  "answer": [
+   "Isovaleric acidemia"
+  ],
+  "explanation": "A. PKU has a mousy odour. B. Sweaty feet odour with raised isovalerylcarnitine and metabolic acidosis is isovaleric acidaemia (isovaleryl-CoA dehydrogenase deficiency). C. MSUD has a maple syrup odour. D. Tyrosinaemia type I causes liver failure with a cabbage-like odour. E. Glutaric acidaemia type II presents with hypoglycaemia and also sweaty-feet odour but has multiple acylcarnitines elevated, not isovalerylcarnitine alone."
+ },
+ {
+  "type": "mcq",
+  "q-number": 55,
+  "q": "A 5-year-old boy presents with painful monoarthritis of the first metatarsophalangeal joint (podagra), hyperuricemia, and renal stones. Which enzyme deficiency, inherited in an X-linked recessive manner, causes Lesch-Nyhan syndrome associated with severe self-mutilation and gout?",
+  "options": [
+   "Xanthine oxidase",
+   "Hypoxanthine-guanine phosphoribosyltransferase (HPRT)",
+   "Adenosine deaminase",
+   "Phosphoribosylpyrophosphate (PRPP) synthetase deficiency",
+   "Glucose-6-phosphatase"
+  ],
+  "answer": [
+   "Hypoxanthine-guanine phosphoribosyltransferase (HPRT)"
+  ],
+  "explanation": "A. Xanthine oxidase deficiency causes xanthinuria with low uric acid. B. Lesch-Nyhan is X-linked HPRT deficiency with hyperuricaemia, gout, stones, dystonia and self-mutilation. C. ADA deficiency causes SCID. D. PRPP synthetase superactivity causes gout but not self-mutilation. E. G6Pase deficiency is von Gierke disease."
+ },
+ {
+  "type": "mcq",
+  "q-number": 56,
+  "q": "What is the primary genetic law demonstrated when alleles at two different gene loci located very close to each other on the same chromosome tend to be inherited together during meiosis?",
+  "options": [
+   "Law of Segregation",
+   "Genetic Linkage",
+   "Independent Assortment",
+   "Genomic Imprinting",
+   "Lyonization"
+  ],
+  "answer": [
+   "Genetic Linkage"
+  ],
+  "explanation": "A. Segregation: alleles separate into gametes. B. Genetic linkage is the tendency of nearby loci on the same chromosome to be inherited together. C. Independent assortment applies to unlinked genes. D. Imprinting is parent-of-origin gene expression. E. Lyonization is X-inactivation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 57,
+  "q": "In Cystic Fibrosis, the most common pathogenic variant in the *CFTR* gene is ΔF508. What type of mutation does this represent at the molecular level?",
+  "options": [
+   "Insertion of 3 nucleotides causing a frameshift",
+   "In-frame deletion of 3 nucleotides removing a phenylalanine residue",
+   "Nonsense mutation creating a premature stop codon",
+   "Missense mutation substituting glycine for alanine",
+   "Large multi-exon duplication"
+  ],
+  "answer": [
+   "In-frame deletion of 3 nucleotides removing a phenylalanine residue"
+  ],
+  "explanation": "A. A three-nucleotide change is in-frame, not a frameshift, and it is a deletion. B. DeltaF508 is an in-frame deletion of three nucleotides (CTT), removing a phenylalanine at position 508, causing a misfolded CFTR protein. C. It does not create a stop codon. D. It is not a substitution. E. It is not a duplication."
+ },
+ {
+  "type": "mcq",
+  "q-number": 58,
+  "q": "A 16-year-old girl presents with tall stature, pectus excavatum, arachnodactyly, joint hypermobility, ectopia lentis (upward lens subluxation), and aortic root dilation. What gene is mutated in Marfan syndrome?",
+  "options": [
+   "*COL1A1*",
+   "*FBN1* (Fibrillin-1)",
+   "*FGFR3*",
+   "*CFTR*",
+   "*DMD*"
+  ],
+  "answer": [
+   "*FBN1* (Fibrillin-1)"
+  ],
+  "explanation": "A. COL1A1 mutations cause osteogenesis imperfecta. B. Marfan syndrome is caused by mutations in the FBN1 gene encoding fibrillin-1. C. FGFR3 causes achondroplasia. D. CFTR causes cystic fibrosis. E. DMD causes Duchenne muscular dystrophy."
+ },
+ {
+  "type": "mcq",
+  "q-number": 59,
+  "q": "What is the recommended timing for obtaining a blood spot sample on a Guthrie card for newborn screening to ensure valid metabolic results and avoid false negatives?",
+  "options": [
+   "Immediately from umbilical cord blood at delivery",
+   "Between 24 to 48 hours of age, ideally around 4 days after protein feeding has commenced",
+   "At 2 weeks of age during the first well-child check",
+   "Prior to the baby's first milk feed",
+   "After 30 days of life"
+  ],
+  "answer": [
+   "Between 24 to 48 hours of age, ideally around 4 days after protein feeding has commenced"
+  ],
+  "explanation": "A. Cord blood is not recommended and can be maternal-contaminated. B. The Guthrie card sample is taken 24-48 hours after birth, ideally around day 4, after protein feeding has started so that metabolites (e.g. phenylalanine) are raised. C. Two weeks is too late for time-critical diseases. D. Before milk feeds is too early; metabolites may not be raised. E. 30 days is much too late."
+ },
+ {
+  "type": "mcq",
+  "q-number": 60,
+  "q": "A non-directive approach in genetic counselling implies that the genetic counsellor:",
+  "options": [
+   "Directs the parents toward pregnancy termination when a severe abnormality is identified.",
+   "Makes the final reproductive decision on behalf of the family based on medical knowledge.",
+   "Provides accurate, objective medical information and options while leaving decisions to the family.",
+   "Refuses to provide testing options for adult-onset genetic disorders.",
+   "Insists on invasive prenatal testing for all high-risk mothers."
+  ],
+  "answer": [
+   "Provides accurate, objective medical information and options while leaving decisions to the family."
+  ],
+  "explanation": "A. Directing toward termination is directive. B. The counsellor does not decide for the family. C. Non-directive counselling gives accurate, balanced information and options and leaves decisions to the family. D. Refusal is not part of it; the family decides. E. Testing is offered, not insisted on."
+ },
+ {
+  "type": "mcq",
+  "q-number": 61,
+  "q": "In evaluating the motor development of a healthy infant, which primitive reflex is expected to persist throughout life rather than disappearing during the first year?",
+  "options": [
+   "Moro reflex",
+   "Palmar grasp reflex",
+   "Tonic neck reflex",
+   "Parachute reflex",
+   "Rooting reflex"
+  ],
+  "answer": [
+   "Parachute reflex"
+  ],
+  "explanation": "A. Moro disappears by 3-6 months. B. Palmar grasp disappears by 3-6 months. C. Tonic neck reflex disappears by about 6 months. D. The parachute reflex appears at about 8-9 months and persists for life; the other reflexes disappear during infancy. E. Rooting disappears by about 3-4 months."
+ },
+ {
+  "type": "mcq",
+  "q-number": 62,
+  "q": "A 12-month-old child is brought to the pediatric clinic for a routine developmental screen. Which developmental milestone is expected at this specific age?",
+  "options": [
+   "Runs and builds a tower of 6 blocks",
+   "Walks with 1 hand held and says 1–2 meaningful words",
+   "Sits momentarily and babbles",
+   "Walks upstairs with assistance and feeds self with a spoon",
+   "Supports weight on forearms and coos"
+  ],
+  "answer": [
+   "Walks with 1 hand held and says 1–2 meaningful words"
+  ],
+  "explanation": "A. Running and a 6-block tower is about 2 years or more. B. At 12 months a child walks with one hand held (cruises) and says 1-2 meaningful words. C. Sitting momentarily and babbling is about 4-6 months. D. Walking upstairs with help and using a spoon is about 18 months. E. Forearm support and cooing is about 2-3 months."
+ },
+ {
+  "type": "mcq",
+  "q-number": 63,
+  "q": "Which physical examination maneuver specifically assesses postural tone in an infant by suspending them prone with a hand under their abdomen?",
+  "options": [
+   "Traction response",
+   "Vertical suspension",
+   "Horizontal suspension",
+   "Pronator drift",
+   "Gowers sign"
+  ],
+  "answer": [
+   "Horizontal suspension"
+  ],
+  "explanation": "A. Traction response assesses neck flexor tone by pulling to sit. B. Vertical suspension holds the infant under the axillae. C. Horizontal (ventral) suspension holds the infant prone with a hand under the abdomen and assesses postural tone. D. Pronator drift tests for an upper motor neuron lesion in older children. E. Gowers sign tests proximal muscle weakness."
+ },
+ {
+  "type": "mcq",
+  "q-number": 64,
+  "q": "When assessing cranial nerve function in a young child, which cranial nerve is responsible for palatal elevation and the gag reflex?",
+  "options": [
+   "Cranial Nerve VII (Facial)",
+   "Cranial Nerve V (Trigeminal)",
+   "Cranial Nerves IX (Glossopharyngeal) and X (Vagus)",
+   "Cranial Nerve XI (Accessory)",
+   "Cranial Nerve XII (Hypoglossal)"
+  ],
+  "answer": [
+   "Cranial Nerves IX (Glossopharyngeal) and X (Vagus)"
+  ],
+  "explanation": "A. CN VII supplies facial muscles and taste. B. CN V supplies facial sensation and chewing. C. The gag reflex is mediated by CN IX (afferent) and X (efferent), which also elevate the palate. D. CN XI supplies sternocleidomastoid and trapezius. E. CN XII supplies the tongue."
+ },
+ {
+  "type": "mcq",
+  "q-number": 65,
+  "q": "During a pediatric physical exam, muscle fasciculations in infants are often difficult to detect on the general body surface due to abundant subcutaneous fat. Where are fasciculations best observed in this age group?",
+  "options": [
+   "Quadriceps muscle",
+   "Tongue",
+   "Deltoid muscle",
+   "Thenar eminence",
+   "Abdominal wall"
+  ],
+  "answer": [
+   "Tongue"
+  ],
+  "explanation": "A. Subcutaneous fat obscures the quadriceps. B. Fasciculations are best seen in the tongue in infants because there is little subcutaneous fat. C. Deltoid is fat-covered. D. Thenar eminence is not a typical site in infants. E. Abdominal wall is not a site for assessing fasciculations."
+ },
+ {
+  "type": "mcq",
+  "q-number": 66,
+  "q": "A 9-year-old boy is brought to the emergency department after falling 3 meters from a tree. His initial Glasgow Coma Scale (GCS) score is 12, but during observation, his score drops to 8, and his right pupil becomes dilated and sluggishly reactive. Which classification best describes his initial presentation, and what does his current clinical state indicate?",
+  "options": [
+   "Initial Severe TBI; now demonstrating spontaneous recovery",
+   "Initial Mild TBI; now neurologically stable",
+   "Initial Moderate TBI; now undergoing acute neurological deterioration secondary to impending transtentorial herniation.",
+   "Initial Severe TBI; now meeting criteria for brain death",
+   "Initial Mild TBI; now progressing to moderate injury"
+  ],
+  "answer": [
+   "Initial Moderate TBI; now undergoing acute neurological deterioration secondary to impending transtentorial herniation."
+  ],
+  "explanation": "A. GCS 12 is not severe, and he is deteriorating. B. GCS 12 is not mild (13-15). C. GCS 9-12 is moderate TBI. A drop in GCS with a dilated sluggish pupil suggests uncal herniation and acute neurological deterioration. D. The pupil is still reactive and GCS is 8, so not brain death. E. The initial classification is moderate, not mild."
+ },
+ {
+  "type": "mcq",
+  "q-number": 67,
+  "q": "According to the Monro-Kellie doctrine, which of the following mechanisms represents an initial compensatory response to a developing intracranial mass lesion before intracranial hypertension occurs?",
+  "options": [
+   "Increase in arterial blood volume",
+   "Displacement of CSF into the spinal canal and increased venous outflow",
+   "Downward displacement of cerebellar tonsils through the foramen magnum",
+   "Dilation of systemic resistance arterioles",
+   "Elevation of mean arterial pressure"
+  ],
+  "answer": [
+   "Displacement of CSF into the spinal canal and increased venous outflow"
+  ],
+  "explanation": "A. Arterial blood volume does not decrease as compensation and is not first. B. Monro-Kellie: the first compensations are displacement of CSF into the spinal subarachnoid space and reduced venous blood volume. C. Tonsillar herniation is a late complication. D. Systemic arteriolar dilation is not an intracranial mechanism. E. Raised MAP is part of Cushing's response, a late reaction."
+ },
+ {
+  "type": "mcq",
+  "q-number": 68,
+  "q": "Which brain herniation syndrome is classically characterized by compression of the cingulate gyrus beneath the falx cerebri, potentially leading to anterior cerebral artery (ACA) infarction and contralateral leg weakness?",
+  "options": [
+   "Uncal transtentorial herniation",
+   "Subfalcine herniation",
+   "Cerebellar tonsillar herniation",
+   "Central transtentorial herniation",
+   "Ascending transtentorial herniation"
+  ],
+  "answer": [
+   "Subfalcine herniation"
+  ],
+  "explanation": "A. Uncal herniation causes CN III palsy and a dilated pupil. B. Subfalcine herniation is the cingulate gyrus pushed beneath the falx, compressing the ACA and causing contralateral leg weakness. C. Tonsillar herniation compresses the medulla. D. Central herniation causes progressive brainstem dysfunction. E. Ascending herniation pushes the cerebellum upward through the tentorium."
+ },
+ {
+  "type": "mcq",
+  "q-number": 69,
+  "q": "Which first-tier measure is recommended in the clinical management of elevated ICP in pediatric severe TBI?",
+  "options": [
+   "Decompressive craniectomy",
+   "High-dose pentobarbital barbiturate coma",
+   "Head of bed elevation (30 degrees) in midline position and hyperosmolar therapy (3% saline or mannitol)",
+   "Hypothermia induction to 28°C",
+   "Aggressive fluid restriction to create severe dehydration"
+  ],
+  "answer": [
+   "Head of bed elevation (30 degrees) in midline position and hyperosmolar therapy (3% saline or mannitol)"
+  ],
+  "explanation": "A. Decompressive craniectomy is a second/third tier option. B. Barbiturate coma is third tier. C. First-tier measures: head up 30 degrees in midline, sedation/analgesia, and hyperosmolar therapy (3% saline or mannitol). D. Therapeutic hypothermia to 28 C is excessive and harmful. E. Dehydration worsens perfusion; euvolaemia is the goal."
+ },
+ {
+  "type": "mcq",
+  "q-number": 70,
+  "q": "A 5-year-old girl with severe hypoxic-ischemic brain injury is being evaluated for brain death. Which pupil finding on cranial nerve examination is consistent with brain death?",
+  "options": [
+   "Constricted pinpoint pupils (1–2 mm) unreactive to light",
+   "Midposition (4–6 mm) or fully dilated pupils unreactive to light",
+   "Asymmetric pupils with intact direct light response",
+   "Pupils that constrict normally on accommodation",
+   "Hippus phenomenon"
+  ],
+  "answer": [
+   "Midposition (4–6 mm) or fully dilated pupils unreactive to light"
+  ],
+  "explanation": "A. Pinpoint pupils suggest opioids or a pontine lesion. B. Brain death shows midposition or dilated pupils that do not react to light (CN II/III loss). C. Asymmetric pupils with a direct response imply intact function. D. Accommodation is not tested in brain death. E. Hippus (pupillary oscillation) indicates intact pupil control."
+ },
+ {
+  "type": "mcq",
+  "q-number": 71,
+  "q": "During an apnea test for pediatric brain death determination, mechanical ventilation is temporarily paused while 100% O₂ is delivered. Which target arterial partial pressure of carbon dioxide (PaCO₂) must be documented to confirm the absence of brainstem respiratory drive?",
+  "options": [
+   "PaCO₂≥40 mmHg and at least 5 mmHg above baseline",
+   "PaCO₂≥60 mmHg (or ≥20 mmHg above baseline) with no respiratory effort",
+   "PaCO₂≤30 mmHg with active chest excursion",
+   "PaCO₂≥100 mmHg regardless of patient baseline",
+   "PaCO₂ equal to PaO₂"
+  ],
+  "answer": [
+   "PaCO₂≥60 mmHg (or ≥20 mmHg above baseline) with no respiratory effort"
+  ],
+  "explanation": "A. 40 mmHg is the normal level and too low. B. The apnoea test requires PaCO2 of at least 60 mmHg (or 20 mmHg above baseline) with no respiratory effort. C. Low PaCO2 with chest movement does not confirm apnoea. D. 100 mmHg is not required. E. PaCO2 equal to PaO2 is not a criterion."
+ },
+ {
+  "type": "mcq",
+  "q-number": 72,
+  "q": "What is the minimum recommended observation period between two formal clinical examinations for declaring brain death in a 6-month-old infant?",
+  "options": [
+   "2 hours",
+   "6 hours",
+   "12 hours",
+   "24 hours",
+   "48 hours"
+  ],
+  "answer": [
+   "12 hours"
+  ],
+  "explanation": "A. 2 hours is too short. B. 6 hours is too short. C. For infants older than 30 days up to 18 years the interval between examinations is 12 hours (24 hours for term neonates up to 30 days). (Flagged: earlier guidelines used 24 hours for infants under 1 year.) D. 24 hours applies to neonates up to 30 days (or older guidelines). E. 48 hours is not specified."
+ },
+ {
+  "type": "mcq",
+  "q-number": 73,
+  "q": "At what point during embryonic development does the failure of closure of the neuropores occur to cause neural tube defects (NTDs)?",
+  "options": [
+   "1st week after conception",
+   "3rd to 4th week after conception",
+   "8th to 10th week after conception",
+   "16th to 18th week after conception",
+   "24th week after conception"
+  ],
+  "answer": [
+   "3rd to 4th week after conception"
+  ],
+  "explanation": "A. The first week is implantation. B. Neural tube closure occurs at 3-4 weeks after conception (day 21-28). C. 8-10 weeks is organogenesis completion. D. 16-18 weeks is not neural tube closure. E. 24 weeks is far too late."
+ },
+ {
+  "type": "mcq",
+  "q-number": 74,
+  "q": "A newborn infant presents with a cystic lumbar back mass. Imaging reveals that the herniated sac contains cerebrospinal fluid (CSF) and meninges, but the spinal cord remains entirely within the spinal canal. What is the correct diagnosis?",
+  "options": [
+   "Spina bifida occulta",
+   "Myelomeningocele",
+   "Meningocele",
+   "Anencephaly",
+   "Encephalocele"
+  ],
+  "answer": [
+   "Meningocele"
+  ],
+  "explanation": "A. Spina bifida occulta has no sac. B. Myelomeningocele sac contains neural tissue. C. A meningocele has a CSF and meninges sac with a normal spinal cord position in the canal. D. Anencephaly is a cranial defect. E. Encephalocele is a cranial herniation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 75,
+  "q": "What is the recommended daily periconceptional dose of folic acid for a woman who has previously given birth to an infant affected by a neural tube defect to reduce recurrence risk?",
+  "options": [
+   "400 μg (0.4 mg) daily",
+   "1 mg daily",
+   "5 mg daily",
+   "100 μg daily",
+   "50 mg daily"
+  ],
+  "answer": [
+   "5 mg daily"
+  ],
+  "explanation": "A. 400 ug is for general low-risk women. B. 1 mg is not the high-risk dose. C. After a previous NTD-affected pregnancy, folic acid 4-5 mg daily is recommended starting before conception (5 mg in UK/WHO guidance; 4 mg in US guidance). (Flagged: guideline-dependent; 5 mg is the option offered.) D. 100 ug is a trivial dose. E. 50 mg is a toxic overdose."
+ },
+ {
+  "type": "mcq",
+  "q-number": 76,
+  "q": "A 4-year-old child presents with acute bacterial meningitis. A lumbar puncture is performed. Which set of CSF parameters is typical for acute bacterial meningitis?",
+  "options": [
+   "Normal opening pressure, WBC <5/μ/L (lymphocytes), normal glucose, normal protein",
+   "Markedly elevated WBC (>1000/μ/L) with PMN predominance), low glucose (<0.5 CSF:Blood ratio), elevated protein (100-500 mg/dL )",
+   "Elevated WBC (10-500/μ/L) with lymphocyte predominance), normal glucose, normal protein",
+   "Normal WBC, normal glucose, xanthochromia",
+   "Normal WBC, markedly elevated glucose, normal protein"
+  ],
+  "answer": [
+   "Markedly elevated WBC (>1000/μ/L) with PMN predominance), low glucose (<0.5 CSF:Blood ratio), elevated protein (100-500 mg/dL )"
+  ],
+  "explanation": "A. This is normal CSF. B. Bacterial meningitis shows a high WBC (>1000, polymorph predominance), low CSF glucose (CSF:blood ratio under 0.5), and raised protein. C. Lymphocytic with normal glucose/protein suggests viral meningitis. D. Xanthochromia suggests subarachnoid haemorrhage. E. Raised glucose is not a feature of meningitis."
+ },
+ {
+  "type": "mcq",
+  "q-number": 77,
+  "q": "A 4-year-old boy is brought in because of frequent falls, difficulty climbing stairs, and a waddling gait. When rising from a sitting position on the floor, he turns prone and uses his hands to \"climb up his own legs\" to stand upright. What is the name of this maneuver, and what is its primary underlying pathology?",
+  "options": [
+   "Romberg sign; sensory ataxia",
+   "Gowers sign; proximal muscle weakness due to dystrophin deletion",
+   "Trendelenburg sign; distal nerve demyelination",
+   "Kernig sign; meningeal inflammation",
+   "Pronator drift; upper motor neuron lesion"
+  ],
+  "answer": [
+   "Gowers sign; proximal muscle weakness due to dystrophin deletion"
+  ],
+  "explanation": "A. Romberg tests sensory/proprioceptive loss. B. Gowers sign (climbing up the legs) indicates proximal weakness, here due to dystrophin deficiency in Duchenne muscular dystrophy. C. Trendelenburg indicates hip abductor weakness. D. Kernig sign is for meningeal irritation. E. Pronator drift is UMN lesion in the arm."
+ },
+ {
+  "type": "mcq",
+  "q-number": 78,
+  "q": "Premature fusion of which cranial suture results in scaphocephaly (a long, narrow, \"boat-shaped\" skull)?",
+  "options": [
+   "Coronal suture",
+   "Metopic suture",
+   "Sagittal suture",
+   "Lambdoid suture",
+   "Frontoethmoidal suture"
+  ],
+  "answer": [
+   "Sagittal suture"
+  ],
+  "explanation": "A. Coronal fusion causes brachycephaly. B. Metopic fusion causes trigonocephaly. C. Premature sagittal suture fusion causes scaphocephaly (long and narrow head). D. Lambdoid fusion causes posterior plagiocephaly. E. Frontoethmoidal is not a standard suture in this context."
+ },
+ {
+  "type": "mcq",
+  "q-number": 79,
+  "q": "A 2-year-old child presents with a generalized tonic-clonic seizure that lasted 8 minutes during a fever spike of 39.0°C. He has no prior history of afebrile seizures and returns fully to baseline within 20 minutes. His developmental history is normal. How is this event classified?",
+  "options": [
+   "Complex febrile seizure",
+   "Simple febrile seizure",
+   "Febrile status epilepticus",
+   "Symptomatic febrile seizure",
+   "Absence seizure"
+  ],
+  "answer": [
+   "Simple febrile seizure"
+  ],
+  "explanation": "A. Complex means focal, over 15 minutes, or recurrent within 24 hours. B. A simple febrile seizure is generalised, lasts under 15 minutes, occurs once in 24 hours and recovers fully. This event meets all these criteria. C. Febrile status is over 30 minutes. D. There is no CNS infection or metabolic cause. E. Absence seizures are brief staring spells and not febrile convulsions."
+ },
+ {
+  "type": "mcq",
+  "q-number": 80,
+  "q": "Which of the following parameters represents the strongest risk factor for the subsequent development of epilepsy after a febrile seizure?",
+  "options": [
+   "Simple febrile seizure",
+   "Male gender",
+   "Age of onset >2 years",
+   "Initial temperature >39°C",
+   "Complex febrile seizure with focal features"
+  ],
+  "answer": [
+   "Complex febrile seizure with focal features"
+  ],
+  "explanation": "A. Simple febrile seizures carry a low risk. B. Male gender is not a strong factor. C. Onset age over 2 years is not a main factor. D. Temperature over 39 C is not a risk factor; a lower fever threshold is. E. A complex febrile seizure with focal features is the strongest risk factor for later epilepsy (others: neurodevelopmental abnormality, family history, short fever duration)."
+ },
+ {
+  "type": "mcq",
+  "q-number": 81,
+  "q": "A 4-month-old male infant presents with hypocalcemic tetany, a truncus arteriosus heart defect, low-set ears, and micrognathia. Which condition is most likely?",
+  "options": [
+   "Severe Combined Immunodeficiency",
+   "DiGeorge Anomaly",
+   "Wiskott-Aldrich Syndrome",
+   "Leukocyte Adhesion Deficiency Type 1",
+   "X-linked Agammaglobulinemia"
+  ],
+  "answer": [
+   "DiGeorge Anomaly"
+  ],
+  "explanation": "A. SCID is recurrent infection with absent T cells, not these features. B. Hypocalcaemic tetany, truncus arteriosus, low-set ears and micrognathia indicate DiGeorge anomaly (22q11.2 deletion, hypoparathyroidism, thymic hypoplasia). C. Wiskott-Aldrich has eczema, thrombocytopenia and infections. D. LAD1 is delayed cord separation with leukocytosis. E. XLA has no B cells and recurrent bacterial infections."
+ },
+ {
+  "type": "mcq",
+  "q-number": 82,
+  "q": "A 2-month-old male infant presents with delayed umbilical cord detachment at 6 weeks of age, marked peripheral leukocytosis (WBC>50,000/μL), and recurrent skin infections characterized by an absence of pus formation. Which condition is most likely?",
+  "options": [
+   "Chronic Granulomatous Disease",
+   "Chédiak-Higashi Syndrome",
+   "Leukocyte Adhesion Deficiency Type 1",
+   "Common Variable Immunodeficiency",
+   "Selective IgA Deficiency"
+  ],
+  "answer": [
+   "Leukocyte Adhesion Deficiency Type 1"
+  ],
+  "explanation": "A. CGD has granulomas and catalase-positive infections. B. Chediak-Higashi has albinism and giant granules. C. Delayed cord separation, marked leukocytosis and pus-free skin infections are classic for LAD type 1 (CD18 deficiency). D. CVID presents later in life. E. Selective IgA deficiency is usually asymptomatic."
+ },
+ {
+  "type": "mcq",
+  "q-number": 83,
+  "q": "Which laboratory finding is most characteristic of X-linked Agammaglobulinemia (XLA)?",
+  "options": [
+   "Undetectable serum IgA with normal IgG and IgM",
+   "Normal peripheral blood B-cell count (CD19+) with panhypogammaglobulinemia",
+   "Peripheral blood CD19+ B-cell count <2% with profoundly decreased serum IgG, IgA, and IgM",
+   "Normal immunoglobulin levels with defective respiratory burst assay",
+   "Elevated IgM levels with absent IgG and IgA"
+  ],
+  "answer": [
+   "Peripheral blood CD19+ B-cell count <2% with profoundly decreased serum IgG, IgA, and IgM"
+  ],
+  "explanation": "A. Isolated IgA deficiency is a different disorder. B. B cells are absent in XLA. C. XLA shows profoundly reduced IgG, IgA and IgM with B cells (CD19+) under 2%. D. Normal immunoglobulins with a defective respiratory burst indicates CGD. E. High IgM with low IgG/IgA is hyper-IgM syndrome."
+ },
+ {
+  "type": "mcq",
+  "q-number": 84,
+  "q": "A 16-year-old female presents with recurrent sinopulmonary infections, splenomegaly, and autoimmune hemolytic anemia. Laboratory tests reveal low serum IgG and IgA with phenotypically normal B-cell numbers. What is the diagnosis?",
+  "options": [
+   "X-linked Agammaglobulinemia",
+   "Common Variable Immunodeficiency (CVID)",
+   "Severe Combined Immunodeficiency (SCID)",
+   "Hyper-IgM Syndrome Type 1",
+   "Severe Congenital Neutropenia"
+  ],
+  "answer": [
+   "Common Variable Immunodeficiency (CVID)"
+  ],
+  "explanation": "A. XLA has absent B cells and presents in infancy in males. B. CVID: recurrent sinopulmonary infections, autoimmunity and splenomegaly, with low IgG/IgA and normal B-cell numbers, presenting in adolescence or adulthood. C. SCID presents in infancy with severe infections. D. Hyper-IgM has high IgM. E. Severe congenital neutropenia involves low neutrophils."
+ },
+ {
+  "type": "mcq",
+  "q-number": 85,
+  "q": "Which primary immunodeficiency is characterized by high serum alpha-fetoprotein (AFP) levels, progressive cerebellar ataxia, and oculocutaneous telangiectasias?",
+  "options": [
+   "Wiskott-Aldrich Syndrome",
+   "Chédiak-Higashi Syndrome",
+   "Ataxia-Telangiectasia",
+   "Omenn Syndrome",
+   "Cartilage-Hair Hypoplasia"
+  ],
+  "answer": [
+   "Ataxia-Telangiectasia"
+  ],
+  "explanation": "A. WAS has eczema, microthrombocytopenia and infections. B. CHS has partial albinism and giant granules. C. Ataxia-telangiectasia: progressive cerebellar ataxia, oculocutaneous telangiectasias, high AFP and immunodeficiency (ATM mutation). D. Omenn syndrome has erythroderma and eosinophilia. E. Cartilage-hair hypoplasia has short-limbed dwarfism."
+ },
+ {
+  "type": "mcq",
+  "q-number": 86,
+  "q": "An 18-month-old male infant presents with recurrent severe bacterial otitis media and pneumonia. Physical examination shows absent tonsils. What is the most appropriate initial laboratory screening test to evaluate for a suspected humoral (B-cell) immunodeficiency?",
+  "options": [
+   "Isohemagglutinin titers",
+   "Dihydrorhodamine (DHR) flow cytometry assay",
+   "Quantitative serum immunoglobulins (IgG,IgA,IgM)",
+   "Flow cytometry for CD16 and CD56 cells",
+   "Delayed cutaneous hypersensitivity skin testing"
+  ],
+  "answer": [
+   "Quantitative serum immunoglobulins (IgG,IgA,IgM)"
+  ],
+  "explanation": "A. Isohemagglutinins are a functional test done after quantitation. B. DHR flow cytometry tests for CGD. C. Quantitative serum IgG, IgA and IgM is the first screen for humoral immunodeficiency. D. CD16/CD56 counts assess NK cells. E. Skin tests assess T-cell (cellular) function."
+ },
+ {
+  "type": "mcq",
+  "q-number": 87,
+  "q": "Patients with Chronic Granulomatous Disease (CGD) are specifically susceptible to recurrent infections caused by which class of organisms?",
+  "options": [
+   "Encapsulated bacteria",
+   "Catalase-positive microorganisms",
+   "Intracellular viruses",
+   "Parasitic protozoa",
+   "Anaerobic bacteria"
+  ],
+  "answer": [
+   "Catalase-positive microorganisms"
+  ],
+  "explanation": "A. Encapsulated bacteria affect complement or antibody/spleen defects. B. CGD (NADPH oxidase defect) predisposes to catalase-positive organisms such as Staphylococcus aureus, Aspergillus, Serratia, Burkholderia and Nocardia. C. Viral infections suggest T-cell defects. D. Protozoa are not a hallmark. E. Anaerobes are not specific; catalase-negative organisms are handled by H2O2 from the bacteria."
+ },
+ {
+  "type": "mcq",
+  "q-number": 88,
+  "q": "A 4-year-old child presents with partial oculocutaneous albinism, silvery hair, peripheral neuropathy, and giant peroxidase-positive cytoplasmic granules in neutrophils. What is the diagnosis?",
+  "options": [
+   "Leukocyte Adhesion Deficiency Type 2",
+   "Chédiak-Higashi Syndrome",
+   "Job Syndrome (Hyper-IgE)",
+   "Chronic Granulomatous Disease",
+   "Griscelli Disease"
+  ],
+  "answer": [
+   "Chédiak-Higashi Syndrome"
+  ],
+  "explanation": "A. LAD2 has fucosylation defects and a Bombay blood type. B. Chediak-Higashi: partial albinism, silvery hair, neuropathy and giant cytoplasmic granules (LYST gene). C. Job syndrome has eczema, cold abscesses and high IgE. D. CGD has no giant granules. E. Griscelli disease has silvery hair with normal granules and melanosome accumulation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 89,
+  "q": "Hereditary Angioedema (HAE) Type 1 is caused by a deficiency of C1 esterase inhibitor, which leads to unchecked generation of which vasoactive mediator?",
+  "options": [
+   "Histamine",
+   "Leukotriene C4",
+   "Bradykinin",
+   "Prostaglandin D2",
+   "Serotonin"
+  ],
+  "answer": [
+   "Bradykinin"
+  ],
+  "explanation": "A. Histamine drives allergic angioedema. B. Leukotriene C4 is an allergic mediator. C. C1-INH deficiency leads to excess bradykinin, causing non-pruritic angioedema. D. Prostaglandin D2 is a mast cell mediator. E. Serotonin is not the mediator."
+ },
+ {
+  "type": "mcq",
+  "q-number": 90,
+  "q": "Inherited deficiencies in the terminal complement components (C5,C6,C7,C8,C9) uniquely predispose patients to recurrent infections with which organism?",
+  "options": [
+   "Streptococcus pneumoniae",
+   "Pseudomonas aeruginosa",
+   "Neisseria meningitidis",
+   "Staphylococcus aureus",
+   "Aspergillus fumigatus"
+  ],
+  "answer": [
+   "Neisseria meningitidis"
+  ],
+  "explanation": "A. Pneumococcus relates to antibody or splenic defects. B. Pseudomonas is linked to neutrophil defects. C. Terminal complement (C5-C9) forms the membrane attack complex needed to kill Neisseria, so deficiency causes recurrent meningococcal and gonococcal infections. D. Staph aureus is linked to phagocyte defects. E. Aspergillus is linked to neutrophil defects."
+ },
+ {
+  "type": "mcq",
+  "q-number": 91,
+  "q": "Identify the deficiency of C₂ or C₄ complement components which is most strongly associated with which clinical manifestation?",
+  "options": [
+   "Recurrent disseminated Neisseria infections",
+   "Severe angioedema without urticaria",
+   "Systemic Lupus Erythematosus (SLE)-like autoimmune disease",
+   "Chronic mucocutaneous candidiasis",
+   "Isolated pulmonary hemosiderosis"
+  ],
+  "answer": [
+   "Systemic Lupus Erythematosus (SLE)-like autoimmune disease"
+  ],
+  "explanation": "A. Neisseria infections relate to terminal components. B. Angioedema is due to C1-INH deficiency. C. Deficiencies of early classical pathway components (C1, C2, C4) impair clearance of immune complexes and are strongly associated with SLE-like disease. D. Mucocutaneous candidiasis is a T-cell defect. E. Pulmonary haemosiderosis is not complement-related."
+ },
+ {
+  "type": "mcq",
+  "q-number": 92,
+  "q": "What is the key cytokine involved in the differentiation, maturation, and tissue recruitment of eosinophils during allergic responses?",
+  "options": [
+   "Interleukin-1",
+   "Interleukin-3",
+   "Interleukin-5",
+   "Interleukin-8",
+   "Interleukin-10"
+  ],
+  "answer": [
+   "Interleukin-5"
+  ],
+  "explanation": "A. IL-1 is a pro-inflammatory cytokine. B. IL-3 is a broad haematopoietic factor and less specific. C. IL-5 drives eosinophil differentiation, maturation, activation and tissue recruitment. D. IL-8 recruits neutrophils. E. IL-10 is anti-inflammatory."
+ },
+ {
+  "type": "mcq",
+  "q-number": 93,
+  "q": "A 6-year-old boy presents with chronic nasal congestion, clear rhinorrhea, and dark circles under his eyes (\"allergic shiners\"). During the physical exam, he frequently uses the palm of his hand to push the tip of his nose upward to relieve itching and clear his airway. What is the clinical term for this physical maneuver?",
+  "options": [
+   "Allergic cluck",
+   "Allergic salute",
+   "Allergic gape",
+   "Allergic crease",
+   "Allergic facies"
+  ],
+  "answer": [
+   "Allergic salute"
+  ],
+  "explanation": "A. Allergic cluck is not a standard term (a tongue cluck to relieve itching is described). B. Pushing the nose upward with the palm is the 'allergic salute'. C. Allergic gape refers to mouth-breathing. D. Allergic crease is the transverse nasal crease resulting from the salute. E. Allergic facies is the overall appearance."
+ },
+ {
+  "type": "mcq",
+  "q-number": 94,
+  "q": "Which condition renders Allergen Skin Prick Testing unreliable or contraindicated, necessitating serum specific IgE testing (sIgE) instead?",
+  "options": [
+   "Concomitant low serum IgE level",
+   "Concurrent treatment with systemic oral corticosteroids",
+   "Extensive generalized atopic dermatitis or severe dermatographism",
+   "Age greater than 5 years",
+   "Mild seasonal allergic rhinitis"
+  ],
+  "answer": [
+   "Extensive generalized atopic dermatitis or severe dermatographism"
+  ],
+  "explanation": "A. Low total IgE is not a contraindication. B. Oral steroids do not significantly suppress skin tests (antihistamines do). C. Skin prick testing is unreliable with extensive dermatitis or severe dermatographism, so serum specific IgE is used. D. Age over 5 years is not a limit. E. Mild rhinitis does not preclude testing."
+ },
+ {
+  "type": "mcq",
+  "q-number": 95,
+  "q": "In allergen skin prick testing, the immediate wheal-and-flare response reaches its peak reading at what time frame post-application?",
+  "options": [
+   "1 to 2 minutes",
+   "10 to 20 minutes",
+   "4 to 6 hours",
+   "24 hours",
+   "48 to 72 hours"
+  ],
+  "answer": [
+   "10 to 20 minutes"
+  ],
+  "explanation": "A. 1-2 minutes is too early. B. The wheal-and-flare reaction peaks at 10-20 minutes (read at 15-20 minutes). C. 4-6 hours is the late-phase response. D. 24 hours is not an immediate response. E. 48-72 hours is delayed hypersensitivity."
+ },
+ {
+  "type": "mcq",
+  "q-number": 96,
+  "q": "High-affinity receptors for IgE (FcεRI) are expressed on the cell surface of which inflammatory cells?",
+  "options": [
+   "Neutrophils and Macrophages",
+   "Mast cells and Basophils",
+   "CD<sub>8+</sub> T cells and NK cells",
+   "Eosinophils and Endothelial cells",
+   "Red blood cells and Platelets"
+  ],
+  "answer": [
+   "Mast cells and Basophils"
+  ],
+  "explanation": "A. Neutrophils and macrophages express other Fc receptors. B. FcεRI is the high-affinity IgE receptor on mast cells and basophils. C. CD8+ T cells and NK cells do not express FcεRI. D. Eosinophils have low-affinity receptors and endothelial cells do not. E. Red cells and platelets do not carry FcεRI."
+ },
+ {
+  "type": "mcq",
+  "q-number": 97,
+  "q": "What is the first-line medication of choice for the immediate emergency treatment of acute anaphylaxis in children?",
+  "options": [
+   "Intravenous Diphenhydramine",
+   "Intramuscular Epinephrine (1:1000 solution)",
+   "Oral Prednisolone",
+   "Inhaled Salbutamol",
+   "Intravenous Hydrocortisone"
+  ],
+  "answer": [
+   "Intramuscular Epinephrine (1:1000 solution)"
+  ],
+  "explanation": "A. Antihistamines are adjunctive and slow. B. IM epinephrine (adrenaline) 1:1000 into the anterolateral thigh is first-line for anaphylaxis. C. Oral steroids are adjunctive and slow. D. Salbutamol treats bronchospasm only. E. IV hydrocortisone is an adjunct, not first-line."
+ },
+ {
+  "type": "mcq",
+  "q-number": 98,
+  "q": "In an emergency evaluation of acute severe asthma in a 6-year-old child, which finding indicates life-threatening respiratory failure?",
+  "options": [
+   "End-expiratory wheezing with SpO₂ of 96%",
+   "Loud pan-expiratory wheezing with heart rate of 110 bpm",
+   "\"Silent chest\" (absence of wheezing with poor air entry) and confusion",
+   "Moderate intercostal retractions with PaCO₂ of 32 mmHg",
+   "Coughing fits worse at night"
+  ],
+  "answer": [
+   "\"Silent chest\" (absence of wheezing with poor air entry) and confusion"
+  ],
+  "explanation": "A. End-expiratory wheeze with normal SpO2 is mild. B. Loud wheeze with HR 110 is moderate. C. A silent chest with poor air entry and confusion indicates impending respiratory failure. D. Low PaCO2 reflects hyperventilation, not failure (a normal or high PaCO2 is ominous). E. Nocturnal cough suggests poorly controlled asthma, not life-threatening."
+ },
+ {
+  "type": "mcq",
+  "q-number": 99,
+  "q": "What is the typical physical distribution of atopic dermatitis lesions in infants under 1 year of age?",
+  "options": [
+   "Flexural folds of antecubital and popliteal fossae",
+   "Facial cheeks, forehead, and extensor surfaces of extremities (sparing diaper area)",
+   "Palms of hands and soles of feet exclusively",
+   "Mucomembranous junction of lips and oral mucosa",
+   "Symmetrical distribution restricted to trunk and axillae"
+  ],
+  "answer": [
+   "Facial cheeks, forehead, and extensor surfaces of extremities (sparing diaper area)"
+  ],
+  "explanation": "A. Flexural distribution is typical in older children. B. In infants, atopic dermatitis affects the cheeks, forehead and extensor surfaces, sparing the diaper area. Flexures are involved in older children. C. Palmoplantar involvement is not typical. D. Mucocutaneous lip involvement is not typical. E. Trunk/axilla alone is not typical."
+ },
+ {
+  "type": "mcq",
+  "q-number": 100,
+  "q": "Which clinical feature differentiates Angioedema from Urticaria?",
+  "options": [
+   "Urticaria is always painful, whereas angioedema is severely pruritic",
+   "Angioedema involves deep dermis and subcutaneous/submucosal tissues and lasts up to 72 hours",
+   "Urticaria involves sub-epithelial connective tissue of internal organs only",
+   "Angioedema resolves completely within 15 to 30 minutes",
+   "Urticaria leaves permanent hyperpigmented scarring"
+  ],
+  "answer": [
+   "Angioedema involves deep dermis and subcutaneous/submucosal tissues and lasts up to 72 hours"
+  ],
+  "explanation": "A. Urticaria is pruritic, while angioedema is more painful or burning. B. Angioedema affects the deep dermis and subcutaneous/submucosal tissues and lasts up to 72 hours; urticaria (superficial) lasts under 24 hours. C. Urticaria is a superficial dermal lesion. D. Angioedema takes hours to days to resolve. E. Urticaria resolves without scarring."
+ }
+]

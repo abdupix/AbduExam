@@ -1,0 +1,616 @@
+[
+ {
+  "type": "mcq",
+  "q-number": 1,
+  "q": "A child with severe bacterial sepsis develops persistent hypotension, prolonged capillary refill, altered consciousness, and reduced urine output despite initial fluid therapy. Which physiological abnormality is primarily responsible for the development of organ dysfunction in septic shock?",
+  "options": [
+   "Excessive systemic vasoconstriction",
+   "Reduced tissue and organ perfusion",
+   "Primary haemorrhage",
+   "Isolated bacteraemia without circulatory effects",
+   "Autoimmune destruction of blood vessels"
+  ],
+  "answer": [
+   "Reduced tissue and organ perfusion"
+  ],
+  "explanation": "A. Septic shock is typically marked by vasodilation (warm shock) or variable tone, not excessive vasoconstriction as the primary problem. B. Correct. In septic shock, distributive/cytopathic changes with capillary leak and myocardial depression cause inadequate tissue and organ perfusion, so oxygen delivery fails to meet demand and organs become dysfunctional. C. There is no primary haemorrhage; this is a distributive/hypovolaemic-relative state from infection. D. Bacteraemia alone does not cause organ dysfunction; the host response with circulatory failure does. E. Autoimmune vessel destruction is not the mechanism of sepsis."
+ },
+ {
+  "type": "mcq",
+  "q-number": 2,
+  "q": "A 9-year-old child is treated in the emergency department for an acute asthma exacerbation. After several hours of treatment, the child is clinically improved, has normal physical findings, maintains an oxygen saturation above 92% on room air, and achieves a peak expiratory flow greater than 70% of the predicted or personal-best value. Which discharge regimen is most appropriate?",
+  "options": [
+   "Inhaled short-acting β₂-agonist together with a short course of",
+   "Oral β₂-agonist alone",
+   "Intravenous corticosteroid continued after discharge",
+   "Oral corticosteroid without a reliever inhaler",
+   "Antibiotic therapy combined with inhaled β₂-agonist"
+  ],
+  "answer": [
+   "Inhaled short-acting β₂-agonist together with a short course of"
+  ],
+  "explanation": "A. Correct. Discharge after a good response to treatment (normal findings, SpO2 >92% in air, PEF >70%) is with an inhaled short-acting β2-agonist reliever plus a short oral corticosteroid course (3-5 days), with a follow-up plan and inhaler technique review. B. Oral β2-agonists are less effective with more side effects than inhaled, and steroid is needed. C. IV corticosteroid is not continued after discharge; oral is equivalent and used. D. A reliever inhaler is essential; steroid alone is inadequate. E. Antibiotics are not indicated for asthma unless there is a bacterial infection."
+ },
+ {
+  "type": "mcq",
+  "q-number": 3,
+  "q": "A 1-year-old boy is hospitalized with severe pneumonia and right upper-lobe consolidation. His blood culture subsequently grows Staphylococcus aureus. Twenty hours after admission in the ward, he suddenly develops severe respiratory distress, rapidly increasing oxygen requirements, and hypotension. What should be the immediate priority while preparing for further intervention?",
+  "options": [
+   "Request an urgent MRI of the chest",
+   "Arrange immediate thoracentesis before reassessing the airway",
+   "Repeat the chest radiograph before providing further treatment",
+   "Initiate an ABC approach, provide emergency stabilization, and summon",
+   "Administer a sedative to reduce agitation and oxygen consumption"
+  ],
+  "answer": [
+   "Initiate an ABC approach, provide emergency stabilization, and summon"
+  ],
+  "explanation": "A. MRI is impractical and unsafe in an unstable child. B. Thoracentesis may be needed, but airway and breathing must be assessed and stabilised first. C. Repeating the radiograph delays treatment of an unstable child. D. Correct. Sudden severe deterioration in a child with staphylococcal pneumonia suggests a complication such as tension pneumothorax or pyopneumothorax/empyema. The immediate priority is ABC, emergency stabilisation (high-flow oxygen, IV access, fluids) and calling for senior help while preparing for needle decompression or chest drain. E. Sedation can worsen respiratory failure and hypotension."
+ },
+ {
+  "type": "mcq",
+  "q-number": 4,
+  "q": "A term newborn has a head circumference of 35 cm at birth. During the first year of life, head growth is most rapid during early infancy. At approximately what age would a head circumference of about 46 cm be expected in a normally growing infant?",
+  "options": [
+   "2 months",
+   "4 months",
+   "6 months",
+   "12 months",
+   "18 months"
+  ],
+  "answer": [
+   "12 months"
+  ],
+  "explanation": "A. At 2 months it is only about 38-40 cm. B. At 4 months it is about 41-42 cm. C. At 6 months it is about 43-44 cm. D. Correct. Head circumference rises about 2 cm/month in the first 3 months, then slows. From 35 cm at birth it reaches about 46 cm at about 12 months (roughly 39 cm at 2 months, 41-42 cm at 4 months, 43-44 cm at 6 months). E. At 18 months it is about 47-48 cm. ⚠️ Reference-chart dependent: 46 cm may be reached between about 9-12 months depending on the chart. 12 months is the best fit among the options."
+ },
+ {
+  "type": "mcq",
+  "q-number": 5,
+  "q": "During the initial examination of a healthy term newborn, the heart rate is measured while the infant is resting. Which range is most consistent with a normal resting neonatal heart rate?",
+  "options": [
+   "60--90 beats/minute",
+   "90--110 beats/minute",
+   "120--160 beats/minute",
+   "170--200 beats/minute",
+   "Less than 60 beats/minute"
+  ],
+  "answer": [
+   "120--160 beats/minute"
+  ],
+  "explanation": "A. 60-90 is bradycardia for a newborn. B. 90-110 is low for an awake resting term newborn. C. Correct. The normal resting neonatal heart rate is about 120-160 beats/minute (can fall to about 100 in sleep and rise above 160 when crying). D. 170-200 suggests tachycardia (e.g. SVT is usually >220). E. Under 60 is severe bradycardia needing resuscitation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 6,
+  "q": "A 2-day-old term infant weighing 3 kg is receiving phototherapy for significant neonatal jaundice. The mother is blood group O positive and has had difficulty establishing breastfeeding because of poor lactation. The membranes ruptured approximately 22 hours before delivery. Which is the most appropriate feeding approach while the infant remains clinically stable?",
+  "options": [
+   "Keep the infant nil by mouth and provide intravenous fluids routinely",
+   "Continue enteral feeding with expressed breast milk when available,",
+   "Stop all feeds until phototherapy is completed",
+   "Use intravenous fluids as the sole source of nutrition",
+   "Give only small amounts of oral water between phototherapy sessions"
+  ],
+  "answer": [
+   "Continue enteral feeding with expressed breast milk when available,"
+  ],
+  "explanation": "A. Routine NBM and IV fluids are not needed in a stable infant. B. Correct. In a stable jaundiced infant on phototherapy, feeding should continue, preferably with expressed breast milk, supplemented with formula or donor milk if intake is inadequate. Feeding promotes gut motility and bilirubin excretion (reduces enterohepatic circulation). C. Stopping feeds worsens hyperbilirubinaemia and hypoglycaemia risk. D. IV fluids alone are not appropriate when the gut works. E. Water has no nutritional value and does not lower bilirubin."
+ },
+ {
+  "type": "mcq",
+  "q-number": 7,
+  "q": "Immediately after an uncomplicated vaginal delivery, a vigorous term newborn is placed with the mother. Which essential newborn care practice most directly promotes early initiation of breastfeeding?",
+  "options": [
+   "Separating the newborn from the mother for routine bathing",
+   "Delaying maternal--infant contact until after weighing and measuring",
+   "Immediate skin-to-skin contact between mother and newborn",
+   "Giving the newborn supplemental formula before breastfeeding",
+   "Performing routine procedures before allowing maternal contact"
+  ],
+  "answer": [
+   "Immediate skin-to-skin contact between mother and newborn"
+  ],
+  "explanation": "A. Separation for bathing delays bonding and breastfeeding (bathing should be delayed 24 h). B. Weighing and measuring can wait until after the first feed. C. Correct. Immediate, uninterrupted skin-to-skin contact keeps the baby warm, stabilises physiology and promotes the first breastfeed within the first hour (WHO essential newborn care). D. Formula before breastfeeding undermines breastfeeding. E. Routine procedures should not precede maternal contact."
+ },
+ {
+  "type": "mcq",
+  "q-number": 8,
+  "q": "A 3-year-old child from a peri-urban area with severe food insecurity presents with poor growth, muscle wasting, bilateral pitting edema, sparse hair, and skin changes. Which finding most strongly supports the diagnosis of kwashiorkor?",
+  "options": [
+   "Generalized edema associated with growth failure",
+   "Isolated severe anaemia without edema",
+   "Increased muscle mass with hepatomegaly",
+   "Severe dehydration with normal nutritional status",
+   "Hyperactivity and excessive weight gain"
+  ],
+  "answer": [
+   "Generalized edema associated with growth failure"
+  ],
+  "explanation": "A. Correct. Kwashiorkor is defined by bilateral pitting oedema with growth failure/malnutrition (often with sparse hair, skin changes and hepatomegaly). B. Anaemia without oedema is not specific and does not indicate kwashiorkor. C. Muscle wasting (not increased muscle mass) occurs, with a fatty enlarged liver. D. Normal nutritional status contradicts the diagnosis. E. Children are apathetic and irritable, not hyperactive, and have no excess weight gain."
+ },
+ {
+  "type": "mcq",
+  "q-number": 9,
+  "q": "A newborn develops respiratory distress, temperature instability, poor feeding, and lethargy during the first several days after birth. Which organism is a well-recognized cause of early-onset neonatal sepsis?",
+  "options": [
+   "Streptococcus agalactiae",
+   "Proteus vulgaris",
+   "Pseudomonas aeruginosa",
+   "Staphylococcus aureus",
+   "Klebsiella pneumoniae"
+  ],
+  "answer": [
+   "Streptococcus agalactiae"
+  ],
+  "explanation": "A. Correct. Group B Streptococcus (Streptococcus agalactiae) is the leading cause of early-onset neonatal sepsis (<72 h to 7 days), acquired vertically from the maternal genital tract, with E. coli and Listeria also important. B. Proteus is an uncommon cause of neonatal sepsis. C. Pseudomonas is mainly a late-onset/nosocomial pathogen. D. S. aureus is mainly late-onset or hospital/skin associated. E. Klebsiella is a recognised cause, more often late-onset and nosocomial; GBS is the best answer. ⚠️ Klebsiella can also cause early-onset sepsis in some low-resource settings, but GBS is the classic answer."
+ },
+ {
+  "type": "mcq",
+  "q-number": 10,
+  "q": "A 10-year-old boy is admitted to the high-dependency unit with severe respiratory distress. A chest radiograph demonstrates dense air-space disease involving the left lower lobe, with loss of the normal contour of the adjacent left hemidiaphragm. Which radiographic description best matches this finding?",
+  "options": [
+   "Right upper-lobe collapse",
+   "Left middle-lobe collapse",
+   "Left lower-lobe consolidation with a positive silhouette sign",
+   "Bilateral upper-lobe hyperinflation",
+   "Left upper-lobe vascular prominence without air-space disease"
+  ],
+  "answer": [
+   "Left lower-lobe consolidation with a positive silhouette sign"
+  ],
+  "explanation": "A. The disease is left lower, not right upper. B. The left middle lobe does not exist (the lingula is part of the left upper lobe). C. Correct. Dense left lower-lobe air-space disease obscuring the left hemidiaphragm contour is lobar consolidation with a positive silhouette sign (loss of the border between the airless lung and adjacent structure). D. Hyperinflation is not the finding. E. The finding is air-space disease, not simple vascular prominence. ⚠️ The question depends on the chest X-ray image in the paper; answer based on the stem description."
+ },
+ {
+  "type": "mcq",
+  "q-number": 11,
+  "q": "A 2-year-old girl is brought to an IMCI clinic with a 2-day history of cough and fever of 39°C. Her mother reports that the child has become unusually sleepy and is taking less fluid than usual. Her respiratory rate is 45 breaths/minute, and marked lower chest wall indrawing is observed. Based on the WHO/IMCI clinical classification, which is the most appropriate diagnosis?",
+  "options": [
+   "No pneumonia---cough and cold",
+   "Pneumonia",
+   "Severe pneumonia or very severe disease",
+   "Acute febrile illness without pneumonia",
+   "Suspected meningitis"
+  ],
+  "answer": [
+   "Severe pneumonia or very severe disease"
+  ],
+  "explanation": "A. No pneumonia (cold) has no indrawing or fast breathing. B. Pneumonia (fast breathing only, 2-5 yr threshold is ≥40/min) is applicable if no indrawing or danger signs. C. Correct. Cough/fever with chest indrawing plus a danger sign (unusually sleepy/lethargic, unable to drink well) is classified as severe pneumonia or very severe disease (2014 IMCI). D. Doesn't account for the respiratory signs. E. Meningitis is considered, but the classification for this respiratory presentation is severe pneumonia/very severe disease. ⚠️ Classification wording varies between IMCI versions: older IMCI uses 'severe pneumonia or very severe disease'; newer WHO guidance uses 'pneumonia with chest indrawing = severe pneumonia'. Sleepiness is a general danger sign so the child needs referral either way."
+ },
+ {
+  "type": "mcq",
+  "q-number": 12,
+  "q": "Based on the clinical findings in Question 11, the child requires urgent treatment. Which of the following represents the most appropriate initial management?",
+  "options": [
+   "Oral amoxicillin as an outpatient with review after 48 hours",
+   "Oral rehydration solution followed by discharge home",
+   "IM ceftriaxone followed by outpatient observation",
+   "Administer oxygen if indicated, give appropriate parenteral",
+   "Give antipyretics only and reassess the following day"
+  ],
+  "answer": [
+   "Administer oxygen if indicated, give appropriate parenteral"
+  ],
+  "explanation": "A. Outpatient oral amoxicillin is for non-severe pneumonia. B. ORS alone and discharge ignores pneumonia. C. Outpatient observation after IM ceftriaxone is unsafe with danger signs. D. Correct. Severe pneumonia/very severe disease needs hospital care: oxygen if hypoxaemic, first dose of parenteral antibiotic (e.g. ampicillin/benzylpenicillin + gentamicin, or ceftriaxone) and urgent admission/referral. E. Antipyretics alone are inadequate."
+ },
+ {
+  "type": "mcq",
+  "q-number": 13,
+  "q": "Which statement most accurately describes the epidemiological importance of pneumonia in children?",
+  "options": [
+   "Pneumonia is an uncommon cause of childhood mortality worldwide.",
+   "Pneumonia accounts for approximately 14% of deaths among children",
+   "Most childhood pneumonia cases require hospital admission.",
+   "The annual number of pneumonia episodes has consistently increased",
+   "Pneumonia occurs exclusively during the rainy season."
+  ],
+  "answer": [
+   "Pneumonia accounts for approximately 14% of deaths among children"
+  ],
+  "explanation": "A. It is one of the leading causes of child mortality. B. Correct. WHO estimates pneumonia causes about 14% of deaths in children under 5 years (about 740,000 in 2019), making it the leading infectious killer. C. Most cases are managed in the community with oral antibiotics. D. Incidence has generally declined with vaccines (Hib, PCV) and improved care. E. It occurs year-round, with seasonal peaks varying by setting."
+ },
+ {
+  "type": "mcq",
+  "q-number": 14,
+  "q": "According to WHO principles for management of childhood diarrhoea, oral rehydration therapy is appropriate in which of the following children?",
+  "options": [
+   "A child with diarrhoea who is unconscious",
+   "A child with diarrhoea who is cyanosed and unable to drink",
+   "A child with diarrhoea who has severe dehydration and is in shock",
+   "A child with frequent watery diarrhoea who remains alert and is able",
+   "A child with diarrhoea who is lethargic and unable to take fluids"
+  ],
+  "answer": [
+   "A child with frequent watery diarrhoea who remains alert and is able"
+  ],
+  "explanation": "A. Unconscious children cannot take oral fluids safely and need IV therapy. B. A cyanosed child unable to drink needs resuscitation. C. Shock needs IV fluids urgently. D. Correct. ORT (WHO Plan A/B) is appropriate for a child who is alert, can drink and has no or some dehydration. E. A lethargic child unable to drink needs IV/NG therapy."
+ },
+ {
+  "type": "mcq",
+  "q-number": 15,
+  "q": "A 5-year-old boy develops a rapidly enlarging, painful swelling of the upper thigh approximately 2 weeks after recovering from chickenpox. The area is erythematous and oedematous, with a tense necrotic bulla, palpable crepitus, and purulent discharge. What is the most important immediate management?",
+  "options": [
+   "Obtain an MRI before starting definitive treatment",
+   "Obtain a wound culture and observe the child for 24 hours",
+   "Begin oral antibiotics and arrange outpatient surgical review",
+   "Perform urgent surgical exploration and aggressive debridement",
+   "Treat initially with topical antiseptics and oral analgesia"
+  ],
+  "answer": [
+   "Perform urgent surgical exploration and aggressive debridement"
+  ],
+  "explanation": "A. Imaging must not delay surgery. B. Observation allows rapid progression and death. C. Oral antibiotics are inadequate. D. Correct. This is necrotising fasciitis/necrotising soft-tissue infection (post-varicella, with bulla, crepitus). It is a surgical emergency needing urgent exploration, aggressive debridement and broad-spectrum IV antibiotics (including clindamycin). E. Topical antiseptics and oral analgesia are inadequate."
+ },
+ {
+  "type": "mcq",
+  "q-number": 16,
+  "q": "A child presents with several areas of impetigo involving different parts of the body. Which circumstance most appropriately supports treatment with a systemic oral antibiotic rather than topical therapy alone?",
+  "options": [
+   "Every case of impetigo requires oral antibiotics.",
+   "A single small, localized lesion is present.",
+   "There are numerous lesions or extensive disease, particularly in a",
+   "The child has mild impetigo confined to one finger.",
+   "The child is younger than 1 year regardless of disease severity."
+  ],
+  "answer": [
+   "There are numerous lesions or extensive disease, particularly in a"
+  ],
+  "explanation": "A. Not every case needs oral antibiotics. B. A single small lesion is treated topically. C. Correct. Oral antibiotics are used for extensive or numerous lesions (and in settings with high post-streptococcal glomerulonephritis risk or outbreaks); localised mild lesions get topical therapy (mupirocin/fusidic acid). D. Mild impetigo of one finger is treated topically. E. Age alone does not dictate systemic therapy."
+ },
+ {
+  "type": "mcq",
+  "q-number": 17,
+  "q": "Which statement regarding urinary tract infection (UTI) in children is most accurate?",
+  "options": [
+   "UTI is predominantly caused by Gram-positive organisms.",
+   "UTI is more common in girls, particularly after infancy.",
+   "Oral amoxicillin is universally the preferred empirical treatment.",
+   "UTI rarely occurs in young children.",
+   "Most childhood UTIs are caused by viral pathogens."
+  ],
+  "answer": [
+   "UTI is more common in girls, particularly after infancy."
+  ],
+  "explanation": "A. UTI is mainly caused by Gram-negative organisms (E. coli). B. Correct. UTI is more common in girls after infancy (shorter urethra); in the first months boys are more affected. C. Treatment depends on local resistance and the severity; amoxicillin is not universally preferred. D. UTI is common in young children. E. Most UTIs are bacterial."
+ },
+ {
+  "type": "mcq",
+  "q-number": 18,
+  "q": "A 3-year-old child is suspected of having a urinary tract infection. Which method provides an appropriate urine specimen for culture in a toilet-trained child while minimizing contamination?",
+  "options": [
+   "Urine collected from a sterile urine bag",
+   "Clean-catch midstream urine specimen",
+   "Urine squeezed from a diaper",
+   "Urine collected from a bedpan without cleaning the perineum",
+   "Urine obtained only by suprapubic aspiration in all children"
+  ],
+  "answer": [
+   "Clean-catch midstream urine specimen"
+  ],
+  "explanation": "A. Bag specimens have a high contamination rate (not suitable for culture). B. Correct. A clean-catch midstream urine sample is appropriate in a toilet-trained child and minimises contamination. C. A squeezed diaper sample is unreliable. D. An unclean bedpan sample is contaminated. E. Suprapubic aspiration is reserved for infants/non-toilet-trained children when needed, not all children."
+ },
+ {
+  "type": "mcq",
+  "q-number": 19,
+  "q": "A 3-week-old term infant presents with fever, lethargy, and a warm, erythematous and swollen lower leg. The infant was discharged from hospital one week earlier following treatment for respiratory distress. Which management approach is most appropriate?",
+  "options": [
+   "Treat with oral flucloxacillin and discharge with outpatient",
+   "Observe in the emergency department and obtain a full blood count",
+   "Administer intramuscular procaine penicillin and send the infant home",
+   "Admit the infant, obtain appropriate cultures including blood",
+   "Perform MRI of the leg before administering antibiotics"
+  ],
+  "answer": [
+   "Admit the infant, obtain appropriate cultures including blood"
+  ],
+  "explanation": "A. Oral therapy and discharge is unsafe in a neonate. B. Delay risks overwhelming sepsis. C. IM procaine penicillin is inadequate and discharge is unsafe. D. Correct. A febrile, lethargic neonate with a hot, swollen leg suggests sepsis with osteomyelitis/septic arthritis or cellulitis/necrotising infection. It needs admission, full septic screen (blood culture ± LP, urine) and empiric IV antibiotics (e.g. flucloxacillin/cloxacillin plus gentamicin or cefotaxime). E. MRI should not delay antibiotics."
+ },
+ {
+  "type": "mcq",
+  "q-number": 20,
+  "q": "A newborn is delivered to a mother whose HIV serology is positive. Following assessment of the mother's treatment history and the infant's risk of HIV acquisition, the neonatal team commences an appropriate antiretroviral regimen. The regimen includes abacavir, lamivudine, and dolutegravir. Which statement best describes the principal pharmacological action of these medications?",
+  "options": [
+   "They directly destroy HIV particles circulating in the blood.",
+   "They inhibit different stages of HIV replication, thereby reducing",
+   "They stimulate maternal antibodies to cross the placenta and",
+   "They prevent HIV from entering the gastrointestinal tract of the",
+   "They eradicate latent HIV infection from all neonatal cells."
+  ],
+  "answer": [
+   "They inhibit different stages of HIV replication, thereby reducing"
+  ],
+  "explanation": "A. ARVs do not directly destroy circulating virions. B. Correct. Abacavir, lamivudine (NRTIs) and dolutegravir (INSTI) are antiretrovirals that inhibit different steps of HIV replication, lowering viral load. C. They don't stimulate maternal antibodies. D. They don't block gut entry. E. They cannot eradicate latent reservoirs."
+ },
+ {
+  "type": "mcq",
+  "q-number": 21,
+  "q": "A neonate receiving antiretroviral therapy is given abacavir and lamivudine as part of the treatment regimen. Both medications belong to the nucleoside reverse transcriptase inhibitor (NRTI) class. Which mechanism best explains their antiviral activity?",
+  "options": [
+   "Inhibition of HIV protease, preventing viral protein maturation",
+   "Blocking attachment of HIV to the CD4 receptor",
+   "Inhibition of reverse transcriptase after intracellular conversion to",
+   "Inhibition of viral integrase, preventing integration of viral DNA",
+   "Destruction of the HIV capsid before viral entry into the host cell"
+  ],
+  "answer": [
+   "Inhibition of reverse transcriptase after intracellular conversion to"
+  ],
+  "explanation": "A. This describes protease inhibitors. B. This describes entry/attachment inhibitors. C. Correct. NRTIs are prodrugs phosphorylated intracellularly to active nucleotide analogues; they compete with natural nucleotides and cause DNA chain termination, inhibiting reverse transcriptase. D. This describes integrase inhibitors (dolutegravir). E. No ARV destroys the capsid before entry."
+ },
+ {
+  "type": "mcq",
+  "q-number": 22,
+  "q": "A neonate receiving combination antiretroviral therapy is also prescribed dolutegravir (DTG). The paediatrician explains to the medical students that this medication acts at a different stage of the HIV replication cycle from abacavir and lamivudine. Which mechanism of action is most appropriate?",
+  "options": [
+   "Inhibition of viral protease-mediated cleavage of polyproteins",
+   "Blocking the CD4 receptor on neonatal lymphocytes",
+   "Direct destruction of HIV RNA within the bloodstream",
+   "Inhibition of reverse transcriptase by terminating viral DNA",
+   "Competitive inhibition of HIV integrase, preventing integration of"
+  ],
+  "answer": [
+   "Competitive inhibition of HIV integrase, preventing integration of"
+  ],
+  "explanation": "A. This describes protease inhibitors. B. CD4 blocking is not its mechanism (ibalizumab/CCR5 antagonists act at entry). C. It doesn't destroy RNA directly. D. This describes NRTIs/NNRTIs. E. Correct. Dolutegravir is an integrase strand-transfer inhibitor, preventing integration of proviral DNA into the host genome."
+ },
+ {
+  "type": "mcq",
+  "q-number": 23,
+  "q": "A newborn is delivered to a mother who has a positive syphilis serology result. The mother reports that she received treatment during pregnancy but cannot provide documentation of completing the recommended course. The infant appears well at birth. Which statement best explains why the newborn requires careful clinical assessment and appropriate serological investigation despite having no obvious clinical abnormalities?",
+  "options": [
+   "Treponema pallidum cannot cross the placenta during the first or",
+   "Congenital syphilis occurs only when the newborn has skin lesions at",
+   "An asymptomatic newborn does not require investigation if the mother",
+   "A positive maternal serology automatically confirms that the newborn",
+   "Transplacental transmission of Treponema pallidum can occur during"
+  ],
+  "answer": [
+   "Transplacental transmission of Treponema pallidum can occur during"
+  ],
+  "explanation": "A. It can cross in any trimester. B. Many cases have no skin lesions at birth. C. Any penicillin does not guarantee adequate treatment (dose, timing >30 days before delivery, documentation). D. Maternal serology alone doesn't confirm infection, as IgG crosses the placenta. E. Correct. T. pallidum crosses the placenta throughout pregnancy and most infected newborns are asymptomatic at birth, so risk assessment (adequacy of maternal treatment, serology titres, examination) is required."
+ },
+ {
+  "type": "mcq",
+  "q-number": 24,
+  "q": "A term newborn is born to a mother with positive syphilis serology. Review of the antenatal record reveals that maternal treatment was inadequate and was not completed according to the recommended schedule. The infant is clinically stable but is considered at significant risk for congenital syphilis. Why is penicillin therapy important in this situation?",
+  "options": [
+   "Penicillin eradicates organism and prevents progression of untreated",
+   "Penicillin eliminates maternal antibodies transferred across the",
+   "Penicillin is given primarily to prevent neonatal jaundice.",
+   "Penicillin is administered only when the infant develops a rash.",
+   "Penicillin is used to stimulate the infant's immune response against"
+  ],
+  "answer": [
+   "Penicillin eradicates organism and prevents progression of untreated"
+  ],
+  "explanation": "A. Correct. Penicillin kills T. pallidum and prevents progression of untreated congenital syphilis and its sequelae (e.g. bone, CNS, hearing and dental complications). B. Penicillin doesn't remove maternal antibodies. C. It isn't for jaundice. D. It is given to at-risk infants even if asymptomatic. E. It's an antimicrobial, not an immune stimulant."
+ },
+ {
+  "type": "mcq",
+  "q-number": 25,
+  "q": "A 3-month-old infant is brought to the paediatric clinic because of poor weight gain and increasing sleepiness. The mother reports that the infant was born after she had been diagnosed with syphilis during pregnancy but that her treatment was incomplete. Examination reveals jaundice and a generalized maculopapular rash. The infant appears lethargic and has significant failure to thrive. What is the most appropriate next step?",
+  "options": [
+   "Urgently evaluate and treat with an appropriate parenteral penicillin",
+   "Reassure the mother because congenital syphilis usually resolves",
+   "Start oral antibiotics and review the infant after one week",
+   "Treat the jaundice with phototherapy alone and defer syphilis",
+   "Wait for the rash to resolve before performing serological testing."
+  ],
+  "answer": [
+   "Urgently evaluate and treat with an appropriate parenteral penicillin"
+  ],
+  "explanation": "A. Correct. This infant has symptomatic late-presenting congenital syphilis, so urgent evaluation, investigations (RPR/VDRL, TPPA, FBC, LFTs, long-bone X-ray, CSF, eyes, hearing) and parenteral penicillin (e.g. benzylpenicillin for 10-14 days) are needed. B. It does not resolve spontaneously. C. Oral antibiotics are inadequate. D. Phototherapy alone misses the cause. E. Waiting delays treatment."
+ },
+ {
+  "type": "saq",
+  "q-number": 26,
+  "q": "A 6-week-old infant presents with persistent irritability, poor feeding, and increased crying for the past 3 days. On examination the infant is febrile (38.5°C), has a bulging anterior fontanelle, and is lethargic between cries. Total 5 marks.\nA) Give five likely causes (differential diagnosis).\nB) For the most likely cause (final diagnosis), state the single best initial diagnostic test.\nC) State the first-line management.",
+  "answer": [
+   "**A) Differential diagnosis (five causes)**\n* Bacterial meningitis (GBS, E. coli, Listeria, S. pneumoniae, N. meningitidis, Hib), which is the most likely\n* Viral meningitis/meningoencephalitis (enterovirus, HSV, parechovirus)\n* Sepsis from another source, including UTI\n* Intracranial haemorrhage or subdural haematoma (including abusive head trauma)\n* Brain abscess or subdural empyema (also hydrocephalus/ventriculitis)",
+   "**B) Single best initial diagnostic test**\n* Lumbar puncture with CSF analysis (cell count, protein, glucose, Gram stain, culture), done once stable and with no contraindication\n* Blood culture, FBC, CRP and glucose are taken before antibiotics but do not replace the LP",
+   "**C) First-line management**\n* ABC resuscitation, IV/IO access, check glucose, take cultures, and do not delay antibiotics\n* IV ceftriaxone or cefotaxime plus ampicillin (to cover Listeria at <3 months); add vancomycin if resistant pneumococcus is possible\n* Consider IV acyclovir if HSV is suspected\n* Dexamethasone may be considered (>6 weeks of age) before or with the first antibiotic dose, per local protocol\n* Supportive care: fluids, seizure control, treat raised ICP, monitor, isolation, and notify contacts"
+  ],
+  "explanation": "⚠️ Antibiotic choice and dexamethasone use depend on local protocol."
+ },
+ {
+  "type": "saq",
+  "q-number": 27,
+  "q": "A previously well 4-year-old boy develops acute periorbital and facial swelling, low-grade fever, and mild conjunctival injection. He is otherwise well, with normal vision and no proptosis. Total 5 marks.\nA) List five differential diagnoses.\nB) For the most likely diagnosis, name two key distinguishing clinical features.\nC) Outline the initial management steps.",
+  "answer": [
+   "**A) Differential diagnosis (five)**\n* Periorbital (preseptal) cellulitis, which is the most likely\n* Allergic reaction/angioedema, or allergic conjunctivitis\n* Orbital cellulitis (must be excluded)\n* Nephrotic syndrome or acute glomerulonephritis (facial oedema)\n* Viral/adenoviral conjunctivitis, sinusitis, insect bite or trauma",
+   "**B) Two key distinguishing features of periorbital cellulitis**\n* Eyelid erythema, warmth and tender swelling with a possible source (sinusitis, bite, trauma) and fever\n* Normal vision, normal and painless eye movements and no proptosis, which separates it from orbital cellulitis",
+   "**C) Initial management**\n* Assess vision, eye movements, proptosis and pupils; look for a source and check urine and blood pressure to exclude renal causes\n* Mild and well: oral antibiotics (co-amoxiclav, or cephalexin/flucloxacillin) with analgesia and review in 24-48 h\n* Unwell, young, or not improving: admit for IV antibiotics (ceftriaxone ± flucloxacillin/clindamycin)\n* Contrast CT and ophthalmology/ENT review if orbital signs appear"
+  ],
+  "explanation": "⚠️ Allergic angioedema is also a plausible 'most likely' answer; the fever and conjunctival injection favour infection (preseptal cellulitis)."
+ },
+ {
+  "type": "saq",
+  "q-number": 28,
+  "q": "A 3-month-old male infant has recurrent cyanotic spells with feeding and poor weight gain. On examination there is a harsh systolic murmur and mild central cyanosis. Total 5 marks.\nA) Provide five possible causes (differential diagnosis).\nB) Name the most likely congenital cardiac lesion.\nC) State the diagnostic test of choice.\nD) State the initial medical therapy to stabilise the infant.",
+  "answer": [
+   "**A) Differential diagnosis (five)**\n* Tetralogy of Fallot, which is the most likely\n* Transposition of the great arteries with VSD/pulmonary stenosis\n* Tricuspid atresia\n* Pulmonary atresia with VSD, or Ebstein anomaly\n* Truncus arteriosus, or non-cardiac causes (lung disease, sepsis, methaemoglobinaemia)",
+   "**B) Most likely lesion**\n* Tetralogy of Fallot (VSD, RVOT obstruction, overriding aorta and RV hypertrophy) with hypercyanotic (tet) spells",
+   "**C) Diagnostic test of choice**\n* Echocardiography (with chest X-ray showing a boot-shaped heart and ECG showing RVH as supporting tests)",
+   "**D) Initial medical therapy to stabilise**\n* Calm the infant and place in the knee-chest position, with high-flow oxygen\n* Morphine 0.1 mg/kg (IV/IM/SC) and an IV fluid bolus of 10-20 ml/kg\n* IV propranolol or esmolol if the spell persists, with phenylephrine as a vasopressor\n* Sodium bicarbonate for acidosis, and treat anaemia/dehydration; then oral propranolol and early surgical repair"
+  ],
+  "explanation": ""
+ },
+ {
+  "type": "mcq",
+  "q-number": 29,
+  "q": "Select the single most likely fluid requirement. A 3-year-old child having fever on and off and diarrhea for a day with no dehydration but vomited once and no appetite to eat solid food.",
+  "options": [
+   "Normal Saline Solution (0.9%) IV Maintenance",
+   "Normal Saline Solution (0.9%) IV 2/3 Maintenance",
+   "Normal saline Solution 20ml/kg IV Bolus",
+   "D5 Glucose with NSS (0.45%) IV Maintenance",
+   "D10% Glucose bolus 2-5ml/kg IV",
+   "Lactated Ringer's Solution IV",
+   "ORS",
+   "Resomal"
+  ],
+  "answer": [
+   "ORS"
+  ],
+  "explanation": "G. No dehydration (Plan A): give ORS after each loose stool, continue feeding, and zinc."
+ },
+ {
+  "type": "mcq",
+  "q-number": 30,
+  "q": "Select the single most likely fluid requirement. A 5-year-old girl came from orphanage noted to be weak, with muscle wasting and poor social history. She has poor appetite, diarrhea for 2 days and crying with no tears.",
+  "options": [
+   "Normal Saline Solution (0.9%) IV Maintenance",
+   "Normal Saline Solution (0.9%) IV 2/3 Maintenance",
+   "Normal saline Solution 20ml/kg IV Bolus",
+   "D5 Glucose with NSS (0.45%) IV Maintenance",
+   "D10% Glucose bolus 2-5ml/kg IV",
+   "Lactated Ringer's Solution IV",
+   "ORS",
+   "Resomal"
+  ],
+  "answer": [
+   "Resomal"
+  ],
+  "explanation": "H. Severe acute malnutrition with diarrhoea/dehydration. Standard ORS has too much sodium and too little potassium, so use ReSoMal (oral/NG, slowly)."
+ },
+ {
+  "type": "mcq",
+  "q-number": 31,
+  "q": "Select the single most likely fluid requirement. A 4-month-old infant having fever for 4 days on and off, with HR of 180, RR- 67 bpm, poor capillary refill time of 4 seconds, with cold and pale extremities. Mother claimed baby had history of admissions before due to convulsion.",
+  "options": [
+   "Normal Saline Solution (0.9%) IV Maintenance",
+   "Normal Saline Solution (0.9%) IV 2/3 Maintenance",
+   "Normal saline Solution 20ml/kg IV Bolus",
+   "D5 Glucose with NSS (0.45%) IV Maintenance",
+   "D10% Glucose bolus 2-5ml/kg IV",
+   "Lactated Ringer's Solution IV",
+   "ORS",
+   "Resomal"
+  ],
+  "answer": [
+   "Normal saline Solution 20ml/kg IV Bolus"
+  ],
+  "explanation": "C. Septic/compensated shock (tachycardia, tachypnoea, CRT 4 s, cold extremities), so give 20 ml/kg isotonic crystalloid bolus and reassess. ⚠️ Ringer's lactate (F) is also acceptable as a bolus fluid, but option C specifies the bolus volume."
+ },
+ {
+  "type": "mcq",
+  "q-number": 32,
+  "q": "Select the single most likely fluid requirement. A 7-year-old boy came to A&E department due to R Iliac fossa pain started in periumbilical area with vomiting of 4x of previously ingested food and now for observation for further investigation and observation",
+  "options": [
+   "Normal Saline Solution (0.9%) IV Maintenance",
+   "Normal Saline Solution (0.9%) IV 2/3 Maintenance",
+   "Normal saline Solution 20ml/kg IV Bolus",
+   "D5 Glucose with NSS (0.45%) IV Maintenance",
+   "D10% Glucose bolus 2-5ml/kg IV",
+   "Lactated Ringer's Solution IV",
+   "ORS",
+   "Resomal"
+  ],
+  "answer": [
+   "D5 Glucose with NSS (0.45%) IV Maintenance"
+  ],
+  "explanation": "D. Suspected appendicitis: nil by mouth with IV maintenance fluid, which is D5 in 0.45% saline. ⚠️ Isotonic maintenance (A) is increasingly recommended; D5 0.45% NS is the classic paediatric maintenance choice and the best fit here."
+ },
+ {
+  "type": "mcq",
+  "q-number": 33,
+  "q": "Select the single most likely fluid requirement. A newborn baby with weight of 5.5 kg sleep most of the time and pale looking now. Mother diagnosed with Gestational diabetes, primigravida and post-Cesar. observation.",
+  "options": [
+   "Normal Saline Solution (0.9%) IV Maintenance",
+   "Normal Saline Solution (0.9%) IV 2/3 Maintenance",
+   "Normal saline Solution 20ml/kg IV Bolus",
+   "D5 Glucose with NSS (0.45%) IV Maintenance",
+   "D10% Glucose bolus 2-5ml/kg IV",
+   "Lactated Ringer's Solution IV",
+   "ORS",
+   "Resomal"
+  ],
+  "answer": [
+   "D10% Glucose bolus 2-5ml/kg IV"
+  ],
+  "explanation": "E. Macrosomic infant of a diabetic mother with lethargy: suspect neonatal hypoglycaemia, so give 2-5 ml/kg D10% bolus (check glucose first)."
+ },
+ {
+  "type": "mcq",
+  "q-number": 34,
+  "q": "Select the single best match. To assess for hip instability by attempting to dislocate the femoral head from the acetabulum (hip socket). Gently adducts the hip, characterised with a palpable 'clunk'.",
+  "options": [
+   "Brudzinski sign",
+   "Ortolani test",
+   "Weber sign",
+   "Kernig sign",
+   "Macewen sign",
+   "Barlow test"
+  ],
+  "answer": [
+   "Barlow test"
+  ],
+  "explanation": "F. Barlow provocative test: adduct and push posteriorly to dislocate an unstable hip."
+ },
+ {
+  "type": "mcq",
+  "q-number": 35,
+  "q": "Select the single best match. Position the patient supine with their hips flexed to 90°. This test is positive if there is pain on passive extension of the knee.",
+  "options": [
+   "Brudzinski sign",
+   "Ortolani test",
+   "Weber sign",
+   "Kernig sign",
+   "Macewen sign",
+   "Barlow test"
+  ],
+  "answer": [
+   "Kernig sign"
+  ],
+  "explanation": "D. Kernig sign of meningeal irritation."
+ },
+ {
+  "type": "mcq",
+  "q-number": 36,
+  "q": "Select the single best match. A sign used to help to diagnose hydrocephalus (accumulation of excess cerebrospinal fluid).",
+  "options": [
+   "Brudzinski sign",
+   "Ortolani test",
+   "Weber sign",
+   "Kernig sign",
+   "Macewen sign",
+   "Barlow test"
+  ],
+  "answer": [
+   "Macewen sign"
+  ],
+  "explanation": "E. Macewen sign: 'cracked-pot' resonant percussion note over the skull in hydrocephalus with raised ICP. Weber (C) is a brainstem syndrome (CN III palsy with contralateral hemiplegia) and is a distractor."
+ },
+ {
+  "type": "mcq",
+  "q-number": 37,
+  "q": "Select the single best match. To assess for the presence of a dislocated hip by attempting to relocate it back into the acetabulum. With gentle pressure, the examiner abducts the hip and pushes the thigh anteriorly.",
+  "options": [
+   "Brudzinski sign",
+   "Ortolani test",
+   "Weber sign",
+   "Kernig sign",
+   "Macewen sign",
+   "Barlow test"
+  ],
+  "answer": [
+   "Ortolani test"
+  ],
+  "explanation": "B. Ortolani reduction test: abduct and lift anteriorly, with a 'clunk' as the hip relocates."
+ },
+ {
+  "type": "mcq",
+  "q-number": 38,
+  "q": "Select the single best match. Position the patient supine and passively flex their neck. This test is positive if this manoeuvre causes reflex flexion of the hip and knee.",
+  "options": [
+   "Brudzinski sign",
+   "Ortolani test",
+   "Weber sign",
+   "Kernig sign",
+   "Macewen sign",
+   "Barlow test"
+  ],
+  "answer": [
+   "Brudzinski sign"
+  ],
+  "explanation": "A. Brudzinski sign of meningeal irritation."
+ }
+]
