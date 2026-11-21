@@ -269,6 +269,16 @@ button.sm{padding:4px 9px;font-size:.82rem}
   .charts{grid-template-columns:1fr}
   .qcard.ghost{display:none}                  /* touch swipe feels better without the ghost card */
 }
+/* search results */
+mark{background:var(--warn-bg);color:inherit;border-radius:3px;padding:0 1px;box-shadow:0 0 0 1px var(--warn)}
+.res{padding:11px 14px;border-top:1px solid var(--border);cursor:pointer}
+.res:first-child{border-top:0}
+.res:hover,.res:focus-visible{background:var(--sel);outline:none}
+.resmeta{font-size:.82rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:3px}
+.resmeta b{color:var(--text)}
+.restext{white-space:pre-wrap;overflow-wrap:anywhere}
+.resextra{font-size:.88rem;color:var(--muted);margin-top:3px;overflow-wrap:anywhere}
+#navResults .vlist{margin:6px 0 10px;max-height:46vh;overflow:auto}
 /* rule-out crosses on options */
 .xout{margin-left:auto;flex:none;align-self:center;width:30px;height:30px;padding:0;border-radius:50%;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.9rem;line-height:1;display:grid;place-items:center;opacity:.75}
 .xout:hover{opacity:1;color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
@@ -410,6 +420,8 @@ button.primary:not(:disabled):hover{box-shadow:0 4px 12px rgba(47,95,208,.35);tr
 
   <section id="navPanel" class="card hidden">
     <div class="row spread" style="margin-bottom:6px"><strong style="font-size:1.1rem">Questions</strong><button class="sm" id="btnCloseNav">Close</button></div>
+    <input type="text" id="navSearch" placeholder="Search this set's questions and answers…" aria-label="Search this set" autocomplete="off" style="width:100%;margin:8px 0 4px">
+    <div id="navResults" class="hidden"></div>
     <div class="hint">Tap a question to open it · green = correct · red = incorrect · outlined = current</div>
     <div class="row spread">
       <div class="row">
@@ -619,6 +631,7 @@ function ringSVG(s){
 function openSet(id,jump){
   const st=DB.sets[id]; if(!st) return;
   st.last=Date.now();
+  if($('navSearch')&&DB.active!==id){ $('navSearch').value=''; drawNavResults(); }
   if(jump){ const i=st.questions.findIndex((q,k)=>!(st.progress[k]&&st.progress[k].submitted)); if(i>=0) st.current=i; }
   activate(id); view='study'; save(); renderAll(); window.scrollTo({top:0});
 }
@@ -832,10 +845,89 @@ function countUp(n){
   const step=t=>{ const k=Math.min(1,(t-t0)/dur); n.textContent=Math.round(end*(1-Math.pow(1-k,3)))+suf; if(k<1) requestAnimationFrame(step); };
   n.textContent='0'+suf; requestAnimationFrame(step);
 }
+/* ---------- full-text search over every question (text, options, explanation, model answer) ---------- */
+function searchTerms(t){ return String(t||'').toLowerCase().split(/\s+/).filter(Boolean); }
+function qFields(q){
+  const f=[['',q.q]];
+  q.options.forEach((o,k)=>f.push(['Option '+String.fromCharCode(65+k)+': ',o]));
+  if(q.explanation) f.push(['Explanation: ',q.explanation]);
+  if(q.model) f.push(['Model answer: ',q.model]);
+  return f;
+}
+function qMatches(q,terms){
+  const hay=qFields(q).map(x=>x[1]).join('\n').toLowerCase();
+  return terms.every(t=>hay.includes(t));
+}
+function markInto(parent,text,terms){
+  const re=new RegExp('('+terms.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')','gi');
+  String(text).split(re).forEach((part,k)=>{
+    if(!part) return;
+    if(k%2){ const m=document.createElement('mark'); m.textContent=part; parent.appendChild(m); }
+    else parent.appendChild(document.createTextNode(part));
+  });
+}
+function clip(text,terms,len){
+  const t=String(text).replace(/\s+/g,' ').trim();
+  if(t.length<=len) return t;
+  const low=t.toLowerCase(); let at=-1;
+  for(const x of terms){ const i=low.indexOf(x); if(i>=0&&(at<0||i<at)) at=i; }
+  if(at<0) return t.slice(0,len)+'…';
+  const st=Math.max(0,at-Math.floor(len/3)), en=Math.min(t.length,st+len);
+  return (st>0?'…':'')+t.slice(st,en)+(en<t.length?'…':'');
+}
+function resultRow(st,i,terms,setName,onPick){
+  const q=st.questions[i], r=el('div','res'); r.tabIndex=0; r.setAttribute('role','button');
+  const top=el('div','resmeta');
+  if(setName) top.appendChild(el('b','',setName));
+  top.appendChild(el('span','',(setName?' · ':'')+'Question '+(q.qnum!=null?q.qnum:i+1)));
+  const p=st.progress[i]; if(p&&p.submitted) top.appendChild(el('span','chip '+(p.correct?'ok':'bad'),p.correct?'Correct':'Incorrect'));
+  r.appendChild(top);
+  // show the question text, plus the first other field that contains a search word
+  const f=qFields(q), qhit=terms.some(t=>q.q.toLowerCase().includes(t));
+  const qline=el('div','restext'); markInto(qline,clip(q.q,terms,qhit?200:140),terms); r.appendChild(qline);
+  const extra=f.slice(1).find(([,txt])=>terms.some(t=>String(txt).toLowerCase().includes(t)));
+  if(extra){ const l=el('div','resextra'); l.appendChild(el('span','',extra[0])); markInto(l,clip(extra[1],terms,160),terms); r.appendChild(l); }
+  r.onclick=()=>onPick(i);
+  r.onkeydown=e=>{ if(e.key==='Enter'){ e.preventDefault(); onPick(i); } };
+  return r;
+}
+const MAXRES=100;
+function renderSearch(body,query){
+  const terms=searchTerms(query), hits=[]; let sets=new Set();
+  Object.keys(DB.sets).forEach(id=>{
+    const st=DB.sets[id];
+    st.questions.forEach((q,i)=>{ if(qMatches(q,terms)){ hits.push([id,i]); sets.add(id); } });
+  });
+  const c=el('div','card'); 
+  c.appendChild(el('b','',hits.length?`${hits.length} question${hits.length===1?'':'s'} found in ${sets.size} set${sets.size===1?'':'s'}`:'No questions match “'+query.trim()+'”'));
+  if(hits.length>MAXRES) c.appendChild(el('small','m',` · showing the first ${MAXRES}`));
+  body.appendChild(c);
+  if(!hits.length) return;
+  const list=el('div','vlist');
+  hits.slice(0,MAXRES).forEach(([id,i])=>{
+    const st=DB.sets[id];
+    list.appendChild(resultRow(st,i,terms,st.name+(st.archived?' (archived)':''),k=>{ st.current=k; openSet(id); }));
+  });
+  body.appendChild(list);
+}
+/* the same search inside the Questions card (current set only) */
+function drawNavResults(){
+  const box=$('navResults'), inp=$('navSearch'), grid=$('grid'); if(!box) return;
+  const query=inp.value.trim(); box.innerHTML='';
+  if(!query){ box.classList.add('hidden'); grid.classList.remove('hidden'); return; }
+  const terms=searchTerms(query);
+  box.classList.remove('hidden'); grid.classList.add('hidden');
+  const hits=[]; S.questions.forEach((q,i)=>{ if(qMatches(q,terms)) hits.push(i); });
+  box.appendChild(el('div','hint',hits.length?`${hits.length} question${hits.length===1?'':'s'} match`:'No questions match.'));
+  const list=el('div','vlist');
+  hits.slice(0,MAXRES).forEach(i=>list.appendChild(resultRow(S,i,terms,null,k=>{ $('navPanel').classList.add('hidden'); go(k); })));
+  if(hits.length) box.appendChild(list);
+}
 function drawBody(body,animate){
   body.innerHTML='';
   const all=Object.keys(DB.sets), qq=HV.q.trim().toLowerCase();
-  const match=id=>!qq||DB.sets[id].name.toLowerCase().includes(qq);
+  const match=()=>true;
+  if(qq){ body.classList.remove('stagger'); renderSearch(body,HV.q); return; }
   const live=all.filter(id=>!DB.sets[id].archived), arch=all.filter(id=>DB.sets[id].archived);
   const ids=sortIds(live.filter(match));
   if(HV.view==='dash') renderDash(body,live,ids); else renderCollection(body,ids);
@@ -848,8 +940,8 @@ function drawBody(body,animate){
 }
 function homeToolbar(draw){
   const bar=el('div','htool');
-  const q=document.createElement('input'); q.type='text'; q.placeholder='Search sets…'; q.value=HV.q; q.setAttribute('aria-label','Search sets');
-  q.oninput=()=>{ HV.q=q.value; draw(); };
+  const q=document.createElement('input'); q.type='text'; q.placeholder='Search every question and answer…'; q.value=HV.q; q.setAttribute('aria-label','Search all questions');
+  let tmr=null; q.oninput=()=>{ HV.q=q.value; clearTimeout(tmr); tmr=setTimeout(draw,120); };
   const sort=document.createElement('select'); sort.setAttribute('aria-label','Sort sets');
   [['name','Name (A→Z)'],['recent','Recently studied'],['todo','Least complete first'],['weak','Lowest accuracy first']].forEach(([v,t])=>{ const o=el('option','',t); o.value=v; sort.appendChild(o); });
   sort.value=HV.sort; sort.onchange=()=>{ HV.sort=sort.value; saveHV(); draw(); };
@@ -1170,6 +1262,7 @@ $('btnNav').onclick=()=>{toggle('navPanel'); $('summaryPanel').classList.add('hi
 $('btnSummary').onclick=()=>{renderSummary(); toggle('summaryPanel'); $('navPanel').classList.add('hidden');};
 $('btnLoad').onclick=()=>toggle('loadPanel');
 $('btnCloseNav').onclick=()=>$('navPanel').classList.add('hidden');
+let ntmr=null; $('navSearch').oninput=()=>{ clearTimeout(ntmr); ntmr=setTimeout(drawNavResults,120); };
 $('navBackdrop').onclick=()=>$('navPanel').classList.add('hidden');
 $('btnCloseLoad').onclick=()=>$('loadPanel').classList.add('hidden');
 $('loadBackdrop').onclick=()=>$('loadPanel').classList.add('hidden');
@@ -1318,6 +1411,7 @@ function typingTarget(){
   return t==='TEXTAREA'||t==='SELECT'||(t==='INPUT'&&!/^(radio|checkbox|button|submit)$/.test(a.type));
 }
 function handleEsc(){
+  const ns=$('navSearch'); if(ns&&document.activeElement===ns&&ns.value){ ns.value=''; drawNavResults(); return; }
   if(loadOpen()){ $('loadPanel').classList.add('hidden'); return; }
   if(pickOpen()) return; // the pop-up closes itself
   if(helpOpen()){ closeHelp(); return; }
