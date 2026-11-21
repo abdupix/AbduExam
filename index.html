@@ -252,13 +252,7 @@ button.sm{padding:4px 9px;font-size:.82rem}
   .qcard>.row.spread:last-child>.row{min-width:0}
   .qcard>.row.spread:last-child .primary{flex:1}
   /* question list pop-up */
-  #navPanel>.row.spread:not(:first-child){flex-direction:column;align-items:stretch;gap:10px}
-  #navPanel>.row.spread:not(:first-child)>.row{flex-wrap:nowrap}
-  #navPanel>.row.spread:not(:first-child)>.row label{flex:1;min-width:0;font-size:.92rem}
-  #navPanel #jumpNum{width:72px;flex:none}
-  #btnFirstUn{width:100%;padding:11px}
-  #navPanel>.row:last-child{flex-wrap:nowrap}
-  #navPanel>.row:last-child button{flex:1;padding:11px 6px;font-size:.88rem}
+  #navPanel>.row:last-child button{flex:1 1 42%;padding:11px 6px;font-size:.88rem}
   .selfmark button{flex:1;padding:12px}
   .saq{min-height:150px}
   /* pop-ups use the full width */
@@ -269,6 +263,9 @@ button.sm{padding:4px 9px;font-size:.82rem}
   .charts{grid-template-columns:1fr}
   .qcard.ghost{display:none}                  /* touch swipe feels better without the ghost card */
 }
+.gsec{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:14px 0 2px}
+.gsec b{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+#grid .grid{margin-top:6px}
 /* search results */
 mark{background:var(--warn-bg);color:inherit;border-radius:3px;padding:0 1px;box-shadow:0 0 0 1px var(--warn)}
 .res{padding:11px 14px;border-top:1px solid var(--border);cursor:pointer}
@@ -422,17 +419,10 @@ button.primary:not(:disabled):hover{box-shadow:0 4px 12px rgba(47,95,208,.35);tr
     <div class="row spread" style="margin-bottom:6px"><strong style="font-size:1.1rem">Questions</strong><button class="sm" id="btnCloseNav">Close</button></div>
     <input type="text" id="navSearch" placeholder="Search this set's questions and answers…" aria-label="Search this set" autocomplete="off" style="width:100%;margin:8px 0 4px">
     <div id="navResults" class="hidden"></div>
-    <div class="hint">Tap a question to open it · green = correct · red = incorrect · outlined = current</div>
-    <div class="row spread">
-      <div class="row">
-        <label for="jumpNum"><b>Start / jump to question #</b></label>
-        <input type="number" id="jumpNum" min="1" value="1">
-        <button class="primary" id="btnGo">Go</button>
-      </div>
-      <button id="btnFirstUn">First unanswered</button>
-    </div>
-    <div class="grid" id="grid"></div>
+    <div class="hint">Click a number to go to that question · green = correct · red = incorrect · outlined = current</div>
+    <div id="grid"></div>
     <div class="row" style="margin-top:14px">
+      <button id="btnFirstUn">First unanswered</button>
       <button id="btnRetryWrong">Retry incorrect only</button>
       <button class="danger" id="btnReset">Reset this set's progress</button>
     </div>
@@ -668,42 +658,20 @@ function setButtons(id,o){
   if(!o.noOpen) row.children[first].style.marginLeft='auto';
   return row;
 }
-/* pop-up to choose which question to open a set at */
+let navFromMenu=false; // true while the Questions card was opened from the main menu
+function pickDone(){ navFromMenu=false; $('navPanel').classList.add('hidden'); }
+function closeNav(){
+  const was=navFromMenu; navFromMenu=false; $('navPanel').classList.add('hidden');
+  if(was){ view='home'; renderAll(); window.scrollTo({top:0}); }
+}
+/* "Select question" on the main menu: open the same Questions card for that set */
 function pickQuestion(id){
   const st=DB.sets[id]; if(!st||!st.questions.length) return;
-  const lab=(q,i)=>q.qnum!=null?q.qnum:(i+1);
-  const wrap=el('div','pickwrap'), card=el('div','card');
-  const close=()=>{ wrap.remove(); document.removeEventListener('keydown',esc); };
-  const esc=e=>{ if(e.key==='Escape') close(); };
-  document.addEventListener('keydown',esc);
-  wrap.onclick=e=>{ if(e.target===wrap) close(); };
-  const hd=el('div','row spread'); hd.appendChild(el('strong','','Select question · '+st.name));
-  const x=el('button','sm','Close'); x.onclick=close; hd.appendChild(x); card.appendChild(hd);
-  const go=i=>{ st.current=i; close(); openSet(id); };
-  const row=el('div','row'); row.style.margin='12px 0 4px';
-  row.appendChild(el('label','','Question #'));
-  const inp=document.createElement('input'); inp.type='number'; inp.min=1; inp.value=lab(st.questions[st.current]||st.questions[0],st.current||0);
-  const goBtn=el('button','primary','Go');
-  const doGo=()=>{
-    const n=inp.value.trim(); if(!n) return;
-    let i=st.questions.findIndex(q=>q.qnum!=null&&String(q.qnum)===n);
-    if(i<0){ const k=parseInt(n,10)-1; if(k>=0&&k<st.questions.length) i=k; }
-    if(i<0){ alert('No question #'+n); return; }
-    go(i);
-  };
-  goBtn.onclick=doGo; inp.onkeydown=e=>{ if(e.key==='Enter') doGo(); };
-  row.appendChild(inp); row.appendChild(goBtn); card.appendChild(row);
-  card.appendChild(el('div','hint','Or tap a question below (green = correct, red = incorrect).'));
-  const g=el('div','grid');
-  st.questions.forEach((q,i)=>{
-    const p=st.progress[i], b=el('button','',lab(q,i));
-    if(p&&p.submitted) b.classList.add(p.correct?'done-ok':'done-bad');
-    else if(p&&(p.sel.length||(p.text&&p.text.trim()))) b.classList.add('picked');
-    if(i===st.current) b.classList.add('cur');
-    b.title='Question '+lab(q,i); b.onclick=()=>go(i); g.appendChild(b);
-  });
-  card.appendChild(g); wrap.appendChild(card); document.body.appendChild(wrap);
-  inp.focus(); inp.select();
+  st.last=Date.now(); navFromMenu=true;
+  activate(id); view='study'; save();
+  $('navSearch').value=''; renderAll(); drawNavResults();
+  $('summaryPanel').classList.add('hidden'); $('navPanel').classList.remove('hidden');
+  window.scrollTo({top:0});
 }
 
 /* item renderers */
@@ -920,7 +888,7 @@ function drawNavResults(){
   const hits=[]; S.questions.forEach((q,i)=>{ if(qMatches(q,terms)) hits.push(i); });
   box.appendChild(el('div','hint',hits.length?`${hits.length} question${hits.length===1?'':'s'} match`:'No questions match.'));
   const list=el('div','vlist');
-  hits.slice(0,MAXRES).forEach(i=>list.appendChild(resultRow(S,i,terms,null,k=>{ $('navPanel').classList.add('hidden'); go(k); })));
+  hits.slice(0,MAXRES).forEach(i=>list.appendChild(resultRow(S,i,terms,null,k=>{ pickDone(); go(k); })));
   if(hits.length) box.appendChild(list);
 }
 function drawBody(body,animate){
@@ -974,16 +942,31 @@ function renderStats(){
   $('stats').textContent=c.total?S.name+` · Answered ${c.done}/${c.total} · Correct ${c.ok}`+(c.done?` (${Math.round(c.ok/c.done*100)}%)`:''):'No questions loaded';
   $('barFill').style.width=c.total?(c.done/c.total*100)+'%':'0%';
 }
+const TYPE_NAME={mcq:'MCQ',sata:'SATA',saq:'SAQ/LAQ'};
 function renderGrid(){
   const g=$('grid'); g.innerHTML='';
-  S.questions.forEach((q,i)=>{
-    const p=S.progress[i]; const b=el('button','',label(i));
-    if(p&&p.submitted) b.classList.add(p.correct?'done-ok':'done-bad');
-    else if(p&&(p.sel.length||(p.text&&p.text.trim()))) b.classList.add('picked');
-    if(i===S.current) b.classList.add('cur');
-    b.title='Question '+label(i);
-    b.onclick=()=>{go(i);$('navPanel').classList.add('hidden')};
-    g.appendChild(b);
+  // sections by question type (headings only when the set mixes types)
+  const groups=['mcq','sata','saq'].map(t=>({t,idx:[]}));
+  S.questions.forEach((q,i)=>{ (groups.find(x=>x.t===q.type)||groups[0]).idx.push(i); });
+  const used=groups.filter(x=>x.idx.length), titled=used.length>1;
+  used.forEach(grp=>{
+    if(titled){
+      const done=grp.idx.filter(i=>S.progress[i]&&S.progress[i].submitted).length;
+      const hd=el('div','gsec'); hd.appendChild(el('b','',TYPE_NAME[grp.t]));
+      hd.appendChild(el('small','m',`${grp.idx.length} question${grp.idx.length===1?'':'s'} · ${done} answered`));
+      g.appendChild(hd);
+    }
+    const grid=el('div','grid');
+    grp.idx.forEach(i=>{
+      const p=S.progress[i]; const b=el('button','',label(i));
+      if(p&&p.submitted) b.classList.add(p.correct?'done-ok':'done-bad');
+      else if(p&&(p.sel.length||(p.text&&p.text.trim()))) b.classList.add('picked');
+      if(i===S.current) b.classList.add('cur');
+      b.title=TYPE_NAME[S.questions[i].type]+' · Question '+label(i);
+      b.onclick=()=>{pickDone();go(i)};
+      grid.appendChild(b);
+    });
+    g.appendChild(grid);
   });
 }
 function renderQuiz(){
@@ -1252,18 +1235,16 @@ function renderAll(){
     renderHome(); return;
   }
   renderStats(); renderGrid(); renderQuiz();
-  $('jumpNum').max=S.questions.length||1;
-  $('jumpNum').value=S.questions.length?label(S.current):1;
 }
 
 /* ---------- actions ---------- */
 function toggle(id){ $(id).classList.toggle('hidden'); }
-$('btnNav').onclick=()=>{toggle('navPanel'); $('summaryPanel').classList.add('hidden');};
-$('btnSummary').onclick=()=>{renderSummary(); toggle('summaryPanel'); $('navPanel').classList.add('hidden');};
+$('btnNav').onclick=()=>{ if(!$('navPanel').classList.contains('hidden')){ closeNav(); return; } toggle('navPanel'); $('summaryPanel').classList.add('hidden'); };
+$('btnSummary').onclick=()=>{renderSummary(); toggle('summaryPanel'); pickDone();};
 $('btnLoad').onclick=()=>toggle('loadPanel');
-$('btnCloseNav').onclick=()=>$('navPanel').classList.add('hidden');
+$('btnCloseNav').onclick=closeNav;
 let ntmr=null; $('navSearch').oninput=()=>{ clearTimeout(ntmr); ntmr=setTimeout(drawNavResults,120); };
-$('navBackdrop').onclick=()=>$('navPanel').classList.add('hidden');
+$('navBackdrop').onclick=closeNav;
 $('btnCloseLoad').onclick=()=>$('loadPanel').classList.add('hidden');
 $('loadBackdrop').onclick=()=>$('loadPanel').classList.add('hidden');
 
@@ -1317,27 +1298,19 @@ $('btnAppend').onclick=()=>{
   }catch(e){ $('loadErr').textContent='Could not load: '+e.message; }
 };
 
-$('btnGo').onclick=()=>{
-  const n=$('jumpNum').value.trim(); if(!n) return;
-  let i=S.questions.findIndex(q=>q.qnum!=null&&String(q.qnum)===n);
-  if(i<0){ const k=parseInt(n,10)-1; if(k>=0&&k<S.questions.length) i=k; }
-  if(i<0){alert('No question #'+n); return;}
-  go(i); $('navPanel').classList.add('hidden');
-};
-$('jumpNum').onkeydown=e=>{if(e.key==='Enter')$('btnGo').click()};
 $('btnFirstUn').onclick=()=>{
   const i=S.questions.findIndex((q,k)=>!(S.progress[k]&&S.progress[k].submitted));
-  if(i<0) alert('All questions answered.'); else {go(i); $('navPanel').classList.add('hidden');}
+  if(i<0) alert('All questions answered.'); else {pickDone(); go(i);}
 };
 $('btnRetryWrong').onclick=()=>{
   const w=S.questions.map((q,i)=>i).filter(i=>S.progress[i]&&S.progress[i].submitted&&!S.progress[i].correct);
   if(!w.length){alert('No incorrect questions to retry.');return;}
   w.forEach(i=>delete S.progress[i]); S.current=w[0]; save(); renderAll();
-  $('navPanel').classList.add('hidden');
+  pickDone();
 };
 $('btnReset').onclick=()=>{
   if(!confirm('Reset all progress in "'+S.name+'" so you can do every question again? Your questions are kept.')) return;
-  S.progress={}; S.current=0; save(); renderAll(); $('navPanel').classList.add('hidden');
+  S.progress={}; S.current=0; save(); renderAll(); pickDone();
 };
 /* ---------- keyboard shortcuts ---------- */
 const SHORTCUTS=[
@@ -1423,7 +1396,7 @@ function handleEsc(){
     if(document.activeElement&&document.activeElement.blur) document.activeElement.blur();
     return;
   }
-  $('navPanel').classList.add('hidden'); view='home'; renderAll(); window.scrollTo({top:0});
+  navFromMenu=false; $('navPanel').classList.add('hidden'); view='home'; renderAll(); window.scrollTo({top:0});
 }
 function homeKey(e,k){
   if(k==='/'){ const i=document.querySelector('.htool input[type=text]'); if(i){ e.preventDefault(); i.focus(); } }
