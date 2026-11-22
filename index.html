@@ -267,8 +267,10 @@ button.sm{padding:4px 9px;font-size:.82rem}
 .gsec b{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 #grid .grid{margin-top:6px}
 .live{margin:18px 0 0;text-align:center;font-size:.82rem;color:var(--muted)}
-.livechip{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:5px 12px;font-size:.78rem;color:var(--muted);box-shadow:0 4px 14px rgba(0,0,0,.12);white-space:nowrap}
-.livechip i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);animation:livepulse 2s ease-in-out infinite}
+.tlive{display:flex;flex-direction:column;gap:1px;line-height:1.15;padding-left:12px;margin-left:2px;border-left:1px solid var(--border);white-space:nowrap}
+.tlive .tl1{display:flex;align-items:center;gap:6px;font-weight:700;font-size:.85rem}
+.tlive i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);animation:livepulse 2s ease-in-out infinite}
+.tlive small{color:var(--muted);font-size:.72rem}
 @media (min-width:621px){#live{display:none!important}}  /* desktop: shown next to the timer instead */
 .live i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px;vertical-align:1px;animation:livepulse 2s ease-in-out infinite}
 @keyframes livepulse{50%{opacity:.35}}
@@ -372,13 +374,13 @@ button.primary:not(:disabled):hover{box-shadow:0 4px 12px rgba(47,95,208,.35);tr
     </div>
     <button class="tbtn" id="tReset" type="button">Reset</button>
   </div>
-  <div class="livechip hidden" id="liveT" aria-live="off"></div>
   <div class="tpill">
     <div class="tring">
       <svg viewBox="0 0 52 52" aria-hidden="true"><circle class="trk" cx="26" cy="26" r="23"/><circle class="tarc" id="tArc" cx="26" cy="26" r="23" transform="rotate(-90 26 26)"/></svg>
       <button class="tplay" id="tPlay" type="button" title="Start / pause" aria-label="Start or pause timer"><span id="tIcon"></span></button>
     </div>
     <div class="tinfo"><span class="ttime" id="tTime" aria-live="off">25:00</span><small id="tLabel">Countdown · 25 min</small></div>
+    <div class="tlive hidden" id="liveT" aria-live="off"></div>
     <button class="tcog" id="tKeys" type="button" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></svg></button>
     <button class="tcog" id="tCollapse" type="button" title="Timer settings" aria-expanded="false" aria-label="Timer settings"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
   </div>
@@ -1633,14 +1635,15 @@ async function autoload(){
   const base=window.LIVE_URL; if(!base) return;
   const rnd=()=>{ try{ return crypto.randomUUID().replace(/-/g,''); }catch(e){ return (Math.random().toString(36).slice(2)+Date.now().toString(36)+'xxxxxxxx').slice(0,24); } };
   let sid; try{ sid=localStorage.getItem('practice_sid'); if(!sid){ sid=rnd(); localStorage.setItem('practice_sid',sid); } }catch(e){ sid=rnd(); }
-  const boxes=[$('live'),$('liveT')];
   async function ping(){
     if(document.hidden) return;
     try{
       const r=await fetch(base+(base.includes('?')?'&':'?')+'sid='+encodeURIComponent(sid),{cache:'no-store'});
       const d=await r.json(); if(typeof d.online!=='number') return;
       const msg=`${Math.max(1,d.online)} online now · ${Math.max(1,d.hour)} in the last hour`;
-      boxes.forEach(box=>{ box.innerHTML=''; box.appendChild(document.createElement('i')); box.appendChild(document.createTextNode(msg)); box.classList.remove('hidden'); });
+      const f=$('live'); f.innerHTML=''; f.appendChild(document.createElement('i')); f.appendChild(document.createTextNode(msg)); f.classList.remove('hidden');
+      const t=$('liveT'); t.innerHTML=''; const l1=document.createElement('div'); l1.className='tl1'; l1.appendChild(document.createElement('i')); l1.appendChild(document.createTextNode(Math.max(1,d.online)+' online'));
+      const l2=document.createElement('small'); l2.textContent=Math.max(1,d.hour)+' in the last hour'; t.appendChild(l1); t.appendChild(l2); t.classList.remove('hidden');
     }catch(e){ /* counter is optional: stay hidden if the Worker can't be reached */ }
   }
   ping(); setInterval(ping,60000);
