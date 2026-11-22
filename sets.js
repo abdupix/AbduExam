@@ -10,13 +10,16 @@
      {file:"Week3.json", name:"Week 3 Cardiac"}
 ------------------------------------------------------------------- */
 window.QUIZ_SETS = [
-  "PAED404_2024.json",
-  "PAED404_2025.json",
-  "PAED404_2023.json",
-  "PAED404_EOB_2026.json",
-  "PAED404_LongQuiz_2026.json"
+  "PSYC406_2024.json",
+  "PSYC406_2025.json",
+  "PSYC406_EOB_2026.json"
+  // "MyNewSet.json",
 ];
 
 /* On GitHub Pages, also pick up every other .json file in the repo root
    automatically (set to false if you only want the files listed above). */
-window.QUIZ_AUTO_SCAN_GITHUB = false;
+window.QUIZ_AUTO_SCAN_GITHUB = true;
+
+/* Live visitor counter (optional). Paste your Cloudflare Worker address between the quotes,
+   e.g. "https://live-visitors.yourname.workers.dev". Leave it empty to switch the counter off. */
+window.LIVE_URL = "https://live-visitors.abdurrahman-obaidullah.workers.dev/";

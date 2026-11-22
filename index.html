@@ -266,6 +266,12 @@ button.sm{padding:4px 9px;font-size:.82rem}
 .gsec{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:14px 0 2px}
 .gsec b{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 #grid .grid{margin-top:6px}
+.live{margin:18px 0 0;text-align:center;font-size:.82rem;color:var(--muted)}
+.livechip{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:5px 12px;font-size:.78rem;color:var(--muted);box-shadow:0 4px 14px rgba(0,0,0,.12);white-space:nowrap}
+.livechip i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);animation:livepulse 2s ease-in-out infinite}
+@media (min-width:621px){#live{display:none!important}}  /* desktop: shown next to the timer instead */
+.live i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px;vertical-align:1px;animation:livepulse 2s ease-in-out infinite}
+@keyframes livepulse{50%{opacity:.35}}
 /* search results */
 mark{background:var(--warn-bg);color:inherit;border-radius:3px;padding:0 1px;box-shadow:0 0 0 1px var(--warn)}
 .res{padding:11px 14px;border-top:1px solid var(--border);cursor:pointer}
@@ -366,6 +372,7 @@ button.primary:not(:disabled):hover{box-shadow:0 4px 12px rgba(47,95,208,.35);tr
     </div>
     <button class="tbtn" id="tReset" type="button">Reset</button>
   </div>
+  <div class="livechip hidden" id="liveT" aria-live="off"></div>
   <div class="tpill">
     <div class="tring">
       <svg viewBox="0 0 52 52" aria-hidden="true"><circle class="trk" cx="26" cy="26" r="23"/><circle class="tarc" id="tArc" cx="26" cy="26" r="23" transform="rotate(-90 26 26)"/></svg>
@@ -433,6 +440,7 @@ button.primary:not(:disabled):hover{box-shadow:0 4px 12px rgba(47,95,208,.35);tr
   <section id="summaryPanel" class="card hidden"></section>
 
   <main id="quiz"></main>
+  <div class="live hidden" id="live" aria-live="off"></div>
 </div>
 
 <script src="sets.js" onerror="void 0"></script>
@@ -1618,6 +1626,25 @@ async function autoload(){
   $('tMin').onchange=e=>setMin(e.target.value);
   document.addEventListener('click',e=>{ if(!T.collapsed&&!$('timer').contains(e.target)){ T.collapsed=true; tsave(); layout(); } });
   layout(); draw(); setInterval(draw,250);
+})();
+
+/* live visitors (only active when window.LIVE_URL is set in sets.js) */
+(function(){
+  const base=window.LIVE_URL; if(!base) return;
+  const rnd=()=>{ try{ return crypto.randomUUID().replace(/-/g,''); }catch(e){ return (Math.random().toString(36).slice(2)+Date.now().toString(36)+'xxxxxxxx').slice(0,24); } };
+  let sid; try{ sid=localStorage.getItem('practice_sid'); if(!sid){ sid=rnd(); localStorage.setItem('practice_sid',sid); } }catch(e){ sid=rnd(); }
+  const boxes=[$('live'),$('liveT')];
+  async function ping(){
+    if(document.hidden) return;
+    try{
+      const r=await fetch(base+(base.includes('?')?'&':'?')+'sid='+encodeURIComponent(sid),{cache:'no-store'});
+      const d=await r.json(); if(typeof d.online!=='number') return;
+      const msg=`${Math.max(1,d.online)} online now · ${Math.max(1,d.hour)} in the last hour`;
+      boxes.forEach(box=>{ box.innerHTML=''; box.appendChild(document.createElement('i')); box.appendChild(document.createTextNode(msg)); box.classList.remove('hidden'); });
+    }catch(e){ /* counter is optional: stay hidden if the Worker can't be reached */ }
+  }
+  ping(); setInterval(ping,60000);
+  document.addEventListener('visibilitychange',()=>{ if(!document.hidden) ping(); });
 })();
 
 /* swipe left / right on a touch screen to change question */
